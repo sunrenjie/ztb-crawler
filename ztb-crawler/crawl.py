@@ -114,11 +114,24 @@ class CrawlerDataSource(object):
         c = cls.subclass_selector(location)
         return c.fetch_and_yield_lines_impl(location)
 
+    @staticmethod
+    def decode_string_with_unknown_encoding(s):
+        decoded = False
+        # TODO: list all encodings that occur in practice here for us to try
+        for encoding in ['utf-8', 'gbk']:
+            try:
+                s = s.decode(encoding)
+                decoded = True
+                break
+            except UnicodeDecodeError:
+                pass
+        if decoded:
+                return s
+        else:
+            raise UnicodeError("impossible: cannot decode input string")
+
 
 class CrawlerDataSourceWebPage(CrawlerDataSource):
-    """
-    Luckily requests can take care of encoding for us.
-    """
     @staticmethod
     def __split_text_and_yield_lines__(text):
         assert text.index('html')
@@ -137,7 +150,7 @@ class CrawlerDataSourceWebPage(CrawlerDataSource):
             }
             r = requests.get(location, headers=headers)
             if r.status_code == 200:  # request OK.
-                return r.text
+                return cls.decode_string_with_unknown_encoding(r.content)
             else:
                 status_code = r.status_code
                 time.sleep(5)  # TODO: elaborate on this
@@ -157,22 +170,6 @@ class CrawlerDataSourceLocalFile(CrawlerDataSource):
     @staticmethod
     def get_local_file_path_from_url(location):
         return re.sub(r'file:///', r'/', location)
-
-    @staticmethod
-    def decode_string_with_unknown_encoding(s):
-        decoded = False
-        # TODO: list all encodings that occur in practice here for us to try
-        for encoding in ['utf-8', 'gbk']:
-            try:
-                s = s.decode(encoding)
-                decoded = True
-                break
-            except UnicodeDecodeError:
-                pass
-        if decoded:
-                return s
-        else:
-            raise UnicodeError("impossible: cannot decode input string")
 
     @classmethod
     def fetch_text_impl(cls, location):

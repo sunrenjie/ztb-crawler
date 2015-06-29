@@ -1,0 +1,431 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>宜兴市招投标网</title>
+<link href="/yxweb/Template/Default/css/style.css" rel="stylesheet" type="text/css" />
+
+<script src="/yxweb/Template/Default/js/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script type="text/javascript"> 
+ $(document).ready(function () {
+        var $img = $("#moreinfopage img");
+
+ 
+        $.each($img, function (i) {
+            var imgwidth = $(this).width();
+            var imgheight = $(this).height();
+            var bl = imgwidth / imgheight;
+            var height1 = 720 / bl;
+            if (imgwidth > 720) {
+
+                $(this).css("width", "720px");
+                $(this).css("height", height1 + "px");
+            }
+            else {
+                $(this).css("width", imgwidth);
+                $(this).css("height", imgheight);
+            }
+
+        })
+
+
+    });
+  $(function () {
+       
+        equelHeight();
+        
+    })
+  function equelHeight() {
+		
+     
+        var $leftTable = $("#left_table");
+        var $rightTable = $("#right_table");
+        var leftheight = $leftTable.height();
+        var rightheight = $rightTable.height();
+	
+        if (leftheight >= rightheight-331) {
+            $rightTable.css("height", (leftheight+331) + "px");
+
+        }
+        else {
+            $leftTable.css("height", (rightheight-331)+ "px");
+
+        }
+    }
+</script>
+</head>
+
+<body>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>宜兴公共资源网</title>
+<link href="/yxweb/Template/Default/css/style.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="/yxweb/Template/Default/js/time.js"></script>
+<script language="JavaScript"> 
+   function Clear() {
+        document.all.txtKeys.value = ""
+    }
+function search1() {
+        if (document.all.txtKeys.value == "" || document.all.txtKeys.value == "请输入搜索内容") {
+            alert("搜索字段不能为空！");
+        }
+        else {
+			var t = document.getElementById('txtKeys').value;
+           if (t.indexOf('<') > -1 || t.indexOf('>') > -1) {
+             alert('请勿在关键字中输入非法字符!');
+              return ; }
+            var openUrl = "/yxweb/ShowInfo/SearchResult.aspx?keyword=";
+            openUrl += escape(document.all.txtKeys.value);
+            for (var i = 0; i < document.all.searchtype.length; i++) {
+                if (document.all.searchtype.options[i].selected)
+                    openUrl += '&searchtype=' + document.all.searchtype.options[i].value;
+            }
+
+            window.open(openUrl);
+        }
+
+    }
+   
+             </script>
+
+</head>
+
+<body>
+<table   border="0" cellspacing="0" cellpadding="0" class="tab">
+  <tr>
+    <td height="201" background="/yxweb/Template/Default/images/banner.jpg">&nbsp;</td>
+  </tr>
+</table>
+<table   height="39"  border="0" cellspacing="0" cellpadding="0" class="tab">
+  <tr>
+    <td width="4" background="/yxweb/Template/Default/images/nav-left.jpg"></td>
+    <td width="983" background="/yxweb/Template/Default/images/nav-bj.jpg"><div id="topmenu">
+          <div id="nav">
+            <ul>
+              <li><a href="/yxweb/Template/Default/../../" target="_parent">首 页</a></li>
+              <li class="dh"></li>
+              <li><a href="/yxweb/Template/Default/../../gzdt" target="_parent">工作动态</a></li>
+              <li class="dh"></li>
+              <li><a href="/yxweb/Template/Default/../../zfxxgk" target="_parent">政府信息公开</a></li>
+              <li class="dh"></li>
+              <li><a href="/yxweb/Template/Default/../../jgsz" target="_parent">机构设置</a></li>
+              <li class="dh"></li>
+              <li><a href="/yxweb/Template/Default/../../bszn" target="_parent">办事指南</a></li>
+              <li class="dh"></li>
+              <li><a href="/yxweb/Template/Default/../../zcfg" target="_parent">政策法规</a></li>
+              <li class="dh"></li>
+              <li><a href="/yxweb/Template/Default/../../llyd" target="_parent">理论园地</a></li>
+              <li class="dh"></li>
+              <li><a href="/yxweb/Template/Default/../../bgt" target="_parent">曝光台</a></li>
+               <li class="dh"></li>
+              <li><a href="/yxweb/Template/Default/../../qyjs" target="_parent">企业介绍</a></li>
+               <li class="dh"></li>
+              <li><a href="/yxweb/Template/Default/../../dwgk" target="_parent">党务公开</a></li>
+           </ul>
+          </div>
+        </div></td>
+    <td width="3" background="/yxweb/Template/Default/images/nav-right.jpg"></td>
+  </tr>
+</table>
+<table  height="69" border="0" cellspacing="0" cellpadding="0" class="tab">
+  <tr>
+    <!--<td width="1" background="/yxweb/Template/Default/images/zy1.jpg" style="background-repeat:repeat-x;"></td>
+    <td width="988"  background="/yxweb/Template/Default/images/zy1.jpg"><table width="990" height="53" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="243" class="zypd">&nbsp;</td>
+        <td width="24"></td>
+        <td width="149" background="/yxweb/Template/Default/images/pd-1.jpg"></td>
+        <td width="110"></td>
+        <td width="166" background="/yxweb/Template/Default/images/pd-2.jpg"></td>
+        <td width="104"></td>
+        <td width="159" background="/yxweb/Template/Default/images/pd-3.jpg"></td>
+        <td width="33"></td>
+      </tr>
+    </table></td>
+    <td width="1" background="/yxweb/Template/Default/images/zy2.jpg"></td>-->
+    
+    <td ><img src="/yxweb/Template/Default/images/zypdpic.jpg" border="0" usemap="#Map"  /></td>
+   
+  </tr>
+</table>
+<table   height="36" border="0" cellspacing="0" cellpadding="0" class="tab">
+  <tr>
+    <td width="3" background="/yxweb/Template/Default/images/rq1.jpg"></td>
+    <td width="985" background="/yxweb/Template/Default/images/rq2.jpg"><table width="985" height="36" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="160" class="rq" id="timePlace"></td>
+        <td width="186"><iframe allowtransparency="true" frameborder="0" width="180" height="30" scrolling="no" src="http://tianqi.2345.com/plugin/widget/index.htm?s=3&z=3&t=1&v=0&d=3&k=&f=1&q=1&e=1&a=0&c=60039&w=180&h=36"></iframe></td>
+        <td width="56" align="center">站内搜索</td>
+        <td width="122"><div class="searchdiv">
+          <input value="请输入关键字" name="txtKeys" style="width:95px; line-height:18px; height:18px;margin-top:2px; margin-left:2px;border:none" id="txtKeys"   onClick="Clear();"/>
+        </div></td>
+        <td width="92" align="center"><SELECT style="WIDTH:83px;font-family:"宋体"; font-size:14px;color:#333333" name="searchtype" id="searchtype"><OPTION value="title" selected>标题检索</OPTION><OPTION value="titlewithcontent" >全文搜索</OPTION></SELECT></td>
+        <td width="69" align="left"><input type="submit" value="" class="sub" onclick="search1()"/></td>
+        <td width="300" align="right"><iframe src="http://news.chinaso.com/chinasosearch/link6.html" width="288" height="32" frameborder="0" scrolling="no"></iframe></td>
+      </tr>
+    </table></td>
+    <td width="2" background="/yxweb/Template/Default/images/rq3.jpg"></td>
+  </tr>
+</table>
+
+<map name="Map" id="Map">
+  <area shape="rect" coords="259,4,431,66" href="/yxweb/Template/Default/../../zypd/012001"  target="_parent"/>
+  <area shape="rect" coords="514,5,711,65" href="/yxweb/Template/Default/../../zypd/012002" target="_parent" />
+  <area shape="rect" coords="784,5,978,66" href="/yxweb/Template/Default/../../zypd/012003"  target="_parent"/>
+</map>
+</body>
+</html>
+
+<table  height="611" align="center" style="margin:10px auto" border="0" cellspacing="0" cellpadding="0" class="tab">
+  <tr>
+    <td width="240" valign="top">
+    <table width="240" height="582" border="0" cellspacing="0" cellpadding="0" style="border:1px #cbcbcb solid;" >
+      <tr>
+        <td height="29" >
+        <table width="240" height="29" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="119" background="/yxweb/Template/Default/images/ny1.jpg" class="w">专业频道</td>
+            <td width="102" background="/yxweb/Template/Default/images/ny.jpg">&nbsp;</td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr><td valign="top" height="210" id="left_table"><div style="margin:14px 10px;overflow:hidden;text-align:center"><TABLE   cellSpacing="0" cellPadding="0" width="219" border="0">
+<tr><td class="LeftMenu" valign="middle" height=24  onclick="OpenDiv('TD012001');"   background="/yxweb/Template/Default/images/menu_09.jpg"><a href="/yxweb/zypd/012001" target="_self"><font color='#cc0000' style="font-weight:bold;">工程建设</font></a></td></tr><tr><td height="8px"></td></tr>
+<tr><td style="padding-left:10px;" id="TD012001"><table border=0 width="100%">
+<tr> <td class="subLeftMenu" background="/yxweb/Template/Default/images/menu_12.jpg" height=26 ><a href="/yxweb/zypd/012001/012001001" target="_self">
+<font color='#0379c1'>招标公告</font></a></td></tr>
+<tr> <td class="subLeftMenu" background="/yxweb/Template/Default/images/menu_12.jpg" height=26 ><a href="/yxweb/zypd/012001/012001003" target="_self">
+<font color='#303030'>答疑公示</font></a></td></tr>
+<tr> <td class="subLeftMenu" background="/yxweb/Template/Default/images/menu_12.jpg" height=26 ><a href="/yxweb/zypd/012001/012001004" target="_self">
+<font color='#303030'>最高限价</font></a></td></tr>
+<tr> <td class="subLeftMenu" background="/yxweb/Template/Default/images/menu_12.jpg" height=26 ><a href="/yxweb/zypd/012001/012001005" target="_self">
+<font color='#303030'>中标侯选人公示</font></a></td></tr>
+<tr> <td class="subLeftMenu" background="/yxweb/Template/Default/images/menu_12.jpg" height=26 ><a href="/yxweb/zypd/012001/012001006" target="_self">
+<font color='#303030'>中标公告</font></a></td></tr>
+</table></td></tr>
+<tr><td class="LeftMenu" valign="middle" height=24  onclick="OpenDiv('TD012002');"    background="/yxweb/Template/Default/images/menu_09.jpg"><a href="/yxweb/zypd/012002" target="_self"><font color='#333333' style="font-weight:bold;">政府采购</font></a></td></tr><tr><td height="8px"></td></tr>
+<tr><td style="padding-left:10px;display:none;" id="TD012002"><table border=0 width="100%">
+<tr> <td class="subLeftMenu" background="/yxweb/Template/Default/images/menu_12.jpg" height=26 ><a href="/yxweb/zypd/012002/012002001" target="_self">
+<font color='#303030'>采购公告</font></a></td></tr>
+<tr> <td class="subLeftMenu" background="/yxweb/Template/Default/images/menu_12.jpg" height=26 ><a href="/yxweb/zypd/012002/012002002" target="_self">
+<font color='#303030'>补充更正及答疑</font></a></td></tr>
+<tr> <td class="subLeftMenu" background="/yxweb/Template/Default/images/menu_12.jpg" height=26 ><a href="/yxweb/zypd/012002/012002003" target="_self">
+<font color='#303030'>最高限价</font></a></td></tr>
+<tr> <td class="subLeftMenu" background="/yxweb/Template/Default/images/menu_12.jpg" height=26 ><a href="/yxweb/zypd/012002/012002004" target="_self">
+<font color='#303030'>中标公告</font></a></td></tr>
+<tr> <td class="subLeftMenu" background="/yxweb/Template/Default/images/menu_12.jpg" height=26 ><a href="/yxweb/zypd/012002/012002005" target="_self">
+<font color='#303030'>采购公示</font></a></td></tr>
+<tr> <td class="subLeftMenu" background="/yxweb/Template/Default/images/menu_12.jpg" height=26 ><a href="/yxweb/zypd/012002/012002006" target="_self">
+<font color='#303030'>网上竞价</font></a></td></tr>
+</table></td></tr>
+<tr><td class="LeftMenu" valign="middle" height=24  onclick="OpenDiv('TD012003');"    background="/yxweb/Template/Default/images/menu_09.jpg"><a href="/yxweb/zypd/012003" target="_self"><font color='#333333' style="font-weight:bold;">产权交易</font></a></td></tr><tr><td height="8px"></td></tr>
+<tr><td style="padding-left:10px;display:none;" id="TD012003"><table border=0 width="100%">
+<tr> <td class="subLeftMenu" background="/yxweb/Template/Default/images/menu_12.jpg" height=26 ><a href="/yxweb/zypd/012003/012003001" target="_self">
+<font color='#303030'>交易公告</font></a></td></tr>
+<tr> <td class="subLeftMenu" background="/yxweb/Template/Default/images/menu_12.jpg" height=26 ><a href="/yxweb/zypd/012003/012003002" target="_self">
+<font color='#303030'>成交公告</font></a></td></tr>
+</table></td></tr>
+<tr><td class="LeftMenu" valign="middle" height=24  onclick="OpenDiv('TD012004');"    background="/yxweb/Template/Default/images/menu_09.jpg"><a href="/yxweb/zypd/012004" target="_self"><font color='#333333' style="font-weight:bold;">其他信息公告</font></a></td></tr><tr><td height="8px"></td></tr>
+<tr><td style="padding-left:10px;display:none;" id="TD012004"><table border=0 width="100%">
+<tr> <td class="subLeftMenu" background="/yxweb/Template/Default/images/menu_12.jpg" height=26 ><a href="/yxweb/zypd/012004/012004001" target="_self">
+<font color='#303030'>直接发包</font></a></td></tr>
+<tr> <td class="subLeftMenu" background="/yxweb/Template/Default/images/menu_12.jpg" height=26 ><a href="/yxweb/zypd/012004/012004002" target="_self">
+<font color='#303030'>项目经理变更</font></a></td></tr>
+<tr> <td class="subLeftMenu" background="/yxweb/Template/Default/images/menu_12.jpg" height=26 ><a href="/yxweb/zypd/012004/012004003" target="_self">
+<font color='#303030'>其他</font></a></td></tr>
+</table></td></tr>
+</TABLE>
+<script>function OpenDiv(cate){if(document.getElementById(cate).style.display=='') { document.getElementById(cate).style.display='none'} else {document.getElementById(cate).style.display=''}}</script></div></td></tr>
+      <tr>
+        <td height="372" valign="bottom" align="center"><img src="/yxweb/Template/Default/images/di.jpg" />
+        </td>
+      </tr>
+    </table></td>
+    <td width="9"></td>
+    <td width="741" valign="top">
+    <table width="741" height="611" border="0" cellspacing="0" cellpadding="0" >
+      <tr>
+      <td background="/yxweb/Template/Default/images/float.jpg" height="30" style="border:1px #d4d4d4 solid;">
+      <table height="30" width="100%"  border="0" cellspacing="0" cellpadding="0"><tr>
+      <td height="30"  class="float" width="15">&gt;</td>
+        <td  width="725" height="30"><table cellSpacing="0" cellPadding="0" border="0"><TR><TD align="center" width="15"></TD><TD align="left"><FONT color="#2f3f56" class=currentpostionfont><b>您现在的位置：</b></FONT><A href='/yxweb/'><FONT color="#2f3f56" class=currentpostionfont>首页</FONT></A><FONT color="##ce1002"> >> <a href='/yxweb/zypd'><FONT color="##ce1002" class=currentpostionfont>专业频道</font></a> >> <a href='/yxweb/zypd/012001'><FONT color="##ce1002" class=currentpostionfont>工程建设</font></a> >> <a href='/yxweb/zypd/012001/012001001'><FONT color="##ce1002" class=currentpostionfont>招标公告</font></a></FONT></TD></TR></table></td>
+        </tr></table>
+        
+        </td>
+      </tr>
+      <tr>
+        <td height="10"></td>
+      </tr>
+      <tr>
+        <td height="571" valign="top"><table width="741" height="571" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td height="30" background="/yxweb/Template/Default/images/ny2-bj.jpg"><table width="741" height="30" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="102" background="/yxweb/Template/Default/images/ny-2.jpg" class="w2">招标公告</td>
+                <td width="637">&nbsp;</td>
+                <td width="2"><img src="/yxweb/Template/Default/images/ny2-r.jpg" /></td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td height="541" style="border:1px #cbcbcb solid;" valign="top" id="right_table"><div id="moreinfopage" style="overflow:hidden"><table width='100%' class='tbmoreinfosub'  border='0' align='center' cellpadding='0' cellspacing='0'>
+<tr height='22' >
+<td width='20'><img src='/yxweb/images/dots/dot1.gif' border=0></td>
+<td class="tdmoreinfosub" align="left"><a href='/yxweb/ZtbInfo/ZBGG_DetailWithQuestion.aspx?InfoID=1146f9ac-c361-4857-8e37-46872bcdb72a&CategoryNum=012001001' target='_blank' title='宜兴阳羡湖旅游度假小镇（一期~五期）项目R3、R4地块施工'>宜兴阳羡湖旅游度假小镇（一期~五期）项目R3、R4地块施工</a>
+</td><td width='80'>[2015-06-26]</td>
+</tr>
+<tr><td height=1 class="moreinfo_showline" colSpan="3"><img src="/yxweb/images/spacer.gif"></td></tr>
+<tr height='22' >
+<td width='20'><img src='/yxweb/images/dots/dot1.gif' border=0></td>
+<td class="tdmoreinfosub" align="left"><a href='/yxweb/ZtbInfo/ZBGG_DetailWithQuestion.aspx?InfoID=44fbe8fd-76ad-4d00-95ae-c130f4e05ce3&CategoryNum=012001001' target='_blank' title='江苏宜兴经济开发区投资发展有限公司附房改造工程'>江苏宜兴经济开发区投资发展有限公司附房改造工程</a>
+</td><td width='80'>[2015-06-26]</td>
+</tr>
+<tr><td height=1 class="moreinfo_showline" colSpan="3"><img src="/yxweb/images/spacer.gif"></td></tr>
+<tr height='22' >
+<td width='20'><img src='/yxweb/images/dots/dot1.gif' border=0></td>
+<td class="tdmoreinfosub" align="left"><a href='/yxweb/ZtbInfo/ZBGG_DetailWithQuestion.aspx?InfoID=84c08143-1ad9-4cb0-a031-bc2a974f9de8&CategoryNum=012001001' target='_blank' title='紫砂艺术馆及电梯等配套设施建设项目紫砂艺术馆布展工程'>紫砂艺术馆及电梯等配套设施建设项目紫砂艺术馆布展工程</a>
+</td><td width='80'>[2015-06-25]</td>
+</tr>
+<tr><td height=1 class="moreinfo_showline" colSpan="3"><img src="/yxweb/images/spacer.gif"></td></tr>
+<tr height='22' >
+<td width='20'><img src='/yxweb/images/dots/dot1.gif' border=0></td>
+<td class="tdmoreinfosub" align="left"><a href='/yxweb/ZtbInfo/ZBGG_DetailWithQuestion.aspx?InfoID=42f48575-a85b-4667-8608-fdf508390673&CategoryNum=012001001' target='_blank' title='宜兴市老体育馆改造工程'>宜兴市老体育馆改造工程</a>
+</td><td width='80'>[2015-06-25]</td>
+</tr>
+<tr><td height=1 class="moreinfo_showline" colSpan="3"><img src="/yxweb/images/spacer.gif"></td></tr>
+<tr height='22' >
+<td width='20'><img src='/yxweb/images/dots/dot1.gif' border=0></td>
+<td class="tdmoreinfosub" align="left"><a href='/yxweb/ZtbInfo/ZBGG_DetailWithQuestion.aspx?InfoID=7505bbef-9e2c-427e-a85b-19c3cbf55dd5&CategoryNum=012001001' target='_blank' title='宜兴阳羡湖旅游度假小镇（一期~五期）项目R3、R4地块施工'>宜兴阳羡湖旅游度假小镇（一期~五期）项目R3、R4地块施工</a>
+</td><td width='80'>[2015-06-25]</td>
+</tr>
+<tr><td height=1 class="moreinfo_showline" colSpan="3"><img src="/yxweb/images/spacer.gif"></td></tr>
+<tr height='22' >
+<td width='20'><img src='/yxweb/images/dots/dot1.gif' border=0></td>
+<td class="tdmoreinfosub" align="left"><a href='/yxweb/ZtbInfo/ZBGG_DetailWithQuestion.aspx?InfoID=7d99589a-e6f9-4f9d-b8a4-952688953ec3&CategoryNum=012001001' target='_blank' title='宜兴市杨巷镇南环路老路改造工程监理'>宜兴市杨巷镇南环路老路改造工程监理</a>
+</td><td width='80'>[2015-06-25]</td>
+</tr>
+<tr><td height=1 class="moreinfo_showline" colSpan="3"><img src="/yxweb/images/spacer.gif"></td></tr>
+<tr height='22' >
+<td width='20'><img src='/yxweb/images/dots/dot1.gif' border=0></td>
+<td class="tdmoreinfosub" align="left"><a href='/yxweb/ZtbInfo/ZBGG_DetailWithQuestion.aspx?InfoID=ba6d6f41-7c65-4735-b338-debd16e8b7ad&CategoryNum=012001001' target='_blank' title='宜兴市陶都路拓宽（北延段）改造工程监理二标段'>宜兴市陶都路拓宽（北延段）改造工程监理二标段</a>
+</td><td width='80'>[2015-06-25]</td>
+</tr>
+<tr><td height=1 class="moreinfo_showline" colSpan="3"><img src="/yxweb/images/spacer.gif"></td></tr>
+<tr height='22' >
+<td width='20'><img src='/yxweb/images/dots/dot1.gif' border=0></td>
+<td class="tdmoreinfosub" align="left"><a href='/yxweb/ZtbInfo/ZBGG_DetailWithQuestion.aspx?InfoID=b2776465-87a7-4743-8297-0526c56a7372&CategoryNum=012001001' target='_blank' title='宜兴市陶都路拓宽（北延段）改造工程监理一标段'>宜兴市陶都路拓宽（北延段）改造工程监理一标段</a>
+</td><td width='80'>[2015-06-25]</td>
+</tr>
+<tr><td height=1 class="moreinfo_showline" colSpan="3"><img src="/yxweb/images/spacer.gif"></td></tr>
+<tr height='22' >
+<td width='20'><img src='/yxweb/images/dots/dot1.gif' border=0></td>
+<td class="tdmoreinfosub" align="left"><a href='/yxweb/ZtbInfo/ZBGG_DetailWithQuestion.aspx?InfoID=105c0ae4-58d3-4037-b346-0f779482b21f&CategoryNum=012001001' target='_blank' title='S342省道（周屺公路-庆源大道）慢车道改造工程监理'>S342省道（周屺公路-庆源大道）慢车道改造工程监理</a>
+</td><td width='80'>[2015-06-25]</td>
+</tr>
+<tr><td height=1 class="moreinfo_showline" colSpan="3"><img src="/yxweb/images/spacer.gif"></td></tr>
+<tr height='22' >
+<td width='20'><img src='/yxweb/images/dots/dot1.gif' border=0></td>
+<td class="tdmoreinfosub" align="left"><a href='/yxweb/ZtbInfo/ZBGG_DetailWithQuestion.aspx?InfoID=5ed9ecbc-6f97-42c2-9fea-eaa0c1643fd9&CategoryNum=012001001' target='_blank' title='官林镇2015年镇区道路改造工程育才路'>官林镇2015年镇区道路改造工程育才路</a>
+</td><td width='80'>[2015-06-24]</td>
+</tr>
+<tr><td height=1 class="moreinfo_showline" colSpan="3"><img src="/yxweb/images/spacer.gif"></td></tr>
+<tr height='22' >
+<td width='20'><img src='/yxweb/images/dots/dot1.gif' border=0></td>
+<td class="tdmoreinfosub" align="left"><a href='/yxweb/ZtbInfo/ZBGG_DetailWithQuestion.aspx?InfoID=acb57461-e368-4bc0-9e57-f9b976cf285c&CategoryNum=012001001' target='_blank' title='宜兴市广播电视台演播厅灯光系统改造'>宜兴市广播电视台演播厅灯光系统改造</a>
+</td><td width='80'>[2015-06-19]</td>
+</tr>
+<tr><td height=1 class="moreinfo_showline" colSpan="3"><img src="/yxweb/images/spacer.gif"></td></tr>
+<tr height='22' >
+<td width='20'><img src='/yxweb/images/dots/dot1.gif' border=0></td>
+<td class="tdmoreinfosub" align="left"><a href='/yxweb/ZtbInfo/ZBGG_DetailWithQuestion.aspx?InfoID=6785cada-33df-46de-be12-662bfb7b6e3f&CategoryNum=012001001' target='_blank' title='宜兴市广播电视台演播大厅扩声系统设备采购、安装及调试'>宜兴市广播电视台演播大厅扩声系统设备采购、安装及调试</a>
+</td><td width='80'>[2015-06-19]</td>
+</tr>
+<tr><td height=1 class="moreinfo_showline" colSpan="3"><img src="/yxweb/images/spacer.gif"></td></tr>
+<tr height='22' >
+<td width='20'><img src='/yxweb/images/dots/dot1.gif' border=0></td>
+<td class="tdmoreinfosub" align="left"><a href='/yxweb/ZtbInfo/ZBGG_DetailWithQuestion.aspx?InfoID=b82c8b14-d4af-43f4-978c-e204635ad5b1&CategoryNum=012001001' target='_blank' title='宜兴市广播电视台演播厅舞台、看台、座椅改造'>宜兴市广播电视台演播厅舞台、看台、座椅改造</a>
+</td><td width='80'>[2015-06-19]</td>
+</tr>
+<tr><td height=1 class="moreinfo_showline" colSpan="3"><img src="/yxweb/images/spacer.gif"></td></tr>
+<tr height='22' >
+<td width='20'><img src='/yxweb/images/dots/dot1.gif' border=0></td>
+<td class="tdmoreinfosub" align="left"><a href='/yxweb/ZtbInfo/ZBGG_DetailWithQuestion.aspx?InfoID=6778dc3a-9f50-4442-b19b-9dfb546898f0&CategoryNum=012001001' target='_blank' title='宜兴市陶都路拓宽（北延段）改造工程一标段'>宜兴市陶都路拓宽（北延段）改造工程一标段</a>
+</td><td width='80'>[2015-06-19]</td>
+</tr>
+<tr><td height=1 class="moreinfo_showline" colSpan="3"><img src="/yxweb/images/spacer.gif"></td></tr>
+<tr height='22' >
+<td width='20'><img src='/yxweb/images/dots/dot1.gif' border=0></td>
+<td class="tdmoreinfosub" align="left"><a href='/yxweb/ZtbInfo/ZBGG_DetailWithQuestion.aspx?InfoID=6c255bbc-8c42-414a-9d0e-b54a7fe6b59f&CategoryNum=012001001' target='_blank' title='宜兴市陶都路拓宽（北延段）改造工程二标段'>宜兴市陶都路拓宽（北延段）改造工程二标段</a>
+</td><td width='80'>[2015-06-19]</td>
+</tr>
+<tr><td height=1 class="moreinfo_showline" colSpan="3"><img src="/yxweb/images/spacer.gif"></td></tr>
+<tr height='22' >
+<td width='20'><img src='/yxweb/images/dots/dot1.gif' border=0></td>
+<td class="tdmoreinfosub" align="left"><a href='/yxweb/ZtbInfo/ZBGG_DetailWithQuestion.aspx?InfoID=47873491-7074-4cc7-b86e-99eb599c89a1&CategoryNum=012001001' target='_blank' title='宜兴市陶都路拓宽（北延段）改造工程三标段'>宜兴市陶都路拓宽（北延段）改造工程三标段</a>
+</td><td width='80'>[2015-06-19]</td>
+</tr>
+<tr><td height=1 class="moreinfo_showline" colSpan="3"><img src="/yxweb/images/spacer.gif"></td></tr>
+<tr height='22' >
+<td width='20'><img src='/yxweb/images/dots/dot1.gif' border=0></td>
+<td class="tdmoreinfosub" align="left"><a href='/yxweb/ZtbInfo/ZBGG_DetailWithQuestion.aspx?InfoID=6614009b-9280-4bb0-810f-07bb5fc1b947&CategoryNum=012001001' target='_blank' title='宜兴市陶都路拓宽（北延段）改造工程四标段'>宜兴市陶都路拓宽（北延段）改造工程四标段</a>
+</td><td width='80'>[2015-06-19]</td>
+</tr>
+<tr><td height=1 class="moreinfo_showline" colSpan="3"><img src="/yxweb/images/spacer.gif"></td></tr>
+<tr height='22' >
+<td width='20'><img src='/yxweb/images/dots/dot1.gif' border=0></td>
+<td class="tdmoreinfosub" align="left"><a href='/yxweb/ZtbInfo/ZBGG_DetailWithQuestion.aspx?InfoID=09096282-43c6-4f69-975a-4aede9dc9439&CategoryNum=012001001' target='_blank' title='宜兴市新建镇臧林等村土地整治工程'>宜兴市新建镇臧林等村土地整治工程</a>
+</td><td width='80'>[2015-06-19]</td>
+</tr>
+<tr><td height=1 class="moreinfo_showline" colSpan="3"><img src="/yxweb/images/spacer.gif"></td></tr>
+<tr height='22' >
+<td width='20'><img src='/yxweb/images/dots/dot1.gif' border=0></td>
+<td class="tdmoreinfosub" align="left"><a href='/yxweb/ZtbInfo/ZBGG_DetailWithQuestion.aspx?InfoID=60695d78-ad5f-4173-9ad6-217d13279a10&CategoryNum=012001001' target='_blank' title='张渚镇桃溪市民广场工程'>张渚镇桃溪市民广场工程</a>
+</td><td width='80'>[2015-06-19]</td>
+</tr>
+<tr><td height=1 class="moreinfo_showline" colSpan="3"><img src="/yxweb/images/spacer.gif"></td></tr>
+<tr height='22' >
+<td width='20'><img src='/yxweb/images/dots/dot1.gif' border=0></td>
+<td class="tdmoreinfosub" align="left"><a href='/yxweb/ZtbInfo/ZBGG_DetailWithQuestion.aspx?InfoID=5ae4276a-dad2-4b41-a775-23bdb2d21b03&CategoryNum=012001001' target='_blank' title='官林实验小学、官林实验幼儿园工程官林实验小学智能化工程'>官林实验小学、官林实验幼儿园工程官林实验小学智能化工程</a>
+</td><td width='80'>[2015-06-17]</td>
+</tr>
+<tr><td height=1 class="moreinfo_showline" colSpan="3"><img src="/yxweb/images/spacer.gif"></td></tr>
+<tr height='30'>
+<td colspan=3 align=right class="tdmorepadding"><a href='MoreInfo.aspx?CategoryNum=012001001'>更多</a></td>
+</tr>
+</table></div>
+            </td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>宜兴公共资源网</title>
+<link href="/yxweb/Template/Default/css/style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+<table width="988" align="center"  border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" style="margin:0 auto;">
+  <tr>
+    <td height="30" bgcolor="#0274bb" class="foot"><a href="#" onclick="this.style.behavior='url(#default#homepage)';this.sethomepage(top.location);return false;" target="_top">设为首页</a> | <a href="javascript:window.external.AddFavorite(location.href,document.title)" title="将本站加入到您的收藏夹"  target="_top">加入收藏</a> | <a href="/yxweb/Template/Default/../../lxwm">联系我们</a></td>
+  </tr>
+  <tr>
+    <td height="115" class="foot2">主办：宜兴市招投标中心 地址：宜兴市陶都路125号<br />
+      联系电话：0510-87956058  传真：0510-87956060<br />
+技术支持：江苏国泰新点软件有限公司</td>
+  </tr>
+</table>
+</body>
+</html>
+
+</body>
+</html>

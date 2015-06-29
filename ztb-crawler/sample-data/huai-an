@@ -1,0 +1,315 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<link href="/hawz/css/Styles.css" type="text/css" rel="stylesheet">
+<title>淮安招投标网</title>
+   <script>
+function search()
+		{
+			var tim=10
+			if(tim==10)
+			{
+				tim=0;
+				if(document.all.txtkey.value=="")
+				{
+					alert("搜索字段不能为空！");
+				}
+				else
+				{
+					var openUrl='/njhw/showinfo/searchresult.aspx?keyword=';
+					openUrl+=escape(document.all.txtkey.value);
+				
+					openUrl+="&categoryNum="+document.all.categoryNum.value;
+					window.open(openUrl);
+				}
+			}
+			else
+		    {
+				alert("两次搜索的时间间隔不能少于十秒")
+		    }
+		}
+		
+		function CheckSearch()
+		{
+			if(event.keyCode=="13")
+			{   
+				if(document.all.txtkey.value!="")
+				{
+					search();
+				}
+				else
+				{
+					alert("搜索字段不能为空！");
+				}
+			}
+		}
+		function Clear()
+        {
+        document.all.txtkey.value=""
+        }
+    </script>
+<style type="text/css">
+<!--
+.STYLE1 {	font-size: 12px;
+	font-weight: bold;
+	color: #0F5EA1;
+}
+.STYLE2 {	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.STYLE3 {font-size: 12px}
+.STYLE4 {color: #FF0000}
+.STYLE6 {font-size: 12px; color: #FFFFFF; }
+-->
+</style>
+</head>
+
+<body>
+<div style="width:1002px; margin:0 auto">
+  <iframe src="/hawz/Template/Default/pagehead.htm" width="1002" height="231" frameborder="0"
+	 scrolling="no"></iframe>
+</div>
+   
+    
+       <table width="1002" border="0" align="center" cellpadding="0" cellspacing="0">
+         <tr>
+           <td width="232" align="center" valign="top"  height="100%"><table width="220" border="0" cellspacing="0" cellpadding="0" height="100%">
+      <tr>
+        <td align="center" valign="top" bgcolor="E4ECEE" style="padding-top:6px"><table width="209" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td height="29" background="/hawz/Template/Default/images/left_t_bg.jpg"><font color="ffffff" style="text-indent:50px;letter-spacing:2px;font-weight:bold;font-size:14px">交易信息</font></td>
+          </tr>
+        </table>
+          <table width="199" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td align="center" bgcolor="#FFFFFF" style="border-bottom:1px solid #A3D1D8;border-left:1px solid #A3D1D8;border-right:1px solid #A3D1D8;"><TABLE  cellSpacing="0" cellPadding="0" width="100%" border="0">
+<TR><td class="leftmenu"  style="cursor:hand" background="/hawz/" ><a href='javascript:void(0)' ><font color=red>建设项目</font></a></td></TR>
+<TR><td class="LeftMenuSubbg"   id="TD004001"><table border=0 width="100%">
+<TR><td class="LeftMenuSub" ><a href="/hawz/jyxx/004001/004001001" target="_self"><font color=red>【招标公告】</font></a></td></TR>
+<TR><td  class="LeftMenuSub" ><a href="/hawz/jyxx/004001/004001002" target="_self"><font color=#000000>【中标公示】</font></a></td></TR>
+</table></TD></tr>
+<TR><td class="leftmenu"  style="cursor:hand" background="/hawz/" ><a href='javascript:void(0)' ><font color=#000000>政府采购</font></a></td></TR>
+<TR><td class="LeftMenuSubbg"   id="TD004002"><table border=0 width="100%">
+<TR><td  class="LeftMenuSub" ><a href="/hawz/jyxx/004002/004002001" target="_self"><font color=#000000>【招标公告】</font></a></td></TR>
+<TR><td  class="LeftMenuSub" ><a href="/hawz/jyxx/004002/004002002" target="_self"><font color=#000000>【中标公示】</font></a></td></TR>
+</table></TD></tr>
+<TR><td class="leftmenu"  style="cursor:hand" background="/hawz/" ><a href='javascript:void(0)' ><font color=#000000>产权交易</font></a></td></TR>
+<TR><td class="LeftMenuSubbg"   id="TD004003"><table border=0 width="100%">
+<TR><td  class="LeftMenuSub" ><a href="/hawz/jyxx/004003/004003001" target="_self"><font color=#000000>【招标公告】</font></a></td></TR>
+<TR><td  class="LeftMenuSub" ><a href="/hawz/jyxx/004003/004003002" target="_self"><font color=#000000>【中标公示】</font></a></td></TR>
+</table></TD></tr>
+<TR><td class="leftmenu"  style="cursor:hand" background="/hawz/" ><a href='javascript:void(0)' ><font color=#000000>机电设备招标</font></a></td></TR>
+<TR><td class="LeftMenuSubbg"   id="TD004004"><table border=0 width="100%">
+<TR><td  class="LeftMenuSub" ><a href="/hawz/jyxx/004004/004004001" target="_self"><font color=#000000>【招标公告】</font></a></td></TR>
+<TR><td  class="LeftMenuSub" ><a href="/hawz/jyxx/004004/004004002" target="_self"><font color=#000000>【中标公示】</font></a></td></TR>
+</table></TD></tr>
+<TR><td class="leftmenu"  style="cursor:hand" background="/hawz/" ><a href='javascript:void(0)' ><font color=#000000>土地交易</font></a></td></TR>
+<TR><td class="LeftMenuSubbg"   id="TD004005"><table border=0 width="100%">
+<TR><td  class="LeftMenuSub" ><a href="/hawz/jyxx/004005/004005001" target="_self"><font color=#000000>【招标公告】</font></a></td></TR>
+<TR><td  class="LeftMenuSub" ><a href="/hawz/jyxx/004005/004005002" target="_self"><font color=#000000>【中标公示】</font></a></td></TR>
+</table></TD></tr>
+<TR><td class="leftmenu"  style="cursor:hand" background="/hawz/" ><a href='javascript:void(0)' ><font color=#000000>药品器械采购</font></a></td></TR>
+<TR><td class="LeftMenuSubbg"   id="TD004006"><table border=0 width="100%">
+<TR><td  class="LeftMenuSub" ><a href="/hawz/jyxx/004006/004006001" target="_self"><font color=#000000>【招标公告】</font></a></td></TR>
+<TR><td  class="LeftMenuSub" ><a href="/hawz/jyxx/004006/004006002" target="_self"><font color=#000000>【中标公示】</font></a></td></TR>
+</table></TD></tr>
+<TR><td class="leftmenu"  style="cursor:hand" background="/hawz/" ><a href='javascript:void(0)' ><font color=#000000>其它项目</font></a></td></TR>
+<TR><td class="LeftMenuSubbg"   id="TD004007"><table border=0 width="100%">
+<TR><td  class="LeftMenuSub" ><a href="/hawz/jyxx/004007/004007001" target="_self"><font color=#000000>【招标公告】</font></a></td></TR>
+<TR><td  class="LeftMenuSub" ><a href="/hawz/jyxx/004007/004007002" target="_self"><font color=#000000>【中标公示】</font></a></td></TR>
+</table></TD></tr>
+<TR><td class="leftmenu"  style="cursor:hand" background="/hawz/" ><a href='javascript:void(0)' ><font color=#000000>区县项目</font></a></td></TR>
+<TR><td class="LeftMenuSubbg"   id="TD004008"><table border=0 width="100%">
+<TR><td  class="LeftMenuSub" ><a href="/hawz/jyxx/004008/004008001" target="_self"><font color=#000000>【招标公告】</font></a></td></TR>
+<TR><td  class="LeftMenuSub" ><a href="/hawz/jyxx/004008/004008002" target="_self"><font color=#000000>【中标公示】</font></a></td></TR>
+</table></TD></tr>
+</TABLE>
+<script>function OpenDiv(cate){if(document.getElementById(cate).style.display=='') { document.getElementById(cate).style.display='none'} else {document.getElementById(cate).style.display=''}}</script></td>
+            </tr>
+          </table>
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td valign="bottom"><img width='220'  Src=/hawz/Template/Default/images/zy_left_004.jpg></td>
+            </tr>
+          </table></td></tr></table></td>
+          
+           <td width="771" align="center" valign="top"><table width="765" border="0" cellspacing="0" cellpadding="0">
+             <tr>
+               <td width="22" height="26" align="center" background="/hawz/Template/Default/images/curr_bg.jpg"><img src="/hawz/Template/Default/images/dot_c.jpg" width="11" height="11"></td>
+               <td width="746" background="/hawz/Template/Default/images/curr_bg.jpg"><table cellSpacing="0" cellPadding="0" border="0"><TR><TD align="center" width="15"></TD><TD align="left"><FONT color="#000000" class=currentpostionfont><b>您现在的位置：</b></FONT><A href='/hawz/'><FONT color="#000000" class=currentpostionfont>首页</FONT></A><FONT color="#FF7E00"> >> <a href='/hawz/jyxx'><FONT color="#FF7E00" class=currentpostionfont>交易信息</font></a> >> <a href='/hawz/jyxx/004001'><FONT color="#FF7E00" class=currentpostionfont>建设项目</font></a> >> <a href='/hawz/jyxx/004001/004001001'><FONT color="#FF7E00" class=currentpostionfont>招标公告</font></a></FONT></TD></TR></table></td>
+             </tr>
+             <tr>
+               <td height="12" colspan="2" align="center">&nbsp;</td>
+             </tr>
+           </table>
+             <table width="765" border="1" cellpadding="0" cellspacing="0" bordercolor="D0D0D0">
+               <tr>
+                 <td height="350" valign="top" style="padding:15px"><table width='99%' border='0' align='center' cellpadding='0' cellspacing='0'>
+<tr height='22'>
+<td width='20'><img src='/hawz/images/dots/dot1.gif' border=0></td>
+<td><a href='/hawz/InfoDetail/?InfoID=873902ab-06c8-48e7-9fdb-c5c90b22405b&CategoryNum=004001001' target='_blank' title='大寨河（四门闸～深圳路）整治工程招标公告'>大寨河（四门闸～深圳路）整治工程招标公告</a></td>
+<td width='80'>2015-06-26</td>
+</tr>
+<tr height='22'>
+<td width='20'><img src='/hawz/images/dots/dot1.gif' border=0></td>
+<td><a href='/hawz/InfoDetail/?InfoID=134ad273-261c-43b7-9c8f-3cdd0d22e20e&CategoryNum=004001001' target='_blank' title='淮阴区2015年县道改造工程施工招标公告'>淮阴区2015年县道改造工程施工招标公告</a></td>
+<td width='80'>2015-06-26</td>
+</tr>
+<tr height='22'>
+<td width='20'><img src='/hawz/images/dots/dot1.gif' border=0></td>
+<td><a href='/hawz/InfoDetail/?InfoID=771d1ce6-e9b6-4642-b3e5-34fe2b2c406d&CategoryNum=004001001' target='_blank' title='淮河入江水道整治工程金湖县境内排泥场恢复生产及清障桥拆除赔建工程'>淮河入江水道整治工程金湖县境内排泥场恢复生产及清障桥拆除赔建工程</a></td>
+<td width='80'>2015-06-26</td>
+</tr>
+<tr height='22'>
+<td width='20'><img src='/hawz/images/dots/dot1.gif' border=0></td>
+<td><a href='/hawz/InfoDetail/?InfoID=c8fd2912-61d0-405a-b423-6e1e922afa65&CategoryNum=004001001' target='_blank' title='锦阳花园二期（2）农村集中居住区10KV受电工程'>锦阳花园二期（2）农村集中居住区10KV受电工程</a></td>
+<td width='80'>2015-06-26</td>
+</tr>
+<tr height='22'>
+<td width='20'><img src='/hawz/images/dots/dot1.gif' border=0></td>
+<td><a href='/hawz/InfoDetail/?InfoID=c7efba8b-e259-4261-aa0d-8b62d57ca3f9&CategoryNum=004001001' target='_blank' title='盱眙县旧铺镇商业一条街立面改造工程'>盱眙县旧铺镇商业一条街立面改造工程</a></td>
+<td width='80'>2015-06-26</td>
+</tr>
+<tr height='22'>
+<td width='20'><img src='/hawz/images/dots/dot1.gif' border=0></td>
+<td><a href='/hawz/InfoDetail/?InfoID=ddbad028-4a0f-4509-ae15-1c4b7bb8e923&CategoryNum=004001001' target='_blank' title='淮安区交通工程质量监督试验检测'>淮安区交通工程质量监督试验检测</a></td>
+<td width='80'>2015-06-26</td>
+</tr>
+<tr height='22'>
+<td width='20'><img src='/hawz/images/dots/dot1.gif' border=0></td>
+<td><a href='/hawz/InfoDetail/?InfoID=017dc47f-00cb-4ac7-96fc-48313c02fd61&CategoryNum=004001001' target='_blank' title='珠江嘉园安置小区室外道路及给排水工程'>珠江嘉园安置小区室外道路及给排水工程</a></td>
+<td width='80'>2015-06-26</td>
+</tr>
+<tr height='22'>
+<td width='20'><img src='/hawz/images/dots/dot1.gif' border=0></td>
+<td><a href='/hawz/InfoDetail/?InfoID=ef947a24-5b14-467c-816f-9b8fba1726ce&CategoryNum=004001001' target='_blank' title='洪泽县“三馆”项目洪泽县“三馆一中心”建设项目社会资本方招标（二次公告）'>洪泽县“三馆”项目洪泽县“三馆一中心”建设项目社会资本方招标（二次公告）</a></td>
+<td width='80'>2015-06-26</td>
+</tr>
+<tr height='22'>
+<td width='20'><img src='/hawz/images/dots/dot1.gif' border=0></td>
+<td><a href='/hawz/InfoDetail/?InfoID=629877b8-8910-4bc6-9c04-f0dcf4115574&CategoryNum=004001001' target='_blank' title='盱眙县王店初级中学餐厅楼重建工程'>盱眙县王店初级中学餐厅楼重建工程</a></td>
+<td width='80'>2015-06-26</td>
+</tr>
+<tr height='22'>
+<td width='20'><img src='/hawz/images/dots/dot1.gif' border=0></td>
+<td><a href='/hawz/InfoDetail/?InfoID=484aee86-2852-47b6-9eb3-c90c6de0cb78&CategoryNum=004001001' target='_blank' title='淮安市环城东路改造工程'>淮安市环城东路改造工程</a></td>
+<td width='80'>2015-06-26</td>
+</tr>
+<tr height='22'>
+<td width='20'><img src='/hawz/images/dots/dot1.gif' border=0></td>
+<td><a href='/hawz/InfoDetail/?InfoID=698004f2-f73f-4a64-b5c3-c6f975f822c1&CategoryNum=004001001' target='_blank' title='淮安市清江浦路工程'>淮安市清江浦路工程</a></td>
+<td width='80'>2015-06-26</td>
+</tr>
+<tr height='22'>
+<td width='20'><img src='/hawz/images/dots/dot1.gif' border=0></td>
+<td><a href='/hawz/InfoDetail/?InfoID=ee59b554-7b66-4a62-9219-0a0f563cb7d3&CategoryNum=004001001' target='_blank' title='淮安市盱眙县2015年小型水库库区扶持项目勘察设计招标公告'>淮安市盱眙县2015年小型水库库区扶持项目勘察设计招标公告</a></td>
+<td width='80'>2015-06-25</td>
+</tr>
+<tr height='22'>
+<td width='20'><img src='/hawz/images/dots/dot1.gif' border=0></td>
+<td><a href='/hawz/InfoDetail/?InfoID=e72e39f1-ee1f-435c-89b2-3f06f35b38c9&CategoryNum=004001001' target='_blank' title='江苏省淮阴师范学院附属中学校安工程室内装修装饰工程设计施工一体化招标公告'>江苏省淮阴师范学院附属中学校安工程室内装修装饰工程设计施工一体化招标公告</a></td>
+<td width='80'>2015-06-25</td>
+</tr>
+<tr height='22'>
+<td width='20'><img src='/hawz/images/dots/dot1.gif' border=0></td>
+<td><a href='/hawz/InfoDetail/?InfoID=d3c0c115-4cb9-448d-93b1-eba8b082c2db&CategoryNum=004001001' target='_blank' title='市区公园深度开放项目桃花坞、楚秀园、月季园一二期室外路灯工程'>市区公园深度开放项目桃花坞、楚秀园、月季园一二期室外路灯工程</a></td>
+<td width='80'>2015-06-25</td>
+</tr>
+<tr height='22'>
+<td width='20'><img src='/hawz/images/dots/dot1.gif' border=0></td>
+<td><a href='/hawz/InfoDetail/?InfoID=dd574a54-c471-4c60-8fd7-a35f7ee6e2e8&CategoryNum=004001001' target='_blank' title='鲍集初级中学食堂操作间及配套用房工程'>鲍集初级中学食堂操作间及配套用房工程</a></td>
+<td width='80'>2015-06-25</td>
+</tr>
+<tr height='22'>
+<td width='20'><img src='/hawz/images/dots/dot1.gif' border=0></td>
+<td><a href='/hawz/InfoDetail/?InfoID=6ac239cb-b445-4ef4-aa05-c4684d337059&CategoryNum=004001001' target='_blank' title='盱眙县王店乡卫生院新建病房楼工程'>盱眙县王店乡卫生院新建病房楼工程</a></td>
+<td width='80'>2015-06-25</td>
+</tr>
+<tr height='22'>
+<td width='20'><img src='/hawz/images/dots/dot1.gif' border=0></td>
+<td><a href='/hawz/InfoDetail/?InfoID=bbb227a1-4e57-497a-abae-4288d7b3fcea&CategoryNum=004001001' target='_blank' title='淮安市生态新城西片区小学项目淮安生态新城西片区小学内装饰工程'>淮安市生态新城西片区小学项目淮安生态新城西片区小学内装饰工程</a></td>
+<td width='80'>2015-06-25</td>
+</tr>
+<tr height='22'>
+<td width='20'><img src='/hawz/images/dots/dot1.gif' border=0></td>
+<td><a href='/hawz/InfoDetail/?InfoID=38fc08be-f046-4fa3-bc98-770663b1c78c&CategoryNum=004001001' target='_blank' title='淮安市军营路工程'>淮安市军营路工程</a></td>
+<td width='80'>2015-06-25</td>
+</tr>
+<tr height='22'>
+<td width='20'><img src='/hawz/images/dots/dot1.gif' border=0></td>
+<td><a href='/hawz/InfoDetail/?InfoID=686dc575-1f52-4225-97e9-41b16e6f1a77&CategoryNum=004001001' target='_blank' title='江苏食品科技产业园现代设施农业科技成果展示中心工程道路工程监理'>江苏食品科技产业园现代设施农业科技成果展示中心工程道路工程监理</a></td>
+<td width='80'>2015-06-25</td>
+</tr>
+<tr height='22'>
+<td width='20'><img src='/hawz/images/dots/dot1.gif' border=0></td>
+<td><a href='/hawz/InfoDetail/?InfoID=b4bf42a4-e446-4d3a-9e4b-fbd823eb1ec2&CategoryNum=004001001' target='_blank' title='盱眙县官滩镇卫生院病房附属楼工程'>盱眙县官滩镇卫生院病房附属楼工程</a></td>
+<td width='80'>2015-06-25</td>
+</tr>
+<tr height='22'>
+<td width='20'><img src='/hawz/images/dots/dot1.gif' border=0></td>
+<td><a href='/hawz/InfoDetail/?InfoID=a38930df-482e-4f5a-b06c-9b25d2258571&CategoryNum=004001001' target='_blank' title='淮安经济技术开发区臻鼎科技桥工程'>淮安经济技术开发区臻鼎科技桥工程</a></td>
+<td width='80'>2015-06-24</td>
+</tr>
+<tr height='22'>
+<td width='20'><img src='/hawz/images/dots/dot1.gif' border=0></td>
+<td><a href='/hawz/InfoDetail/?InfoID=4552015a-54b9-46bc-ad1d-a7c2bd878029&CategoryNum=004001001' target='_blank' title='洪泽县第二中学活动室及食堂扩建工程施工'>洪泽县第二中学活动室及食堂扩建工程施工</a></td>
+<td width='80'>2015-06-24</td>
+</tr>
+<tr height='22'>
+<td width='20'><img src='/hawz/images/dots/dot1.gif' border=0></td>
+<td><a href='/hawz/InfoDetail/?InfoID=c95f750a-0b7f-4bba-b93b-bd93f597dd4a&CategoryNum=004001001' target='_blank' title='市区公园深度开放项目桃花坞、楚秀园、月季园一二期室外路灯工程'>市区公园深度开放项目桃花坞、楚秀园、月季园一二期室外路灯工程</a></td>
+<td width='80'>2015-06-24</td>
+</tr>
+<tr height='22'>
+<td width='20'><img src='/hawz/images/dots/dot1.gif' border=0></td>
+<td><a href='/hawz/InfoDetail/?InfoID=6cc97602-7af5-449e-8161-b44241198db8&CategoryNum=004001001' target='_blank' title='淮安区2015年一事一议财政奖补项目（渠南片QNYY－10-11标段）'>淮安区2015年一事一议财政奖补项目（渠南片QNYY－10-11标段）</a></td>
+<td width='80'>2015-06-24</td>
+</tr>
+<tr height='22'>
+<td width='20'><img src='/hawz/images/dots/dot1.gif' border=0></td>
+<td><a href='/hawz/InfoDetail/?InfoID=43dbe2b7-de8f-498c-b83b-fbbb05c8cf85&CategoryNum=004001001' target='_blank' title='江苏食品科技产业园现代设施农业科技成果展示中心工程-道路工程'>江苏食品科技产业园现代设施农业科技成果展示中心工程-道路工程</a></td>
+<td width='80'>2015-06-24</td>
+</tr>
+<tr height='22'>
+<td width='20'><img src='/hawz/images/dots/dot1.gif' border=0></td>
+<td><a href='/hawz/InfoDetail/?InfoID=c73e0189-d249-4937-9a52-a97bd3e4d8fd&CategoryNum=004001001' target='_blank' title='洪泽县体育综合馆、文化综合馆、科技智慧展览馆建设工程监理'>洪泽县体育综合馆、文化综合馆、科技智慧展览馆建设工程监理</a></td>
+<td width='80'>2015-06-24</td>
+</tr>
+<tr height='22'>
+<td width='20'><img src='/hawz/images/dots/dot1.gif' border=0></td>
+<td><a href='/hawz/InfoDetail/?InfoID=59b6e303-cb5b-4642-96d4-40ccca368644&CategoryNum=004001001' target='_blank' title='洪泽县政务服务中心建设工程监理'>洪泽县政务服务中心建设工程监理</a></td>
+<td width='80'>2015-06-24</td>
+</tr>
+<tr height='22'>
+<td width='20'><img src='/hawz/images/dots/dot1.gif' border=0></td>
+<td><a href='/hawz/InfoDetail/?InfoID=3aa53ef9-def6-4820-8b37-590679243906&CategoryNum=004001001' target='_blank' title='涟水县经济开发区张码等村建设中心村解困房项目张码、桃柳和振丰社区室外配套工程'>涟水县经济开发区张码等村建设中心村解困房项目张码、桃柳和振丰社区室外配套工程</a></td>
+<td width='80'>2015-06-23</td>
+</tr>
+<tr height='22'>
+<td width='20'><img src='/hawz/images/dots/dot1.gif' border=0></td>
+<td><a href='/hawz/InfoDetail/?InfoID=e262164b-4ad8-4842-bbf2-f8428cb41699&CategoryNum=004001001' target='_blank' title='涟水县2015年区域供水管道工程三期施工招标公告（资格后审）'>涟水县2015年区域供水管道工程三期施工招标公告（资格后审）</a></td>
+<td width='80'>2015-06-23</td>
+</tr>
+<tr height='22'>
+<td width='20'><img src='/hawz/images/dots/dot1.gif' border=0></td>
+<td><a href='/hawz/InfoDetail/?InfoID=c4019b3a-f1e7-4c46-8208-61eac0da369f&CategoryNum=004001001' target='_blank' title='207县道洪泽湖欢乐园段道路沉降治理工程'>207县道洪泽湖欢乐园段道路沉降治理工程</a></td>
+<td width='80'>2015-06-23</td>
+</tr>
+<tr height='30'>
+<td colspan=3 align=right><a href='MoreInfo.aspx?CategoryNum=004001001'>更多信息</a></td>
+</tr>
+</table></td>
+               </tr>
+             </table>
+           </td>
+         </tr>
+       </table>
+       <div style="width:1002px; margin:0 auto"><iframe src="/hawz/Template/Default/pagefoot.htm" width="1002" height="129" frameborder="0"
+	 scrolling="no"></iframe></div>
+</body>
+</html>

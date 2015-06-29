@@ -1,0 +1,469 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>常州市建设工程交易网</title>
+    <link href="/czztb/Template/Default/../../css/stylezy.css" type="text/css" rel="stylesheet">
+    <style type="text/css">
+<!--
+.STYLE1 {
+	font-size: 12px;
+	font-weight: bold;
+}
+.STYLE2 {
+	font-size: 12px;
+	color: #FFFFFF;
+}
+.STYLE3 {
+	font-size: 12px
+}
+.STYLE4 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.STYLE5 {
+	color: #FF0000
+}
+.STYLE6 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #094471;
+}
+.STYLE9 {
+	color: #094471;
+	font-size: 12px;
+}
+-->
+</style>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+</head>
+<body ms_positioning="GridLayout" topmargin="0">
+    <table width="988" border="0" cellspacing="0" cellpadding="0" bgcolor="#E7E7E7" align="center">
+        <tr>
+            <td width="988">
+                <iframe src='/czztb/template/default/Head.htm?type=' width="988" height="240" frameborder="0" scrolling="no" align="center"></iframe>
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="#FFFFFF">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td>
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td width="8">
+                                    </td>
+                                    <td valign="top" width="215" background="/czztb/Template/Default/images/leftbottom.gif" style="background-position: bottom; background-repeat: no-repeat;">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td>
+                                                    <img src="/czztb/Template/Default/images/2left_01.gif" width="215" height="5" />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td background="/czztb/Template/Default/images/2left_02.gif">
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td width="5">
+                                                            </td>
+                                                            <td>
+                                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td>
+                                                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                                <tr>
+                                                                                    <td height="29" background="/czztb/Template/Default/images/2left_04.gif" style="padding-top: 3px; text-align: center" class="STYLE4">
+                                                                                        交易信息
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                                            <tr>
+                                                                                                <td>
+                                                                                                    <TABLE  cellSpacing="0" cellPadding="0" width="205" border="0">
+<TR><td height=28  onclick="OpenDiv('TD010001');" style="cursor:hand;padding-left:70px; padding-top:2px; background-repeat:no-repeat;"  background="/czztb/Template/Default/images/leftmenu.gif"><font color=red style="font-weight:bold;">招标公告</font></a></td></TR>
+<TR><td style="padding-left:70px;" id="TD010001"><table border=0 width="100%">
+<TR><td width="20"><img src="/czztb/images/dots/dot8.gif"></td><td  height=28 ><a href="/czztb/jyxx/010001/010001001" target="_self">
+<font color=red>施工</font></a></td></TR>
+<TR><td width="20"><img src="/czztb/images/dots/dot8.gif"></td><td  height=28 ><a href="/czztb/jyxx/010001/010001002" target="_self">
+<font color=#000000>监理</font></a></td></TR>
+<TR><td width="20"><img src="/czztb/images/dots/dot8.gif"></td><td  height=28 ><a href="/czztb/jyxx/010001/010001003" target="_self">
+<font color=#000000>勘察设计</font></a></td></TR>
+<TR><td width="20"><img src="/czztb/images/dots/dot8.gif"></td><td  height=28 ><a href="/czztb/jyxx/010001/010001004" target="_self">
+<font color=#000000>材料设备</font></a></td></TR>
+<TR><td width="20"><img src="/czztb/images/dots/dot8.gif"></td><td  height=28 ><a href="/czztb/jyxx/010001/010001005" target="_self">
+<font color=#000000>其他</font></a></td></TR>
+<TR><td width="20"><img src="/czztb/images/dots/dot8.gif"></td><td  height=28 ><a href="/czztb/showinfo/moreinfo_zbsl.aspx/" target="_blank">
+<font color=#000000>水利</font></a></td></TR>
+</table></TD></tr>
+<TR><td height=28  onclick="OpenDiv('TD010002');" style="cursor:hand;padding-left:70px; padding-top:2px; background-repeat:no-repeat;"  background="/czztb/Template/Default/images/leftmenu.gif"><font color=#000000 style="font-weight:bold;">中标公示</font></a></td></TR>
+<TR><td style="padding-left:70px;display:none" id="TD010002"><table border=0 width="100%">
+<TR><td width="20"><img src="/czztb/images/dots/dot8.gif"></td><td  height=28 ><a href="/czztb/jyxx/010002/010002001" target="_self">
+<font color=#000000>施工</font></a></td></TR>
+<TR><td width="20"><img src="/czztb/images/dots/dot8.gif"></td><td  height=28 ><a href="/czztb/jyxx/010002/010002002" target="_self">
+<font color=#000000>监理</font></a></td></TR>
+<TR><td width="20"><img src="/czztb/images/dots/dot8.gif"></td><td  height=28 ><a href="/czztb/jyxx/010002/010002003" target="_self">
+<font color=#000000>勘察设计</font></a></td></TR>
+<TR><td width="20"><img src="/czztb/images/dots/dot8.gif"></td><td  height=28 ><a href="/czztb/jyxx/010002/010002004" target="_self">
+<font color=#000000>材料设备</font></a></td></TR>
+<TR><td width="20"><img src="/czztb/images/dots/dot8.gif"></td><td  height=28 ><a href="/czztb/jyxx/010002/010002005" target="_self">
+<font color=#000000>其他</font></a></td></TR>
+<TR><td width="20"><img src="/czztb/images/dots/dot8.gif"></td><td  height=28 ><a href="/czztb/showinfo/moreinfo_slzb.aspx/" target="_blank">
+<font color=#000000>水利</font></a></td></TR>
+</table></TD></tr>
+<TR><td height=28  onclick="OpenDiv('TD010003');" style="cursor:hand;padding-left:70px; padding-top:2px; background-repeat:no-repeat;"  background="/czztb/Template/Default/images/leftmenu.gif"><font color=#000000 style="font-weight:bold;">未入围公示</font></a></td></TR>
+<TR><td style="padding-left:70px;display:none" id="TD010003"><table border=0 width="100%">
+<TR><td width="20"><img src="/czztb/images/dots/dot8.gif"></td><td  height=28 ><a href="/czztb/jyxx/010003/010003001" target="_self">
+<font color=#000000>施工</font></a></td></TR>
+<TR><td width="20"><img src="/czztb/images/dots/dot8.gif"></td><td  height=28 ><a href="/czztb/jyxx/010003/010003002" target="_self">
+<font color=#000000>监理</font></a></td></TR>
+<TR><td width="20"><img src="/czztb/images/dots/dot8.gif"></td><td  height=28 ><a href="/czztb/jyxx/010003/010003003" target="_self">
+<font color=#000000>勘察设计</font></a></td></TR>
+<TR><td width="20"><img src="/czztb/images/dots/dot8.gif"></td><td  height=28 ><a href="/czztb/jyxx/010003/010003004" target="_self">
+<font color=#000000>材料设备</font></a></td></TR>
+<TR><td width="20"><img src="/czztb/images/dots/dot8.gif"></td><td  height=28 ><a href="/czztb/jyxx/010003/010003005" target="_self">
+<font color=#000000>其他</font></a></td></TR>
+<TR><td width="20"><img src="/czztb/images/dots/dot8.gif"></td><td  height=28 ><a href="/czztb/jyxx/010003/010003006" target="_self">
+<font color=#000000>水利</font></a></td></TR>
+</table></TD></tr>
+<TR><td height=28  onclick="OpenDiv('TD010005');" style="cursor:hand;padding-left:70px; padding-top:2px; background-repeat:no-repeat;"  background="/czztb/Template/Default/images/leftmenu.gif"><font color=#000000 style="font-weight:bold;">其他信息公告</font></a></td></TR>
+<TR><td style="padding-left:70px;display:none" id="TD010005"><table border=0 width="100%">
+<TR><td width="20"><img src="/czztb/images/dots/dot8.gif"></td><td  height=28 ><a href="/czztb/jyxx/010005/010005001" target="_self">
+<font color=#000000>直接发包</font></a></td></TR>
+<TR><td width="20"><img src="/czztb/images/dots/dot8.gif"></td><td  height=28 ><a href="/czztb/jyxx/010005/010005002" target="_self">
+<font color=#000000>项目经理变更</font></a></td></TR>
+<TR><td width="20"><img src="/czztb/images/dots/dot8.gif"></td><td  height=28 ><a href="/czztb/jyxx/010005/010005003" target="_self">
+<font color=#000000>其他</font></a></td></TR>
+</table></TD></tr>
+</TABLE>
+<script>function OpenDiv(cate){if(document.getElementById(cate).style.display=='') { document.getElementById(cate).style.display='none'} else {document.getElementById(cate).style.display=''}}</script>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td height="7">
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                                <tr>
+                                                                                    <td height="29" background="/czztb/Template/Default/images/2left_04.gif" style="padding-top: 3px; text-align: center" class="STYLE4">
+                                                                                        办事指南
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td height="230" align="left" valign="top">
+                                                                                        <TABLE  cellSpacing=3 cellPadding=0 width=100% align=center border=0 valign=top>
+<TR height=18>
+<TD align=center width=20><img src="/czztb/images/dots/left_lm09.gif"></TD>
+<TD><a href="/czztb/infodetail/?infoid=60598bb3-a774-4a90-9e4c-a5012ccd55cc&categoryNum=008" target="_blank" title="常州市诚信数据库操作手册（5.0系统资料库）入库手续2015版"><font color="#000000">常州市诚信数据库操作手册...</font></a></TD>
+<td></td>
+</TR>
+<TR height=18>
+<TD align=center width=20><img src="/czztb/images/dots/left_lm09.gif"></TD>
+<TD><a href="/czztb/infodetail/?infoid=c4af7e8c-7ed7-4d88-8202-6a8352daff46&categoryNum=008" target="_blank" title="电子化投标业务流程指南"><font color="#000000">电子化投标业务流程指南</font></a></TD>
+<td></td>
+</TR>
+<TR height=18>
+<TD align=center width=20><img src="/czztb/images/dots/left_lm09.gif"></TD>
+<TD><a href="/czztb/infodetail/?infoid=430f58b9-c066-41e9-9dbd-0ceade0ff6c4&categoryNum=008" target="_blank" title="投标保证金说明"><font color="#000000">投标保证金说明</font></a></TD>
+<td></td>
+</TR>
+<TR height=18>
+<TD align=center width=20><img src="/czztb/images/dots/left_lm09.gif"></TD>
+<TD><a href="/czztb/infodetail/?infoid=48e23519-fbc8-46d3-a74c-d343d8119e4b&categoryNum=008" target="_blank" title="企业资质年检及项目负责人的申报方法"><font color="#000000">企业资质年检及项目负责人...</font></a></TD>
+<td></td>
+</TR>
+<TR height=18>
+<TD align=center width=20><img src="/czztb/images/dots/left_lm09.gif"></TD>
+<TD><a href="/czztb/infodetail/?infoid=1f6fa52c-ab29-4581-8207-40369e639025&categoryNum=008" target="_blank" title="直接发包业务流程指南"><font color="#000000">直接发包业务流程指南</font></a></TD>
+<td></td>
+</TR>
+<TR height=18>
+<TD align=center width=20><img src="/czztb/images/dots/left_lm09.gif"></TD>
+<TD><a href="/czztb/infodetail/?infoid=6471ba07-2269-4b60-8708-27d7365936e9&categoryNum=008" target="_blank" title="保证金缴存操作指南"><font color="#000000">保证金缴存操作指南</font></a>&nbsp;<font color=red>[推荐]</font></TD>
+<td></td>
+</TR>
+<TR height=18>
+<TD align=center width=20><img src="/czztb/images/dots/left_lm09.gif"></TD>
+<TD><a href="/czztb/infodetail/?infoid=527c1681-d2a2-42c2-bcb4-c880fd4879ea&categoryNum=008" target="_blank" title="建设工程施工招标流程"><font color="#000000">建设工程施工招标流程</font></a></TD>
+<td></td>
+</TR>
+<TR height=18>
+<TD align=center width=20><img src="/czztb/images/dots/left_lm09.gif"></TD>
+<TD><a href="/czztb/infodetail/?infoid=58c174e9-7a2c-4841-b0c9-9e399a44a8ca&categoryNum=008" target="_blank" title="建设工程登记及施工招标投标各阶段工作主要内容"><font color="#000000">建设工程登记及施工招标投...</font></a></TD>
+<td></td>
+</TR>
+</TR><TR><td  colSpan=3 align="right" style="height:25px;padding-right:10px;"><a href="/czztb/bszn/">更多...</a></td></tr></table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td height="7">
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>
+                                                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                                <tr>
+                                                                                    <td height="29" background="/czztb/Template/Default/images/2left_04.gif" style="padding-top: 3px; text-align: center" class="STYLE4">
+                                                                                        下载园地
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td height="190" align="left" valign="top">
+                                                                                        <TABLE  cellSpacing=3 cellPadding=0 width=100% align=center border=0 valign=top>
+<TR height=18>
+<TD align=center width=20><img src="/czztb/images/dots/left_lm09.gif"></TD>
+<TD><a href="/czztb/infodetail/?infoid=71f0ca6f-fe59-4fcc-a960-b1da14570360&categoryNum=012002" target="_blank" title="最新国泰新点招投标文件制作工具"><font color="#000000">最新国泰新点招投标文件制...</font></a></TD>
+<td></td>
+</TR>
+<TR height=18>
+<TD align=center width=20><img src="/czztb/images/dots/left_lm09.gif"></TD>
+<TD><a href="/czztb/infodetail/?infoid=b16c721f-df09-4687-ab29-c8f8c1d4fee4&categoryNum=012002" target="_blank" title="最新广联达招投标文件制作工具"><font color="#000000">最新广联达招投标文件制作...</font></a></TD>
+<td></td>
+</TR>
+<TR height=18>
+<TD align=center width=20><img src="/czztb/images/dots/left_lm09.gif"></TD>
+<TD><a href="/czztb/infodetail/?infoid=e4ac269b-9cc4-44c8-a089-e35e34070d5f&categoryNum=012001" target="_blank" title="电子化招投标业务流程指南"><font color="#000000">电子化招投标业务流程指南</font></a></TD>
+<td></td>
+</TR>
+<TR height=18>
+<TD align=center width=20><img src="/czztb/images/dots/left_lm09.gif"></TD>
+<TD><a href="/czztb/infodetail/?infoid=bab7ee54-5323-46a3-a8f2-7927d73f63ba&categoryNum=012001" target="_blank" title="常见问题汇总"><font color="#000000">常见问题汇总</font></a></TD>
+<td></td>
+</TR>
+<TR height=18>
+<TD align=center width=20><img src="/czztb/images/dots/left_lm09.gif"></TD>
+<TD><a href="/czztb/infodetail/?infoid=dcb1c1b4-1689-4f4e-b193-f066fc4f993d&categoryNum=012005" target="_blank" title="保证金测试"><font color="#000000">保证金测试</font></a></TD>
+<td></td>
+</TR>
+<TR height=18>
+<TD align=center width=20><img src="/czztb/images/dots/left_lm09.gif"></TD>
+<TD><a href="/czztb/infodetail/?infoid=2c2846f5-8483-4dae-b845-b192b4c6419d&categoryNum=012001" target="_blank" title="常州市建设工程招标投标实用手册(2008版)"><font color="#000000">常州市建设工程招标投标实...</font></a></TD>
+<td></td>
+</TR>
+<TR height=18>
+<TD align=center width=20><img src="/czztb/images/dots/left_lm09.gif"></TD>
+<TD><a href="/czztb/infodetail/?infoid=1a0fbf39-b5d3-4c80-9c0b-7917ce4f1fc7&categoryNum=012001" target="_blank" title="常州市建设工程施工分包直接发包申报表"><font color="#000000">常州市建设工程施工分包直...</font></a></TD>
+<td></td>
+</TR>
+</TR><TR><td  colSpan=3 align="right" style="height:25px;padding-right:10px;"><a href="/czztb/xzyd/">更多...</a></td></tr></table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td height="10">
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td height="210" valign="bottom">
+                                                                            <img src="/czztb/Template/Default/images/2left_tu01.gif">
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                            <td width="5">
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td width="9">
+                                    </td>
+                                    <td valign="top">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td height="34" background="/czztb/Template/Default/images/2right_01.gif">
+                                                    <table width="100%" height="34" border="0" cellpadding="0" cellspacing="0">
+                                                        <tr>
+                                                            <td width="15">
+                                                            </td>
+                                                            <td width="11">
+                                                                <img src="/czztb/Template/Default/images/2right_02.gif" width="11" height="11" />
+                                                            </td>
+                                                            <td>
+                                                                <table cellSpacing="0" cellPadding="0" border="0"><TR><TD align="center" width="15"></TD><TD align="left"><FONT color="#000000" class=currentpostionfont><b>您现在的位置：</b></FONT><A href='/czztb/'><FONT color="#000000" class=currentpostionfont>首页</FONT></A><FONT color="#FF7E00"> >> <a href='/czztb/jyxx'><FONT color="#FF7E00" class=currentpostionfont>交易信息</font></a> >> <a href='/czztb/jyxx/010001'><FONT color="#FF7E00" class=currentpostionfont>招标公告</font></a> >> <a href='/czztb/jyxx/010001/010001001'><FONT color="#FF7E00" class=currentpostionfont>施工</font></a></FONT></TD></TR></table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="7">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                            <tr>
+                                                <td height="700" valign="top" align="left">
+                                                    <table width='99%' border='0' align='center' cellpadding='0' cellspacing='0'>
+<tr height='22'>
+<td><a href='/czztb/ZtbInfo/ZBGG_Detail.aspx?InfoID=b81821e0-c58f-4e77-9f8a-79c1d41da086' target='_blank' title='金坛市滨湖新城金广场一、二期项目金坛市滨湖新城金广场A楼室内装饰工程一标段'>[金坛]金坛市滨湖新城金广场一、二期项目金坛市滨湖新城金广场A楼室内装饰工程一标段</a></td>
+<td width='80'>2015-06-26</td>
+</tr>
+<tr height='22'>
+<td><a href='/czztb/ZtbInfo/ZBGG_Detail.aspx?InfoID=617402ca-cce3-4d85-b67e-1b8f1869c9b0' target='_blank' title='金坛市滨湖新城金广场一、二期项目金坛市滨湖新城金广场A楼室内装饰工程二标段'>[金坛]金坛市滨湖新城金广场一、二期项目金坛市滨湖新城金广场A楼室内装饰工程二标段</a></td>
+<td width='80'>2015-06-26</td>
+</tr>
+<tr height='22'>
+<td><a href='/czztb/ZtbInfo/ZBGG_Detail.aspx?InfoID=66e7c6b7-6e59-4042-b1ed-14ee84f2dbdd' target='_blank' title='金坛市滨湖新城金广场一、二期项目金坛市滨湖新城金广场B楼室内装饰工程'>[金坛]金坛市滨湖新城金广场一、二期项目金坛市滨湖新城金广场B楼室内装饰工程</a></td>
+<td width='80'>2015-06-26</td>
+</tr>
+<tr height='22'>
+<td><a href='/czztb/ZtbInfo/ZBGG_Detail.aspx?InfoID=55b061b9-a3d6-45b0-9bf7-a2bec8ff55ee' target='_blank' title='新龙湖音乐公园10KV用户变低压电缆及配套工程'>[新北区]新龙湖音乐公园10KV用户变低压电缆及配套工程</a></td>
+<td width='80'>2015-06-26</td>
+</tr>
+<tr height='22'>
+<td><a href='/czztb/ZtbInfo/ZBGG_Detail.aspx?InfoID=f6659862-8e8e-4f1e-b3ec-5537364b6dc7' target='_blank' title='常州新桥支行等网点建设项目中国农业银行溧阳阳光支行装修工程'>[溧阳]常州新桥支行等网点建设项目中国农业银行溧阳阳光支行装修工程</a></td>
+<td width='80'>2015-06-25</td>
+</tr>
+<tr height='22'>
+<td><a href='/czztb/ZtbInfo/ZBGG_Detail.aspx?InfoID=148786c3-8f4e-4e96-b4f2-899e92f12ee2' target='_blank' title='红梅南路东侧、夏雷路北侧地块定销商品房项目室外道路及管线安装工程'>[常州市]红梅南路东侧、夏雷路北侧地块定销商品房项目室外道路及管线安装工程</a></td>
+<td width='80'>2015-06-23</td>
+</tr>
+<tr height='22'>
+<td><a href='/czztb/ZtbInfo/ZBGG_Detail.aspx?InfoID=17ec6770-2cac-42c6-912d-2dfc5e3937a4' target='_blank' title='护城河滨河绿地景观提升项目溧阳市护城河滨水绿地景观提升(人民桥—新华桥)一标段工程'>[溧阳]护城河滨河绿地景观提升项目溧阳市护城河滨水绿地景观提升(人民桥—新华桥)一标段工程</a></td>
+<td width='80'>2015-06-23</td>
+</tr>
+<tr height='22'>
+<td><a href='/czztb/ZtbInfo/ZBGG_Detail.aspx?InfoID=56a025cb-3efa-43f2-a36a-f06c4c26c8fd' target='_blank' title='邹区镇戴安花园安置小区一期工程3-10#楼、配套用房A、1#楼地下车库土建安装工程'>[武进]邹区镇戴安花园安置小区一期工程3-10#楼、配套用房A、1#楼地下车库土建安装工程</a></td>
+<td width='80'>2015-06-23</td>
+</tr>
+<tr height='22'>
+<td><a href='/czztb/ZtbInfo/ZBGG_Detail.aspx?InfoID=73abdcc0-cbf3-4423-af31-e9d3f4e9aa97' target='_blank' title='焊条厂地块配套工程市政标段'>[常州市]焊条厂地块配套工程市政标段</a></td>
+<td width='80'>2015-06-23</td>
+</tr>
+<tr height='22'>
+<td><a href='/czztb/ZtbInfo/ZBGG_Detail.aspx?InfoID=ca532040-e885-4e43-903c-91e84e384b62' target='_blank' title='江南农村商业银行“三大中心”建设项目基坑支护工程'>[金坛]江南农村商业银行“三大中心”建设项目基坑支护工程</a></td>
+<td width='80'>2015-06-21</td>
+</tr>
+<tr height='22'>
+<td><a href='/czztb/ZtbInfo/ZBGG_Detail.aspx?InfoID=14f0a82c-a6ac-4890-8eb0-016eacaa936b' target='_blank' title='常州市妇幼保健院、常州市第一人民医院钟楼院区项目（医疗综合楼及地下室（含人防地下室）、行政后勤综合楼、垃圾房、门卫1、门卫2、门卫3、污水处理站）'>[常州市]常州市妇幼保健院、常州市第一人民医院钟楼院区项目（医疗综合楼及地下室（含人防地下...</a></td>
+<td width='80'>2015-06-19</td>
+</tr>
+<tr height='22'>
+<td><a href='/czztb/ZtbInfo/ZBGG_Detail.aspx?InfoID=303e98b5-3480-42fc-bc6e-3972db21e147' target='_blank' title='横塘河湿地整治（横塘河湿地公园）工程绿建展厅工程'>[常州市]横塘河湿地整治（横塘河湿地公园）工程绿建展厅工程</a></td>
+<td width='80'>2015-06-19</td>
+</tr>
+<tr height='22'>
+<td><a href='/czztb/ZtbInfo/ZBGG_Detail.aspx?InfoID=e11e43ef-cd72-4116-9fe7-373882b59219' target='_blank' title='金坛市第三中学等九所学校建设项目金坛市华罗庚实验学校、启智学校运动场地塑胶翻新改造工程'>[金坛]金坛市第三中学等九所学校建设项目金坛市华罗庚实验学校、启智学校运动场地塑胶翻新改...</a></td>
+<td width='80'>2015-06-19</td>
+</tr>
+<tr height='22'>
+<td><a href='/czztb/ZtbInfo/ZBGG_Detail.aspx?InfoID=a52de6f5-8c4a-4366-b4bc-dced76148008' target='_blank' title='金坛市第三中学等九所学校建设项目金坛市华城实验小学、水北中学运动场地塑胶翻新改造工程'>[金坛]金坛市第三中学等九所学校建设项目金坛市华城实验小学、水北中学运动场地塑胶翻新改造...</a></td>
+<td width='80'>2015-06-19</td>
+</tr>
+<tr height='22'>
+<td><a href='/czztb/ZtbInfo/ZBGG_Detail.aspx?InfoID=deb0370a-ec3d-4fb8-83f1-7b6cb40abe25' target='_blank' title='金坛市第三中学等九所学校建设项目金坛市第四中学、明珍实验学校运动场地塑胶翻新改造工程'>[金坛]金坛市第三中学等九所学校建设项目金坛市第四中学、明珍实验学校运动场地塑胶翻新改造...</a></td>
+<td width='80'>2015-06-19</td>
+</tr>
+<tr height='22'>
+<td><a href='/czztb/ZtbInfo/ZBGG_Detail.aspx?InfoID=1d241a1e-07e8-44ff-862b-76ef57c7b11e' target='_blank' title='金坛市第三中学等九所学校建设项目金坛市第三中学、社头中学运动场地塑胶翻新改造工程'>[金坛]金坛市第三中学等九所学校建设项目金坛市第三中学、社头中学运动场地塑胶翻新改造工程</a></td>
+<td width='80'>2015-06-19</td>
+</tr>
+<tr height='22'>
+<td><a href='/czztb/ZtbInfo/ZBGG_Detail.aspx?InfoID=e68414b3-88fe-4c43-b988-7ed8b25d1905' target='_blank' title='金坛市南环二路景观照明工程(老镇广路至金宜路)'>[金坛]金坛市南环二路景观照明工程(老镇广路至金宜路)</a></td>
+<td width='80'>2015-06-19</td>
+</tr>
+<tr height='22'>
+<td><a href='/czztb/ZtbInfo/ZBGG_Detail.aspx?InfoID=e52257eb-d2a8-477b-8d7a-4fe5734de75d' target='_blank' title='西小村西侧道路改造工程'>[新北区]西小村西侧道路改造工程</a></td>
+<td width='80'>2015-06-19</td>
+</tr>
+<tr height='22'>
+<td><a href='/czztb/ZtbInfo/ZBGG_Detail.aspx?InfoID=b8df8c8c-7865-43c4-8d29-689a9312029f' target='_blank' title='红梅南路东侧、夏雷路北侧地块定销商品房项目智能化工程'>[常州市]红梅南路东侧、夏雷路北侧地块定销商品房项目智能化工程</a></td>
+<td width='80'>2015-06-18</td>
+</tr>
+<tr height='22'>
+<td><a href='/czztb/ZtbInfo/ZBGG_Detail.aspx?InfoID=6fdb8925-aa5d-49ab-bb16-9538adc0c7ff' target='_blank' title='溧阳市城区道路配套排水管网三期工程一标段（观山路排水管网）'>[溧阳]溧阳市城区道路配套排水管网三期工程一标段（观山路排水管网）</a></td>
+<td width='80'>2015-06-17</td>
+</tr>
+<tr height='22'>
+<td><a href='/czztb/ZtbInfo/ZBGG_Detail.aspx?InfoID=23c06cd5-0503-41fb-a875-8e815f1bbadc' target='_blank' title='溧阳市城区道路配套排水管网工程十三标段（丁园路排水管网）'>[溧阳]溧阳市城区道路配套排水管网工程十三标段（丁园路排水管网）</a></td>
+<td width='80'>2015-06-17</td>
+</tr>
+<tr height='22'>
+<td><a href='/czztb/ZtbInfo/ZBGG_Detail.aspx?InfoID=1265726e-02b6-45bf-9059-82cad0834989' target='_blank' title='东经120生态创意步行街配套道路工程龙汇路（北塘河桥北—竹林北路）工程'>[常州市]东经120生态创意步行街配套道路工程龙汇路（北塘河桥北—竹林北路）工程</a></td>
+<td width='80'>2015-06-17</td>
+</tr>
+<tr height='22'>
+<td><a href='/czztb/ZtbInfo/ZBGG_Detail.aspx?InfoID=c961d099-d9f9-4fbe-b09a-e15428070acd' target='_blank' title='标准厂房及配套设施项目'>[新北区]标准厂房及配套设施项目</a></td>
+<td width='80'>2015-06-17</td>
+</tr>
+<tr height='22'>
+<td><a href='/czztb/ZtbInfo/ZBGG_Detail.aspx?InfoID=aa3d4c02-9acf-469d-bac3-c3da315cf5b4' target='_blank' title='水北小学至上汤村道路改造工程'>[金坛]水北小学至上汤村道路改造工程</a></td>
+<td width='80'>2015-06-12</td>
+</tr>
+<tr height='22'>
+<td><a href='/czztb/ZtbInfo/ZBGG_Detail.aspx?InfoID=2a826a4a-6a4f-4a05-9712-4c28898432ac' target='_blank' title='常州市变电站周边地块改造工程职教路（清凉东路-光华路）道路工程'>[常州市]常州市变电站周边地块改造工程职教路（清凉东路-光华路）道路工程</a></td>
+<td width='80'>2015-06-12</td>
+</tr>
+<tr height='22'>
+<td><a href='/czztb/ZtbInfo/ZBGG_Detail.aspx?InfoID=324f44cd-2117-409c-88d1-1c0cb8d1b8b2' target='_blank' title='新四军江南指挥部纪念馆毛泽东像陈列馆改造项目'>[溧阳]新四军江南指挥部纪念馆毛泽东像陈列馆改造项目</a></td>
+<td width='80'>2015-06-12</td>
+</tr>
+<tr height='22'>
+<td><a href='/czztb/ZtbInfo/ZBGG_Detail.aspx?InfoID=b515b022-c552-400a-98e9-10e80536ccba' target='_blank' title='常州市武进区2015年旧城改造工程鸣北，中凉，东方，夏雷，花园社区整治工程'>[武进]常州市武进区2015年旧城改造工程鸣北，中凉，东方，夏雷，花园社区整治工程</a></td>
+<td width='80'>2015-06-12</td>
+</tr>
+<tr height='22'>
+<td><a href='/czztb/ZtbInfo/ZBGG_Detail.aspx?InfoID=3aa8b24a-0a06-4aed-915c-54fde7461439' target='_blank' title='常州市武进区2015年旧城改造工程花东社区整治工程'>[武进]常州市武进区2015年旧城改造工程花东社区整治工程</a></td>
+<td width='80'>2015-06-12</td>
+</tr>
+<tr height='22'>
+<td><a href='/czztb/ZtbInfo/ZBGG_Detail.aspx?InfoID=68734ff3-7032-4cc4-9018-1fee34e8a0b7' target='_blank' title='星鑫家园二期定销商品房项目景观绿化、市政工程'>[常州市]星鑫家园二期定销商品房项目景观绿化、市政工程</a></td>
+<td width='80'>2015-06-12</td>
+</tr>
+<tr height='22'>
+<td><a href='/czztb/ZtbInfo/ZBGG_Detail.aspx?InfoID=c9e67e06-1d91-434e-9644-8743e95562a8' target='_blank' title='常州市城市防洪工程监控中心项目石材采购'>[常州市]常州市城市防洪工程监控中心项目石材采购</a></td>
+<td width='80'>2015-06-11</td>
+</tr>
+<tr height='30'>
+<td colspan=3 align=right><a href='MoreInfo.aspx?CategoryNum=010001001'>更多信息</a></td>
+</tr>
+</table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td width="8">
+                                        &nbsp;
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td height="6" bgcolor="#ffffff">
+            </td>
+        </tr>
+    </table>
+    <table width="988" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td>
+                <iframe src="/czztb/template/default/Foot.htm" width="988" height="140" frameborder="0" scrolling="no" align="center"></iframe>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

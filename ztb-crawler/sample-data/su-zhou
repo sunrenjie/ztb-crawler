@@ -1,0 +1,689 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><title>
+	苏州工业园区建设工程招投标网
+</title>
+    <script src="../Template/Default/js/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <link href="../Template/Default/css/style.css" rel="stylesheet" type="text/css" /><link href="../Template/Default/css/date.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript">
+
+        //搜索
+        function search() {
+            var tim = 10
+            if (tim == 10) {
+                tim = 0;
+
+                if (document.getElementById("txtSearch").value == "") {
+                    alert("搜索字段不能为空！")
+                }
+                else {
+                    var openUrl = "SearchResult.aspx?keyword="
+                    openUrl += escape(document.getElementById("txtSearch").value)
+                    openUrl += "&searchtype=title"
+                    window.open(openUrl)
+                }
+            }
+            else {
+                alert("两次搜索的时间间隔不能少于十秒")
+            }
+        }
+
+        function CheckSearch() {
+            if (event.keyCode == "13") {
+                if (document.getElementById("txtSearch").value != "") {
+                    search()
+                }
+                else {
+                    alert("搜索字段不能为空！")
+                }
+            }
+        }
+        function displaySubMenu() {
+            document.getElementById("qyyhlist").style.display = "";
+        }
+        function hideSubMenu() {
+            document.getElementById("qyyhlist").style.display = "none";
+        }
+
+
+    </script>
+    <style type="text/css">
+        .rui
+        {
+            border: 1.5px solid #e6e6e6;
+        }
+        a
+        {
+            color: #404040;
+            text-decoration: none;
+        }
+        .tab2 a
+        {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        .home a
+        {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        .nav a
+        {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        .qyyhlist a
+        {
+            display: block;
+            height: 29px;
+            line-height: 29px;
+            text-indent: 15px;
+            color: #333333;
+            font-family: 微软雅黑;
+            font-size: 14px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <form name="form1" method="post" action="MoreInfo_zbgg.aspx?categoryNum=001001" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="573F4992" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWBQKr4O6RBwLOw+6bCwLvtNuODAKdlJSXCgKs34rGBiTWpzUGgXsnxkvdhKSGtRVFYz8G" />
+    <div>
+        <div class="bg">
+            <img style="left: 0px; top: 0px; width: 100%; height: 100%; position: fixed;" src="../Template/Default/images/bg.jpg" />
+        </div>
+        <div class="top">
+        </div>
+        <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <title>瑞安市公共资源交易中心网上招投标</title>
+    <link href="../Template/Default/css/style.css" type="text/css" rel="stylesheet" />
+    <script src="../Template/Default/js/jquery-1.7.2.min.js" type="text/javascript"></script>
+    
+    <script type="text/javascript">
+        var controlid = null;
+        var currdate = null;
+        var startdate = null;
+        var enddate = null;
+        var yy = null;
+        var mm = null;
+        var hh = null;
+        var ii = null;
+        var currday = null;
+        var addtime = false;
+        var today = new Date();
+        var lastcheckedyear = false;
+        var lastcheckedmonth = false;
+        function _cancelBubble(event) {
+            e = event ? event : window.event;
+            if (ie) {
+                e.cancelBubble = true;
+            }
+            else {
+                e.stopPropagation();
+            }
+        }
+        function getposition(obj) {
+            var r = new Array();
+            r['x'] = obj.offsetLeft;
+            r['y'] = obj.offsetTop;
+            while (obj = obj.offsetParent) {
+                r['x'] += obj.offsetLeft;
+                r['y'] += obj.offsetTop;
+            }
+            return r;
+        }
+        function loadcalendar() {
+            s = '';
+            s += '<div id="calendar" style="display:none; position:absolute;z-index:9;" onclick="_cancelBubble(event)">';
+            if (ie) {
+                s += '<iframe width="200" height="160" src="about:blank" style="position: absolute;z-index:-1;"></iframe>';
+            }
+            s += '<div style="width: 200px;"><table class="tableborder" cellspacing="0" cellpadding="0" width="100%" style="text-align: center">';
+
+            s += '<tr align="center" class="header"><td class="header"><a href="#" onclick="refreshcalendar(yy, mm-1);return false" title="上一月"><<</a></td><td colspan="5" style="text-align: center" class="header"><a href="#" onclick="showdiv(\'year\');_cancelBubble(event);return false" title="点击选择年份" id="year"></a>年<a id="month" title="点击选择月份" href="#" onclick="showdiv(\'month\');_cancelBubble(event);return false"></a>月</td><td class="header"><A href="#" onclick="refreshcalendar(yy, mm+1);return false" title="下一月">>></A></td></tr>';
+            s += '<tr class="category"><td>日</td><td>一</td><td>二</td><td>三</td><td>四</td><td>五</td><td>六</td></tr>';
+            for (var i = 0; i < 6; i++) {
+                s += '<tr class="altbg2">';
+                for (var j = 1; j <= 7; j++)
+                    s += "<td id=d" + (i * 7 + j) + " height=\"19\">0</td>";
+                s += "</tr>";
+            }
+            s += '<tr id="hourminute"><td colspan="7" align="center"><input type="text" size="1" value="" id="hour" onKeyUp=\'this.value=this.value > 23 ? 23 : zerofill(this.value);controlid.value=controlid.value.replace(/\\d+(\:\\d+)/ig, this.value+"$1")\'> 点 <input type="text" size="1" value="" id="minute" onKeyUp=\'this.value=this.value > 59 ? 59 : zerofill(this.value);controlid.value=controlid.value.replace(/(\\d+\:)\\d+/ig, "$1"+this.value)\'> 分</td></tr>';
+            s += '</table></div></div>'; /// 
+            s += '<div id="calendar_year" onclick="_cancelBubble(event)"><div class="col">';
+            for (var k = 1930; k <= 2049; k++) {
+                s += k != 1930 && k % 10 == 0 ? '</div><div class="col">' : '';
+                s += '<a href="#" onclick="refreshcalendar(' + k + ', mm);$(\'calendar_year\').style.display=\'none\';return false"><span' + (today.getFullYear() == k ? ' class="today"' : '') + ' id="calendar_year_' + k + '">' + k + '</span></a><br />';
+            }
+            s += '</div></div>';
+            s += '<div id="calendar_month" onclick="_cancelBubble(event)">';
+            for (var k = 1; k <= 12; k++) {
+                s += '<a href="#" onclick="refreshcalendar(yy, ' + (k - 1) + ');$(\'calendar_month\').style.display=\'none\';return false"><span' + (today.getMonth() + 1 == k ? ' class="today"' : '') + ' id="calendar_month_' + k + '">' + k + (k < 10 ? ' ' : '') + ' 月</span></a><br />';
+            }
+            s += '</div>';
+            var nElement = document.createElement("div");
+            nElement.innerHTML = s;
+            document.getElementsByTagName("body")[0].appendChild(nElement);
+            //	document.write(s); 
+            document.onclick = function (event) {
+                $('calendar').style.display = 'none';
+                $('calendar_year').style.display = 'none';
+                $('calendar_month').style.display = 'none';
+            }
+            $('calendar').onclick = function (event) {
+                _cancelBubble(event);
+                $('calendar_year').style.display = 'none';
+                $('calendar_month').style.display = 'none';
+            }
+        }
+        function parsedate(s) {
+            /(\d+)\-(\d+)\-(\d+)\s*(\d*):?(\d*)/.exec(s);
+            var m1 = (RegExp.$1 && RegExp.$1 > 1899 && RegExp.$1 < 2101) ? parseFloat(RegExp.$1) : today.getFullYear();
+            var m2 = (RegExp.$2 && (RegExp.$2 > 0 && RegExp.$2 < 13)) ? parseFloat(RegExp.$2) : today.getMonth() + 1;
+            var m3 = (RegExp.$3 && (RegExp.$3 > 0 && RegExp.$3 < 32)) ? parseFloat(RegExp.$3) : today.getDate();
+            var m4 = (RegExp.$4 && (RegExp.$4 > -1 && RegExp.$4 < 24)) ? parseFloat(RegExp.$4) : 0;
+            var m5 = (RegExp.$5 && (RegExp.$5 > -1 && RegExp.$5 < 60)) ? parseFloat(RegExp.$5) : 0;
+            /(\d+)\-(\d+)\-(\d+)\s*(\d*):?(\d*)/.exec("0000-00-00 00\:00");
+            return new Date(m1, m2 - 1, m3, m4, m5);
+        }
+        function settime(d) {
+            $('calendar').style.display = 'none';
+            controlid.value = yy + "-" + zerofill(mm + 1) + "-" + zerofill(d) + (addtime ? ' ' + zerofill($('hour').value) + ':' + zerofill($('minute').value) : '');
+        }
+        function showcalendar(event, controlid1, addtime1, startdate1, enddate1) {
+            controlid = controlid1;
+            addtime = addtime1;
+            startdate = startdate1 ? parsedate(startdate1) : false;
+            enddate = enddate1 ? parsedate(enddate1) : false;
+            currday = controlid.value ? parsedate(controlid.value) : today;
+            hh = currday.getHours();
+            ii = currday.getMinutes();
+            var p = getposition(controlid);
+            $('calendar').style.display = 'block';
+            $('calendar').style.left = p['x'] + 'px';
+            $('calendar').style.top = (p['y'] + 20) + 'px';
+            _cancelBubble(event);
+            refreshcalendar(currday.getFullYear(), currday.getMonth());
+            if (lastcheckedyear != false) {
+                $('calendar_year_' + lastcheckedyear).className = 'default';
+                $('calendar_year_' + today.getFullYear()).className = 'today';
+            }
+            if (lastcheckedmonth != false) {
+                $('calendar_month_' + lastcheckedmonth).className = 'default';
+                $('calendar_month_' + (today.getMonth() + 1)).className = 'today';
+            }
+            $('calendar_year_' + currday.getFullYear()).className = 'checked';
+            $('calendar_month_' + (currday.getMonth() + 1)).className = 'checked';
+            $('hourminute').style.display = addtime ? '' : 'none';
+            lastcheckedyear = currday.getFullYear();
+            lastcheckedmonth = currday.getMonth() + 1;
+        }
+        function refreshcalendar(y, m) {
+            var x = new Date(y, m, 1);
+            var mv = x.getDay();
+            var d = x.getDate();
+            var dd = null;
+            yy = x.getFullYear();
+            mm = x.getMonth();
+            $("year").innerHTML = yy;
+            $("month").innerHTML = mm + 1 > 9 ? (mm + 1) : '0' + (mm + 1);
+            for (var i = 1; i <= mv; i++) {
+                dd = $("d" + i);
+                dd.innerHTML = " ";
+                dd.className = "";
+            }
+            while (x.getMonth() == mm) {
+                dd = $("d" + (d + mv));
+                dd.innerHTML = '<a href="###" onclick="settime(' + d + ');return false">' + d + '</a>';
+                if (x.getTime() < today.getTime() || (enddate && x.getTime() > enddate.getTime()) || (startdate && x.getTime() < startdate.getTime())) {
+                    dd.className = 'expire';
+                }
+                else {
+                    dd.className = 'default';
+                }
+                if (x.getFullYear() == today.getFullYear() && x.getMonth() == today.getMonth() && x.getDate() == today.getDate()) {
+                    dd.className = 'today';
+                    dd.firstChild.title = '今天';
+                }
+                if (x.getFullYear() == currday.getFullYear() && x.getMonth() == currday.getMonth() && x.getDate() == currday.getDate()) {
+                    dd.className = 'checked';
+                }
+                x.setDate(++d);
+            }
+            while (d + mv <= 42) {
+                dd = $("d" + (d + mv));
+                dd.innerHTML = " ";
+                d++;
+            }
+            if (addtime) {
+                $('hour').value = zerofill(hh);
+                $('minute').value = zerofill(ii);
+            }
+        }
+        function showdiv(id) {
+            var p = getposition($(id));
+            $('calendar_' + id).style.left = p['x'] + 'px';
+            $('calendar_' + id).style.top = (p['y'] + 16) + 'px';
+            $('calendar_' + id).style.display = 'block';
+        }
+        function zerofill(s) {
+            var s = parseFloat(s.toString().replace(/(^[\s0]+)|(\s+$)/g, ''));
+            s = isNaN(s) ? 0 : s;
+            return (s < 10 ? '0' : '') + s.toString();
+        }
+        loadcalendar();
+
+
+        //下面的代码段如果你页面里有，可以去掉 
+        var ie = navigator.appName == "Microsoft Internet Explorer" ? true : false;
+        function $(objID) {
+            return document.getElementById(objID);
+        } 
+       
+        jQuery(document).ready(function () {
+
+
+            /*赋值给文本框*/
+            jQuery(".qyyhlist ul li").click(function () {
+                var value = jQuery(this).text();
+                var url = jQuery(this).attr("title");
+                jQuery(this).parent().parent().siblings("input[type='text']").val(value);
+                jQuery(this).parent().parent().siblings("input[type='text']").attr("title", url);
+                jQuery(this).parent().parent().css("display", "none");
+            })
+
+            /*打开ul下拉*/
+            jQuery("#dlsf").mouseenter(function () {
+                //$("#select_ico").not(this).siblings(".qyyhlist").css("display", "none");
+                jQuery(this).siblings(".qyyhlist").toggle();
+                //alert("d");
+            });
+
+            jQuery(".state").click(function () {
+                var value = jQuery(".dlsf").attr("title");
+                window.open(value);
+            });
+
+
+            /**鼠标over,out***/
+            jQuery(".qyyhlist ul").mouseover(function () {
+                jQuery(".qyyhlist").css("display", "");
+            });
+            jQuery(".qyyhlist ul").mouseout(function () {
+                jQuery(".qyyhlist").css("display", "none");
+            })
+
+            jQuery(".dlsf").focus(function () {
+                jQuery(this).val("选择登录身份");
+                jQuery(this).attr("readonly", "readonly");
+            });
+            jQuery(".dlsf").blur(function () {
+                jQuery(this).siblings(".qyyhlist").css("display", "none");
+            });
+
+            //鼠标停移
+            jQuery(".qyyhlist li").hover(function () {
+                jQuery(this).css("background-color", "#208ac4");
+                jQuery(this).css("font-family", "微软雅黑");
+                jQuery(this).css("font-size", "14px");
+                jQuery(this).css("font-weight", "bold");
+                jQuery(this).css("color", "#ffffff");
+                jQuery(this).css("text-indent", "15px");
+            },
+    function () {
+        jQuery(this).css("background-color", "#E1ECFE");
+        jQuery(this).css("font-family", "微软雅黑");
+        jQuery(this).css("font-size", "14px");
+        jQuery(this).css("font-weight", "bold");
+        jQuery(this).css("color", "#333333");
+        jQuery(this).css("text-indent", "15px");
+    })
+
+
+        })
+       
+
+        
+    </script>
+</head>
+<body >
+    <table height="106" border="0" cellspacing="0" cellpadding="0" class="tab" style="margin-top: 50px;">
+        <tr>
+            <td width="380" class="title" height="35" colspan="8">&nbsp;
+                
+            </td>
+        </tr>
+        <tr>
+            <td width="380" height="36" colspan="8">&nbsp;
+                
+            </td>
+        </tr>
+        <tr>
+            <td width="73" class="home" height="35">
+                <a href="../" target="_parent">首页</a>
+            </td>
+            <td width="116" class="nav">
+                <a href="../bszn" target="_blank">办事指引</a>
+            </td>
+            <td width="116" class="nav">
+                <a href="../flfg" target="_blank">法律法规</a>
+            </td>
+            <td width="116" class="nav">
+                <a href="../ShowInfo/MoreInfo_qyxx.aspx?categoryNum=004" target="_blank">企业信息</a>
+            </td>
+            <td width="155">&nbsp;
+                
+            </td>
+            <td width="167">
+                <div class="input">
+                    <input type="text" value="请输入关键字" id="txtSearch" class="txt" onfocus="if(this.value=='请输入关键字'){this.value=''}"
+                        onblur="if(this.value==''){this.value='请输入关键字'}" onkeydown="CheckSearch()" /><input
+                            type="button" value="" class="btn" onclick="search()" /></div>
+            </td>
+            <td width="174">
+                <div class="sel">
+                    <input type="text" value="选择登录身份" id="dlsf" class="dlsf" title="" readonly="readonly" />
+                    <input type="button" id="select_ico" class="select_ico" />
+                    <input type="button" id="state" class="state" />
+                    <div class="qyyhlist" id="qyyhlist" style="display: none">
+                        <ul>
+                            <li title="http://58.210.186.140/yqztbhy/login_06.aspx?Type=13">投标人登录</li>
+                            <li title="http://58.210.186.140/yqztbhy/login_06.aspx?Type=11">招标人登录</li>
+                            <li title="http://58.210.186.140/yqztbhy/login_06.aspx?Type=18">代理登录</li>
+                            <li title="http://58.210.186.140/yqztb/WebBaseOnSzgxq/login.aspx">监管登录</li>
+                        </ul>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+
+        <div style="height: 59px;">
+        </div>
+        <table width="100%" height="80" border="0" cellspacing="0" cellpadding="0" bgcolor="#e6f0fb">
+            <tr>
+                <td>
+                    <table height="50" border="0" cellspacing="0" cellpadding="0" class="tab3">
+                        <tr>
+                            <td class="title2">
+                                招标公告
+                            </td>
+                            <td>
+                                <table border="0" cellspacing="0" cellpadding="0" class="border3 topd" width="750"
+                                    style="margin: 0 auto">
+                                    
+                                    <tr>
+                                        <td height="44" width="54" class="font5">
+                                            标题
+                                        </td>
+                                        <td width="200">
+                                            <input name="txtKeys" type="text" id="txtKeys" class="txt2" />
+                                        </td>
+                                        <td class="font5" width="70" style="text-align:center">
+                                            时间
+                                        </td>
+                                       <td align="left" width="426">
+                                            <table height="44" border="0" cellspacing="0" cellpadding="0">
+                                                <tr>
+                                                    <td width="17">
+                                                    </td>
+                                                    <td width="143">
+                                                        <input name="txtTimeFrom" type="text" id="txtTimeFrom" class="riqi" onclick="showcalendar(event,this);" onfocus="showcalendar(event, this);if(this.value=='0000-00-00')this.value=''" />
+                                                    </td>
+                                                    <td width="39" align="center">
+                                                        至
+                                                    </td>
+                                                    <td width="143">
+                                                        <input name="txtTimeTo" type="text" id="txtTimeTo" class="riqi" onclick="showcalendar(event,this);" onfocus="showcalendar(event, this);if(this.value=='0000-00-00')this.value=''" />
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="3" width="560">
+                                        </td>
+                                        <td align="right" style="padding-right:10px;">
+                                            <input type="submit" name="button1" value="" id="button1" class="sub" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td height="11" colspan="4">
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#f4f9fd">
+            <tr>
+                <td>
+                    <table border="0" height="32" cellspacing="0" cellpadding="0" class="tab3 border1 topd">
+                        <tr>
+                            <td width="323" class="now">
+                                您的当前位置：<a href="../">首页</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;<span class="red">招标公告</span>
+                            </td>
+                            <td width="775" class="bg3">&nbsp;
+                                
+                            </td>
+                            <td width="14">
+                            </td>
+                        </tr>
+                    </table>
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="tab3 border2"
+                        style="margin-bottom: 17px;">
+                        <tr>
+                            <td height="350" bgcolor="#ffffff" valign="top">
+                                <table cellspacing="0" align="Center" rules="all" border="0" id="DataGrid1" width="98%">
+	<tr valign="top">
+		<td align="center" valign="middle" width="15">
+                                                <img src="/yqztbweb/images/dots/dot1.gif">
+                                            </td><td align="left" valign="middle">
+                                                <a href="/yqztbweb/InfoDetail/Default.aspx?InfoID=f30c0af7-03f9-4831-8d15-2db6c5112ad6&CategoryNum=001001" target="_blank" title="苏州中心广场项目7#楼酒店精装修工程一标段、苏州中心项目苏州中心广场项目7#楼酒店精装修工程二标段、苏州中心项目苏州中心广场项目7#楼酒店精装修工程三标段[二次公告]">苏州中心广场项目7#楼酒店精装修工程一标段、苏州中心项目苏州中心广场项目7#楼酒店精装修工程二标段、苏州中心项目苏州中心广场项目7#楼酒店精装修工程三标段[二次公告]</a>
+                                            </td><td align="center" valign="middle" width="160">
+                                                
+                                            </td><td align="center" valign="middle" width="80">
+                                                2015-06-27
+                                            </td>
+	</tr><tr valign="top">
+		<td align="center" valign="middle" width="15">
+                                                <img src="/yqztbweb/images/dots/dot1.gif">
+                                            </td><td align="left" valign="middle">
+                                                <a href="/yqztbweb/InfoDetail/Default.aspx?InfoID=642b1a47-eaab-44ef-84d0-5554cee6ba84&CategoryNum=001001" target="_blank" title="娄葑车坊老市镇居民动迁安置小区文荟苑二区室外高低压电缆通道工程[招标公告]">娄葑车坊老市镇居民动迁安置小区文荟苑二区室外高低压电缆通道工程[招标公告]</a>
+                                            </td><td align="center" valign="middle" width="160">
+                                                
+                                            </td><td align="center" valign="middle" width="80">
+                                                2015-06-27
+                                            </td>
+	</tr><tr valign="top">
+		<td align="center" valign="middle" width="15">
+                                                <img src="/yqztbweb/images/dots/dot1.gif">
+                                            </td><td align="left" valign="middle">
+                                                <a href="/yqztbweb/InfoDetail/Default.aspx?InfoID=df330a1a-3fc7-4a80-8ef7-f42ceea12f06&CategoryNum=001001" target="_blank" title="娄葑车坊老市镇居民动迁安置小区文荟苑一区室外高低压电缆通道工程[招标公告]">娄葑车坊老市镇居民动迁安置小区文荟苑一区室外高低压电缆通道工程[招标公告]</a>
+                                            </td><td align="center" valign="middle" width="160">
+                                                
+                                            </td><td align="center" valign="middle" width="80">
+                                                2015-06-27
+                                            </td>
+	</tr><tr valign="top">
+		<td align="center" valign="middle" width="15">
+                                                <img src="/yqztbweb/images/dots/dot1.gif">
+                                            </td><td align="left" valign="middle">
+                                                <a href="/yqztbweb/InfoDetail/Default.aspx?InfoID=bc5a26fd-3699-4ca0-bd30-d54d082e1c44&CategoryNum=001001" target="_blank" title="胜浦街道金光幼儿园（二所分园）零星维修工程吴淞幼儿园维修改造工程、胜浦街道金光幼儿园（二所分园）零星维修工程浪花苑幼儿园维修改造工程[招标公告]">胜浦街道金光幼儿园（二所分园）零星维修工程吴淞幼儿园维修改造工程、胜浦街道金光幼儿园（二所分园）零星维修工程浪花苑幼儿园维修改造工程[招标公告]</a>
+                                            </td><td align="center" valign="middle" width="160">
+                                                
+                                            </td><td align="center" valign="middle" width="80">
+                                                2015-06-27
+                                            </td>
+	</tr><tr valign="top">
+		<td align="center" valign="middle" width="15">
+                                                <img src="/yqztbweb/images/dots/dot1.gif">
+                                            </td><td align="left" valign="middle">
+                                                <a href="/yqztbweb/InfoDetail/Default.aspx?InfoID=a9275ac4-21f5-4c0f-b351-0931be4ae106&CategoryNum=001001" target="_blank" title="体育中心体育场馆苏州工业园区体育中心变配电工程二标段、体育中心体育场馆苏州工业园区体育中心变配电工程三标段[三次公告]">体育中心体育场馆苏州工业园区体育中心变配电工程二标段、体育中心体育场馆苏州工业园区体育中心变配电工程三标段[三次公告]</a>
+                                            </td><td align="center" valign="middle" width="160">
+                                                
+                                            </td><td align="center" valign="middle" width="80">
+                                                2015-06-27
+                                            </td>
+	</tr><tr valign="top">
+		<td align="center" valign="middle" width="15">
+                                                <img src="/yqztbweb/images/dots/dot1.gif">
+                                            </td><td align="left" valign="middle">
+                                                <a href="/yqztbweb/InfoDetail/Default.aspx?InfoID=e4be8098-840d-46e5-a7de-b8bc3ab4e013&CategoryNum=001001" target="_blank" title="苏州工业园区第六中学重建智能化工程[招标公告][资格后审]">苏州工业园区第六中学重建智能化工程[招标公告][资格后审]</a>
+                                            </td><td align="center" valign="middle" width="160">
+                                                
+                                            </td><td align="center" valign="middle" width="80">
+                                                2015-06-26
+                                            </td>
+	</tr><tr valign="top">
+		<td align="center" valign="middle" width="15">
+                                                <img src="/yqztbweb/images/dots/dot1.gif">
+                                            </td><td align="left" valign="middle">
+                                                <a href="/yqztbweb/InfoDetail/Default.aspx?InfoID=e1feb299-42b9-43d8-bcf8-d421b5273fed&CategoryNum=001001" target="_blank" title="苏州中心广场项目能源中心机电安装工程[第六次公告修正]">苏州中心广场项目能源中心机电安装工程[第六次公告修正]</a>
+                                            </td><td align="center" valign="middle" width="160">
+                                                
+                                            </td><td align="center" valign="middle" width="80">
+                                                2015-06-26
+                                            </td>
+	</tr><tr valign="top">
+		<td align="center" valign="middle" width="15">
+                                                <img src="/yqztbweb/images/dots/dot1.gif">
+                                            </td><td align="left" valign="middle">
+                                                <a href="/yqztbweb/InfoDetail/Default.aspx?InfoID=adc0f630-a400-4f01-8ced-66a73c6071bf&CategoryNum=001001" target="_blank" title="月亮湾建屋广场(DK20080367)紫宸庭空调能量表工程[二次公告]">月亮湾建屋广场(DK20080367)紫宸庭空调能量表工程[二次公告]</a>
+                                            </td><td align="center" valign="middle" width="160">
+                                                
+                                            </td><td align="center" valign="middle" width="80">
+                                                2015-06-26
+                                            </td>
+	</tr><tr valign="top">
+		<td align="center" valign="middle" width="15">
+                                                <img src="/yqztbweb/images/dots/dot1.gif">
+                                            </td><td align="left" valign="middle">
+                                                <a href="/yqztbweb/InfoDetail/Default.aspx?InfoID=512a9259-70e4-4278-9ab8-cc471a048898&CategoryNum=001001" target="_blank" title="体育中心体育场馆体育中心项目中央制冷机房工程[二次公告]">体育中心体育场馆体育中心项目中央制冷机房工程[二次公告]</a>
+                                            </td><td align="center" valign="middle" width="160">
+                                                
+                                            </td><td align="center" valign="middle" width="80">
+                                                2015-06-26
+                                            </td>
+	</tr><tr valign="top">
+		<td align="center" valign="middle" width="15">
+                                                <img src="/yqztbweb/images/dots/dot1.gif">
+                                            </td><td align="left" valign="middle">
+                                                <a href="/yqztbweb/InfoDetail/Default.aspx?InfoID=4ab70a8a-03e2-445c-92db-b806383e8e8e&CategoryNum=001001" target="_blank" title="娄葑车坊淞泽家园动迁房一至九区淞泽家园八区西三期高层动迁房景观绿化工程[二次公告]">娄葑车坊淞泽家园动迁房一至九区淞泽家园八区西三期高层动迁房景观绿化工程[二次公告]</a>
+                                            </td><td align="center" valign="middle" width="160">
+                                                
+                                            </td><td align="center" valign="middle" width="80">
+                                                2015-06-26
+                                            </td>
+	</tr><tr valign="top">
+		<td align="center" valign="middle" width="15">
+                                                <img src="/yqztbweb/images/dots/dot1.gif">
+                                            </td><td align="left" valign="middle">
+                                                <a href="/yqztbweb/InfoDetail/Default.aspx?InfoID=894bde33-4562-4a2c-905f-41e52b0d85be&CategoryNum=001001" target="_blank" title="微软（中国）苏州科技园一期工程变电所设备安装工程[二次公告]">微软（中国）苏州科技园一期工程变电所设备安装工程[二次公告]</a>
+                                            </td><td align="center" valign="middle" width="160">
+                                                
+                                            </td><td align="center" valign="middle" width="80">
+                                                2015-06-25
+                                            </td>
+	</tr><tr valign="top">
+		<td align="center" valign="middle" width="15">
+                                                <img src="/yqztbweb/images/dots/dot1.gif">
+                                            </td><td align="left" valign="middle">
+                                                <a href="/yqztbweb/InfoDetail/Default.aspx?InfoID=c12dfaa2-ea06-4ba0-8c04-8e6afb983824&CategoryNum=001001" target="_blank" title="兴业银行苏州分行新营业办公大楼装饰工程监理[二次公告]">兴业银行苏州分行新营业办公大楼装饰工程监理[二次公告]</a>
+                                            </td><td align="center" valign="middle" width="160">
+                                                
+                                            </td><td align="center" valign="middle" width="80">
+                                                2015-06-25
+                                            </td>
+	</tr><tr valign="top">
+		<td align="center" valign="middle" width="15">
+                                                <img src="/yqztbweb/images/dots/dot1.gif">
+                                            </td><td align="left" valign="middle">
+                                                <a href="/yqztbweb/InfoDetail/Default.aspx?InfoID=b5b46076-2eed-48fb-9808-4bedd142bc99&CategoryNum=001001" target="_blank" title="高浜社区老年活动中心改造工程[招标公告]">高浜社区老年活动中心改造工程[招标公告]</a>
+                                            </td><td align="center" valign="middle" width="160">
+                                                
+                                            </td><td align="center" valign="middle" width="80">
+                                                2015-06-25
+                                            </td>
+	</tr><tr valign="top">
+		<td align="center" valign="middle" width="15">
+                                                <img src="/yqztbweb/images/dots/dot1.gif">
+                                            </td><td align="left" valign="middle">
+                                                <a href="/yqztbweb/InfoDetail/Default.aspx?InfoID=5307ef0b-ebd1-417e-a6a1-e351b7c7bd6f&CategoryNum=001001" target="_blank" title="苏州工业园区娄葑实验小学夏园校区及幼儿园苏州工业园区娄葑实验小学夏园校区保留教学楼改造精装修工程[招标公告]">苏州工业园区娄葑实验小学夏园校区及幼儿园苏州工业园区娄葑实验小学夏园校区保留教学楼改造精装修工程[招标公告]</a>
+                                            </td><td align="center" valign="middle" width="160">
+                                                
+                                            </td><td align="center" valign="middle" width="80">
+                                                2015-06-24
+                                            </td>
+	</tr><tr valign="top">
+		<td align="center" valign="middle" width="15">
+                                                <img src="/yqztbweb/images/dots/dot1.gif">
+                                            </td><td align="left" valign="middle">
+                                                <a href="/yqztbweb/InfoDetail/Default.aspx?InfoID=7db2ebd5-a3f2-47d5-837a-035e3044be16&CategoryNum=001001" target="_blank" title="星湾学校西校区项目星湾学校西校区土建安装总承包工程[招标公告]">星湾学校西校区项目星湾学校西校区土建安装总承包工程[招标公告]</a>
+                                            </td><td align="center" valign="middle" width="160">
+                                                
+                                            </td><td align="center" valign="middle" width="80">
+                                                2015-06-24
+                                            </td>
+	</tr>
+</table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td height="8">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="Xline2" height="3">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right" height="25">
+                                
+<!------------------------------ AspNetPager V4.3.3 Start ------------------------------>
+<!-------------------- Copyright:2003-2005 Webdiyer(www.webdiyer.com) --------------------->
+<div id="Pager">
+	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td valign="bottom" align="left" nowrap="true" width="40%">记录总数：<font color="blue"><b>7421</b></font> 总页数：<font color="blue"><b>495</b></font> 当前页：<font color="red"><b>1</b></font></td><td valign="bottom" align="notset" nowrap="true" class="" width="60%"><img src="/yqztbweb/images/page/firstg.gif" border="0" align="Baseline" /><span></span><img src="/yqztbweb/images/page/prevg.gif" border="0" align="Baseline" /><span></span><img src="/yqztbweb/images/page/1r.gif" align="Baseline" border="0" /><span></span><a href="javascript:__doPostBack('Pager','2')" title="转到第2页"><img src="/yqztbweb/images/page/2n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('Pager','3')" title="转到第3页"><img src="/yqztbweb/images/page/3n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('Pager','4')" title="转到第4页"><img src="/yqztbweb/images/page/4n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('Pager','5')" title="转到第5页"><img src="/yqztbweb/images/page/5n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('Pager','6')" title="转到第6页"><img src="/yqztbweb/images/page/6n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('Pager','7')" title="转到第7页"><img src="/yqztbweb/images/page/7n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('Pager','8')" title="转到第8页"><img src="/yqztbweb/images/page/8n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('Pager','9')" title="转到第9页"><img src="/yqztbweb/images/page/9n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('Pager','10')" title="转到第10页"><img src="/yqztbweb/images/page/1n.gif" align="Baseline" border="0" /><img src="/yqztbweb/images/page/0n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('Pager','11')" title="转到第11页"><img src="/yqztbweb/images/page/moren.gif" border="0" align="Baseline" /></a><span></span><a href="javascript:__doPostBack('Pager','2')" title="转到第2页"><img src="/yqztbweb/images/page/nextn.gif" border="0" align="Baseline" /></a><span></span><a href="javascript:__doPostBack('Pager','495')" title="转到第495页"><img src="/yqztbweb/images/page/lastn.gif" border="0" align="Baseline" /></a><span></span></td>
+		</tr>
+	</table>
+</div>
+<!------------------------------- AspNetPager V4.3.3 End -------------------------------->
+
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="Xline2" height="3">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table height="115" border="0" cellspacing="0" cellpadding="0" class="tab3">
+            <tr>
+                <td class="foot">
+                    主办单位：苏州工业园区建设工程有形市场管理中心 技术支持：江苏国泰新点软件有限公司<br />
+                    备案号：苏ICP备05065019号 您是本站第<span class="font18 white"><script src="../Count.aspx" type="text/javascript"></script></span>位访客
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

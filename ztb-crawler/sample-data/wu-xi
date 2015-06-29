@@ -1,0 +1,350 @@
+
+<html>
+<head>
+    <title>无锡市招投标网</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+    <link href="/wxzb/css/Styles.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <table width="778" border="0" align="center" cellpadding="0" cellspacing="0" id="Table38">
+        <tr>
+            <td>
+                <iframe src="/wxzb/template/default/top.html" width="778" height="181" frameborder="0"
+                    scrolling="no"></iframe>
+            </td>
+        </tr>
+    </table>
+    <table width="781" border="0" align="center" cellpadding="0" cellspacing="0" id="Table2">
+        <tr>
+            <td width="179" valign="top" height="100%">
+                <table width="179" border="0" cellspacing="0" cellpadding="0" id="Table3" height="100%">
+                    <tr>
+                        <td width="179" height="37" background="/wxzb/template/Default/images/lanmu_01.jpg"
+                            class="CategoryNameTop">
+                            公告通知
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="1" background="/wxzb/template/Default/images/leftmenu_bg.jpg ">
+                            <table cellspacing="0" cellpadding="0" width="100%" border="0">
+                                
+                                <tr>
+                                    <td class="LeftMenu" background="/wxzb/">
+                                        <a href="../ZtbInfo/MoreZBGG.aspx?type=01" target="_self"><font color="#000000">工程类</font></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="LeftMenu" background="/wxzb/">
+                                        <a href="../ZtbInfo/MoreZBGG.aspx?type=03" target="_self"><font color="#000000">非工程类</font></a>
+                                    </td>
+                                </tr>
+                            </table>
+                            <script>                                function OpenDiv(cate) { if (document.getElementById(cate).style.display == '') { document.getElementById(cate).style.display = 'none' } else { document.getElementById(cate).style.display = '' } }</script>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="1" background="/wxzb/template/Default/images/leftmenu_bg.jpg ">
+                            <table cellspacing="0" cellpadding="0" width="100%" border="0">
+                                <tr>
+                                    <td class="LeftMenu" background="/wxzb/">
+                                        <a href="http://61.160.74.107/wxzbnew/ZtbInfo/MoreZBGG.aspx?type=01" target="_self"><font
+                                            color="#000000">网上招投标（工程类）</font></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="LeftMenu" background="/wxzb/">
+                                        <a href="http://61.160.74.107/wxzbnew/ZtbInfo/MoreZBGG.aspx?type=03" target="_self"><font
+                                            color="#000000">网上招投标（非工程类）</font></a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="4" bgcolor="#359bc0">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td bgcolor="#c4eefc">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="1" valign="bottom" bgcolor="#c4eefc">
+                            <img src="/wxzb/template/Default/images/tu_010.jpg" width="179" height="266">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td width="7" align="left" valign="top" bgcolor="#ffffff">
+                &nbsp;
+            </td>
+            <td width="595" valign="top">
+                <table width="595" border="0" cellspacing="0" cellpadding="0" id="Table4">
+                    <tr>
+                        <td width="595">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="10" valign="top">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" height="33">
+                            <iframe src="/wxzb/template/default/menu.html" width="591" height="33" frameborder="0"
+                                scrolling="no"></iframe>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="25" valign="top" background="/wxzb/template/Default/images/c_09.jpg">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0" id="Table6">
+                                <tr>
+                                    <td width="1" style="padding-top: 5px; padding-left: 5px;">
+                                        <img src="/wxzb/Template/Default/images/dd.gif">
+                                    </td>
+                                    <td style="padding-top: 9px;">
+                                        <table cellspacing="0" cellpadding="0" border="0">
+                                            <tr>
+                                                <td align="center" width="15">
+                                                </td>
+                                                <td align="left">
+                                                    <font color="#000000"><b>您当前所在位置：</b></font> <a href='/wxzb/'><font color="#000000">
+                                                        首页</font></a><font color="#000000"> &gt; 公告信息</font>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="200" valign="top" style="padding-top: 10px;">
+                            <form name="Form1" method="post" action="MoreZBGG.aspx" id="Form1">
+<input type="hidden" name="__CSRFTOKEN" id="__CSRFTOKEN" value="/wEFJGJlYTg2NWU4LTg1NWYtNDgyOS04OTZiLWRjMDczZDcwODY5NA==" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE4MDk2ODkxNDYPZBYCAgEPZBYCAgEPZBYEAgEPZBYCZg9kFgICAQ88KwALAQAPFgoeC18hSXRlbUNvdW50AhQeCERhdGFLZXlzFgAeCVBhZ2VDb3VudAIBHhVfIURhdGFTb3VyY2VJdGVtQ291bnQCFB4IUGFnZVNpemUCFGQWAmYPZBYoAgIPZBYEAgEPZBYCZg8VAeYCPGEgaHJlZj0iLi4vWnRiSW5mby9aQkdHSW5mby5hc3B4P0dvbmdHYW9HdWlkPWY1ZTU2NDA1LTRlMDYtNDRiZi05ZDI5LWU5YmEwMjM4MWIwYSZCaWFvRHVhbkd1aWQ9YTcwZjg5YzQtMTgxYi00NGYwLWExNTctMGNhOGY1MDExNjEwIiB0YXJnZXQ9Il9ibGFuayIgdGl0bGU9Ilvmlr3lt6VdW1dYWFEyMDE1MDEwMDMtMDJd5paw5Z+O5rC05aSE55CG5Y6C5Zub5pyf5omp5bu65bel56iLL+iEseawtOacuuaIv+aUuemAoOW3peeoiyjmlr3lt6UpIj5b5pa95belXVtXWFhRMjAxNTAxMDAzLTAyXeaWsOWfjuawtOWkhOeQhuWOguWbm+acn+aJqeW7uuW3peeoi+iEseawtOacuuaIv+aUuemAoOW3peeoiyjkuozmrKHlhazlkYopPC9hPmQCAg9kFgJmDxUBCTIwMTUtNi0yNmQCAw9kFgQCAQ9kFgJmDxUB0AM8YSBocmVmPSIuLi9adGJJbmZvL1pCR0dJbmZvLmFzcHg/R29uZ0dhb0d1aWQ9YTA0Y2FmNGUtYmM2NC00MmE1LWFiOWQtYmUwMTVhZGI0ZjJkJkJpYW9EdWFuR3VpZD0yMzE0Mjg1ZC01OGQ2LTQxMjQtYjMwZC1kMzc2MWJkMzU2ZDIiIHRhcmdldD0iX2JsYW5rIiB0aXRsZT0iW+iuvuiuoV1bV1hYUTIwMTQwNTAwMi0wM13ml6DplKHmlrDljLrmlrDnkZ7ljLvpmaLvvIjkuIrmtbfkuqTpgJrlpKflrabljLvlrabpmaLpmYTlsZ7nkZ7ph5HljLvpmaLml6DplKHliIbpmaLkuIDmnJ/vvInpobnnm64v5pm66IO95YyW57O757uf6K6+6K6hKOiuvuiuoSkiPlvorr7orqFdW1dYWFEyMDE0MDUwMDItMDNd5peg6ZSh5paw5Yy65paw55Ge5Yy76Zmi77yI5LiK5rW35Lqk6YCa5aSn5a2m5Yy75a2m6Zmi6ZmE5bGe55Ge6YeR5Yy76Zmi5peg6ZSh5YiG6Zmi5LiA5pyf77yJ6aG555uu5pm66IO95YyW57O757uf6K6+6K6hPC9hPmQCAg9kFgJmDxUBCTIwMTUtNi0xN2QCBA9kFgQCAQ9kFgJmDxUB+AI8YSBocmVmPSIuLi9adGJJbmZvL1pCR0dJbmZvLmFzcHg/R29uZ0dhb0d1aWQ9MmJjNDEyYWEtODg0OC00MTFkLTg2ODctOTgwNWUyZGZhYmQ2JkJpYW9EdWFuR3VpZD1lMGEzYWNiYS1iNmI5LTRjZjgtYjBjNy01NjA2MzNjMmExNWIiIHRhcmdldD0iX2JsYW5rIiB0aXRsZT0iW+iuvuiuoV1bV1hCSDIwMTUwNTAwNC0wMV3mu6jmuZbljLrpnZ7nianotKjmlofljJbpgZfkuqflsZXnpLrppoboo4XmvaLluIPlsZXpobnnm64v6K6+6K6h5bel56iLKOiuvuiuoSkiPlvorr7orqFdW1dYQkgyMDE1MDUwMDQtMDFd5ruo5rmW5Yy66Z2e54mp6LSo5paH5YyW6YGX5Lqn5bGV56S66aaG6KOF5r2i5biD5bGV6aG555uu6K6+6K6h5bel56iLKOS6jOasoeWFrOWRiik8L2E+ZAICD2QWAmYPFQEJMjAxNS02LTEyZAIFD2QWBAIBD2QWAmYPFQHyBDxhIGhyZWY9Ii4uL1p0YkluZm8vWkJHR0luZm8uYXNweD9Hb25nR2FvR3VpZD0xMWZhODE1Mi1jMzI3LTRhODMtYjZhMC1iYmM0ZmEyZjMxMzImQmlhb0R1YW5HdWlkPWNjYThhMjBhLTRkODYtNGVhOS1hODAzLTU2ZTY0Y2Q3YzViYiIgdGFyZ2V0PSJfYmxhbmsiIHRpdGxlPSJb5p2Q5paZ6K6+5aSHXVtXWFhRMjAxMzA4MDA0LTAyXeS4reWbveiBlOWQiOe9kee7nOmAmuS/oeaciemZkOWFrOWPuOeJqeiBlOe9keeglOeptumZouWfuuWcsO+8iOaVsOaNruS4reW/g++8iemhueebruS4gOacn+W3peeoiy/kuK3lm73ogZTpgJrmsZ/oi4/ml6DplKHnianogZTnvZHln7rlnLDkuIDmnJ/lt6XnqIvmnLrmiL/kuK3lpK7nqbrosIPns7vnu5/ph4fotK3lj4rlronoo4Xlt6XnqIso5p2Q5paZ6K6+5aSHKSI+W+adkOaWmeiuvuWkh11bV1hYUTIwMTMwODAwNC0wMl3kuK3lm73ogZTlkIjnvZHnu5zpgJrkv6HmnInpmZDlhazlj7jnianogZTnvZHnoJTnqbbpmaLln7rlnLDvvIjmlbDmja7kuK3lv4PvvInpobnnm67kuIDmnJ/lt6XnqIvkuK3lm73ogZTpgJrmsZ/oi4/ml6DplKHnianogZTnvZHln7rlnLDkuIDmnJ/lt6XnqIvmnLrmiL/kuK3lpK7nqbrosIPns7vnu5/ph4fotK3lj4rlronoo4Xlt6XnqIs8L2E+ZAICD2QWAmYPFQEJMjAxNS02LTEyZAIGD2QWBAIBD2QWAmYPFQGqAzxhIGhyZWY9Ii4uL1p0YkluZm8vWkJHR0luZm8uYXNweD9Hb25nR2FvR3VpZD1mMjU4YzgxZS1jOGYxLTQzYmQtOTBiOC1lYTA0ODNlNTUxMTMmQmlhb0R1YW5HdWlkPTdjMzk0ZDY2LTAwZTgtNGE0MS1iN2E3LTJkMThiODEwODMzNCIgdGFyZ2V0PSJfYmxhbmsiIHRpdGxlPSJb5p2Q5paZ6K6+5aSHXVtXWFMyMDEyMTEwMTEtMDJd5biC5YWs6Lev566h55CG56uZ5piT5Zyw6YeN5bu66aG555uuL+W4guWFrOi3r+euoeeQhuermeaYk+WcsOmHjeW7uumhueebrueUteair+aIkOWll+iuvuWkh+WPiuebuOWFs+acjeWKoemHh+i0rSjmnZDmlpnorr7lpIcpIj5b5p2Q5paZ6K6+5aSHXVtXWFMyMDEyMTEwMTEtMDJd5biC5YWs6Lev566h55CG56uZ5piT5Zyw6YeN5bu66aG555uu55S15qKv5oiQ5aWX6K6+5aSH5Y+K55u45YWz5pyN5Yqh6YeH6LStPC9hPmQCAg9kFgJmDxUBCTIwMTUtNi0xMmQCBw9kFgQCAQ9kFgJmDxUBygI8YSBocmVmPSIuLi9adGJJbmZvL1pCR0dJbmZvLmFzcHg/R29uZ0dhb0d1aWQ9Mjk3NjZmN2QtZmY3Zi00NDg5LWFlYjYtZWI5MDZhMjNkNDQ1JkJpYW9EdWFuR3VpZD1jYmU3OGVhZC01N2NmLTRjNDktYjMwNC1jN2YwOWMwMjAwODYiIHRhcmdldD0iX2JsYW5rIiB0aXRsZT0iW+adkOaWmeiuvuWkh11bV1hTMjAxMjA5MDA4LTAzXeavm+W3t+WinuihpeW3peeoiy/nlLXmoq/orr7lpIfph4fotK3lj4rlronoo4Uo5p2Q5paZ6K6+5aSHKSI+W+adkOaWmeiuvuWkh11bV1hTMjAxMjA5MDA4LTAzXeavm+W3t+WinuihpeW3peeoi+eUteair+iuvuWkh+mHh+i0reWPiuWuieijhTwvYT5kAgIPZBYCZg8VAQkyMDE1LTYtMTJkAggPZBYEAgEPZBYCZg8VAcQDPGEgaHJlZj0iLi4vWnRiSW5mby9aQkdHSW5mby5hc3B4P0dvbmdHYW9HdWlkPTBkMTU2ODBmLTI0MTgtNGNjYy1hOGVjLTUyNGRlYzAyNjk0NyZCaWFvRHVhbkd1aWQ9MTM4YTllZWYtNzcxZi00OGVjLWFkYjAtNjliZDY5NTJjMWY3IiB0YXJnZXQ9Il9ibGFuayIgdGl0bGU9Ilvorr7orqFdW1dYWFEyMDE1MDUwMDgtMDFd5peg6ZSh56eR5oqA6IGM5Lia5oqA5pyv5a2m6Zmi57u85ZCI5oCn5L2T6IKy6aaG5bel56iL6aG555uuL+aXoOmUoeenkeaKgOiBjOS4muWtpumZoue7vOWQiOaAp+S9k+iCsummhumhueebruiuvuiuoSjorr7orqEpIj5b6K6+6K6hXVtXWFhRMjAxNTA1MDA4LTAxXeaXoOmUoeenkeaKgOiBjOS4muaKgOacr+WtpumZoue7vOWQiOaAp+S9k+iCsummhuW3peeoi+mhueebruaXoOmUoeenkeaKgOiBjOS4muWtpumZoue7vOWQiOaAp+S9k+iCsummhumhueebruiuvuiuoTwvYT5kAgIPZBYCZg8VAQkyMDE1LTYtMTFkAgkPZBYEAgEPZBYCZg8VAbUDPGEgaHJlZj0iLi4vWnRiSW5mby9aQkdHSW5mby5hc3B4P0dvbmdHYW9HdWlkPWMxYmI0NmMwLTVhNjItNGJkNS1iYzA0LWRjODk0YjUwYzc3NCZCaWFvRHVhbkd1aWQ9Mzg5ZTJiZWUtNjFmOC00M2E4LWJkZDktOWIxNmY5NGM1OGJlIiB0YXJnZXQ9Il9ibGFuayIgdGl0bGU9Ilvorr7orqFdW1dYUzIwMTUwNDAwNS0wMV3ml6DplKHluILlronlhajkvpvmsLTogIHml6fnrqHnvZHmlLnpgKDlt6XnqIvvvIgyMDE1LTIwMTblubTvvIkv5peg6ZSh5biC5a6J5YWo5L6b5rC06ICB5pen566h572R5pS56YCg5bel56iL77yIMjAxNS0yMDE25bm077yJ6K6+6K6hKOiuvuiuoSkiPlvorr7orqFdW1dYUzIwMTUwNDAwNS0wMV3ml6DplKHluILlronlhajkvpvmsLTogIHml6fnrqHnvZHmlLnpgKDlt6XnqIvvvIgyMDE1LTIwMTblubTvvInorr7orqEo5LqM5qyh5YWs5ZGKKTwvYT5kAgIPZBYCZg8VAQgyMDE1LTYtOGQCCg9kFgQCAQ9kFgJmDxUB6gI8YSBocmVmPSIuLi9adGJJbmZvL1pCR0dJbmZvLmFzcHg/R29uZ0dhb0d1aWQ9YzY2YWUxNWMtMDBiMy00MDVlLWJjZDEtYzc5NjEzYWIzZjVlJkJpYW9EdWFuR3VpZD04ODBkNTRjMy1lNjBiLTRkOTQtYTJhMy01N2I2NDk2ZDMzOTMiIHRhcmdldD0iX2JsYW5rIiB0aXRsZT0iW+iuvuiuoV1bV1hCSDIwMTUwNTAwNC0wMV3mu6jmuZbljLrpnZ7nianotKjmlofljJbpgZfkuqflsZXnpLrppoboo4XmvaLluIPlsZXpobnnm64v6K6+6K6h5bel56iLKOiuvuiuoSkiPlvorr7orqFdW1dYQkgyMDE1MDUwMDQtMDFd5ruo5rmW5Yy66Z2e54mp6LSo5paH5YyW6YGX5Lqn5bGV56S66aaG6KOF5r2i5biD5bGV6aG555uu6K6+6K6h5bel56iLPC9hPmQCAg9kFgJmDxUBCDIwMTUtNi01ZAILD2QWBAIBD2QWAmYPFQG0AzxhIGhyZWY9Ii4uL1p0YkluZm8vWkJHR0luZm8uYXNweD9Hb25nR2FvR3VpZD1hYmZlNjVhNS1hMmVlLTQ1MGYtYjIxZC1lMzQxYzQxNmViMjMmQmlhb0R1YW5HdWlkPTU0ZGY2ZDliLWE0NTgtNDA2ZC1iZWU2LTlhMjMwYjkwZTZiOSIgdGFyZ2V0PSJfYmxhbmsiIHRpdGxlPSJb6K6+6K6hXVtXWEhTMjAxNTA1MDA2LTAxXeaXoOmUoeWVhuS4muiBjOS4muaKgOacr+WtpumZouaWsOagoeWMuueUteWKm+WinuWuuemhueebri/nlLXlipvlop7lrrnns7vnu5/orr7orqHlkozlj5jnlLXmiYDorr7orqEo6K6+6K6hKSI+W+iuvuiuoV1bV1hIUzIwMTUwNTAwNi0wMV3ml6DplKHllYbkuJrogYzkuJrmioDmnK/lrabpmaLmlrDmoKHljLrnlLXlipvlop7lrrnpobnnm67nlLXlipvlop7lrrnns7vnu5/orr7orqHlkozlj5jnlLXmiYDorr7orqEo5LqM5qyh5YWs5ZGKKTwvYT5kAgIPZBYCZg8VAQgyMDE1LTYtM2QCDA9kFgQCAQ9kFgJmDxUB2AI8YSBocmVmPSIuLi9adGJJbmZvL1pCR0dJbmZvLmFzcHg/R29uZ0dhb0d1aWQ9MTU5NzMwYjAtODQyMy00Yjg4LWI5M2UtZmUzZjVhODJmMTE2JkJpYW9EdWFuR3VpZD1hYzA0NWY2YS1mZWQwLTRlNjgtYTU5ZS0yY2EyN2Y5MGU4MzAiIHRhcmdldD0iX2JsYW5rIiB0aXRsZT0iW+aWveW3pV1bV1hYUTIwMTUwMTAwMy0wMl3mlrDln47msLTlpITnkIbljoLlm5vmnJ/mianlu7rlt6XnqIsv6ISx5rC05py65oi/5pS56YCg5bel56iLKOaWveW3pSkiPlvmlr3lt6VdW1dYWFEyMDE1MDEwMDMtMDJd5paw5Z+O5rC05aSE55CG5Y6C5Zub5pyf5omp5bu65bel56iL6ISx5rC05py65oi/5pS56YCg5bel56iLPC9hPmQCAg9kFgJmDxUBCTIwMTUtNS0yOGQCDQ9kFgQCAQ9kFgJmDxUBpgM8YSBocmVmPSIuLi9adGJJbmZvL1pCR0dJbmZvLmFzcHg/R29uZ0dhb0d1aWQ9OGUzYThiNDgtZDhjOC00NmMxLWFkMmYtMTZiZjNlNDc1YzM1JkJpYW9EdWFuR3VpZD04YWY0MjM3Ny1jMzAxLTQ3Y2UtYmY5Yi0zMzBmODc3MTkyZWEiIHRhcmdldD0iX2JsYW5rIiB0aXRsZT0iW+iuvuiuoV1bV1hIUzIwMTUwNTAwNi0wMV3ml6DplKHllYbkuJrogYzkuJrmioDmnK/lrabpmaLmlrDmoKHljLrnlLXlipvlop7lrrnpobnnm64v55S15Yqb5aKe5a6557O757uf6K6+6K6h5ZKM5Y+Y55S15omA6K6+6K6hKOiuvuiuoSkiPlvorr7orqFdW1dYSFMyMDE1MDUwMDYtMDFd5peg6ZSh5ZWG5Lia6IGM5Lia5oqA5pyv5a2m6Zmi5paw5qCh5Yy655S15Yqb5aKe5a656aG555uu55S15Yqb5aKe5a6557O757uf6K6+6K6h5ZKM5Y+Y55S15omA6K6+6K6hPC9hPmQCAg9kFgJmDxUBCTIwMTUtNS0yNmQCDg9kFgQCAQ9kFgJmDxUBwwM8YSBocmVmPSIuLi9adGJJbmZvL1pCR0dJbmZvLmFzcHg/R29uZ0dhb0d1aWQ9ZGQ5YjZmNDAtODA4OC00ZTE1LWI4MjktOTU0MmNhMWVlZGRmJkJpYW9EdWFuR3VpZD1iNjI1NTI0ZS1lMTdmLTQyY2YtYWUyMy03NTE4OTE0ZDhjOWMiIHRhcmdldD0iX2JsYW5rIiB0aXRsZT0iW+adkOaWmeiuvuWkh11bV1hYUTIwMTMxMjAwNi0wMV3mlrDlhYnlmInlm63lronlsYXmiL/lsI/ljLrmianlu7rlt6XnqIsv5paw5YWJ5ZiJ5Zut5a6J5bGF5oi/5bCP5Yy65omp5bu65bel56iL6aG555uuQeWcsOWdl+eUteair+iuvuWkh+mHh+i0reWPiuWuieijheW3peeoiyjmnZDmlpnorr7lpIcpIj5b5p2Q5paZ6K6+5aSHXVtXWFhRMjAxMzEyMDA2LTAxXeaWsOWFieWYieWbreWuieWxheaIv+Wwj+WMuuaJqeW7uuW3peeoi+mhueebrkHlnLDlnZfnlLXmoq/orr7lpIfph4fotK3lj4rlronoo4Xlt6XnqIs8L2E+ZAICD2QWAmYPFQEJMjAxNS01LTIyZAIPD2QWBAIBD2QWAmYPFQGQAzxhIGhyZWY9Ii4uL1p0YkluZm8vWkJHR0luZm8uYXNweD9Hb25nR2FvR3VpZD1iYzM3MTZkNS03ZDRjLTQ1ZWMtOWJhNy04ZWIyODM3MDUzZDAmQmlhb0R1YW5HdWlkPTAzOGUwNzgzLTBiNjEtNGQ3Zi1hMjQyLTAzODAzNzQ2ZjE2NiIgdGFyZ2V0PSJfYmxhbmsiIHRpdGxlPSJb5YuY5a+fXVtXWEhTMjAxNTA1MDAzLTAxXemZhuS4rei3r++8iOmZhuWMuuilv+ahpeKAlFMzNDLvvInmlLnpgKDlt6XnqIsv6ZmG5Lit6Lev77yI6ZmG5Yy66KW/5qGl4oCUUzM0Mu+8ieaUuemAoOW3peeoi+WLmOWvn+iuvuiuoSjli5jlr58pIj5b5YuY5a+fXVtXWEhTMjAxNTA1MDAzLTAxXemZhuS4rei3r++8iOmZhuWMuuilv+ahpeKAlFMzNDLvvInmlLnpgKDlt6XnqIvli5jlr5/orr7orqEo5LqM5qyh5YWs5ZGKKTwvYT5kAgIPZBYCZg8VAQkyMDE1LTUtMjFkAhAPZBYEAgEPZBYCZg8VAZgDPGEgaHJlZj0iLi4vWnRiSW5mby9aQkdHSW5mby5hc3B4P0dvbmdHYW9HdWlkPTkxYjY5N2EyLWM1ZjAtNDYzYy04OTg3LTMxZjNjYTY1YmI0YiZCaWFvRHVhbkd1aWQ9NWYzYWI1NTYtMDRmMC00MWNjLTlhOTktNjNhMDNlM2JkYmE2IiB0YXJnZXQ9Il9ibGFuayIgdGl0bGU9Ilvorr7orqFdW1dYUzIwMTIwNDAwMi0zOF3ml6DplKHlnLDpk4Ez5Y+357q/5bel56iLL+aXoOmUoeWcsOmTgTPlj7fnur/kuIDmnJ/phY3lpZflt6XnqIvlvLHnlLXns7vnu5/pm4bmiJDorr7orqEo6K6+6K6hKSI+W+iuvuiuoV1bV1hTMjAxMjA0MDAyLTM4XeaXoOmUoeWcsOmTgTPlj7fnur/lt6XnqIvml6DplKHlnLDpk4Ez5Y+357q/5LiA5pyf6YWN5aWX5bel56iL5byx55S157O757uf6ZuG5oiQ6K6+6K6hKOS6jOasoeWFrOWRiik8L2E+ZAICD2QWAmYPFQEJMjAxNS01LTIxZAIRD2QWBAIBD2QWAmYPFQH2AjxhIGhyZWY9Ii4uL1p0YkluZm8vWkJHR0luZm8uYXNweD9Hb25nR2FvR3VpZD00OWZiNjQ4YS02NmRkLTQwOWQtOTE5My05MWM3OTEwOTQ5OTUmQmlhb0R1YW5HdWlkPWY3YmFlODFkLThjZmMtNDQ1OS1iZGJkLTRhMTFlN2JkYzc1MiIgdGFyZ2V0PSJfYmxhbmsiIHRpdGxlPSJb6K6+6K6hXVtXWEhTMjAxNTA1MDAyLTAxXeaWsOmUoea+hOi3r++8iOilv+efs+i+hemBk++8ieaWsOW7uuW3peeoiy/mlrDplKHmvoTot6/vvIjopb/nn7PovoXpgZPvvInmlrDlu7rlt6XnqIvli5jlr5/orr7orqEo6K6+6K6hKSI+W+iuvuiuoV1bV1hIUzIwMTUwNTAwMi0wMV3mlrDplKHmvoTot6/vvIjopb/nn7PovoXpgZPvvInmlrDlu7rlt6XnqIvli5jlr5/orr7orqE8L2E+ZAICD2QWAmYPFQEJMjAxNS01LTE5ZAISD2QWBAIBD2QWAmYPFQH2AjxhIGhyZWY9Ii4uL1p0YkluZm8vWkJHR0luZm8uYXNweD9Hb25nR2FvR3VpZD05YmJhYjE4NS1iYzViLTQ3ZTYtOTZhZC0xMjdlOThlMTc4ZTcmQmlhb0R1YW5HdWlkPTIzZjEzMzA4LWYxNTAtNGQxMi1hNzVlLTEyYmYzMWY5ODU3ZSIgdGFyZ2V0PSJfYmxhbmsiIHRpdGxlPSJb6K6+6K6hXVtXWEhTMjAxNTA1MDAxLTAxXeaWsOmUoea+hOi3r++8iOWgsOiBlOi+hemBk++8ieaWsOW7uuW3peeoiy/mlrDplKHmvoTot6/vvIjloLDogZTovoXpgZPvvInmlrDlu7rlt6XnqIvli5jlr5/orr7orqEo6K6+6K6hKSI+W+iuvuiuoV1bV1hIUzIwMTUwNTAwMS0wMV3mlrDplKHmvoTot6/vvIjloLDogZTovoXpgZPvvInmlrDlu7rlt6XnqIvli5jlr5/orr7orqE8L2E+ZAICD2QWAmYPFQEJMjAxNS01LTE5ZAITD2QWBAIBD2QWAmYPFQH+AzxhIGhyZWY9Ii4uL1p0YkluZm8vWkJHR0luZm8uYXNweD9Hb25nR2FvR3VpZD04Yjg1NmMyMC03ODI1LTQ1YzYtYmIyMC0zOWY0NzI3MjMwZWEmQmlhb0R1YW5HdWlkPTg3ZWE2OGE3LTU2MWMtNDg3ZC1hNWU2LWM0YWJlZGFlZWJhNCIgdGFyZ2V0PSJfYmxhbmsiIHRpdGxlPSJb5p2Q5paZ6K6+5aSHXVtXWFhTMjAxMzA3MDI2LTAyXVhERy0yMDEyLTY35Y+35Zyw5Z2X5pig5pyI5aSp5Zyw5ZWG5Lia5bm/5Zy65bel56iLL1hERy0yMDEyLTY35Y+35Zyw5Z2X5pig5pyI5aSp5Zyw5ZWG5Lia5bm/5Zy655S15qKv6K6+5aSH6YeH6LSt5Y+K5a6J6KOF5bel56iLKOadkOaWmeiuvuWkhykiPlvmnZDmlpnorr7lpIddW1dYWFMyMDEzMDcwMjYtMDJdWERHLTIwMTItNjflj7flnLDlnZfmmKDmnIjlpKnlnLDllYbkuJrlub/lnLrlt6XnqItYREctMjAxMi02N+WPt+WcsOWdl+aYoOaciOWkqeWcsOWVhuS4muW5v+WcuueUteair+iuvuWkh+mHh+i0reWPiuWuieijheW3peeoiyjkuozmrKHlhazlkYopPC9hPmQCAg9kFgJmDxUBCTIwMTUtNS0xOGQCFA9kFgQCAQ9kFgJmDxUBwgI8YSBocmVmPSIuLi9adGJJbmZvL1pCR0dJbmZvLmFzcHg/R29uZ0dhb0d1aWQ9YTBmODU3YTEtZTFkMS00N2JiLThlNDMtYWNlOGEyOWMwOWQ1JkJpYW9EdWFuR3VpZD1jYjgyNGNlNS0zNWYwLTRiNWEtYjcxZC1jOTlhMmZhNTExMjkiIHRhcmdldD0iX2JsYW5rIiB0aXRsZT0iW+iuvuiuoV1bV1hYUTIwMTUwMTAwMy0wMV3mlrDln47msLTlpITnkIbljoLlm5vmnJ/mianlu7rlt6XnqIsv6K6+6K6hKOiuvuiuoSkiPlvorr7orqFdW1dYWFEyMDE1MDEwMDMtMDFd5paw5Z+O5rC05aSE55CG5Y6C5Zub5pyf5omp5bu65bel56iL6K6+6K6hKOS6jOasoeWFrOWRiik8L2E+ZAICD2QWAmYPFQEJMjAxNS01LTE1ZAIVD2QWBAIBD2QWAmYPFQGnAzxhIGhyZWY9Ii4uL1p0YkluZm8vWkJHR0luZm8uYXNweD9Hb25nR2FvR3VpZD1jZmE1YTI5NS0yNGZhLTQ1MTUtOWZmNC1jMDgyYTUwZGZkMGImQmlhb0R1YW5HdWlkPTEyZDJkMzQ1LTgzMmEtNDg1YS05YTc5LTM4ZjQyMDExNjliMyIgdGFyZ2V0PSJfYmxhbmsiIHRpdGxlPSJb6K6+6K6hXVtXWFMyMDE1MDQwMDUtMDFd5peg6ZSh5biC5a6J5YWo5L6b5rC06ICB5pen566h572R5pS56YCg5bel56iL77yIMjAxNS0yMDE25bm077yJL+aXoOmUoeW4guWuieWFqOS+m+awtOiAgeaXp+euoee9keaUuemAoOW3peeoi++8iDIwMTUtMjAxNuW5tO+8ieiuvuiuoSjorr7orqEpIj5b6K6+6K6hXVtXWFMyMDE1MDQwMDUtMDFd5peg6ZSh5biC5a6J5YWo5L6b5rC06ICB5pen566h572R5pS56YCg5bel56iL77yIMjAxNS0yMDE25bm077yJ6K6+6K6hPC9hPmQCAg9kFgJmDxUBCTIwMTUtNS0xNGQCBA9kFgJmD2QWAgIBDw8WBB4LUmVjb3JkY291bnQC9wIeDkN1c3RvbUluZm9UZXh0BVrlhbHvvJo8Zm9udCBjb2xvcj0icmVkIj48Yj4zNzU8L2I+PC9mb250PuadoSDnrKzvvJo8Zm9udCBjb2xvcj0icmVkIj48Yj4xLzE5PC9iPjwvZm9udD7pobVkZGRkMqJbHRKgzoOsuxI3bdVx34T1mQ==" />
+
+                            <table id="moreinfo" height="100%" cellspacing="0" cellpadding="0" width="100%" align="center" border="0">
+	<tr>
+		<td height="40">
+                                        标段名称:<input name="lblBiaoDuanName" type="text" id="lblBiaoDuanName" />
+                                        &nbsp; &nbsp; &nbsp; 标段编号:<input name="lblBiaoDuanNo" type="text" id="lblBiaoDuanNo" />
+                                        &nbsp; &nbsp; &nbsp;&nbsp;<input type="submit" name="btnSearch" value="搜索" id="btnSearch" class="btnbg" />
+                                    </td>
+	</tr>
+	<tr>
+		<td id="tdcontent" valign="top" height="100%">
+                                        <table cellspacing="0" align="Center" rules="all" border="0" id="DataGrid1" width="98%">
+			<tr valign="top">
+				<td valign="top" width="15">
+                                                        <img src="../Images/dots/dot1.gif">
+                                                    </td><td align="left" valign="top">
+                                                        <a href="../ZtbInfo/ZBGGInfo.aspx?GongGaoGuid=f5e56405-4e06-44bf-9d29-e9ba02381b0a&BiaoDuanGuid=a70f89c4-181b-44f0-a157-0ca8f5011610" target="_blank" title="[施工][WXXQ201501003-02]新城水处理厂四期扩建工程/脱水机房改造工程(施工)">[施工][WXXQ201501003-02]新城水处理厂四期扩建工程脱水机房改造工程(二次公告)</a>
+                                                    </td><td align="right" width="60">
+                                                        2015-6-26
+                                                    </td>
+			</tr><tr valign="top">
+				<td valign="top" width="15">
+                                                        <img src="../Images/dots/dot1.gif">
+                                                    </td><td align="left" valign="top">
+                                                        <a href="../ZtbInfo/ZBGGInfo.aspx?GongGaoGuid=a04caf4e-bc64-42a5-ab9d-be015adb4f2d&BiaoDuanGuid=2314285d-58d6-4124-b30d-d3761bd356d2" target="_blank" title="[设计][WXXQ201405002-03]无锡新区新瑞医院（上海交通大学医学院附属瑞金医院无锡分院一期）项目/智能化系统设计(设计)">[设计][WXXQ201405002-03]无锡新区新瑞医院（上海交通大学医学院附属瑞金医院无锡分院一期）项目智能化系统设计</a>
+                                                    </td><td align="right" width="60">
+                                                        2015-6-17
+                                                    </td>
+			</tr><tr valign="top">
+				<td valign="top" width="15">
+                                                        <img src="../Images/dots/dot1.gif">
+                                                    </td><td align="left" valign="top">
+                                                        <a href="../ZtbInfo/ZBGGInfo.aspx?GongGaoGuid=2bc412aa-8848-411d-8687-9805e2dfabd6&BiaoDuanGuid=e0a3acba-b6b9-4cf8-b0c7-560633c2a15b" target="_blank" title="[设计][WXBH201505004-01]滨湖区非物质文化遗产展示馆装潢布展项目/设计工程(设计)">[设计][WXBH201505004-01]滨湖区非物质文化遗产展示馆装潢布展项目设计工程(二次公告)</a>
+                                                    </td><td align="right" width="60">
+                                                        2015-6-12
+                                                    </td>
+			</tr><tr valign="top">
+				<td valign="top" width="15">
+                                                        <img src="../Images/dots/dot1.gif">
+                                                    </td><td align="left" valign="top">
+                                                        <a href="../ZtbInfo/ZBGGInfo.aspx?GongGaoGuid=11fa8152-c327-4a83-b6a0-bbc4fa2f3132&BiaoDuanGuid=cca8a20a-4d86-4ea9-a803-56e64cd7c5bb" target="_blank" title="[材料设备][WXXQ201308004-02]中国联合网络通信有限公司物联网研究院基地（数据中心）项目一期工程/中国联通江苏无锡物联网基地一期工程机房中央空调系统采购及安装工程(材料设备)">[材料设备][WXXQ201308004-02]中国联合网络通信有限公司物联网研究院基地（数据中心）项目一期工程中国联通江苏无锡物联网基地一期工程机房中央空调系统采购及安装工程</a>
+                                                    </td><td align="right" width="60">
+                                                        2015-6-12
+                                                    </td>
+			</tr><tr valign="top">
+				<td valign="top" width="15">
+                                                        <img src="../Images/dots/dot1.gif">
+                                                    </td><td align="left" valign="top">
+                                                        <a href="../ZtbInfo/ZBGGInfo.aspx?GongGaoGuid=f258c81e-c8f1-43bd-90b8-ea0483e55113&BiaoDuanGuid=7c394d66-00e8-4a41-b7a7-2d18b8108334" target="_blank" title="[材料设备][WXS201211011-02]市公路管理站易地重建项目/市公路管理站易地重建项目电梯成套设备及相关服务采购(材料设备)">[材料设备][WXS201211011-02]市公路管理站易地重建项目电梯成套设备及相关服务采购</a>
+                                                    </td><td align="right" width="60">
+                                                        2015-6-12
+                                                    </td>
+			</tr><tr valign="top">
+				<td valign="top" width="15">
+                                                        <img src="../Images/dots/dot1.gif">
+                                                    </td><td align="left" valign="top">
+                                                        <a href="../ZtbInfo/ZBGGInfo.aspx?GongGaoGuid=29766f7d-ff7f-4489-aeb6-eb906a23d445&BiaoDuanGuid=cbe78ead-57cf-4c49-b304-c7f09c020086" target="_blank" title="[材料设备][WXS201209008-03]毛巷增补工程/电梯设备采购及安装(材料设备)">[材料设备][WXS201209008-03]毛巷增补工程电梯设备采购及安装</a>
+                                                    </td><td align="right" width="60">
+                                                        2015-6-12
+                                                    </td>
+			</tr><tr valign="top">
+				<td valign="top" width="15">
+                                                        <img src="../Images/dots/dot1.gif">
+                                                    </td><td align="left" valign="top">
+                                                        <a href="../ZtbInfo/ZBGGInfo.aspx?GongGaoGuid=0d15680f-2418-4ccc-a8ec-524dec026947&BiaoDuanGuid=138a9eef-771f-48ec-adb0-69bd6952c1f7" target="_blank" title="[设计][WXXQ201505008-01]无锡科技职业技术学院综合性体育馆工程项目/无锡科技职业学院综合性体育馆项目设计(设计)">[设计][WXXQ201505008-01]无锡科技职业技术学院综合性体育馆工程项目无锡科技职业学院综合性体育馆项目设计</a>
+                                                    </td><td align="right" width="60">
+                                                        2015-6-11
+                                                    </td>
+			</tr><tr valign="top">
+				<td valign="top" width="15">
+                                                        <img src="../Images/dots/dot1.gif">
+                                                    </td><td align="left" valign="top">
+                                                        <a href="../ZtbInfo/ZBGGInfo.aspx?GongGaoGuid=c1bb46c0-5a62-4bd5-bc04-dc894b50c774&BiaoDuanGuid=389e2bee-61f8-43a8-bdd9-9b16f94c58be" target="_blank" title="[设计][WXS201504005-01]无锡市安全供水老旧管网改造工程（2015-2016年）/无锡市安全供水老旧管网改造工程（2015-2016年）设计(设计)">[设计][WXS201504005-01]无锡市安全供水老旧管网改造工程（2015-2016年）设计(二次公告)</a>
+                                                    </td><td align="right" width="60">
+                                                        2015-6-8
+                                                    </td>
+			</tr><tr valign="top">
+				<td valign="top" width="15">
+                                                        <img src="../Images/dots/dot1.gif">
+                                                    </td><td align="left" valign="top">
+                                                        <a href="../ZtbInfo/ZBGGInfo.aspx?GongGaoGuid=c66ae15c-00b3-405e-bcd1-c79613ab3f5e&BiaoDuanGuid=880d54c3-e60b-4d94-a2a3-57b6496d3393" target="_blank" title="[设计][WXBH201505004-01]滨湖区非物质文化遗产展示馆装潢布展项目/设计工程(设计)">[设计][WXBH201505004-01]滨湖区非物质文化遗产展示馆装潢布展项目设计工程</a>
+                                                    </td><td align="right" width="60">
+                                                        2015-6-5
+                                                    </td>
+			</tr><tr valign="top">
+				<td valign="top" width="15">
+                                                        <img src="../Images/dots/dot1.gif">
+                                                    </td><td align="left" valign="top">
+                                                        <a href="../ZtbInfo/ZBGGInfo.aspx?GongGaoGuid=abfe65a5-a2ee-450f-b21d-e341c416eb23&BiaoDuanGuid=54df6d9b-a458-406d-bee6-9a230b90e6b9" target="_blank" title="[设计][WXHS201505006-01]无锡商业职业技术学院新校区电力增容项目/电力增容系统设计和变电所设计(设计)">[设计][WXHS201505006-01]无锡商业职业技术学院新校区电力增容项目电力增容系统设计和变电所设计(二次公告)</a>
+                                                    </td><td align="right" width="60">
+                                                        2015-6-3
+                                                    </td>
+			</tr><tr valign="top">
+				<td valign="top" width="15">
+                                                        <img src="../Images/dots/dot1.gif">
+                                                    </td><td align="left" valign="top">
+                                                        <a href="../ZtbInfo/ZBGGInfo.aspx?GongGaoGuid=159730b0-8423-4b88-b93e-fe3f5a82f116&BiaoDuanGuid=ac045f6a-fed0-4e68-a59e-2ca27f90e830" target="_blank" title="[施工][WXXQ201501003-02]新城水处理厂四期扩建工程/脱水机房改造工程(施工)">[施工][WXXQ201501003-02]新城水处理厂四期扩建工程脱水机房改造工程</a>
+                                                    </td><td align="right" width="60">
+                                                        2015-5-28
+                                                    </td>
+			</tr><tr valign="top">
+				<td valign="top" width="15">
+                                                        <img src="../Images/dots/dot1.gif">
+                                                    </td><td align="left" valign="top">
+                                                        <a href="../ZtbInfo/ZBGGInfo.aspx?GongGaoGuid=8e3a8b48-d8c8-46c1-ad2f-16bf3e475c35&BiaoDuanGuid=8af42377-c301-47ce-bf9b-330f877192ea" target="_blank" title="[设计][WXHS201505006-01]无锡商业职业技术学院新校区电力增容项目/电力增容系统设计和变电所设计(设计)">[设计][WXHS201505006-01]无锡商业职业技术学院新校区电力增容项目电力增容系统设计和变电所设计</a>
+                                                    </td><td align="right" width="60">
+                                                        2015-5-26
+                                                    </td>
+			</tr><tr valign="top">
+				<td valign="top" width="15">
+                                                        <img src="../Images/dots/dot1.gif">
+                                                    </td><td align="left" valign="top">
+                                                        <a href="../ZtbInfo/ZBGGInfo.aspx?GongGaoGuid=dd9b6f40-8088-4e15-b829-9542ca1eeddf&BiaoDuanGuid=b625524e-e17f-42cf-ae23-7518914d8c9c" target="_blank" title="[材料设备][WXXQ201312006-01]新光嘉园安居房小区扩建工程/新光嘉园安居房小区扩建工程项目A地块电梯设备采购及安装工程(材料设备)">[材料设备][WXXQ201312006-01]新光嘉园安居房小区扩建工程项目A地块电梯设备采购及安装工程</a>
+                                                    </td><td align="right" width="60">
+                                                        2015-5-22
+                                                    </td>
+			</tr><tr valign="top">
+				<td valign="top" width="15">
+                                                        <img src="../Images/dots/dot1.gif">
+                                                    </td><td align="left" valign="top">
+                                                        <a href="../ZtbInfo/ZBGGInfo.aspx?GongGaoGuid=bc3716d5-7d4c-45ec-9ba7-8eb2837053d0&BiaoDuanGuid=038e0783-0b61-4d7f-a242-03803746f166" target="_blank" title="[勘察][WXHS201505003-01]陆中路（陆区西桥—S342）改造工程/陆中路（陆区西桥—S342）改造工程勘察设计(勘察)">[勘察][WXHS201505003-01]陆中路（陆区西桥—S342）改造工程勘察设计(二次公告)</a>
+                                                    </td><td align="right" width="60">
+                                                        2015-5-21
+                                                    </td>
+			</tr><tr valign="top">
+				<td valign="top" width="15">
+                                                        <img src="../Images/dots/dot1.gif">
+                                                    </td><td align="left" valign="top">
+                                                        <a href="../ZtbInfo/ZBGGInfo.aspx?GongGaoGuid=91b697a2-c5f0-463c-8987-31f3ca65bb4b&BiaoDuanGuid=5f3ab556-04f0-41cc-9a99-63a03e3bdba6" target="_blank" title="[设计][WXS201204002-38]无锡地铁3号线工程/无锡地铁3号线一期配套工程弱电系统集成设计(设计)">[设计][WXS201204002-38]无锡地铁3号线工程无锡地铁3号线一期配套工程弱电系统集成设计(二次公告)</a>
+                                                    </td><td align="right" width="60">
+                                                        2015-5-21
+                                                    </td>
+			</tr><tr valign="top">
+				<td valign="top" width="15">
+                                                        <img src="../Images/dots/dot1.gif">
+                                                    </td><td align="left" valign="top">
+                                                        <a href="../ZtbInfo/ZBGGInfo.aspx?GongGaoGuid=49fb648a-66dd-409d-9193-91c791094995&BiaoDuanGuid=f7bae81d-8cfc-4459-bdbd-4a11e7bdc752" target="_blank" title="[设计][WXHS201505002-01]新锡澄路（西石辅道）新建工程/新锡澄路（西石辅道）新建工程勘察设计(设计)">[设计][WXHS201505002-01]新锡澄路（西石辅道）新建工程勘察设计</a>
+                                                    </td><td align="right" width="60">
+                                                        2015-5-19
+                                                    </td>
+			</tr><tr valign="top">
+				<td valign="top" width="15">
+                                                        <img src="../Images/dots/dot1.gif">
+                                                    </td><td align="left" valign="top">
+                                                        <a href="../ZtbInfo/ZBGGInfo.aspx?GongGaoGuid=9bbab185-bc5b-47e6-96ad-127e98e178e7&BiaoDuanGuid=23f13308-f150-4d12-a75e-12bf31f9857e" target="_blank" title="[设计][WXHS201505001-01]新锡澄路（堰联辅道）新建工程/新锡澄路（堰联辅道）新建工程勘察设计(设计)">[设计][WXHS201505001-01]新锡澄路（堰联辅道）新建工程勘察设计</a>
+                                                    </td><td align="right" width="60">
+                                                        2015-5-19
+                                                    </td>
+			</tr><tr valign="top">
+				<td valign="top" width="15">
+                                                        <img src="../Images/dots/dot1.gif">
+                                                    </td><td align="left" valign="top">
+                                                        <a href="../ZtbInfo/ZBGGInfo.aspx?GongGaoGuid=8b856c20-7825-45c6-bb20-39f4727230ea&BiaoDuanGuid=87ea68a7-561c-487d-a5e6-c4abedaeeba4" target="_blank" title="[材料设备][WXXS201307026-02]XDG-2012-67号地块映月天地商业广场工程/XDG-2012-67号地块映月天地商业广场电梯设备采购及安装工程(材料设备)">[材料设备][WXXS201307026-02]XDG-2012-67号地块映月天地商业广场工程XDG-2012-67号地块映月天地商业广场电梯设备采购及安装工程(二次公告)</a>
+                                                    </td><td align="right" width="60">
+                                                        2015-5-18
+                                                    </td>
+			</tr><tr valign="top">
+				<td valign="top" width="15">
+                                                        <img src="../Images/dots/dot1.gif">
+                                                    </td><td align="left" valign="top">
+                                                        <a href="../ZtbInfo/ZBGGInfo.aspx?GongGaoGuid=a0f857a1-e1d1-47bb-8e43-ace8a29c09d5&BiaoDuanGuid=cb824ce5-35f0-4b5a-b71d-c99a2fa51129" target="_blank" title="[设计][WXXQ201501003-01]新城水处理厂四期扩建工程/设计(设计)">[设计][WXXQ201501003-01]新城水处理厂四期扩建工程设计(二次公告)</a>
+                                                    </td><td align="right" width="60">
+                                                        2015-5-15
+                                                    </td>
+			</tr><tr valign="top">
+				<td valign="top" width="15">
+                                                        <img src="../Images/dots/dot1.gif">
+                                                    </td><td align="left" valign="top">
+                                                        <a href="../ZtbInfo/ZBGGInfo.aspx?GongGaoGuid=cfa5a295-24fa-4515-9ff4-c082a50dfd0b&BiaoDuanGuid=12d2d345-832a-485a-9a79-38f4201169b3" target="_blank" title="[设计][WXS201504005-01]无锡市安全供水老旧管网改造工程（2015-2016年）/无锡市安全供水老旧管网改造工程（2015-2016年）设计(设计)">[设计][WXS201504005-01]无锡市安全供水老旧管网改造工程（2015-2016年）设计</a>
+                                                    </td><td align="right" width="60">
+                                                        2015-5-14
+                                                    </td>
+			</tr>
+		</table>
+                                    </td>
+	</tr>
+	<tr>
+		<td height="8">
+                                    </td>
+	</tr>
+	<tr>
+		<td class="Xline2" height="3">
+                                    </td>
+	</tr>
+	<tr>
+		<td align="right" height="25">
+                                        
+		<!------------------------------ AspNetPager V4.3.3 Start ------------------------------>
+		<!-------------------- Copyright:2003-2005 Webdiyer(www.webdiyer.com) --------------------->
+		<div id="Pager">
+			<table width="100%" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="bottom" align="left" nowrap="true" width="40%">共：<font color="red"><b>375</b></font>条 第：<font color="red"><b>1/19</b></font>页</td><td valign="bottom" align="notset" nowrap="true" class="" width="60%"><a disabled="true">首页</a><span></span><a disabled="true">上一页</a><span></span><font>1</font><span></span><a title="转到第2页" href="javascript:__doPostBack('Pager','2')">2</a><span></span><a title="转到第3页" href="javascript:__doPostBack('Pager','3')">3</a><span></span><a title="转到第4页" href="javascript:__doPostBack('Pager','4')">4</a><span></span><a title="转到第5页" href="javascript:__doPostBack('Pager','5')">5</a><span></span><a title="转到第6页" href="javascript:__doPostBack('Pager','6')">6</a><span></span><a title="转到第7页" href="javascript:__doPostBack('Pager','7')">7</a><span></span><a title="转到第8页" href="javascript:__doPostBack('Pager','8')">8</a><span></span><a title="转到第9页" href="javascript:__doPostBack('Pager','9')">9</a><span></span><a title="转到第10页" href="javascript:__doPostBack('Pager','10')">10</a><span></span><a href="javascript:__doPostBack('Pager','11')" title="转到第11页">...</a><span></span><a title="转到第2页" href="javascript:__doPostBack('Pager','2')">下一页</a><span></span><a title="转到第19页" href="javascript:__doPostBack('Pager','19')">尾页</a><span></span></td>
+				</tr>
+			</table>
+		</div>
+		<!------------------------------- AspNetPager V4.3.3 End -------------------------------->
+
+		
+                                    </td>
+	</tr>
+	<tr>
+		<td class="Xline2" height="3">
+                                    </td>
+	</tr>
+</table>
+
+                            
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWBALLpYLFBwKNlee3DwLDmIbhAQKln/PuCpInTFTgL+/ycCYgTl7YLzd4ICen" /></form>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <table width="778" border="0" align="center" cellpadding="0" cellspacing="0" id="Table12">
+        <tr>
+            <td height="133">
+                <iframe src="/wxzb/template/default/pagefoot.html" width="1002" height="133" frameborder="0"
+                    scrolling="no"></iframe>
+            </td>
+        </tr>
+    </table>
+    <script src="/wxzb/PageViewAdd.aspx?SiteID=1"></script>
+</body>
+</html>

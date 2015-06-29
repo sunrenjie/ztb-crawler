@@ -1,0 +1,375 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
+<head>
+    <title>江阴市公共资源交易服务中心</title>
+    <meta name="GENERATOR" content="Microsoft Visual Studio .NET 7.1">
+    <meta name="ProgId" content="VisualStudio.HTML">
+    <meta name="Originator" content="Microsoft Visual Studio .NET 7.1">
+    <link href="../css/Styles.css" type="text/css" rel="stylesheet">
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <style type="text/css">
+        .STYLE9
+        {
+            font-size: 14px;
+            font-weight: bold;
+            color: #FFFFFF;
+            letter-spacing: 2px;
+        }
+        .STYLE5
+        {
+            font-size: 14px;
+            font-weight: bold;
+            color: #1a62a9;
+        }
+    </style>
+</head>
+<body>
+    <form name="form1" method="post" action="Moreinfo.aspx?CategoryNum=003001001001" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+    <table width="1002" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+            <td class="framehead">
+                <iframe src="../template/default/PageHead.htm" width="100%" height="100%" frameborder="0" scrolling="no">
+                </iframe>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td width="243" valign="top" bgcolor="#f0f0f0" height="100%" style="border: solid 1px #cecece">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0" height="100%" >
+                                <tr>
+                                    <td height="36" background="../template/default/images/lm_13.jpg">
+                                        <table width="100%" height="31" border="0" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td width="30">
+                                                    &nbsp;
+                                                </td>
+                                                <td style="padding-top: 3px">
+                                                    <span class="STYLE9">
+                                                        公告信息 
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td valign="top" >
+                                        <table  border="0" cellspacing="0" cellpadding="0" height="100%"  width="195px" align="center" >
+                                            <tr>
+                                                <td height="3">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                <TABLE  cellSpacing="0" cellPadding="0" width="100%" border="0">
+<TR><td class="LeftMenu"  style="cursor:hand" background="/jyweb/Webimages/menu_0.gif" ><a href='javascript:void(0)' ><font color=#ce392c>建设工程</font></a></td></TR>
+<TR><td class="LeftMenuSubbg"   id="TD003001"><table border=0 width="100%">
+<TR><td class="LeftMenuSub" ><a href="/jyweb/ShowInfo/Moreinfo.aspx?CategoryNum=003001001" target="_self"><font color=#ce392c>【招标公告】</font></a></td></TR>
+<TR><td class="LeftMenuSubSub" ><a href="/jyweb/ShowInfo/Moreinfo.aspx?CategoryNum=003001001001" target="_self"><font color=#ce392c>网上招投标</font></a></td></TR>
+<TR><td class="LeftMenuSubSub" ><a href="/jyweb/ShowInfo/Moreinfo.aspx?CategoryNum=003001001002" target="_self"><font color=#000000>非网上招投标</font></a></td></TR>
+<TR><td class="LeftMenuSub" ><a href="/jyweb/ShowInfo/Moreinfo.aspx?CategoryNum=003001003" target="_self"><font color=#000000>【未入围公示】</font></a></td></TR>
+<TR><td class="LeftMenuSubSub" ><a href="/jyweb/ShowInfo/Moreinfo.aspx?CategoryNum=003001003001" target="_self"><font color=#000000>网上招投标</font></a></td></TR>
+<TR><td class="LeftMenuSubSub" ><a href="/jyweb/ShowInfo/Moreinfo.aspx?CategoryNum=003001003002" target="_self"><font color=#000000>非网上招投标</font></a></td></TR>
+<TR><td class="LeftMenuSub" ><a href="/jyweb/ShowInfo/Moreinfo.aspx?CategoryNum=003001004" target="_self"><font color=#000000>【最高限价公示】</font></a></td></TR>
+<TR><td class="LeftMenuSubSub" ><a href="/jyweb/ShowInfo/Moreinfo.aspx?CategoryNum=003001004001" target="_self"><font color=#000000>网上招投标</font></a></td></TR>
+<TR><td class="LeftMenuSubSub" ><a href="/jyweb/ShowInfo/Moreinfo.aspx?CategoryNum=003001004002" target="_self"><font color=#000000>非网上招投标</font></a></td></TR>
+</table></TD></tr>
+<TR><td class="LeftMenu"  style="cursor:hand" background="/jyweb/Webimages/menu_0.gif" ><a href='javascript:void(0)' ><font color=#000000>政府采购</font></a></td></TR>
+<TR><td class="LeftMenuSubbg"   id="TD003002"><table border=0 width="100%">
+<TR><td class="LeftMenuSub" ><a href="/jyweb/ShowInfo/Moreinfo.aspx?CategoryNum=003002002" target="_self"><font color=#000000>【采购预告】</font></a></td></TR>
+<TR><td class="LeftMenuSub" ><a href="/jyweb/ShowInfo/Moreinfo.aspx?CategoryNum=003002001" target="_self"><font color=#000000>【招标公告】</font></a></td></TR>
+</table></TD></tr>
+<TR><td class="LeftMenu"  style="cursor:hand" background="/jyweb/Webimages/menu_0.gif" ><a href='javascript:void(0)' ><font color=#000000>综合交易</font></a></td></TR>
+<TR><td class="LeftMenuSubbg"   id="TD003003"><table border=0 width="100%">
+<TR><td class="LeftMenuSub" ><a href="/jyweb/ShowInfo/Moreinfo.aspx?CategoryNum=003003001" target="_self"><font color=#000000>【产权拍租】</font></a></td></TR>
+<TR><td class="LeftMenuSub" ><a href="/jyweb/ShowInfo/Moreinfo.aspx?CategoryNum=003003002" target="_self"><font color=#000000>【排污指标】</font></a></td></TR>
+<TR><td class="LeftMenuSub" ><a href="/jyweb/ShowInfo/Moreinfo.aspx?CategoryNum=003003003" target="_self"><font color=#000000>【户外广告】</font></a></td></TR>
+</table></TD></tr>
+<TR><td class="LeftMenu"  style="cursor:hand" background="/jyweb/Webimages/menu_0.gif" ><a href='javascript:void(0)' ><font color=#000000>农村产权交易</font></a></td></TR>
+<TR><td class="LeftMenuSubbg"   id="TD003004"><table border=0 width="100%">
+<TR><td class="LeftMenuSub" ><a href="/jyweb/ShowInfo/Moreinfo.aspx?CategoryNum=003004001" target="_self"><font color=#000000>【经营性资产】</font></a></td></TR>
+<TR><td class="LeftMenuSub" ><a href="/jyweb/ShowInfo/Moreinfo.aspx?CategoryNum=003004002" target="_self"><font color=#000000>【土地承包】</font></a></td></TR>
+<TR><td class="LeftMenuSub" ><a href="/jyweb/ShowInfo/Moreinfo.aspx?CategoryNum=003004003" target="_self"><font color=#000000>【四荒地】</font></a></td></TR>
+<TR><td class="LeftMenuSub" ><a href="/jyweb/ShowInfo/Moreinfo.aspx?CategoryNum=003004004" target="_self"><font color=#000000>【林权】</font></a></td></TR>
+<TR><td class="LeftMenuSub" ><a href="/jyweb/ShowInfo/Moreinfo.aspx?CategoryNum=003004005" target="_self"><font color=#000000>【海域】</font></a></td></TR>
+<TR><td class="LeftMenuSub" ><a href="/jyweb/ShowInfo/Moreinfo.aspx?CategoryNum=003004006" target="_self"><font color=#000000>【生产设施】</font></a></td></TR>
+<TR><td class="LeftMenuSub" ><a href="/jyweb/ShowInfo/Moreinfo.aspx?CategoryNum=003004007" target="_self"><font color=#000000>【水利设施】</font></a></td></TR>
+<TR><td class="LeftMenuSub" ><a href="/jyweb/ShowInfo/Moreinfo.aspx?CategoryNum=003004008" target="_self"><font color=#000000>【知识产权】</font></a></td></TR>
+<TR><td class="LeftMenuSub" ><a href="/jyweb/ShowInfo/Moreinfo.aspx?CategoryNum=003004009" target="_self"><font color=#000000>【其他】</font></a></td></TR>
+</table></TD></tr>
+</TABLE>
+<script>function OpenDiv(cate){if(document.getElementById(cate).style.display=='') { document.getElementById(cate).style.display='none'} else {document.getElementById(cate).style.display=''}}</script> 
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="3">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="100%">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td width="8">
+                        </td>
+                        <td valign="top">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td style="border: solid 1px #cecece" valign="top" >
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td background="../template/default/images/more_2.gif" height="30">
+                                                    <table width="100%" height="30" border="0" cellpadding="0" cellspacing="0">
+                                                        <tr>
+                                                            <td width="25" height="30" background="../template/default/images/more_1.jpg">
+                                                            </td>
+                                                            <td  align="left" width="726">
+                                                            <table cellSpacing="0" cellPadding="0" border="0"><TR><TD align="center" width="15"></TD><TD align="left"><FONT color="#000000" class=currentpostionfont><b>您现在的位置：</b></FONT><A href='/jyweb/'><FONT color="#000000" class=currentpostionfont>首页</FONT></A><FONT color="#ce392c"> >> <a href='/jyweb/ggxx'><FONT color="#ce392c" class=currentpostionfont>公告信息</font></a> >> <a href='/jyweb/ggxx/003001'><FONT color="#ce392c" class=currentpostionfont>建设工程</font></a> >> <a href='/jyweb/ggxx/003001/003001001'><FONT color="#ce392c" class=currentpostionfont>招标公告</font></a> >> <a href='/jyweb/ggxx/003001/003001001/003001001001'><FONT color="#ce392c" class=currentpostionfont>网上招投标</font></a></FONT></TD></TR></table> 
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td height="665" align="left" valign="top" style="padding: 15px;">
+                                                                <table id="MoreInfoList1_moreinfo" height="100%" cellspacing="0" cellpadding="0" width="100%" align="center" border="0">
+	<tr style="display:none;">
+		<td id="MoreInfoList1_tdTitle" valign="top" height="22"><img src="../images/map.gif" 
+      ><span id="MoreInfoList1_lblcategory"></span></td>
+	</tr>
+	<tr style="display:none;">
+		<td height="8"></td>
+	</tr>
+	<tr>
+		<td id="MoreInfoList1_tdcontent" valign="top" height="100%"><table cellspacing="2" align="Center" rules="all" border="0" id="MoreInfoList1_DataGrid1" width="98%">
+			<tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/jyweb/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/jyweb/InfoDetail/Default.aspx?InfoID=d91f3e2f-ba0c-472b-88a4-ded6ecdce169&CategoryNum=003001001001" target="_blank" title="江阴市新澄江中心小学新建项目（施工总承包）">江阴市新澄江中心小学新建项目（施工总承包）</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-06-27
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/jyweb/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/jyweb/InfoDetail/Default.aspx?InfoID=d9c0ac75-1944-4804-8c47-c997ceeeef03&CategoryNum=003001001001" target="_blank" title="城区河道区域污水主次管网改造工程一期工程（塘前路污水管道））（网上招投标模式CA）">城区河道区域污水主次管网改造工程一期工程（塘前路污水管道））（网上招投标模式CA）</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-06-24
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/jyweb/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/jyweb/InfoDetail/Default.aspx?InfoID=dcaedea9-f247-461c-83fa-07d10c4c9b7c&CategoryNum=003001001001" target="_blank" title="新颜路（璜石路—桃花港路）人行道改造工程（网上招投标模式CA）">新颜路（璜石路—桃花港路）人行道改造工程（网上招投标模式CA）</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-06-18
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/jyweb/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/jyweb/InfoDetail/Default.aspx?InfoID=9f41a932-c228-499b-ae36-a37ee94ffbb5&CategoryNum=003001001001" target="_blank" title="城东街道各社区停车位改造工程">城东街道各社区停车位改造工程</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-06-18
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/jyweb/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/jyweb/InfoDetail/Default.aspx?InfoID=9d3277bc-64e5-49e3-ba3f-260277bfaa1a&CategoryNum=003001001001" target="_blank" title="第四期经济适用住房、廉租房和公共租赁住房室外配套工程">第四期经济适用住房、廉租房和公共租赁住房室外配套工程</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-06-11
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/jyweb/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/jyweb/InfoDetail/Default.aspx?InfoID=8752bd6b-99c5-4d40-80b3-9370e63e2498&CategoryNum=003001001001" target="_blank" title="江阴职业技术学院校舍维修改造项目">江阴职业技术学院校舍维修改造项目</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-06-10
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/jyweb/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/jyweb/InfoDetail/Default.aspx?InfoID=c5097257-28ed-4709-8238-e66f05fc482d&CategoryNum=003001001001" target="_blank" title="月城实验小学综合楼装饰工程">月城实验小学综合楼装饰工程</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-06-08
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/jyweb/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/jyweb/InfoDetail/Default.aspx?InfoID=131e447b-d295-4b0a-b026-15f9a5ea023e&CategoryNum=003001001001" target="_blank" title="顾山社区卫生服务中心（装饰工程）">顾山社区卫生服务中心（装饰工程）</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-06-05
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/jyweb/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/jyweb/InfoDetail/Default.aspx?InfoID=34df3c84-ce82-470d-a837-d7bffe919336&CategoryNum=003001001001" target="_blank" title="生活区改造和新建生活综合楼工程（生活综合楼工程）">生活区改造和新建生活综合楼工程（生活综合楼工程）</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-06-05
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/jyweb/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/jyweb/InfoDetail/Default.aspx?InfoID=8c59e0fa-75bd-4ce1-b350-d4e05698abe0&CategoryNum=003001001001" target="_blank" title="云新路工程（太平路至云顾路）">云新路工程（太平路至云顾路）</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-06-03
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/jyweb/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/jyweb/InfoDetail/Default.aspx?InfoID=462b97cb-a5e2-49a8-9692-8fbe41c39c4a&CategoryNum=003001001001" target="_blank" title="江阴市第一初级中学新校区工程（桩基及基坑围护）（网上招投标模式CA）">江阴市第一初级中学新校区工程（桩基及基坑围护）（网上招投标模式CA）</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-06-03
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/jyweb/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/jyweb/InfoDetail/Default.aspx?InfoID=4cc329a3-26f2-498f-93c6-b671d4fc2782&CategoryNum=003001001001" target="_blank" title="江阴市第二实验小学教学楼改建工程">江阴市第二实验小学教学楼改建工程</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-06-02
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/jyweb/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/jyweb/InfoDetail/Default.aspx?InfoID=e759886c-6da7-441d-8055-37143ce53278&CategoryNum=003001001001" target="_blank" title="江阴市青山路道路照明工程">江阴市青山路道路照明工程</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-06-01
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/jyweb/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/jyweb/InfoDetail/Default.aspx?InfoID=9fc03209-6dd8-48cd-b628-6c33de509701&CategoryNum=003001001001" target="_blank" title="江阴中等专业学校改扩建二期工程（食堂综合楼改造工程）">江阴中等专业学校改扩建二期工程（食堂综合楼改造工程）</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-06-01
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/jyweb/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/jyweb/InfoDetail/Default.aspx?InfoID=83184b28-8cb1-43cf-a215-26b06b022b7a&CategoryNum=003001001001" target="_blank" title="拆迁安置房项目（一标段）（二次公告）（CA/预审/综合）">拆迁安置房项目（一标段）（二次公告）（CA/预审/综合）</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-05-28
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/jyweb/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/jyweb/InfoDetail/Default.aspx?InfoID=5a1a4b75-d788-42ad-8b4a-76a6b5d6fe5f&CategoryNum=003001001001" target="_blank" title="江阴中等专业学校改扩建二期工程（场地工程）">江阴中等专业学校改扩建二期工程（场地工程）</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-05-27
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/jyweb/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/jyweb/InfoDetail/Default.aspx?InfoID=98142835-aacf-410c-95c3-74c286de68f1&CategoryNum=003001001001" target="_blank" title="江阴市长新大道二期道路照明工程">江阴市长新大道二期道路照明工程</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-05-26
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/jyweb/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/jyweb/InfoDetail/Default.aspx?InfoID=ff4be4c6-b3c7-40ab-9f5f-d022d4e7352c&CategoryNum=003001001001" target="_blank" title="顾山社区卫生服务中心（智能化工程）(网上招投标CA模式)">顾山社区卫生服务中心（智能化工程）(网上招投标CA模式)</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-05-18
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/jyweb/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/jyweb/InfoDetail/Default.aspx?InfoID=63c5776f-75b6-4c5f-b772-3f8ad088d13e&CategoryNum=003001001001" target="_blank" title="实训楼主辅楼工程（桩基、土建、安装及室外工程）">实训楼主辅楼工程（桩基、土建、安装及室外工程）</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-05-15
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/jyweb/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/jyweb/InfoDetail/Default.aspx?InfoID=69779ddd-1f80-4d66-b3ee-328cb903bfa3&CategoryNum=003001001001" target="_blank" title="拆迁安置房项目（一标段）（CA/预审/综合）">拆迁安置房项目（一标段）（CA/预审/综合）</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-05-15
+						</td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td height="8"></td>
+	</tr>
+	<tr>
+		<td class="Xline2" height="3"></td>
+	</tr>
+	<tr>
+		<td align="right" height="25">
+		<!------------------------------ AspNetPager V4.3.3 Start ------------------------------>
+		<!-------------------- Copyright:2003-2005 Webdiyer(www.webdiyer.com) --------------------->
+		<div id="MoreInfoList1_Pager">
+			<table width="100%" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="bottom" align="left" nowrap="true" width="40%">记录总数：<font color="blue"><b>520</b></font> 总页数：<font color="blue"><b>26</b></font> 当前页：<font color="red"><b>1</b></font></td><td valign="bottom" align="notset" nowrap="true" class="" width="60%"><img src="/jyweb/images/page/firstg.gif" border="0" align="Baseline" /><span></span><img src="/jyweb/images/page/prevg.gif" border="0" align="Baseline" /><span></span><img src="/jyweb/images/page/1r.gif" align="Baseline" border="0" /><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','2')" title="转到第2页"><img src="/jyweb/images/page/2n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','3')" title="转到第3页"><img src="/jyweb/images/page/3n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','4')" title="转到第4页"><img src="/jyweb/images/page/4n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','5')" title="转到第5页"><img src="/jyweb/images/page/5n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','6')" title="转到第6页"><img src="/jyweb/images/page/6n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','7')" title="转到第7页"><img src="/jyweb/images/page/7n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','8')" title="转到第8页"><img src="/jyweb/images/page/8n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','9')" title="转到第9页"><img src="/jyweb/images/page/9n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','10')" title="转到第10页"><img src="/jyweb/images/page/1n.gif" align="Baseline" border="0" /><img src="/jyweb/images/page/0n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','11')" title="转到第11页"><img src="/jyweb/images/page/moren.gif" border="0" align="Baseline" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','2')" title="转到第2页"><img src="/jyweb/images/page/nextn.gif" border="0" align="Baseline" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','26')" title="转到第26页"><img src="/jyweb/images/page/lastn.gif" border="0" align="Baseline" /></a><span></span></td>
+				</tr>
+			</table>
+		</div>
+		<!------------------------------- AspNetPager V4.3.3 End -------------------------------->
+
+		</td>
+	</tr>
+	<tr>
+		<td class="Xline2" height="3"></td>
+	</tr>
+</table>
+
+<script>
+var Tdname='MoreInfoList1'+"_tdcontent";
+document.getElementById(Tdname).className='MiddleBg'
+</script>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="framefoot">
+                <iframe src="../template/default/PageFoot.htm" width="100%" height="100%" frameborder="0" scrolling="no">
+                </iframe>
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

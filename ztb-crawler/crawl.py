@@ -238,16 +238,27 @@ class ZTBParser(object):
             pass
         return None
 
+    @staticmethod
+    def walk_down_tag_with_single_edge(tag):
+        t = tag
+        while True:
+            children = [e for e in t.children]
+            if len(children) != 1:
+                return None
+            t = children[0]
+            if not isinstance(t, bs4.element.Tag):
+                return t.strip()
+
     @classmethod
     def parse_article_time_from_anchor(cls, a):
         for tag in a.parent.parent.children:
             if tag.name != u'td':
                 continue
-            c = [ e for e in tag.children]
-            if len(c) == 1 and not isinstance(c[0], bs4.element.Tag):
-                t = cls.parse_article_time_from_td(c[0].strip())
-                if t:
-                    return t
+            t = cls.walk_down_tag_with_single_edge(tag)
+            if t:
+                ti = cls.parse_article_time_from_td(t)
+                if ti:
+                    return ti
         return None
 
     @staticmethod
@@ -273,15 +284,14 @@ class ZTBParser(object):
         """
 
         :param flow:
-        :param soup_tag:
+        :param soup_tag: the anchor containing our record
         :return:
         """
         addr = soup_tag.get('href')
         t = cls.parse_article_time_from_anchor(soup_tag)
         assert t is not None
-        children = [c for c in soup_tag.children]
-        assert len(children) == 1
-        title = children[0]
+        title = cls.walk_down_tag_with_single_edge(soup_tag)
+        assert title is not None
         if addr[0:4] != 'http':  # not full address; compute it
             addr = urljoin(flow.url, addr)
         # TODO: ugly hacking; improve it
@@ -387,6 +397,13 @@ def get_crawl_workflows():
                          )),
                          SoupAncestorSearch(['td', 'tr', 'table'], HTMLTagAttributesVerifier(
                              'table', {'width': '99%'})),
+                     ], ZTBParser.generator_yxztb),
+        ZTBCrawlFlow('http://ggzy.njzwfw.gov.cn/njggzy/jsgc/001001/001001001/001001001002/',
+                     './sample-data/nan-jing', u'南京市', 'a',
+                     [
+                         SoupAncestorSearch(['td', 'tr', 'table', 'div', 'td', 'tr', 'table'],
+                                            HTMLTagAttributesVerifier(
+                                                'table', {'width': '998', 'class': 'bk'})),
                      ], ZTBParser.generator_yxztb),
     ]:
         crawl_flows[f.url] = f

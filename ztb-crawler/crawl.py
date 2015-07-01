@@ -142,19 +142,23 @@ class CrawlerDataSourceWebPage(CrawlerDataSource):
     def fetch_text_impl(cls, location):
         retrying = 3
         status_code = None
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) '
+                          'Chrome/42.0.2311.152 Safari/537.36',  # exactly that of my dev browser
+        }
         while retrying:
+            try:
+                r = requests.get(location, headers=headers)
+                if r.status_code == 200:  # request OK.
+                    return cls.decode_string_with_unknown_encoding(r.content)
+                else:
+                    status_code = r.status_code
+            except:
+                pass
+            time.sleep(5)  # TODO: elaborate on this
             retrying -= 1
-            headers = {
-                'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) '
-                              'Chrome/42.0.2311.152 Safari/537.36',  # exactly that of my dev browser
-            }
-            r = requests.get(location, headers=headers)
-            if r.status_code == 200:  # request OK.
-                return cls.decode_string_with_unknown_encoding(r.content)
-            else:
-                status_code = r.status_code
-                time.sleep(5)  # TODO: elaborate on this
-        raise IOError("Request for the url '%s' returns status code %d" % (location, status_code))
+        status_code = str(status_code) if status_code else '<unknown>'
+        raise IOError("Request for the url '%s' returns status code %s" % (location, status_code))
 
     @classmethod
     def fetch_and_yield_lines_impl(cls, location):
@@ -442,12 +446,15 @@ def main():
     log = '%s/ztb-crawler-%s.log' % (prefix, datetime.datetime.now().strftime("%Y%m%d%H%M%S"))
     print '#Info: log will be written to "%s"' % os.path.abspath(log)
     for url, flow in get_crawl_workflows().iteritems():
-        text = CrawlerDataSource.fetch_text(flow.location if flow.location else flow.url)
-        soup = bs4.BeautifulSoup(text, 'html.parser')
-        for a in SoupAncestorSearch.search_soup_for_tags(soup, flow.tag, flow.searches):
-            data = flow.generator(flow, a)
-            # print '\t'.join(data)
-            commit(flow, data, prefix, log)
+        try:
+            text = CrawlerDataSource.fetch_text(flow.location if flow.location else flow.url)
+            soup = bs4.BeautifulSoup(text, 'html.parser')
+            for a in SoupAncestorSearch.search_soup_for_tags(soup, flow.tag, flow.searches):
+                data = flow.generator(flow, a)
+                commit(flow, data, prefix, log)
+            print '#Info: job for url "%s" succeeded' % url
+        except:
+            print '#Error: job for url "%s" failed' % (url)
     print '#Info: log has been written to "%s"' % os.path.abspath(log)
 
 

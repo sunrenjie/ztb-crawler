@@ -3,6 +3,7 @@
 
 import os
 import sys
+import codecs
 import re
 import time
 import datetime
@@ -414,7 +415,13 @@ def get_crawl_workflows():
     return crawl_flows
 
 
-def log_it(s, handle):
+def ensure_path_exists(path):
+    if not os.access(path, os.R_OK):
+        os.makedirs(path)
+    assert os.access(path, os.R_OK)
+
+
+def log_it(handle, s):
     handle.write(s + '\n')
     print s
 
@@ -425,17 +432,15 @@ def commit(flow, data, prefix, log):
     t1 = t[0:7]  # 'YYYY-mm'
     t2 = t[8:]   # 'dd
     path = '/'.join([prefix, name, t1, t2])
-    if not os.access(path, os.R_OK):
-        os.makedirs(path)
-    assert os.access(path, os.R_OK)
+    ensure_path_exists(path)
     digest = hashlib.md5(addr).hexdigest()
     f = path + '/' + digest
     if not os.access(f, os.W_OK):
-        with open(log, 'a') as lh:
-            log_it('#Info: created new data entry in file "%s"' % f, lh)
-            log_it('         %s' % '\t'.join(data), lh)
-            with open(f, 'w') as h:
-                h.write('\t'.join(data) + '\n')
+        with codecs.open(log, 'a', 'utf-8') as lh:
+            log_it(lh, '#Info: created new data entry in file "%s"' % f)
+            log_it(lh, '         %s' % '  '.join(data))
+            with codecs.open(f, 'w', 'utf-8') as h:
+                h.write('  '.join(data) + '\n')
 
 
 def main():
@@ -443,11 +448,15 @@ def main():
         print "Usage: %s prefix-directory" % sys.argv[0]
         exit()
     prefix = sys.argv[1]
+    ensure_path_exists(prefix)
     log = '%s/ztb-crawler-%s.log' % (prefix, datetime.datetime.now().strftime("%Y%m%d%H%M%S"))
-    print '#Info: log will be written to "%s"' % os.path.abspath(log)
+    text = '#Info: log will be written to "%s"' % os.path.abspath(log)
+    with codecs.open(log, 'w', 'utf-8') as h:
+        log_it(h, text)
     for url, flow in get_crawl_workflows().iteritems():
         try:
-            text = CrawlerDataSource.fetch_text(flow.location if flow.location else flow.url)
+            source = flow.url  # TODO: implement this as an option
+            text = CrawlerDataSource.fetch_text(source)
             soup = bs4.BeautifulSoup(text, 'html.parser')
             for a in SoupAncestorSearch.search_soup_for_tags(soup, flow.tag, flow.searches):
                 data = flow.generator(flow, a)
@@ -455,7 +464,11 @@ def main():
             print '#Info: job for url "%s" succeeded' % url
         except:
             print '#Error: job for url "%s" failed' % (url)
-    print '#Info: log has been written to "%s"' % os.path.abspath(log)
+    text = '#Info: log has been written to "%s"' % os.path.abspath(log)
+    with codecs.open(log, 'a', 'utf-8') as h:
+        log_it(h, text)
+    with codecs.open(log + '.is-new', 'w', 'utf-8') as h:
+        h.write(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S") + '\n')
 
 
 main()

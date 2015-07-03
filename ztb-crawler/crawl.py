@@ -294,7 +294,6 @@ class ZTBParser(object):
         """
         addr = soup_tag.get('href')
         t = cls.parse_article_time_from_anchor(soup_tag)
-        assert t is not None
         title = cls.walk_down_tag_with_single_edge(soup_tag)
         assert title is not None
         if addr[0:4] != 'http':  # not full address; compute it
@@ -302,7 +301,7 @@ class ZTBParser(object):
         # TODO: ugly hacking; improve it
         # time from 'ztb.huzhou.gov.cn' is of 'mm-dd'; fortunately, urls are
         # like http://ztb.huzhou.gov.cn/art/2015/6/15/art_3604_398438.html
-        if len(t) != 10:
+        if t and len(t) != 10:
             # construct a full date with the help of url
             segments = addr.split('/')
             segments = [ '0' + i if len(i) == 1 else i for i in segments]
@@ -311,7 +310,6 @@ class ZTBParser(object):
                     t = datetime.datetime.strptime(
                         '-'.join(segments[i-1 : i+2]), '%Y-%m-%d').strftime(
                         '%Y-%m-%d')
-        assert len(t) == 10
         return [
             flow.name, t, addr, title, datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         ]
@@ -429,8 +427,13 @@ def log_it(handle, s):
 def commit(flow, data, prefix, log):
     # data: [flow.name, t, addr, title, collected-time-point]
     (name, t, addr, title, _) = data
-    t1 = t[0:7]  # 'YYYY-mm'
-    t2 = t[8:]   # 'dd
+    if t and len(t) == 10:
+        t1 = t[0:7]  # 'YYYY-mm'
+        t2 = t[8:]   # 'dd
+    else:
+        data[1] = u'<日期未知>'
+        t1 = u'年月未知'
+        t2 = u'日期未知'
     path = '/'.join([prefix, name, t1, t2])
     ensure_path_exists(path)
     digest = hashlib.md5(addr).hexdigest()

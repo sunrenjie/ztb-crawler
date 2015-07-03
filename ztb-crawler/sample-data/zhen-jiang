@@ -1,0 +1,441 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <title>镇江市工程建设网</title>
+    <link href="../Template/Default/../../css/styles.css" type="text/css" rel="stylesheet">
+    <link href="/zjgcjs/Template/Default/css/styles_zjgcjs.css" type="text/css" rel="stylesheet">
+    <link href="../Template/Default/css/Front.css" rel="stylesheet" type="text/css" />
+</head>
+<script>    function OpenDiv(cate) { if (document.getElementById(cate).style.display == '') { document.getElementById(cate).style.display = 'none'; document.getElementById("fegf1").style.display = 'none' } else { document.getElementById(cate).style.display = ''; document.getElementById("fegf1").style.display = '' } } </script>
+<body ms_positioning="GridLayout" topmargin="0" bgcolor="#E7E7E7">
+    <!--header-->
+    <div class="header">
+        <iframe width="100%" height="100%" src="../Template/Default/pagehead.htm" frameborder="0" scrolling="no"></iframe>
+    </div>
+    <div class="banner">
+        <img width="1010" height="73" src="../Template/Default/images/bg23.jpg" alt="" class="block" />
+    </div>
+    <!--new main-->
+    <div class="moreinfomain">
+        <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td width="282" height="34" bgcolor="#FFFFFF" valign="top">
+                    <div class="rtround">
+                    </div>
+                </td>
+                <td width="6">
+                </td>
+                <td width="693" bgcolor="#FFFFFF" valign="top">
+                    <div class="ltround">
+                    </div>
+                    <div class="rtround">
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td width="46" height="300" bgcolor="#FFFFFF" valign="top">
+                    <a href="">
+                        <img width="46" height="128" src="../Template/Default/images/bg2.jpg" alt="" />
+                    </a>
+                </td>
+                <td width="236" bgcolor="#FFFFFF" valign="top">
+                    <table cellspacing="0" cellpadding="0" width="100%" border="0">
+                        <tr>
+                            <td class="LeftMenuSpecial" background="/zjgcjs/">
+                                <a href="MoreZBGG.aspx?Type=SG" target="_self"><font color="#000000">施工类</font></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="LeftMenuSpecial" background="/zjgcjs/">
+                                <a href="MoreZBGG.aspx?Type=JL" target="_self"><font color="#000000">监理类</font></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="LeftMenuSpecial" background="/zjgcjs/">
+                                <a href="MoreZBGG.aspx?Type=ZY" target="_self"><font color="#000000">专业类</font></a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td width="6">
+                </td>
+                <td width="693" bgcolor="#FFFFFF" valign="top">
+                    <form name="Form1" method="post" action="morezbgg.aspx" id="Form1">
+<input type="hidden" name="__CSRFTOKEN" id="__CSRFTOKEN" value="/wEFJDZmZDk2NjIzLWU0MTQtNGU2NS1iNzJhLTZlZjM1ZGNjZjQ1ZQ==" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWDgKv9OCSAwLXidvoCAKWoPK7BQKln/PuCgKHmrfBCgLp2IyNAgKBpOHVDgKBpP3VDgKApOHVDgKApP3VDgKJpOHVDgKJpP3VDgKJpPnVDgKIpOHVDkSqkl+5bQjZkl7zk+x1VjlcLndY" />
+                    <table id="moreinfo" height="100%" cellspacing="0" cellpadding="0" width="100%" align="center" border="0">
+	<tr>
+		<td height="40">
+                                <table border="1">
+                                    <tr>
+                                        <td width="12%">
+                                        </td>
+                                        <td width="20%">
+                                        </td>
+                                        <td width="12%">
+                                        </td>
+                                        <td width="20%">
+                                        </td>
+                                        <td>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center">
+                                            项目名称:
+                                        </td>
+                                        <td>
+                                            <input name="lblProjectName" type="text" id="lblProjectName" />
+                                        </td>
+                                        <td align="center">
+                                            项目编号:
+                                        </td>
+                                        <td>
+                                            <input name="lblProjectNo" type="text" id="lblProjectNo" />
+                                        </td>
+                                        <td>
+                                            <input type="submit" name="btnSearch" value="搜索" id="btnSearch" class="Btn" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center">
+                                            建设单位:
+                                        </td>
+                                        <td>
+                                            <input name="lblJianSheDanWei" type="text" id="lblJianSheDanWei" />
+                                        </td>
+                                        <td align="center">
+                                            所属行政区:
+                                        </td>
+                                        <td>
+                                            <select name="jpdArea" id="jpdArea">
+			<option value=""></option>
+			<option value="321101">市辖区</option>
+			<option value="321102">京口区</option>
+			<option value="321111">润州区</option>
+			<option value="321112">丹徒区</option>
+			<option value="321181">丹阳市</option>
+			<option value="321182">扬中市</option>
+			<option value="321183">句容市</option>
+			<option value="321191">镇江新区</option>
+
+		</select>
+                                        </td>
+                                        <td>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+	</tr>
+	<tr>
+		<td id="tdcontent" valign="top" height="100%">
+                                <table cellspacing="0" align="Center" rules="all" border="1" id="DataGrid1" width="98%">
+			<tr class="HeaderStyle" align="center">
+				<td align="center" width="20">&nbsp;</td><td>编号</td><td>所属行政区</td><td>工程名称</td><td>招标类型</td>
+			</tr><tr>
+				<td valign="middle" width="10">
+                                                <img src="../Images/dots/dot1.gif">
+                                            </td><td align="center" width="180">
+                                                <a href="ZBGGInfo.aspx?GongGaoGuid=fed99c89-c837-4810-b210-7835b8e2c5ac" target="_blank" title="ZJDY201505120"> <font color='red'>【正在公告】</font>ZJDY201505120</a>
+                                            </td><td align="center" width="60">
+                                                丹阳市
+                                            </td><td valign="middle">
+                                                丹阳投资集团有限公司的丹阳市珥陵初级中学、云林学校校安工程监理
+                                            </td><td align="center" width="50">
+                                                监理
+                                            </td>
+			</tr><tr valign="middle">
+				<td valign="middle" width="10">
+                                                <img src="../Images/dots/dot1.gif">
+                                            </td><td align="center" width="180">
+                                                <a href="ZBGGInfo.aspx?GongGaoGuid=c86e7ad5-ce08-45d3-911e-3093c8437dfe" target="_blank" title="ZJDY201505120"> <font color='red'>【正在公告】</font>ZJDY201505120</a>
+                                            </td><td align="center" width="60">
+                                                丹阳市
+                                            </td><td valign="middle">
+                                                丹阳市埤城初级中学的教师宿舍楼加固改造工程（二次公告）
+                                            </td><td align="center" width="50">
+                                                施工
+                                            </td>
+			</tr><tr>
+				<td valign="middle" width="10">
+                                                <img src="../Images/dots/dot1.gif">
+                                            </td><td align="center" width="180">
+                                                <a href="ZBGGInfo.aspx?GongGaoGuid=f51fe3a3-eb1f-40a3-a6fd-2c7179f1753c" target="_blank" title="ZJS201506769-01"> <font color='red'>【正在公告】</font>ZJS201506769-01</a>
+                                            </td><td align="center" width="60">
+                                                市辖区
+                                            </td><td valign="middle">
+                                                长山渠路（凤凰山路-白龙山路）供电管沟工程
+                                            </td><td align="center" width="50">
+                                                施工
+                                            </td>
+			</tr><tr valign="middle">
+				<td valign="middle" width="10">
+                                                <img src="../Images/dots/dot1.gif">
+                                            </td><td align="center" width="180">
+                                                <a href="ZBGGInfo.aspx?GongGaoGuid=46edccd1-87da-4aef-ae4f-6b8cb1d4eed0" target="_blank" title="ZJS201507773-01<br>ZJS201507773-02"> <font color='red'>【正在公告】</font>ZJS201507773-01<br>ZJS201507773-02</a>
+                                            </td><td align="center" width="60">
+                                                市辖区
+                                            </td><td valign="middle">
+                                                2015年国家农业综合开发存量资金土地治理项目建设监理一标段<br>2015年国家农业综合开发存量资金土地治理项目建设监理二标段
+                                            </td><td align="center" width="50">
+                                                监理
+                                            </td>
+			</tr><tr>
+				<td valign="middle" width="10">
+                                                <img src="../Images/dots/dot1.gif">
+                                            </td><td align="center" width="180">
+                                                <a href="ZBGGInfo.aspx?GongGaoGuid=705b78fe-547c-4088-adbf-9ea2091594d2" target="_blank" title="ZJXQ201404456-03"> <font color='red'>【正在公告】</font>ZJXQ201404456-03</a>
+                                            </td><td align="center" width="60">
+                                                镇江新区
+                                            </td><td valign="middle">
+                                                镇江新区平昌新城A8地块安置房专变供配电工程
+                                            </td><td align="center" width="50">
+                                                施工
+                                            </td>
+			</tr><tr valign="middle">
+				<td valign="middle" width="10">
+                                                <img src="../Images/dots/dot1.gif">
+                                            </td><td align="center" width="180">
+                                                <a href="ZBGGInfo.aspx?GongGaoGuid=54254903-8512-475f-bf34-7c396bda5d42" target="_blank" title="ZJDT201405160-04"> <font color='red'>【正在公告】</font>ZJDT201405160-04</a>
+                                            </td><td align="center" width="60">
+                                                丹徒区
+                                            </td><td valign="middle">
+                                                高资中学塑胶跑道工程
+                                            </td><td align="center" width="50">
+                                                施工
+                                            </td>
+			</tr><tr>
+				<td valign="middle" width="10">
+                                                <img src="../Images/dots/dot1.gif">
+                                            </td><td align="center" width="180">
+                                                <a href="ZBGGInfo.aspx?GongGaoGuid=cab3e1bf-d585-4bb6-97b0-3fe74d73136e" target="_blank" title="ZJYZ201505277-01"> <font color='red'>【正在公告】</font>ZJYZ201505277-01</a>
+                                            </td><td align="center" width="60">
+                                                扬中市
+                                            </td><td valign="middle">
+                                                田径场建设工程
+                                            </td><td align="center" width="50">
+                                                施工
+                                            </td>
+			</tr><tr valign="middle">
+				<td valign="middle" width="10">
+                                                <img src="../Images/dots/dot1.gif">
+                                            </td><td align="center" width="180">
+                                                <a href="ZBGGInfo.aspx?GongGaoGuid=b960e2df-d3cf-4522-b39b-abb179f3d6b6" target="_blank" title="ZJDY201505120"> <font color='#3399ff'>【公告结束】</font>ZJDY201505120</a>
+                                            </td><td align="center" width="60">
+                                                丹阳市
+                                            </td><td valign="middle">
+                                                丹阳市珥陵高级中学的实验楼、食堂、体育看台加固改造工程
+                                            </td><td align="center" width="50">
+                                                施工
+                                            </td>
+			</tr><tr>
+				<td valign="middle" width="10">
+                                                <img src="../Images/dots/dot1.gif">
+                                            </td><td align="center" width="180">
+                                                <a href="ZBGGInfo.aspx?GongGaoGuid=e1ba671c-5cd6-4e8e-aa3b-c82a647cca3c" target="_blank" title="ZJYZ201506292-01<br>ZJYZ201506292-02"> <font color='red'>【正在公告】</font>ZJYZ201506292-01<br>ZJYZ201506292-02</a>
+                                            </td><td align="center" width="60">
+                                                扬中市
+                                            </td><td valign="middle">
+                                                扬中市青少年校外活动中心搬迁改造工程-中庭装饰及房屋出新工程<br>扬中市青少年校外活动中心搬迁改造工程-南楼装饰工程
+                                            </td><td align="center" width="50">
+                                                施工
+                                            </td>
+			</tr><tr valign="middle">
+				<td valign="middle" width="10">
+                                                <img src="../Images/dots/dot1.gif">
+                                            </td><td align="center" width="180">
+                                                <a href="ZBGGInfo.aspx?GongGaoGuid=d3373790-57c4-4576-81fb-23e9552864a5" target="_blank" title="ZJS201412670-02"> <font color='red'>【正在公告】</font>ZJS201412670-02</a>
+                                            </td><td align="center" width="60">
+                                                市辖区
+                                            </td><td valign="middle">
+                                                镇江移动物联网产业大厦及镇江移动第三机房楼工程
+                                            </td><td align="center" width="50">
+                                                施工
+                                            </td>
+			</tr><tr>
+				<td valign="middle" width="10">
+                                                <img src="../Images/dots/dot1.gif">
+                                            </td><td align="center" width="180">
+                                                <a href="ZBGGInfo.aspx?GongGaoGuid=567cecb2-6282-44be-b92c-f0edfd1e6a8a" target="_blank" title="ZJYZ201507298-01"> <font color='red'>【正在公告】</font>ZJYZ201507298-01</a>
+                                            </td><td align="center" width="60">
+                                                扬中市
+                                            </td><td valign="middle">
+                                                扬中市教育局教师进修学校外立面改造工程
+                                            </td><td align="center" width="50">
+                                                施工
+                                            </td>
+			</tr><tr valign="middle">
+				<td valign="middle" width="10">
+                                                <img src="../Images/dots/dot1.gif">
+                                            </td><td align="center" width="180">
+                                                <a href="ZBGGInfo.aspx?GongGaoGuid=a2da5273-7740-43bd-84aa-fcb815f1de69" target="_blank" title="ZJDY201505109"> <font color='#3399ff'>【公告结束】</font>ZJDY201505109</a>
+                                            </td><td align="center" width="60">
+                                                丹阳市
+                                            </td><td valign="middle">
+                                                丹阳水务集团有限公司的大运河污水收集管网工程（一标段）
+                                            </td><td align="center" width="50">
+                                                施工
+                                            </td>
+			</tr><tr>
+				<td valign="middle" width="10">
+                                                <img src="../Images/dots/dot1.gif">
+                                            </td><td align="center" width="180">
+                                                <a href="ZBGGInfo.aspx?GongGaoGuid=ce95af93-c048-4ffd-9836-5a233bc7eb3e" target="_blank" title="ZJDY201505109"> <font color='#3399ff'>【公告结束】</font>ZJDY201505109</a>
+                                            </td><td align="center" width="60">
+                                                丹阳市
+                                            </td><td valign="middle">
+                                                丹阳水务集团有限公司的大运河污水收集管网工程（二标段）
+                                            </td><td align="center" width="50">
+                                                施工
+                                            </td>
+			</tr><tr valign="middle">
+				<td valign="middle" width="10">
+                                                <img src="../Images/dots/dot1.gif">
+                                            </td><td align="center" width="180">
+                                                <a href="ZBGGInfo.aspx?GongGaoGuid=0b8c1bf6-60d4-4231-82ae-2c8dff04503e" target="_blank" title="ZJDY201506122"> <font color='#3399ff'>【公告结束】</font>ZJDY201506122</a>
+                                            </td><td align="center" width="60">
+                                                丹阳市
+                                            </td><td valign="middle">
+                                                丹阳市第六中学的校安工程恢复装修工程
+                                            </td><td align="center" width="50">
+                                                施工
+                                            </td>
+			</tr><tr>
+				<td valign="middle" width="10">
+                                                <img src="../Images/dots/dot1.gif">
+                                            </td><td align="center" width="180">
+                                                <a href="ZBGGInfo.aspx?GongGaoGuid=59326736-aaab-46fc-b6be-3c7e726c0f38" target="_blank" title="ZJDY201507137"> <font color='#3399ff'>【公告结束】</font>ZJDY201507137</a>
+                                            </td><td align="center" width="60">
+                                                丹阳市
+                                            </td><td valign="middle">
+                                                丹阳市总前委旧址纪念馆的纪念馆安防工程
+                                            </td><td align="center" width="50">
+                                                施工
+                                            </td>
+			</tr><tr valign="middle">
+				<td valign="middle" width="10">
+                                                <img src="../Images/dots/dot1.gif">
+                                            </td><td align="center" width="180">
+                                                <a href="ZBGGInfo.aspx?GongGaoGuid=e121d640-520f-4bcf-9d7c-7dde5dd95611" target="_blank" title="ZJS201412656-01"> <font color='red'>【正在公告】</font>ZJS201412656-01</a>
+                                            </td><td align="center" width="60">
+                                                市辖区
+                                            </td><td valign="middle">
+                                                镇江国际饭店外墙改造工程
+                                            </td><td align="center" width="50">
+                                                施工
+                                            </td>
+			</tr><tr>
+				<td valign="middle" width="10">
+                                                <img src="../Images/dots/dot1.gif">
+                                            </td><td align="center" width="180">
+                                                <a href="ZBGGInfo.aspx?GongGaoGuid=72f17227-8b44-48ff-a337-f76d978efdbc" target="_blank" title="ZJS201208162-08"> <font color='red'>【正在公告】</font>ZJS201208162-08</a>
+                                            </td><td align="center" width="60">
+                                                市辖区
+                                            </td><td valign="middle">
+                                                御带河花园27#~33#楼保温材料供应<font color='red'>(二次公告)</font>
+                                            </td><td align="center" width="50">
+                                                材料设备
+                                            </td>
+			</tr><tr valign="middle">
+				<td valign="middle" width="10">
+                                                <img src="../Images/dots/dot1.gif">
+                                            </td><td align="center" width="180">
+                                                <a href="ZBGGInfo.aspx?GongGaoGuid=fce10c8c-0dbb-4a17-b95a-63606cb185d0" target="_blank" title="ZJXQ201506704-01<br>ZJXQ201506704-02"> <font color='red'>【正在公告】</font>ZJXQ201506704-01<br>ZJXQ201506704-02</a>
+                                            </td><td align="center" width="60">
+                                                镇江新区
+                                            </td><td valign="middle">
+                                                港中新村社区1、4区综合改造工程<br>港中新村社区2、3区综合改造工程
+                                            </td><td align="center" width="50">
+                                                施工
+                                            </td>
+			</tr><tr>
+				<td valign="middle" width="10">
+                                                <img src="../Images/dots/dot1.gif">
+                                            </td><td align="center" width="180">
+                                                <a href="ZBGGInfo.aspx?GongGaoGuid=8b91fa5b-4bae-4f54-97dc-7dac1410aa7b" target="_blank" title="ZJYZ201504259-04"> <font color='red'>【正在公告】</font>ZJYZ201504259-04</a>
+                                            </td><td align="center" width="60">
+                                                扬中市
+                                            </td><td valign="middle">
+                                                扬中市油坊中心小学教学综合楼装饰工程
+                                            </td><td align="center" width="50">
+                                                施工
+                                            </td>
+			</tr><tr valign="middle">
+				<td valign="middle" width="10">
+                                                <img src="../Images/dots/dot1.gif">
+                                            </td><td align="center" width="180">
+                                                <a href="ZBGGInfo.aspx?GongGaoGuid=5cc4fb14-640e-4c90-b067-e524cdb67b69" target="_blank" title="ZJDY201505120"> <font color='#3399ff'>【公告结束】</font>ZJDY201505120</a>
+                                            </td><td align="center" width="60">
+                                                丹阳市
+                                            </td><td valign="middle">
+                                                丹阳市云林学校的学生宿舍、师生餐厅加固改造工程
+                                            </td><td align="center" width="50">
+                                                施工
+                                            </td>
+			</tr>
+		</table>
+                            </td>
+	</tr>
+	<tr>
+		<td height="8">
+                            </td>
+	</tr>
+	<tr>
+		<td class="Xline2" height="3">
+                            </td>
+	</tr>
+	<tr>
+		<td align="right" height="25">
+                                
+		<!------------------------------ AspNetPager V4.3.3 Start ------------------------------>
+		<!-------------------- Copyright:2003-2005 Webdiyer(www.webdiyer.com) --------------------->
+		<div id="Pager">
+			<table width="100%" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="bottom" align="left" nowrap="true" width="40%">共：<font color="red"><b>3532</b></font>条 第：<font color="red"><b>1/177</b></font>页</td><td valign="bottom" align="notset" nowrap="true" class="" width="60%"><a disabled="true">首页</a><span></span><a disabled="true">上一页</a><span></span><font>1</font><span></span><a title="转到第2页" href="javascript:__doPostBack('Pager','2')">2</a><span></span><a title="转到第3页" href="javascript:__doPostBack('Pager','3')">3</a><span></span><a title="转到第4页" href="javascript:__doPostBack('Pager','4')">4</a><span></span><a title="转到第5页" href="javascript:__doPostBack('Pager','5')">5</a><span></span><a title="转到第6页" href="javascript:__doPostBack('Pager','6')">6</a><span></span><a title="转到第7页" href="javascript:__doPostBack('Pager','7')">7</a><span></span><a title="转到第8页" href="javascript:__doPostBack('Pager','8')">8</a><span></span><a title="转到第9页" href="javascript:__doPostBack('Pager','9')">9</a><span></span><a title="转到第10页" href="javascript:__doPostBack('Pager','10')">10</a><span></span><a href="javascript:__doPostBack('Pager','11')" title="转到第11页">...</a><span></span><a title="转到第2页" href="javascript:__doPostBack('Pager','2')">下一页</a><span></span><a title="转到第177页" href="javascript:__doPostBack('Pager','177')">尾页</a><span></span></td>
+				</tr>
+			</table>
+		</div>
+		<!------------------------------- AspNetPager V4.3.3 End -------------------------------->
+
+		
+                            </td>
+	</tr>
+	<tr>
+		<td class="Xline2" height="3">
+                            </td>
+	</tr>
+</table>
+
+                    </form>
+                </td>
+            </tr>
+        </table>
+        <table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td width="282" bgcolor="#FFFFFF">
+                    <div class="rbround">
+                    </div>
+                </td>
+                <td width="6">
+                </td>
+                <td width="693" bgcolor="#FFFFFF">
+                    <div class="lbround">
+                    </div>
+                    <div class="rbround">
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <!--footer-->
+    <div class="footer">
+        <iframe width="100%" height="100%" src="../Template/Default/pagefoot.htm" frameborder="0" scrolling="no"></iframe>
+    </div>
+</body>
+</html>

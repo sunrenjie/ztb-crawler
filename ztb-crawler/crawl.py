@@ -314,6 +314,31 @@ class ZTBParser(object):
             flow.name, t, addr, title, datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         ]
 
+    @classmethod
+    def collect_soup_tag_text(cls, tag):
+        data = []
+        for c in tag.children:
+            if isinstance(c, bs4.element.Tag):
+                r = cls.collect_soup_tag_text(c)
+                if r:
+                    data.append(r)
+            else:
+                t = c.strip()
+                if len(t) > 0:
+                    data.append(t)
+        return '-'.join(data) if len(data) > 0 else None
+
+    @classmethod
+    def generator_zhenjiang(cls, flow, soup_tag):
+        addr = soup_tag.get('href')
+        if addr[0:4] != 'http':  # not full address; compute it
+            addr = urljoin(flow.url, addr)
+        title = cls.collect_soup_tag_text(soup_tag.parent.parent)
+        assert addr is not None and title is not None
+        return [
+            flow.name, None, addr, title, datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        ]
+
 
 class ZTBCrawlFlow(object):
     def __init__(self, url, location, name, tag, searches, generator):
@@ -408,6 +433,13 @@ def get_crawl_workflows():
                                             HTMLTagAttributesVerifier(
                                                 'table', {'width': '998', 'class': 'bk'})),
                      ], ZTBParser.generator_yxztb),
+        ZTBCrawlFlow('http://www.zjcin.com/zjgcjs/ztbinfo/morezbgg.aspx',
+                     './sample-data/zhen-jiang', u'镇江市', 'a',
+                     [
+                         SoupAncestorSearch(['td', 'tr', 'table'],
+                                            HTMLTagAttributesVerifier(
+                                                'table', {'id': 'DataGrid1'})),
+                     ], ZTBParser.generator_zhenjiang),
     ]:
         crawl_flows[f.url] = f
     return crawl_flows

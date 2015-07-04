@@ -1,0 +1,619 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>芜湖公共资源交易中心</title>
+<link href="/whweb/Template/Default/jyzx/css/style.css" rel="stylesheet" type="text/css"/>
+<SCRIPT language=Javascript type=text/javascript>
+function showtabs(m,n,count){
+for(var i=1;i<=count;i++){
+if (i==n){
+getObject('menutab_'+m+'_'+i).style.display='';
+getObject('menu_'+m+'_'+i).className='menub1_1';}
+else {
+getObject('menutab_'+m+'_'+i).style.display='none';
+getObject('menu_'+m+'_'+i).className='menub1_2';}
+}
+}
+
+function showtabs2(m,n,count){
+for(var i=1;i<=count;i++){
+if (i==n){
+getObject('menutab_'+m+'_'+i).style.display='';
+getObject('menu_'+m+'_'+i).className='menub1_1';}
+else {
+getObject('menutab_'+m+'_'+i).style.display='none';
+getObject('menu_'+m+'_'+i).className='menub1_2';}
+}
+}
+
+function showtabs3(m,n,count){
+for(var i=1;i<=count;i++){
+if (i==n){
+getObject('menutab_'+m+'_'+i).style.display='';
+getObject('menu_'+m+'_'+i).className='menub1_1';}
+else {
+getObject('menutab_'+m+'_'+i).style.display='none';
+getObject('menu_'+m+'_'+i).className='menub1_2';}
+}
+}
+
+function showtabs4(m,n,count){
+for(var i=1;i<=count;i++){
+if (i==n){
+getObject('menutab_'+m+'_'+i).style.display='';
+getObject('menu_'+m+'_'+i).className='menub1_1';}
+else {
+getObject('menutab_'+m+'_'+i).style.display='none';
+getObject('menu_'+m+'_'+i).className='menub1_2';}
+}
+}
+function showtabs5(m,n,count){
+for(var i=1;i<=count;i++){
+if (i==n){
+getObject('menutab_'+m+'_'+i).style.display='';
+getObject('menu_'+m+'_'+i).className='menub1_1';}
+else {
+getObject('menutab_'+m+'_'+i).style.display='none';
+getObject('menu_'+m+'_'+i).className='menub1_2';}
+}
+}
+function showtabs6(m,n,count){
+for(var i=1;i<=count;i++){
+if (i==n){
+getObject('menutab_'+m+'_'+i).style.display='';
+getObject('menu_'+m+'_'+i).className='menub1_1';}
+else {
+getObject('menutab_'+m+'_'+i).style.display='none';
+getObject('menu_'+m+'_'+i).className='menub1_2';}
+}
+}
+
+function getObject(objectId) {
+if(document.getElementById && document.getElementById(objectId)){
+return document.getElementById(objectId);
+} else if (document.all && document.all(objectId)) {
+return document.all(objectId);
+} else if (document.layers && document.layers[objectId]) {
+return document.layers[objectId];
+} else {return false;}
+}
+
+</SCRIPT>
+</head>
+
+<body>
+<table width="1002" height="182" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+    <title></title>
+    <meta name="GENERATOR" content="Microsoft Visual Studio .NET 7.1" />
+    <meta name="ProgId" content="VisualStudio.HTML" />
+    <meta name="Originator" content="Microsoft Visual Studio .NET 7.1" />
+    <link href="/whweb/Template/Default/jyzx/css/style.css" rel="stylesheet" type="text/css"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <script type="text/javascript" src="/whweb/Template/Default/jyzx/js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#nav td:even").mouseover(function () {
+                $(this).css("background", "url(images/nav_hover.jpg) repeat-x");
+                $(this).css("color", "#fcff00");
+            });
+            $("#nav td:even").mouseout(function () {
+                $(this).css("background", "none");
+                $(this).css("color", "#ffffff");
+            });
+        });
+
+    </script>
+    <script type="text/javascript">
+
+        function gettime() {
+            today = new Date();
+
+            var d = new initArray("星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六");
+            document.write("<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;今天是" + today.getFullYear(), "年", today.getMonth() + 1, "月", today.getDate(), "日&nbsp;&nbsp;", d[today.getDay() + 1] + "</span>");  //-->
+        }
+        function initArray() {
+            this.length = initArray.arguments.length
+            for (var i = 0; i < this.length; i++)
+                this[i + 1] = initArray.arguments[i]
+        }
+
+
+        function OpenWin2(Url) {
+            window.open(Url, "_top");
+        }
+        function OpenWin(Url) {
+
+            window.open(Url, '', 'Width=530,Height=565,help:no,status:no,scrollbars=yes,resizable=yes');
+        }
+        function dosearch() {
+            if (document.getElementById("txtKeys").value == "" || document.getElementById("txtKeys").value == "关键字") {
+                alert("请输入关键字！");
+            }
+            else {
+                var openUrl = '../../showinfo/searchresult.aspx?keyword=';
+
+                openUrl += escape(document.getElementById("txtKeys").value) + "&searchtype=title";
+                window.open(openUrl, "", "", "");
+            }
+        }
+        function CheckSearch() {
+            if (event.keyCode == "13") {
+                if (document.getElementById("txtKeys").value != "" && document.getElementById("txtKeys").value != "关键字") {
+                    dosearch();
+                }
+                else {
+                    alert("搜索字段不能为空！");
+                }
+            }
+        }
+		function search()
+		{
+			var tim=10
+			if(tim==10)
+			{
+				tim=0;
+				  if (document.getElementById("txtKey").value == "" || document.getElementById("txtKey").value == "关键字") {
+                //alert("请输入关键字！");
+            }
+            else {
+                var t = document.getElementById("txtKey").value;
+                if (t.indexOf("<") > -1 || t.indexOf(">") > -1) {
+                    alert("请勿在关键字中输入非法字符!");
+                    return;
+                }
+                var openUrl =  '/whweb/ShowInfo/SearchResult.aspx?keyword=';
+
+                openUrl += escape(t) + "&searchtype=title";
+                window.open(openUrl);
+            }
+			}
+			else
+		    {
+				alert("两次搜索的时间间隔不能少于十秒")
+		    }
+		}
+		function tab()    {       if(event.keyCode ==13)       {      document.getElementById("ssubmit").click();    }    } 
+    </script>
+</head>
+<body>
+<table height="121" border="0" cellspacing="0" cellpadding="0" class="tab">
+  <tr>
+    <td valign="top"><embed  src="/whweb/Template/Default/flashpic/top-test.swf"
+ width="998" height="121" wmode="transparent" align="center"></embed></td>
+  </tr>
+</table>
+<table height="35" border="0" cellspacing="0" cellpadding="0" class="tab" background="/whweb/Template/Default/jyzx/images/nav_bg.jpg">
+  <tr>
+    <td>
+    	<table width="80%" align="center" height="35">
+        	<tr>
+            	<td width="77" class="nav"><a href="/whweb/">首页</a></td>
+    <td width="103" class="nav"><a href="/whweb/jyzx/013001">中心简介</a></td>
+    <td width="103" class="nav"><a href="/whweb/jyzx/013002">办事指南</a></td>
+    <td width="103" class="nav"><a href="/whweb/jyzx/013003">政策法规</a></td>
+    <td width="103" class="nav"><a href="/whweb/jyzx/013004">交易信息</a></td>
+    <td width="103" class="nav"><a href="http://www.whzbb.com.cn/whweb/cxpj/cxpj_zgbm_box.aspx">诚信评价</a></td>
+    <td width="103" class="nav"><a href="/whweb/jyzx/013005">党团建设</a></td>
+    <td width="103" class="nav"><a href="/whweb/gglm/014001">廉政建设</a></td>
+    <td width="103" class="nav"><a href="/whweb/jyzx/013007">下载中心</a></td>
+    
+            </tr>
+        </table>
+    </td>
+  </tr>
+</table>
+<table height="26" border="0" cellspacing="0" cellpadding="0" class="tab border1" background="/whweb/Template/Default/jyzx/images/t1.jpg">
+  <tr>
+    <td width="150">&nbsp;&nbsp;&nbsp;&nbsp;<span  id="timePlace"> 
+    <script type="text/javascript">
+     function showtime() {
+         var week = new Array("日", "一", "二", "三", "四", "五", "六");
+         dt = new Date();
+         var weekday = week[dt.getDay()];
+         var tp = document.getElementById("timePlace");
+		  var year = dt.getFullYear(); 
+         var month = dt.getMonth() + 1;    //getMonth返回的月份是从0开始的，因此要加1
+         var date = dt.getDate();
+         var day = dt.getDay();
+         var result = "<font color='#000000'>" + year + "年" + month + "月" + date + "日" + "&nbsp;" + " 星期" + weekday + "</font>";
+
+         tp.innerHTML = result;
+     }
+     showtime();
+
+    </script>     </span></td><td width="380">
+   </td>
+    <td width="80" align="center"><b>全站搜索：</b></td>
+    <td width="162"><input class="inputSearch" onKeyDown="tab()" type="text" size="12" name="txtKey" id="txtKey" style="width: 150px; height:16px; border: 1px #c8cfd9 solid; color:#000000;"  value="" onFocus="value=''" onBlur="if(!value)value=defaultValue"/></td>
+    <td width="59"><input class="btn1" src="/whweb/Template/Default/jyzx/images/search_btn.jpg" type="image" id="submit" onClick="search()"></td>
+  </tr>
+</table>
+</body>
+</html>
+</td>
+  </tr>
+</table>
+
+<table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0" class="tab topd">
+  <tr>
+    <td width="242" valign="top" class="sub_bg border2">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="">
+  <tr>
+    <td height="43" class="yj">市级</td>
+  </tr>
+  <tr>
+    <td height="200" bgcolor="#f4f4f4"  valign="top" align="center"><TABLE align="center" cellSpacing="0" cellPadding="0" width="210" border="0">
+<tr><td align="center" height=36  onclick="OpenDiv('TD013004001');" style="cursor:hand;padding-left:0px; padding-top:2px; background-repeat:no-repeat;"  background="/whweb/Template/Default/jyzx/images/zy_erj.jpg"><font color='#ff6e00' style="font-weight:bold;">建设工程</font></a></td></tr>
+<tr><td style="padding-left:0px;" id="TD013004001"><table border=0 width="100%">
+<tr><td align="center" onclick="OpenDiv('TD013004001001') " height=36 ><a href="/whweb/jyzx/013004/013004001/013004001001" target="_self">
+<font color=red>【招标公告】</font></a></td></tr>
+<tr><td style="padding-left:0px;" id="TD013004001001" colspan="2"><table border=0 width="100%">
+<tr><td height=36 ><a href="/whweb/jyzx/013004/013004001/013004001001/013004001001001"  target="_self"><font color=red>市级</font></a></td></tr>
+<tr></td><td  height=36 ><a href="/whweb/jyzx/013004/013004001/013004001001/013004001001002" target="_self"><font color=black>县级</font></a></td></tr>
+<tr></td><td  height=36 ><a href="/whweb/jyzx/013004/013004001/013004001001/013004001001003" target="_self"><font color=black>社会代理机构</font></a></td></tr>
+</table></td></tr>
+<tr><td align="center" onclick="OpenDiv('TD013004001002') " height=36 ><a href="/whweb/jyzx/013004/013004001/013004001002" target="_self">
+<font color='#000000'>【澄清公告】</font></a></td></tr>
+<tr><td style="padding-left:0px;display:none" id="TD013004001002" colspan="2"><table border=0 width="100%">
+<tr></td><td  height=36 ><a href="/whweb/jyzx/013004/013004001/013004001002/013004001002001" target="_self"><font color=black>市级</font></a></td></tr>
+<tr></td><td  height=36 ><a href="/whweb/jyzx/013004/013004001/013004001002/013004001002002" target="_self"><font color=black>县级</font></a></td></tr>
+<tr></td><td  height=36 ><a href="/whweb/jyzx/013004/013004001/013004001002/013004001002003" target="_self"><font color=black>社会代理机构</font></a></td></tr>
+</table></td></tr>
+<tr><td align="center" onclick="OpenDiv('TD013004001003') " height=36 ><a href="/whweb/jyzx/013004/013004001/013004001003" target="_self">
+<font color='#000000'>【中标候选人公示】</font></a></td></tr>
+<tr><td style="padding-left:0px;display:none" id="TD013004001003" colspan="2"><table border=0 width="100%">
+<tr></td><td  height=36 ><a href="/whweb/jyzx/013004/013004001/013004001003/013004001003001" target="_self"><font color=black>市级</font></a></td></tr>
+<tr></td><td  height=36 ><a href="/whweb/jyzx/013004/013004001/013004001003/013004001003002" target="_self"><font color=black>县级</font></a></td></tr>
+<tr></td><td  height=36 ><a href="/whweb/jyzx/013004/013004001/013004001003/013004001003003" target="_self"><font color=black>社会代理机构</font></a></td></tr>
+</table></td></tr>
+<tr><td align="center" onclick="OpenDiv('TD013004001004') " height=36 ><a href="/whweb/jyzx/013004/013004001/013004001004" target="_self">
+<font color='#000000'>【中标结果公告】</font></a></td></tr>
+<tr><td style="padding-left:0px;display:none" id="TD013004001004" colspan="2"><table border=0 width="100%">
+<tr></td><td  height=36 ><a href="/whweb/jyzx/013004/013004001/013004001004/013004001004001" target="_self"><font color=black>市级</font></a></td></tr>
+<tr></td><td  height=36 ><a href="/whweb/jyzx/013004/013004001/013004001004/013004001004002" target="_self"><font color=black>县级</font></a></td></tr>
+<tr></td><td  height=36 ><a href="/whweb/jyzx/013004/013004001/013004001004/013004001004003" target="_self"><font color=black>社会代理机构</font></a></td></tr>
+</table></td></tr>
+</table></td></tr>
+<tr><td align="center" height=36  onclick="OpenDiv('TD013004002');" style="cursor:hand;padding-left:0px; padding-top:2px; background-repeat:no-repeat;"  background="/whweb/Template/Default/images/zy_erj.jpg"><font color='#000000' style="font-weight:bold;">政府采购</font></a></td></tr>
+<tr><td style="padding-left:0px;display:none;" id="TD013004002"><table border=0 width="100%">
+<tr><td align="center" onclick="OpenDiv('TD013004002001') " height=36 ><a href="/whweb/jyzx/013004/013004002/013004002001" target="_self">
+<font color='#000000'>【招标公告】</font></a></td></tr>
+<tr><td style="padding-left:0px;display:none" id="TD013004002001" colspan="2"><table border=0 width="100%">
+<tr></td><td  height=36 ><a href="/whweb/jyzx/013004/013004002/013004002001/013004002001001" target="_self"><font color=black>市级</font></a></td></tr>
+<tr></td><td  height=36 ><a href="/whweb/jyzx/013004/013004002/013004002001/013004002001002" target="_self"><font color=black>县级</font></a></td></tr>
+<tr></td><td  height=36 ><a href="/whweb/jyzx/013004/013004002/013004002001/013004002001003" target="_self"><font color=black>社会代理机构</font></a></td></tr>
+</table></td></tr>
+<tr><td align="center" onclick="OpenDiv('TD013004002002') " height=36 ><a href="/whweb/jyzx/013004/013004002/013004002002" target="_self">
+<font color='#000000'>【澄清变更公告】</font></a></td></tr>
+<tr><td style="padding-left:0px;display:none" id="TD013004002002" colspan="2"><table border=0 width="100%">
+<tr></td><td  height=36 ><a href="/whweb/jyzx/013004/013004002/013004002002/013004002002001" target="_self"><font color=black>市级</font></a></td></tr>
+<tr></td><td  height=36 ><a href="/whweb/jyzx/013004/013004002/013004002002/013004002002002" target="_self"><font color=black>县级</font></a></td></tr>
+<tr></td><td  height=36 ><a href="/whweb/jyzx/013004/013004002/013004002002/013004002002003" target="_self"><font color=black>社会代理机构</font></a></td></tr>
+</table></td></tr>
+<tr><td align="center" onclick="OpenDiv('TD013004002003') " height=36 ><a href="/whweb/jyzx/013004/013004002/013004002003" target="_self">
+<font color='#000000'>【中标候选人公示】</font></a></td></tr>
+<tr><td style="padding-left:0px;display:none" id="TD013004002003" colspan="2"><table border=0 width="100%">
+<tr></td><td  height=36 ><a href="/whweb/jyzx/013004/013004002/013004002003/013004002003001" target="_self"><font color=black>市级</font></a></td></tr>
+<tr></td><td  height=36 ><a href="/whweb/jyzx/013004/013004002/013004002003/013004002003002" target="_self"><font color=black>县级</font></a></td></tr>
+<tr></td><td  height=36 ><a href="/whweb/jyzx/013004/013004002/013004002003/013004002003003" target="_self"><font color=black>社会代理机构</font></a></td></tr>
+</table></td></tr>
+<tr><td align="center" onclick="OpenDiv('TD013004002004') " height=36 ><a href="/whweb/jyzx/013004/013004002/013004002004" target="_self">
+<font color='#000000'>【中标结果公告】</font></a></td></tr>
+<tr><td style="padding-left:0px;display:none" id="TD013004002004" colspan="2"><table border=0 width="100%">
+<tr></td><td  height=36 ><a href="/whweb/jyzx/013004/013004002/013004002004/013004002004001" target="_self"><font color=black>市级</font></a></td></tr>
+<tr></td><td  height=36 ><a href="/whweb/jyzx/013004/013004002/013004002004/013004002004002" target="_self"><font color=black>县级</font></a></td></tr>
+<tr></td><td  height=36 ><a href="/whweb/jyzx/013004/013004002/013004002004/013004002004003" target="_self"><font color=black>社会代理机构</font></a></td></tr>
+</table></td></tr>
+<tr><td align="center" onclick="OpenDiv('TD013004002005') " height=36 ><a href="/whweb/jyzx/013004/013004002/013004002005" target="_self">
+<font color='#000000'>【采购方式公示】</font></a></td></tr>
+<tr><td style="padding-left:0px;display:none" id="TD013004002005" colspan="2"><table border=0 width="100%">
+<tr></td><td  height=36 ><a href="/whweb/jyzx/013004/013004002/013004002005/013004002005001" target="_self"><font color=black>采购方式变更公示</font></a></td></tr>
+<tr></td><td  height=36 ><a href="/whweb/jyzx/013004/013004002/013004002005/013004002005002" target="_self"><font color=black>首次非公开招标方式公示</font></a></td></tr>
+</table></td></tr>
+</table></td></tr>
+<tr><td align="center" height=36  onclick="OpenDiv('TD013004003');" style="cursor:hand;padding-left:0px; padding-top:2px; background-repeat:no-repeat;"  background="/whweb/Template/Default/images/zy_erj.jpg"><font color='#000000' style="font-weight:bold;">产权交易</font></a></td></tr>
+<tr><td style="padding-left:0px;display:none;" id="TD013004003"><table border=0 width="100%">
+<tr><td  align="center" height=36 ><a href="/whweb/jyzx/013004/013004003/013004003001" target="_self">
+<font color='#000000'>【交易公告】</font></a></td></tr>
+<tr><td  align="center" height=36 ><a href="/whweb/jyzx/013004/013004003/013004003002" target="_self">
+<font color='#000000'>【交易结果】</font></a></td></tr>
+</table></td></tr>
+<tr><td align="center" height=36  onclick="OpenDiv('TD013004004');" style="cursor:hand;padding-left:0px; padding-top:2px; background-repeat:no-repeat;"  background="/whweb/Template/Default/images/zy_erj.jpg"><font color='#000000' style="font-weight:bold;">国土交易 </font></a></td></tr>
+<tr><td style="padding-left:0px;display:none;" id="TD013004004"><table border=0 width="100%">
+<tr><td  align="center" height=36 ><a href="/whweb/jyzx/013004/013004004/013004004001" target="_self">
+<font color='#000000'>【交易公告】</font></a></td></tr>
+<tr><td  align="center" height=36 ><a href="/whweb/jyzx/013004/013004004/013004004002" target="_self">
+<font color='#000000'>【交易结果】</font></a></td></tr>
+</table></td></tr>
+</TABLE>
+<script>function OpenDiv(cate){if(document.getElementById(cate).style.display=='') { document.getElementById(cate).style.display='none'} else {document.getElementById(cate).style.display=''}}</script></td>
+  </tr>
+  <tr>
+            <td valign="bottom" bgcolor="#f4f4f4" height="100%">&nbsp;</td>
+          </tr>
+</table>
+
+    </td>
+    <td width="10"></td>
+    <td width="746" valign="top">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="28" class="border2" background="/whweb/Template/Default/jyzx/images/now1.jpg"><table cellSpacing="0" cellPadding="0" border="0"><TR><TD align="center" width="15"></TD><TD align="left"><FONT color="#000000" class=currentpostionfont><b>您现在的位置：</b></FONT><A href='/whweb/'><FONT color="#000000" class=currentpostionfont>首页</FONT></A><FONT color="#FF7E00"> >> <a href='/whweb/jyzx'><FONT color="#FF7E00" class=currentpostionfont>芜湖公共资源交易中心</font></a> >> <a href='/whweb/jyzx/013004'><FONT color="#FF7E00" class=currentpostionfont>交易信息</font></a> >> <a href='/whweb/jyzx/013004/013004001'><FONT color="#FF7E00" class=currentpostionfont>建设工程</font></a> >> <a href='/whweb/jyzx/013004/013004001/013004001001'><FONT color="#FF7E00" class=currentpostionfont>招标公告</font></a> >> <a href='/whweb/jyzx/013004/013004001/013004001001/013004001001001'><FONT color="#FF7E00" class=currentpostionfont>市级</font></a></FONT></TD></TR></table></td>
+  </tr>
+  <tr>
+    <td height="10"></td>
+  </tr>
+  <tr>
+    <td height="100%">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="border2">
+  <tr>
+    <td height="28" class="lm"><p>市级</p></td>
+  </tr>
+  <tr>
+    <td height="616" valign="top"><div style=" margin:0px; padding:10px; text-align:left; width:738px"><form name="ctl00" method="post" action="MoreInfo.aspx?CategoryNum=013004001001001" id="ctl00">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="jYIPa5+Z/yidji5fEEOdPbOENePAgPTx1xhx8YLapWw2qxO1IQytP9sdgaepCKyqiy3VkIftQafcNk1/HrB2FYldtaVPhYa0TB5964nrjrpngVhZpZ4iY6Z60+5lYWxfOEXNdTIStBYhAjx3utxwQAQNx0CrHOR595bJBLUYh539z03k4Eft5oLmokG2u6AFNeEKs1tu/l9VB2E23rxEjo4tKHbmuyQ+zyBBXs4fP2l3HdxAb9IJxvmqIElWQQx1YA8Clh+yQPAdlDH0lHoPQDSap2waVDDle8XJjASmJXzEHVQuMfIBJhXlAA2U1/wnKZ2unAkCboEHrAD7ejwHmqq01wtYmS4svcqvzkkseMAtFcrhmwFjVplK6oKlt7pYOra6s/esiFGmceKf2stq+JOdbF2RuXn4WA3faciMeaNZxAA9j0oXv3IkCgFKTFm4UhrPk1FyfFfkudMo5vmx0Z14a3qVaXFqxEN31dJkKzFYgfwKPD0U93yNJn/2UJwyyYgHHKIAK5WJHoVgYpXtag4JLNE8N/0Ut4KIz5qii0ED6wLwhBelNEgMvs4uUkXbfHuo+0+ZFjyNsVH9MldemF0YI5tJCjYM4c5jfHL4ZW4k5/jQczxpaQe6uGfdIg7DF7ekvtCJhLt+wVbDbSYOogK+Txw9NrDpmZYt5fK1ihquGE/0O62IbqEy27xTqpq8Il2ObgLlXGn0qAvlZObejMS8IBA6hkb8azJKc5XkMLlY88HnMiyeB1VsrFB7KhsrGrItU7Z7QCRtUzs2ap93/Nvii+5AFxjFBeJLvb8X3UhuYe1tSrcNoB2PNzDNblmpqBpqcG5aJKS9ULbMjjaIWjsu8FvCBumariIb4jRhjYMgFQz8iWn/qidpCP66W6D6jVOR0iwrvbUcONerN3E4Ex5fy4UUPNm7UqG4NvGPKF7pX5WJRHw3PRQzqbM0S8ego5KFiOVmzFgcipA42opvvMlwhoZ1jmwjmR5QOhgUAJ2A9QW/BdizO91yOW5Pc9sSMtiwzqaoghUKTOtKQqvsp0w2e1E6Akx7Knxf537KXrwKL2ba5JyqUPDSdH06cV2UJYhTb/ek3tYIpGQXj8M2YioXzxgmeHMWViq7liMuXmXEJ+pE9Q9eA0egta15xMW2YwsRcJICUcRPIK8kEUVJAGXrEmRxRx8HWBCE+pQCLXr27g0hGAkwh56OpDoCUQCOoYCWVJXFZxSNkOR9YfaIo42Xq+mnUicr0y0iZNUzKvWQQJKekHEnuS4121uFM5snx9Xcv2RoU/E1dlfM6hpm9p40C+cTmBI1UgDYo1VbxLgMJLbeYm2kdfTCDJUzo7HveNWapPBWn96VJNERF5NzesTeSjxtksm9ZkEkjh9QudEJ1mPE37/8EwxaY5ug15NuyytySaozEz2LRHgMCzSlfogc1L9aJfZdeb/scsEWW2zXz5gbRwHPU2VXzitjqENaA1UMxAFe13rNqHh7Q6ezwbcBORXbUP+ofOalyLiVgNbFzATAdyTImwReJznZy6QrEo45ERN/B6a7ZY5SqumPzX6UfpvLdw0QOcoAp26Y2hTjRfjJet7UNftf03eomxstEPI2IGZRCoLCunO8MliS2VHWGcYzAyGrANNr1o3lN4G0/g/Lw1vIIPkzdS6rhls7Cff/QtFoWafp+t8AW+2VNbUPHSqauE/+FxHb+HKzAc8qEdHE0dyHaQ9Ju0NvT4OWhqwI8PocfcHs5roLYs4RWCOpRh9Ef3COScOSG8uLN85yQtJIQc+x0sWHrT8CuOcqgvAI/eNwJofK6Hue1vLVsRA75RCYgLymzURfFkEOps2YnhidLbJDX0qN2AiJYERWQ6g5G7ZGw9RaQbxTrDRhJr9rQPMvOo8hRyamhqni9bdqN0+oskXPqEV2yWXtDvqS/PEgdT9RO/w4LIQ53ZAYlX4vWlDQ/QZxEVss1s3XaVOi/5xzQvAayQGXfv5y3Mh2dryWgTAJtQbqKY+UPFWI+Iy6xZl0rasHRqeVa0jlMUDScgqlFwBdOkogPVrjHlXH2D02G2i/KG+37pSHN+teOD2Q6QU9RvAg5idOcZsEOC4m+xzfLRZi4R2emAXbHiNTwiAfJxzoLIXxgnepOg7nGNB+bn6Ghr+6ISS1Q9gsNN3MDZ+kkBa0EvAPbKRAhE34JNzh+tR8yJ5ZKKA1pU7ppfFK7RvjLq2TNVEzwQ+q4imQbwWD7STsluW/HrLPcPtafLRZNec3Sz/DstozB8parm3vD/H86yracq/P0IC3a1815U5Dz5X0oJYKvzxk5RjxOh0oIxdEiDtZVKK7n2Ut+Ino9t4NJoPszWQKag1bAgYDVEVpWj8no6hv4uqVtdmitocb0i3baGwNg59khlUzG+z9Wdtea50h/bWENDHn8QloJndYlAkKS5K6GPLSN0DX3R6YCtpgYVUuIGchIV5xHxw/5XK2/cklwdGW80RKhc/5nmhrQ6e5uQAgGY0WaIRrRXXOcsM71i/5JbF50hoQ9C8f6XIjXMC9OPvMd3XJZ+iIUWgN78omfKrdyGCllGK1cl2guImZTPv3sDUXx3GI0GcDOksHDlm0LMauhOpXCVcGqw/o/I4/RfUAs/cK8V39MWwdHqLOuS6uTIIhjwO+ZYJSPzkXUBoWzf2QlVpwMc+c92ulKnqx860SB5torxD/sl7E3BxpAwttuxCSJO4T66Em/zbUYGNqd1GUaSJVi/A0etkPlrbPNJXGIu4iUz5ZgTlgO7aKULH5uD0EMIJn3DlKTibRvNm8OT6ATRkt9RuoYci97Lk3ab/Hzzlno9ZoVz2Nui1Q5TdBRNVH8qDAu/uiDz0SSmUcKuD309e/8dbZal1vqsiAZ46kVilzHTBHyDtF6KgyP5oPLSwGcH9humVIvwYyFyBjcJdSvNAtiD7Lvzi561sNJHCy+1fuRP2KJ99zYsy7jQjdE2OgYyjw+GYJyS+XBdNWruH2PP0pLWaDfJVnov5NGzHNbuwVV8p8eCMs/tbtbHIKfQeRe1SRM0X1Pd62CDHFS15qpayzDOV9MMbcBHmxJcTn2ZdAYnLLcePtvpXfOUv1Ugl3DTLNOHhZXzkHc+2jc3GBZzgwrxw29XE7mKi1qxZ6DDORiPXaYL7oWOtGkFLww02jAVbhVXQhSGz26locMTbq40sEqUpOnjX5hOGWL8I1fzGmhdxt5INHZ6QRq/QxGmR385yurZgEcwswddeuCe4CmxhcOHFHfC6YbajlMFoxPdABW6UDL1W8A1ybyv6ylhIiGoObzvyVY+jw44eF80dsDPH1BhXwL4mHEqxCnr84tw6ZWFX9AmZf7cS3GOo+iIsrn48DyVekNgAnczBLBEqdw9oTBuRtlgMeue+T64A9N4D8w7iNCZOYE0TPxIDQEFMwMsyHDtdw+ORa7yFOrxNA8xGp68fa8+aI9ddqpfBQUsRpx8uJzzARKS5q22TEIj+pigG6rRfUXiMH7kGDqbqvu6XttXQYmXPaN3usKEHLd3OCYko9VuSzmcaGID4hdGIvc2E3ytwNtw/MPgB7o0NcpduwO1D1AbTAPziA8BHniBh/GsToWBheCX0S9RVtoCNEhSNC2N4Bs5K7Q8CKDFp7SwjXVGVbQSXhwCPOUPg2IaK77GJ+TT38ciCEU29A8JEHn5WE8W0XoVQ5SoSQ/reS9SkCIWsh/xqVP0r6up6aTSpeyq7c7BQAjKqv3ZXJdJA0F4RCbRGS8iuseV1YDV7zG966ImkFIS9R+L33mKj1pIS6WNR4wYXrRwD0W5nD28KQSOcNpyOyz3X1J7lMjzIHWKPHtC25gBUOuPMouujrA4TkS/6xs3rvdZ8WjIm56tzdzUD0oP6acY4pz4eZH1LcvqqUpw2oZYhpk+TLSzyb+1eh9Fz9+gCEcJgt56nVVDoOtoaBPIQE6GAnROel6QiowmKhL9s+zfwdEaDUeW4O4TGvzAlTpJZbRVoi0949AqaJHJ/VD8jB9U4bNW2/MUhM9WSXRC1UqJgNgqPFAiNtvLmB6ERnFFlFfeWcs+sn2ZWd/WVf5VMdS5LWqTamAVn11AAu9SelXxnbJU4pNDSfxml6jYlQL0/gz+Ru3F5oed/6bzTh420hjz+kFMp6C6uzwdl+XurErBCgtLbgtwh7IhBDA57pk4sDyZO+S3/eX6W9D2N3vWMHGH3YsSQmg0fEhgTg1cGREiahd6K54PyG8lGcxsisYZaGNSbNMefUJ26Z6Bi6A/dgFo+7mn/7mgAc8KNSdkFx5uK2ep1umCgUsETEndA/dDsUhO9xT6UnCLpR5670ucK5rCllymfS808xm3HFIQwzmev9F480Yc9yjY82RnvATpoLV20MYWoIiod7x+BY9MRKik7U1+Ivz17W9UJdzhhS1wqh0VjssCJFdEctL6+pOC8QY9jQhosaiat9E4Ek+UVCX38l+TX1YEkYq5T98A3GtbrSFNWT3qhxIr9eWLiQ/mFJLvNCfm2++AvDv9jgJqdBzAKYbj8nY8NoU2jsaqzoUZAKgbSjpnYXW6wvM1hPQeSoRQojHelBN6pf7ZKm7qqaM4x6d70t3C86np8F7m508gmBzhxwnjjHaFOyCI5AWt5s81kp/xAeuoSpNC4v0aq+tBEVPffN5C24qFNvdtD4agl3zPatjdmN3DLhKCUEBnmBeqVj7bfBFIRAtxJAupvMc2QbkoHOAi0NALsGf9R7Tcf9RD9NZ7JRgSYgZnctQ7CgqsRfadWK3QS6IDP69Ipj8qA7rg1gQVQDBWd+ROiH5W8NNPwSF3+BJogBUfR5bcyV/05Rp4Q/GaiBuvlUasbOffoOZbxbX/pkqlPPiLGpOHwDp0yzaEUUs96LWaaapOGfu8Ppir5+kEora7cSkbbCuYiMT7BrgrBlagAX0eCAqLBtoI/DqzsXXib6L1QOHRYDVdz7C4CYFlXnxpduVb200hGdRCK1Aljmw2o5m4+/0pskoNHjX/fbeEXbcVF4iQOWZWtAEhNyyHzD9OTxuXedw9oYel8yC7AmBHZ1eajwtVExukSKt621KAcPA9QcFSfHBQ0UY9EnNPmgrWHAKPHtwo7Qk+10FDDButKGBgLuYSQsvJPD2fu+iiMtzSKm+O9+qm9DfEMhFygBF4/EWyaP1EYSfe89IWTeZi8HRKENFg6P4LepJWtTTo/MqwlEgT3ikUTCcj/HgNgup1OcGsjw7lOMhJkX1DR8QjqwmDz6rjDJVbDjW9Os0jd/ZCeTOSKje0l0QoyrAwkYmp6DxPaXVnzQzzZTojXLF1o/p7AtklRnapDcuIapEPlBTkl8uCwKG2nsa7Ju7zQ5IDrTYZdZ+AeW27DxvJgn9CMzQIJCv7UjxpZI9MsryyrJ97TsEDoRZGGE7Yj0j7tdcwy8irs4VZLFA3uHDq21lhPgMCfgPr/ms4VtZCySSF0EMECN6RgkRxygK5V7ry2lK6UDwUER9vJZoOP7c4D4ziRZKEcK3uxPoRfkUf8vgxpqdyabOAg9Ocx5jIuHMGFfWyREI34jvN9E/1He6iPpWQJdTtKKnVn3rDYHC/soBq4XSyVPAi414QU10I+y61lQM+tvcdW6e30ziKL6zF1ONsOdDYgXPNCD1Vr9NDCd/oOy1skKUq1hQWBUl10snhtXfLnEB5cYPwr0GpnWhGfzfsr/JX8UwMGG1xbcP4Nz/0JB8OOC7dzvm0sWkRCG3hZeINhJd83Vbh4Dt2qLbF+Vk/l/zDP9BkgrJrPHfdCUEUDe0VfSWftseFe7++9W+K7dWViuwmwCEYEaXSX/e1yaEqKFBxaE78dn6V7AmaB6NEfF7QqZTHbzdYhRXjIRRGsoB8PaKa4c1xXMiv75/D9WQnbCrpzNQa0djkYexWb6bBRJVsaDHbrpaWe6y8agFSXB9lhhqTYC7E4m2KbJyqq50ccN8cMhrD4x9n0FWi+ztE03ODY2SBEakem41H3OLTuu1P7qxdVeJbz8a2n1AojNDUydanxucdVMtdCExyOxrUNZvHqolGk1fwRpMyn/pvaL2+VzdxiDSnCQmAhIdUkKW3TsUyQDOOIAJLhL5jdQI/CNv9JxFvlLqKv0nr+JV3of2I+ThXnCv1K5ZzvP0HgQuRetL+ZcnIZdkhgIsNoUDk+JTMHh/RE2+07XotKRfUiGQ/jNJC3yqkWVNahyGEiKWidMRZpSDqq05Vr0SAHcA+hRTqNXcAEig53WIWJ9PQNT2bfDfXgqEdaIpD7q8daO0/CE4Hb6PYOGZgmAnIBZgk8MGKOP0My4/ulKTiStUP/aTzIrej5WgEvrr1QYImAEIg48ZNzvm07vEImVoqdW4YUOL59dwiJ9ZaFAu2XaB7T7KoiPBw5UR4514yC2Sn3rm09FWQiH6wSMBkXZkuMdFwEjsNAwFAK7Bg8G2X/htYfPQpfhU3O9AKuHuZ1G5UB736MbS2p2i+PLtLuojKk2zmNRchIh3tcw5FqDlNlUlt59FIXorAGE5NpBHVyVXAQ3W5Yp87mgMyywcUKVDNc7wVn/5Q1jKhLelUuCV4sXNB6qI6bKbWh3uRL2mJVg4VKHrgtZSN3o7O2Ri7FGLaWVcPpQtiu82Ot18Ir5VUvFFI/U/xlAb/tImp/uS8TYyL24h/QIJIOIKgohNlLZQcSGGKiVveZIjYZeqLoRDqcOEA7jz+1Xw7+dGNHHgqcy81XoteODXRJZhEkMPVbq6PBDceNIntzogV4a3T9cbmTtGHupGc2AgSVa8ArVkbSifNVyuCczh9fGiArD3d3sCgE94LDPizVjmGhstJMgPL9Gi4Y7Nja4j60VX0VOoPVjn4ArvsclzVjvsHuuo3oMuD76sKIb7TPtI+QmZhP8c7t0E0Ge2n8hXYNxp55MAz3pFHUYikiIhMUCILmOl8YT2ylsXb54dzCE8dR6QsejPFclQqdlEbTT1ZetUU90bqPd1Rj10mIwQ6/RkMfRrWRTtmO1dHkXPQI5vtr7qYxg9XkrCpMdSHntOLjCcbK3lJAy/LWWLHuqQrIEXjy/0ZAl27AuWxYy8tisjArXI1tcqJ6xFRsplo1f52uqWHtLsUCRe32D8ZhF6YEO2HOchbfe7fLSsPafJahk7tHTwUpweLUaUtEpabN55/mTMhytooaCHUu6flAVV3mf/EeV2hIAvTFy6g6ayFqVlAhDbHFCENMQPJySxfK8UvDG0a+d4bnvogBvulmsuFkWeJnJtB77H/nz9hrZ8HMkGOucGDG+0d7xxn326EcLaxj+1FS3szd/bqk0B72FHBYwDUWY99s2AMGs4tJtfqJvuOrwIBIDhBD/S2b9odLHWDenGim2uddwHFajZzRufDVXrWivrcNS8zpZpIoqI59TufcsHeAW9LOeGEHCJPucMmmi9x2kAqJAy6glwk50zH/sCp6E5Vtg87TJsT09oacWZMHV06+PG5amj+54G+Mx8giGUOWwU4m8zYO9WlDlpCBXtxbt+nnIF8GkWJSbPddd6bVpoSjSy3it2ieHXFHAgWWI+S/pg2DJKxveeL+wUDwvA51i2TLMbVpKS0EHefh5m5YRXPbCrPepwNdkQfL+M0n/I6lKuQcOyTiwgfFvTBD78BAZLkIVroGxKVyIzRgqXVaYciNR12gBns9JIRac9fesCGP0wYrA7vgoFM4D3pODK0rpY1inmLgQUuwmUCqCovWBUve8G5S548bwV1mQOxPm5EO4LBXwKfKf3uhvccu63l2qtR6Y5FmkElEelxUP2wXlUUb1D2UhbsgQDCOMHuUEe0z+BIPqy5RCl2gd1f3/5RpaHmEr9H/zn31PZrW+7lKhWbYt+I7vbnaV+RiFVw2+mv7qX3b0bAm405F9FSyKZH1154wd9Gqib6/8cz02GL9TI9uKXMg6rvHnHZol9p8dPfiRpuRadkCUdJ8bn0UyAmgxKCJKTLlzisc2yQdM9G1MCaQq5vOU1IJee7G59KV78oeRW93/5Chtn9NTyR9zXBsPYM+YJX1bWsmA9qwZ/DKhpZ2iYTr3XzfuvMJTdNgokH3vvkY1F1zfcnBPtlRg4msDMvOM+2y/v8jUbTbTCnOAl352CfWr6Ye/a9G6hk+DI7l7H0XkIqXSViFmQ7B4tluzieIDKZCpO9voxezelZPMu39DTwN/1j94G4NkxCwWy5i556sj7o2BtijD5O5whxA4mmRP4QQmLc3qvm+1ndmJwgI23kbsCMxf1l4ePRCitlwgEYo9PTIAflDJi3iCwddNKX+MjSm9iPFZzv/HErLZQMe2GfOMfyLmMKgOFbqNyluY6S0P8iIS0Mv6c0ywO/xSDClgfwakTdFR0AjECgxC9oVRJq6llAt9OIm+/Wuu2ZrQckW0ZMaFEFCYkY7P/dottrsAMXdAAFSo54c3o131bu6jqdNWsqnBxzNOS0aLkhv/ukPk63LLsqgre0xXQjN3rT/ZYnpo7QwtLofuyCQeFoS41N6tKapthEXIjm7c2EEsBkmaX79rhzir42ch1gGpLIKcT7QupJHFOrKLv+iQgX/s/xOfO314WFimFBhW8Wsl5w/zcmcDNE0D3OpFJqwwIBZGEAMy5IJUQ4Rw9xKZ0/pVwO1dahmibYjUqpOSk7tptcRCGd1e1BZKR45aN6Vi6XlVSNMUWHUmVQ597F1HFpUzU5rFy3fJ56B3a6OOF6RFOuoskqMAvW44jvr7ox5OfT4F37CQ4k0tjczzd6x/ChLpL67VoUwfsDxoY4UVWMY7N1+nTlcDyUyMRAGgHTJ9bX9NOW5CeOBoUkwOSVFYKSZvN64yVrlRp+FuxfugbjmEqNjylKVYha8KUx1bB/3Hxh4Dvtf8+7ljmg3NzsMOW3I6OYEIc6GhHTDXAspENKh+E3Zyq1SjDEWYz+PD820OHjgXF9c2Iuoe/AA9VoK2cOZHN46ok+syMQvsoRh7jeCzoZUlyNHm65jhMPVL3LJVPFO/KoGgLRZMbmyEMn1dD2t5B2aWqRZ/SmlckgqOJgEGRRvMsJyIxvMHtv5fdxQT4tsWahreq70we0oKACqL9un8NN5RmM8rdUr6dczw8NSAsRhGk3Eh+FqBpk6XejiLdDgLcMJal3ZU8py+QjzLh7PVWxvHHkbKtsh8J7V3uWqfQmrPNft+aQYYN4xUgduaCO6x6xzv3n6c2C9Mso6rC0NMMQJ/OUrl9Upn0XflUHbnftt/rplKQ6zV8xxzklYp5xJ1zLj/kMuZ1oF3oR7sRyyRmLm0Q1DtuKvAorYe82ejPWKsE4HF2ZgbZmTlbwxqO60JGMfo76kRtRY9tch6B0Etej0Cma3RCeQdEyvGwGd8uDky9zfmRfyX0d5RQzSmkHUPb9T6FaGQZn032ZAXk+UNcGzzlqjGViFFTvLXFyRfpIIQVZ35KHEihkbcRBtv2MGPjQ1PFt6ItJK36AiZs8oSto3i+Hc3iV2hxQ8xnV8MglXQbZEYbQ4Z7XCSbQkmLPku95JK4Q2m9Bv2SE23QXuUPtNdT7ZZ74ynIFuZZiknrEOZ+/KM5nFpQkU4bg1NiAQqtCDzlamDivDEUBDOUqZiBZnCZn7/RkgPMZSR1GHgoyVl+T5mlSOPKNG6tYLt/6JldubEM0RPuFCfI02raXPqt4fPMXkwvqJkFoQ1tQi8nDhn6Slwt0z3Y7tG+BTV8+o7AtQSU+02C2BKdsC8E3REudo9RQphGel7xMw6okuDSPNInfI1eP3m9q8QIhfTqWZQV74qjhk6iJMW2K832cXOYN4M7Pyu8UPecfyPiz7fOatjPrVNuxbbWpTyq6hxELO0z4V2zVD1zWfAOdGBXcK671SOnejG6HIOuxoNSwaFIUeIiyZ/qXONciRFXcBbhx7iE9HZY1lNd24tvaWXijHTF0N50a17A71EBVLQuqZGdtgM58z4Vag4N9sztMQepZYga3Ogw5cFsUdwh5O+cBidNt6/fatE6efdC1Fwa4N88EKK45wp+13uPv4q6xgwbFkAxW9S35VmVr77eu3i5tTNzuoDGnaVdZJfbTSMT3s9joTJVoX8hitueRxHsJFO5V80ewsGklFWiOKDmT9C9QMsmmqx3hvtNS/HLCCRUDeKfxZYDR1FPA44F1kpHr1YhtWAjUIxkl+5OukRV12Z77bCOGXAWXFHm1JTJU6eQXkw6jlk4rRMXynBXW8Z8P8hdRfhpVdlSfDPjxo+XP+VAHw2G6UxQ3vBrFlD0arGne3S4aR89pMrItQoxonOtXL7EPUhah/IqQSlNYgBSJCXm0/nlQIyivRUoYesTOGl41qjy4a4q1DWB+t+1m78fcnY0kvkcZrucVYbtv8yoDUNyxALgUlE68xlvqvDOBPG/jfpw2cReLx1MJpZsFG5iocsAA5G4aIp6HLLZGCXmQRgzGmlUK3fV7fbEW/0ZiNZKO/jNzYVlElVMnu2yegcHoTMK4OqC4FeBxJ77H7McDYJFlm0NnHmBlHwkk/zMBMEAnGsteYoLqrqB0SNOsNA+BuxkinQjuzYxvTtZBc/w2N46HG6kj4PLMr5jqk/O5E1xC5A7VVv9bFocvFm/jGZzWvsGD7nhXckxjD325VoknnXxVGv/nrPXjYTn0llgA4q5iLQziXSZCQyi6635Hhvk9nGCUf4ocno7IPsYFs3UT02VonhhCN4N0+dwxrp0455T7TGQdhHGLp4MQEHCvopnem/pekE1OSoHE28an7qotFSq3lcGOjkVFO5JWb/SZNl59bjk3VgJ88ffITCjub1W4kYERclIFRW6sZCt/KsyD21u07eGXVb5YjMnVZIZ6IWOJrtVfFnOdTWKESvyo3oY/L6yM9vjoHtgmGYAp2loU9bWvI6iwkbDCOx5RtvvVw5IU8bPeqaTL5c7haBFOmIxH6QVRpG3lVaksm1ufu6Oea/ZzyQuA/bypPRaAwVMC1j1IEta36rL4wvfSjxAyDu078hFJ2OeuKOta+iEWJDy7zxoe6ze7LHZAP4Cf3FNDzf9j9FgnFcbLvxhSSsZ7ttr5bIZyqmfFEOrq+O9XuI4tGFRz2U+vNZN0jJKKvkucfZ7x35zvwmeg5CcdzBe6BRQ1vb2TuOp4Wefp/9d8fywX8kyt3O8nuh8H93953Lqbz79l4TvhJniKkXRIH/1B1VdtEVcupPBn6RkiE97jJzXTi0ssXqxQBNygHQvXo4zFHvP8P7DAYk2SpoKkuHjk4YdgBk7wGaJjv8tQPO5RolHF46ifW+cPaDOs7+AK9QNF/jDwD2yqIWltmkDxVqivSMSMu7nMQo1qGxgIa5eyAtdadI10xAAqCidy8GuaQup+HqnfDhlA7r4kj4rq0ynGXfp1xymXwJpVyarGQyvPghiw3bwKENIfCL/XAKUxOe2C3ogUTinDlvPvPvPYUBIL52wExjGsR3igEdBrNc13vps9+IlZFR/jz+z4O4/ADzae/C0agHRFh3MtIrtGotEyYfA2/gnVgEeAc021Q=" />
+
+<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" /><table id="MoreInfoList1_moreinfo" height="100%" cellspacing="0" cellpadding="0" width="100%" align="center" border="0">
+	<tr style="display: none;">
+		<td id="MoreInfoList1_tdTitle" valign="top" height="22">
+            <span id="MoreInfoList1_lblcategory"></span>
+        </td>
+	</tr>
+	<tr style="display: none;">
+		<td height="8">
+        </td>
+	</tr>
+	<tr>
+		<td id="MoreInfoList1_tdcontent" valign="top" height="100%">
+            <table cellspacing="0" align="Center" rules="all" border="0" id="MoreInfoList1_DataGrid1" width="98%">
+			<tr valign="top">
+				<td align="center" valign="middle" width="15">
+                            <img src="/whweb/images/dots/dot1.gif">
+                        </td><td align="left" valign="middle">
+                            <a href="/whweb/InfoDetail/Default.aspx?InfoID=2f604a75-0fce-4c38-9ebc-d5dbb691c808&CategoryNum=013004001001001" target="_blank" title="[电子招投标]华山路商业街室外景观、绿化、水电工程">[电子招投标]华山路商业街室外景观、绿化、水电工程</a>
+                        </td><td align="center" valign="middle" width="80">
+                            2015-07-03
+                        </td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+                            <img src="/whweb/images/dots/dot1.gif">
+                        </td><td align="left" valign="middle">
+                            <a href="/whweb/InfoDetail/Default.aspx?InfoID=7750166b-ab38-4c18-bb1f-ed71af74d9f5&CategoryNum=013004001001001" target="_blank" title="[纸质招投标]华山路商业街室外景观、绿化、水电工程监理">[纸质招投标]华山路商业街室外景观、绿化、水电工程监理</a>
+                        </td><td align="center" valign="middle" width="80">
+                            2015-07-03
+                        </td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+                            <img src="/whweb/images/dots/dot1.gif">
+                        </td><td align="left" valign="middle">
+                            <a href="/whweb/InfoDetail/Default.aspx?InfoID=d78dac10-ff24-4c2a-975b-b21c900eb999&CategoryNum=013004001001001" target="_blank" title="[电子招投标]三山区2015年农村公路网化工程">[电子招投标]三山区2015年农村公路网化工程</a>
+                        </td><td align="center" valign="middle" width="80">
+                            2015-07-02
+                        </td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+                            <img src="/whweb/images/dots/dot1.gif">
+                        </td><td align="left" valign="middle">
+                            <a href="/whweb/InfoDetail/Default.aspx?InfoID=7fd84d16-5fe4-49ec-b9ce-d68ef201c508&CategoryNum=013004001001001" target="_blank" title="[纸质招投标]芜湖市水资源保护规划">[纸质招投标]芜湖市水资源保护规划</a>
+                        </td><td align="center" valign="middle" width="80">
+                            2015-07-02
+                        </td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+                            <img src="/whweb/images/dots/dot1.gif">
+                        </td><td align="left" valign="middle">
+                            <a href="/whweb/InfoDetail/Default.aspx?InfoID=2241745f-1e9a-4b57-8e2e-4781d2e424e4&CategoryNum=013004001001001" target="_blank" title="[电子招投标]芜湖长江大桥综合经济开发区白象路、横山河路、义合路景观绿化及滨河增加护栏安全指示牌工程">[电子招投标]芜湖长江大桥综合经济开发区白象路、横山河路、义合路景观绿化及滨河增加护栏安全指示牌工程</a>
+                        </td><td align="center" valign="middle" width="80">
+                            2015-07-01
+                        </td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+                            <img src="/whweb/images/dots/dot1.gif">
+                        </td><td align="left" valign="middle">
+                            <a href="/whweb/InfoDetail/Default.aspx?InfoID=afe480d2-a4a9-4658-9112-479ff49b4581&CategoryNum=013004001001001" target="_blank" title="[电子招投标]芜湖长江大桥综合经济开发区白象路、横山河路、义合路景观绿化及滨河增加护栏安全指示牌工程监理">[电子招投标]芜湖长江大桥综合经济开发区白象路、横山河路、义合路景观绿化及滨河增加护栏安全指示牌工程监理</a>
+                        </td><td align="center" valign="middle" width="80">
+                            2015-07-01
+                        </td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+                            <img src="/whweb/images/dots/dot1.gif">
+                        </td><td align="left" valign="middle">
+                            <a href="/whweb/InfoDetail/Default.aspx?InfoID=f7529f92-9f2a-40e3-887e-4eccf5daa00f&CategoryNum=013004001001001" target="_blank" title="[电子招投标]旭日天都公交车站新建商业门面房前道路及附属工程监理">[电子招投标]旭日天都公交车站新建商业门面房前道路及附属工程监理</a>
+                        </td><td align="center" valign="middle" width="80">
+                            2015-07-01
+                        </td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+                            <img src="/whweb/images/dots/dot1.gif">
+                        </td><td align="left" valign="middle">
+                            <a href="/whweb/InfoDetail/Default.aspx?InfoID=0571a853-8703-46b2-90f0-81d139ddef48&CategoryNum=013004001001001" target="_blank" title="[电子招投标]旭日天都公交车站新建商业门面房前道路及附属工程">[电子招投标]旭日天都公交车站新建商业门面房前道路及附属工程</a>
+                        </td><td align="center" valign="middle" width="80">
+                            2015-07-01
+                        </td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+                            <img src="/whweb/images/dots/dot1.gif">
+                        </td><td align="left" valign="middle">
+                            <a href="/whweb/InfoDetail/Default.aspx?InfoID=0e4eb08a-bf25-4a12-a78a-d80033b3ff14&CategoryNum=013004001001001" target="_blank" title="[电子招投标]学生公寓及一食堂维修项目 (一标段）">[电子招投标]学生公寓及一食堂维修项目 (一标段）</a>
+                        </td><td align="center" valign="middle" width="80">
+                            2015-06-30
+                        </td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+                            <img src="/whweb/images/dots/dot1.gif">
+                        </td><td align="left" valign="middle">
+                            <a href="/whweb/InfoDetail/Default.aspx?InfoID=9f6dd383-1255-45ce-84a0-b392ae3f4eec&CategoryNum=013004001001001" target="_blank" title="[电子招投标]芜湖市弋江区利民路小学外立面出新及门厅装饰工程">[电子招投标]芜湖市弋江区利民路小学外立面出新及门厅装饰工程</a>
+                        </td><td align="center" valign="middle" width="80">
+                            2015-06-29
+                        </td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+                            <img src="/whweb/images/dots/dot1.gif">
+                        </td><td align="left" valign="middle">
+                            <a href="/whweb/InfoDetail/Default.aspx?InfoID=27506be5-9178-4b6d-8804-d78afa5fe5ba&CategoryNum=013004001001001" target="_blank" title="[电子招投标]经开区北泥沟明渠（清水河路-欧阳湖路）岸坡绿化工程监理">[电子招投标]经开区北泥沟明渠（清水河路-欧阳湖路）岸坡绿化工程监理</a>
+                        </td><td align="center" valign="middle" width="80">
+                            2015-06-29
+                        </td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+                            <img src="/whweb/images/dots/dot1.gif">
+                        </td><td align="left" valign="middle">
+                            <a href="/whweb/InfoDetail/Default.aspx?InfoID=ec4ada0f-6410-4691-8531-cd03e2893559&CategoryNum=013004001001001" target="_blank" title="[电子招投标]经开区北泥沟明渠（清水河路-欧阳湖路）岸坡绿化工程">[电子招投标]经开区北泥沟明渠（清水河路-欧阳湖路）岸坡绿化工程</a>
+                        </td><td align="center" valign="middle" width="80">
+                            2015-06-29
+                        </td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+                            <img src="/whweb/images/dots/dot1.gif">
+                        </td><td align="left" valign="middle">
+                            <a href="/whweb/InfoDetail/Default.aspx?InfoID=a7709f35-8570-4454-ad06-d4d99a745c13&CategoryNum=013004001001001" target="_blank" title="[电子招投标]皖南医学院护理学院赭麓校区实验中心改造工程">[电子招投标]皖南医学院护理学院赭麓校区实验中心改造工程</a>
+                        </td><td align="center" valign="middle" width="80">
+                            2015-06-29
+                        </td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+                            <img src="/whweb/images/dots/dot1.gif">
+                        </td><td align="left" valign="middle">
+                            <a href="/whweb/InfoDetail/Default.aspx?InfoID=65215f22-29eb-4258-9f5e-1cf238d51a13&CategoryNum=013004001001001" target="_blank" title="[纸质招投标]弋江区农村土地承包经营权确权登记领证技术服务">[纸质招投标]弋江区农村土地承包经营权确权登记领证技术服务</a>
+                        </td><td align="center" valign="middle" width="80">
+                            2015-06-26
+                        </td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+                            <img src="/whweb/images/dots/dot1.gif">
+                        </td><td align="left" valign="middle">
+                            <a href="/whweb/InfoDetail/Default.aspx?InfoID=4bec9741-0edc-42c0-a07b-cd1f2600b25f&CategoryNum=013004001001001" target="_blank" title="[电子招投标]芜湖市三山区疏港路交通工程">[电子招投标]芜湖市三山区疏港路交通工程</a>
+                        </td><td align="center" valign="middle" width="80">
+                            2015-06-26
+                        </td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+                            <img src="/whweb/images/dots/dot1.gif">
+                        </td><td align="left" valign="middle">
+                            <a href="/whweb/InfoDetail/Default.aspx?InfoID=0ea816a5-686b-4f7d-883e-29608face1ae&CategoryNum=013004001001001" target="_blank" title="[电子招投标]白茆中心小学、六洲小学厕所及围墙重建工程监理">[电子招投标]白茆中心小学、六洲小学厕所及围墙重建工程监理</a>
+                        </td><td align="center" valign="middle" width="80">
+                            2015-06-26
+                        </td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+                            <img src="/whweb/images/dots/dot1.gif">
+                        </td><td align="left" valign="middle">
+                            <a href="/whweb/InfoDetail/Default.aspx?InfoID=272c4f50-0f16-46a1-93a1-51a951b86382&CategoryNum=013004001001001" target="_blank" title="[电子招投标]白茆中心小学、六洲小学厕所及围墙重建工程">[电子招投标]白茆中心小学、六洲小学厕所及围墙重建工程</a>
+                        </td><td align="center" valign="middle" width="80">
+                            2015-06-26
+                        </td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+                            <img src="/whweb/images/dots/dot1.gif">
+                        </td><td align="left" valign="middle">
+                            <a href="/whweb/InfoDetail/Default.aspx?InfoID=8f40fc79-2734-467a-aaf4-37683f4d31a7&CategoryNum=013004001001001" target="_blank" title="[电子招投标]荆山桥改造交通工程（增加）项目">[电子招投标]荆山桥改造交通工程（增加）项目</a>
+                        </td><td align="center" valign="middle" width="80">
+                            2015-06-26
+                        </td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+                            <img src="/whweb/images/dots/dot1.gif">
+                        </td><td align="left" valign="middle">
+                            <a href="/whweb/InfoDetail/Default.aspx?InfoID=3e1ad83d-2217-49d5-97eb-9791ac3791fd&CategoryNum=013004001001001" target="_blank" title="[电子招投标]芜湖火车站路网及落客平台照明工程">[电子招投标]芜湖火车站路网及落客平台照明工程</a>
+                        </td><td align="center" valign="middle" width="80">
+                            2015-06-26
+                        </td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+                            <img src="/whweb/images/dots/dot1.gif">
+                        </td><td align="left" valign="middle">
+                            <a href="/whweb/InfoDetail/Default.aspx?InfoID=a8d079e9-c1d9-48dc-9439-faee2b1d53ec&CategoryNum=013004001001001" target="_blank" title="[电子招投标]芜湖市培智学校教辅综合楼、律动教室、多功能厅装饰改造工程监理">[电子招投标]芜湖市培智学校教辅综合楼、律动教室、多功能厅装饰改造工程监理</a>
+                        </td><td align="center" valign="middle" width="80">
+                            2015-06-26
+                        </td>
+			</tr>
+		</table>
+        </td>
+	</tr>
+	<tr>
+		<td height="8">
+        </td>
+	</tr>
+	<tr>
+		<td class="Xline2" height="3">
+        </td>
+	</tr>
+	<tr>
+		<td align="right" height="25">
+            
+		<!------------------------------ AspNetPager V4.3.3 Start ------------------------------>
+		<!-------------------- Copyright:2003-2005 Webdiyer(www.webdiyer.com) --------------------->
+		<div id="MoreInfoList1_Pager">
+			<table width="100%" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="bottom" align="left" nowrap="true" width="40%">记录总数：<font color="blue"><b>1090</b></font> 总页数：<font color="blue"><b>55</b></font> 当前页：<font color="red"><b>1</b></font></td><td valign="bottom" align="notset" nowrap="true" class="" width="60%"><img src="/whweb/images/page/firstg.gif" border="0" align="Baseline" /><span></span><img src="/whweb/images/page/prevg.gif" border="0" align="Baseline" /><span></span><img src="/whweb/images/page/1r.gif" align="Baseline" border="0" /><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','2')" title="转到第2页"><img src="/whweb/images/page/2n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','3')" title="转到第3页"><img src="/whweb/images/page/3n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','4')" title="转到第4页"><img src="/whweb/images/page/4n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','5')" title="转到第5页"><img src="/whweb/images/page/5n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','6')" title="转到第6页"><img src="/whweb/images/page/6n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','7')" title="转到第7页"><img src="/whweb/images/page/7n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','8')" title="转到第8页"><img src="/whweb/images/page/8n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','9')" title="转到第9页"><img src="/whweb/images/page/9n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','10')" title="转到第10页"><img src="/whweb/images/page/1n.gif" align="Baseline" border="0" /><img src="/whweb/images/page/0n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','11')" title="转到第11页"><img src="/whweb/images/page/moren.gif" border="0" align="Baseline" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','2')" title="转到第2页"><img src="/whweb/images/page/nextn.gif" border="0" align="Baseline" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','55')" title="转到第55页"><img src="/whweb/images/page/lastn.gif" border="0" align="Baseline" /></a><span></span></td>
+				</tr>
+			</table>
+		</div>
+		<!------------------------------- AspNetPager V4.3.3 End -------------------------------->
+
+		
+        </td>
+	</tr>
+	<tr>
+		<td class="Xline2" height="3">
+        </td>
+	</tr>
+</table>
+
+<script>
+    var Tdname = 'MoreInfoList1' + "_tdcontent";
+    document.getElementById(Tdname).className = 'MiddleBg'
+</script>
+</form></div></td>
+  </tr>
+</table>
+
+    </td>
+  </tr>
+</table>
+
+    </td>
+  </tr>
+</table>
+
+
+<table width="1002" height="94" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title></title>
+<meta name="GENERATOR" content="Microsoft Visual Studio .NET 7.1" />
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="ProgId" content="VisualStudio.HTML" />
+<meta name="Originator" content="Microsoft Visual Studio .NET 7.1" />
+<link href="/whweb/Template/Default/jyzx/css/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<table height="35" border="0" cellspacing="0" cellpadding="0" class="tab topd border6" background="/whweb/Template/Default/jyzx/images/foot.jpg">
+  <tr>
+    <td class="font5"><a href="#" onclick="this.style.behavior='url(#default#homepage)';this.sethomepage(top.location);return false;"
+                    target="_top" class="font5">设为首页</a> | <a href="javascript:window.external.AddFavorite(location.href,document.title)"
+                        title="将本站加入到您的收藏夹" target="_top"class="font5">加入收藏夹</a> |  <a href="/whweb/Template/Default/jyzx/../../jyzx/013012" target="_blank"class="font5">联系我们</a></td>
+  </tr>
+</table>
+<table height="59" border="0" cellspacing="0" cellpadding="0" class="tab">
+  <tr>
+    <td class="foot">主办单位:芜湖市公共资源交易服务中心<br />
+      地址：芜湖市文化路29号招标采购交易中心 邮编：241000 皖ICP备02818981号</td>
+  </tr>
+</table>
+</body>
+</html>
+</td>
+  </tr>
+</table>
+
+</body>
+</html>

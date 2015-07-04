@@ -440,6 +440,25 @@ def get_crawl_workflows():
                                             HTMLTagAttributesVerifier(
                                                 'table', {'id': 'DataGrid1'})),
                      ], ZTBParser.generator_zhenjiang),
+        ZTBCrawlFlow(
+            'http://www.txsp.gov.cn:8888/jsjy/Bulletin.aspx?Organ=%D6%D0%D0%C4',
+            './sample-data/tong-xiang', u'嘉兴市桐乡市', 'a',
+            [
+                SoupAncestorSearch([], HTMLTagAttributesVerifier('a', {'class': 'BulletinDate'})),
+            ], ZTBParser.generator_zhenjiang),
+        ZTBCrawlFlow(
+            'http://zbcg.mas.gov.cn/maszbw/jyxx/005001/005001001/',
+            './sample-data/ma-an-shan', u'马鞍山市', 'a',
+            [
+                SoupAncestorSearch(['td'], HTMLTagAttributesVerifier('td', {'width': '602'})),
+            ], ZTBParser.generator_yxztb),
+        ZTBCrawlFlow(
+            'http://www.whzbb.com.cn/whweb/jyzx/013004/013004001/013004001001/013004001001001/',
+            './sample-data/wu-hu', u'芜湖市', 'a',
+            [
+                SoupAncestorSearch(['td', 'tr', 'table', 'td', 'tr', 'table', 'form'],
+                                   HTMLTagAttributesVerifier('form', {'id': 'ctl00'})),
+            ], ZTBParser.generator_yxztb),
     ]:
         crawl_flows[f.url] = f
     return crawl_flows

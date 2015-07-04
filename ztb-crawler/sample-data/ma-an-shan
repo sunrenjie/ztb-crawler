@@ -1,0 +1,389 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>马鞍山市公共资源交易中心</title>
+<link href="/maszbw/Template/Default/css/style.css" rel="stylesheet" type="text/css"/>
+ <script src="/maszbw/Template/Default/js/settitle.js" type="text/javascript"></script>
+    <meta name="keywords" content="马鞍山,公共资源,交易网,信息网,招标投标" />
+    <script src="/maszbw/Template/Default/javascript/msclass.js" type="text/javascript"></script>
+</head>
+
+<body>
+ <table width="998" border="0" cellspacing="0" cellpadding="0" style=" margin:0 auto;">
+                    <tr>
+                        <td>
+                            <iframe src="/maszbw/Template/Default/head.htm" width="998" height="329" frameborder="0" scrolling="no"></iframe>
+                        </td>
+                    </tr>
+                </table>
+<table border="0" cellspacing="0" cellpadding="0" class="tab whitebg">
+  <tr>
+    <td width="10"></td>
+    <td width="232" valign="top">
+    	<table width="100%" border="0" cellspacing="0" cellpadding="0" class="topd subbg">
+  <tr>
+    <td height="33" background="/maszbw/Template/Default/images/yj.jpg" class="yj"> 招标公告</td>
+  </tr>
+  <tr>
+    <td height="549" class="border1 subbg02" valign="top" align="center"   style="padding-top:15px;">
+     <TABLE  cellSpacing="0" cellPadding="0" width="213" border="0">
+<TR><td height=33  onclick="OpenDiv('TD005001');" style="cursor:hand;padding-left:0px; padding-top:2px; background-repeat:no-repeat;"  background="/maszbw/Template/Default/images/leftmenu_02.gif" onmouseover="this.className='leftmenuover'" onmouseout="this.className='leftmenuout'"><font color=red style="font-weight:bold;">建设工程</font></a></td></TR>
+<tr><td height="8"></td></tr><TR><td style="padding-left:0px;" id="TD005001"><table border=0 width="100%">
+<TR><td><img src="/maszbw/images/Dots/dot16.gif"></td><td height=25 ><a href="/maszbw/jyxx/005001/005001001" target="_self"><font color=red>招标公告</font></a></td></TR>
+<TR><td><img src="/maszbw/images/Dots/dot16.gif"></td><td  height=25 ><a href="/maszbw/jyxx/005001/005001002" target="_self">中标公示</font></a></td></TR>
+<TR><td><img src="/maszbw/images/Dots/dot16.gif"></td><td  height=25 ><a href="/maszbw/jyxx/005001/005001003" target="_self">答疑变更</font></a></td></TR>
+<TR><td><img src="/maszbw/images/Dots/dot16.gif"></td><td  height=25 ><a href="/maszbw/jyxx/005001/005001005" target="_self">项目经理变更信息</font></a></td></TR>
+<TR><td><img src="/maszbw/images/Dots/dot16.gif"></td><td  height=25 ><a href="/maszbw/jyxx/005001/005001006" target="_self">零星工程</font></a></td></TR>
+</table></TD></tr>
+<TR><td height=33  onclick="OpenDiv('TD005002');" style="cursor:hand;padding-left:0px; padding-top:2px; background-repeat:no-repeat;"  background="/maszbw/Template/Default/images/leftmenu_02.gif" onmouseover="this.className='leftmenuover'" onmouseout="this.className='leftmenuout'"><font color=#0c6e9f style="font-weight:bold;">政府采购</font></a></td></TR>
+<tr><td height="8"></td></tr><TR><td style="padding-left:0px;display:none" id="TD005002"><table border=0 width="100%">
+<TR><td><img src="/maszbw/images/Dots/dot16.gif"></td><td  height=25 ><a href="/maszbw/jyxx/005002/005002001" target="_self">采购公告</font></a></td></TR>
+<TR><td><img src="/maszbw/images/Dots/dot16.gif"></td><td  height=25 ><a href="/maszbw/jyxx/005002/005002002" target="_self">中标公告</font></a></td></TR>
+<TR><td><img src="/maszbw/images/Dots/dot16.gif"></td><td  height=25 ><a href="/maszbw/jyxx/005002/005002004" target="_self">答疑变更</font></a></td></TR>
+<TR><td><img src="/maszbw/images/Dots/dot16.gif"></td><td  height=25 ><a href="/maszbw/jyxx/005002/005002006" target="_self">采购公示</font></a></td></TR>
+<TR><td><img src="/maszbw/images/Dots/dot16.gif"></td><td  height=25 ><a href="/maszbw/jyxx/005002/005002007" target="_self">合同公告</font></a></td></TR>
+</table></TD></tr>
+<TR><td height=33  onclick="OpenDiv('TD005003');" style="cursor:hand;padding-left:0px; padding-top:2px; background-repeat:no-repeat;"  background="/maszbw/Template/Default/images/leftmenu_02.gif" onmouseover="this.className='leftmenuover'" onmouseout="this.className='leftmenuout'"><font color=#0c6e9f style="font-weight:bold;">土地交易</font></a></td></TR>
+<tr><td height="8"></td></tr><TR><td style="padding-left:0px;display:none" id="TD005003"><table border=0 width="100%">
+<TR><td><img src="/maszbw/images/Dots/dot16.gif"></td><td  height=25 ><a href="/maszbw/jyxx/005003/005003001" target="_self">交易公告</font></a></td></TR>
+<TR><td><img src="/maszbw/images/Dots/dot16.gif"></td><td  height=25 ><a href="/maszbw/jyxx/005003/005003002" target="_self">成交结果</font></a></td></TR>
+</table></TD></tr>
+<TR><td height=33  onclick="OpenDiv('TD005005');" style="cursor:hand;padding-left:0px; padding-top:2px; background-repeat:no-repeat;"  background="/maszbw/Template/Default/images/leftmenu_02.gif" onmouseover="this.className='leftmenuover'" onmouseout="this.className='leftmenuout'"><font color=#0c6e9f style="font-weight:bold;">产权交易</font></a></td></TR>
+<tr><td height="8"></td></tr><TR><td style="padding-left:0px;display:none" id="TD005005"><table border=0 width="100%">
+<TR><td><img src="/maszbw/images/Dots/dot16.gif"></td><td  height=25 ><a href="/maszbw/jyxx/005005/005005001" target="_self">交易公告</font></a></td></TR>
+<TR><td><img src="/maszbw/images/Dots/dot16.gif"></td><td  height=25 ><a href="/maszbw/jyxx/005005/005005002" target="_self">成交结果</font></a></td></TR>
+</table></TD></tr>
+<TR><td height=33  onclick="OpenDiv('TD005007');" style="cursor:hand;padding-left:0px; padding-top:2px; background-repeat:no-repeat;"  background="/maszbw/Template/Default/images/leftmenu_02.gif" onmouseover="this.className='leftmenuover'" onmouseout="this.className='leftmenuout'"><font color=#0c6e9f style="font-weight:bold;">县交易信息</font></a></td></TR>
+<tr><td height="8"></td></tr><TR><td style="padding-left:0px;display:none" id="TD005007"><table border=0 width="100%">
+<TR><td><img src="/maszbw/images/Dots/dot16.gif"></td><td  height=25 ><a href="/maszbw/jyxx/005007/005007001" target="_self">当涂县</font></a></td></TR>
+<TR><td><img src="/maszbw/images/Dots/dot16.gif"></td><td  height=25 ><a href="/maszbw/jyxx/005007/005007002" target="_self">含山县</font></a></td></TR>
+<TR><td><img src="/maszbw/images/Dots/dot16.gif"></td><td  height=25 ><a href="/maszbw/jyxx/005007/005007003" target="_self">和县</font></a></td></TR>
+</table></TD></tr>
+<TR><td height=33  onclick="OpenDiv('TD005006');" style="cursor:hand;padding-left:0px; padding-top:2px; background-repeat:no-repeat;"  background="/maszbw/Template/Default/images/leftmenu_02.gif" onmouseover="this.className='leftmenuover'" onmouseout="this.className='leftmenuout'"><font color=#0c6e9f style="font-weight:bold;">其他交易信息</font></a></td></TR>
+<tr><td height="8"></td></tr><TR><td style="padding-left:0px;display:none" id="TD005006"><table border=0 width="100%">
+<TR><td><img src="/maszbw/images/Dots/dot16.gif"></td><td  height=25 ><a href="/maszbw/jyxx/005006/005006001" target="_self">交易公告</font></a></td></TR>
+<TR><td><img src="/maszbw/images/Dots/dot16.gif"></td><td  height=25 ><a href="/maszbw/jyxx/005006/005006002" target="_self">成交结果</font></a></td></TR>
+</table></TD></tr>
+<TR><td height=33  onclick="OpenDiv('TD005008');" style="cursor:hand;padding-left:0px; padding-top:2px; background-repeat:no-repeat;"  background="/maszbw/Template/Default/images/leftmenu_02.gif" onmouseover="this.className='leftmenuover'" onmouseout="this.className='leftmenuout'"><font color=#0c6e9f style="font-weight:bold;">零星采购</font></a></td></TR>
+<tr><td height="8"></td></tr><TR><td style="padding-left:0px;display:none" id="TD005008"><table border=0 width="100%">
+<TR><td><img src="/maszbw/images/Dots/dot16.gif"></td><td  height=25 ><a href="/maszbw/jyxx/005008/005008001" target="_self">零星采购公告</font></a></td></TR>
+<TR><td><img src="/maszbw/images/Dots/dot16.gif"></td><td  height=25 ><a href="/maszbw/jyxx/005008/005008002" target="_self">成交结果</font></a></td></TR>
+</table></TD></tr>
+<TR><td height=33  onclick="OpenDiv('TD005009');" style="cursor:hand;padding-left:0px; padding-top:2px; background-repeat:no-repeat;"  background="/maszbw/Template/Default/images/leftmenu_02.gif" onmouseover="this.className='leftmenuover'" onmouseout="this.className='leftmenuout'"><font color=#0c6e9f style="font-weight:bold;">农村产权交易</font></a></td></TR>
+<tr><td height="8"></td></tr><TR><td style="padding-left:0px;display:none" id="TD005009"><table border=0 width="100%">
+<TR><td><img src="/maszbw/images/Dots/dot16.gif"></td><td  height=25 ><a href="/maszbw/jyxx/005009/005009001" target="_self">交易公告</font></a></td></TR>
+<TR><td><img src="/maszbw/images/Dots/dot16.gif"></td><td  height=25 ><a href="/maszbw/jyxx/005009/005009002" target="_self">成交结果</font></a></td></TR>
+</table></TD></tr>
+<TR><td height=33 style="padding-left:0px; padding-top:2px;background-repeat:no-repeat;"  background="/maszbw/Template/Default/images/leftmenu_02.gif" onmouseover="this.className='leftmenuover'" onmouseout="this.className='leftmenuout'" ><a href="/maszbw/jyxx/005010" target="_self"><font color=#0c6e9f style="font-weight:bold;">标前公示</font></a></td></TR>
+<tr><td height="8"></td></tr></TABLE>
+<script>function OpenDiv(cate){if(document.getElementById(cate).style.display=='') { document.getElementById(cate).style.display='none'} else {document.getElementById(cate).style.display=''}}</script>
+    </td>
+  </tr>
+</table>
+
+
+    </td>
+    <td width="10"></td>
+    <td width="736" valign="top">
+    	<table width="100%" border="0" cellspacing="0" cellpadding="0" class="topd">
+  <tr>
+    <td height="31" class="now" style="padding-left:10px;"><table cellSpacing="0" cellPadding="0" border="0"><TR><TD align="center" width="15"></TD><TD align="left"><FONT color="#000000" class=currentpostionfont><b>您现在的位置：</b></FONT><A href='/maszbw/'><FONT color="#000000" class=currentpostionfont>首页</FONT></A><FONT color="#FF7E00"> >> <a href='/maszbw/jyxx'><FONT color="#FF7E00" class=currentpostionfont>交易信息</font></a> >> <a href='/maszbw/jyxx/005001'><FONT color="#FF7E00" class=currentpostionfont>建设工程</font></a> >> <a href='/maszbw/jyxx/005001/005001001'><FONT color="#FF7E00" class=currentpostionfont>招标公告</font></a></FONT></TD></TR></table></td>
+  </tr>
+  <tr>
+    <td height="551" class="border1" align="center" valign="top">
+    	<table width="704" border="0" cellspacing="0" cellpadding="0" style="margin-top:5px; text-align:left">
+  <tr>
+    <td height="38" class="lm" align="left"><h3>招标公告</h3></td>
+  </tr>
+  <tr>
+    <td height="508" valign="top" style="padding-top: 10px;"><TABLE  cellSpacing=0 cellPadding=0 width=100% align=center border=0 valign=top>
+<TR height=2><td colspan="4"></td></tr>
+<TR height=22>
+<td width="20" align="center"><img src='/maszbw/images/dots/dot1.gif' border=0 /></td><TD   align="left" width="602"><a href="/maszbw/infodetail/?infoid=c9b93ff2-bdc5-4875-ba29-303e0a3f75d2&categoryNum=005001001" target="_blank" title="含山县环城东路道路建设工程(皖EO－12－2015－0176)">含山县环城东路道路建设工程(皖EO－12－2015－0176)</a>
+</TD><TD width="100" align="right">
+2015-07-03
+</TD><TD width=1 height=18 >
+</TD>
+</TR>
+<TR height=2><td colspan="4"></td></tr>
+<TR height=22>
+<td width="20" align="center"><img src='/maszbw/images/dots/dot1.gif' border=0 /></td><TD   align="left" width="602"><a href="/maszbw/infodetail/?infoid=92b1ac09-5fb6-4ead-b20d-b90c35bb757c&categoryNum=005001001" target="_blank" title="和县污水处理厂污泥处置工程(皖EO－11－2015－0175)">和县污水处理厂污泥处置工程(皖EO－11－2015－0175)</a>
+</TD><TD width="100" align="right">
+2015-07-03
+</TD><TD width=1 height=18 >
+</TD>
+</TR>
+<TR height=2><td colspan="4"></td></tr>
+<TR height=22>
+<td width="20" align="center"><img src='/maszbw/images/dots/dot1.gif' border=0 /></td><TD   align="left" width="602"><a href="/maszbw/infodetail/?infoid=dfbc06f3-dbe8-4dc8-aec0-5d56caa25e6d&categoryNum=005001001" target="_blank" title="郑蒲港新区白桥镇陈桥洲安置房12-16#、18#、20#楼工程监理(皖EO－18－2015－0174)">郑蒲港新区白桥镇陈桥洲安置房12-16#、18#、20#楼工程监理(皖EO－18－2015－0174)</a>
+</TD><TD width="100" align="right">
+2015-07-03
+</TD><TD width=1 height=18 >
+</TD>
+</TR>
+<TR height=2><td colspan="4"></td></tr>
+<TR height=22>
+<td width="20" align="center"><img src='/maszbw/images/dots/dot1.gif' border=0 /></td><TD   align="left" width="602"><a href="/maszbw/infodetail/?infoid=4beae90a-d5b6-4cb1-8f1f-24a9e471bb12&categoryNum=005001001" target="_blank" title="郑蒲港新区白桥镇陈桥洲安置房12-16#、18#、20#楼工程(皖EO－11－2015－0172)">郑蒲港新区白桥镇陈桥洲安置房12-16#、18#、20#楼工程(皖EO－11－2015－0172)</a>
+</TD><TD width="100" align="right">
+2015-07-02
+</TD><TD width=1 height=18 >
+</TD>
+</TR>
+<TR height=2><td colspan="4"></td></tr>
+<TR height=22>
+<td width="20" align="center"><img src='/maszbw/images/dots/dot1.gif' border=0 /></td><TD   align="left" width="602"><a href="/maszbw/infodetail/?infoid=a39f0371-6ede-4726-8c42-0284bcf99bfb&categoryNum=005001001" target="_blank" title="马鞍山市郑蒲港新区大许中心村14#—18#住宅楼工程监理(皖EO－18－2015－0170)">马鞍山市郑蒲港新区大许中心村14#—18#住宅楼工程监理(皖EO－18－2015－0170)</a>
+</TD><TD width="100" align="right">
+2015-07-02
+</TD><TD width=1 height=18 >
+</TD>
+</TR>
+<TR height=2><td colspan="4"></td></tr>
+<TR height=22>
+<td width="20" align="center"><img src='/maszbw/images/dots/dot1.gif' border=0 /></td><TD   align="left" width="602"><a href="/maszbw/infodetail/?infoid=84cdad02-6c27-43e7-951f-86431bcce166&categoryNum=005001001" target="_blank" title="马鞍山市郑蒲港新区大许中心村配电房及附属工程监理(皖EO－18－2015－0167)">马鞍山市郑蒲港新区大许中心村配电房及附属工程监理(皖EO－18－2015－0167)</a>
+</TD><TD width="100" align="right">
+2015-07-02
+</TD><TD width=1 height=18 >
+</TD>
+</TR>
+<TR height=2><td colspan="4"></td></tr>
+<TR height=22>
+<td width="20" align="center"><img src='/maszbw/images/dots/dot1.gif' border=0 /></td><TD   align="left" width="602"><a href="/maszbw/infodetail/?infoid=247fc4c5-819c-4820-b06c-45596a0aa9e8&categoryNum=005001001" target="_blank" title="郑蒲港新区高庙中心村21#楼安置房工程(皖EO－11－2015－0168)">郑蒲港新区高庙中心村21#楼安置房工程(皖EO－11－2015－0168)</a>
+</TD><TD width="100" align="right">
+2015-07-02
+</TD><TD width=1 height=18 >
+</TD>
+</TR>
+<TR height=2><td colspan="4"></td></tr>
+<TR height=22>
+<td width="20" align="center"><img src='/maszbw/images/dots/dot1.gif' border=0 /></td><TD   align="left" width="602"><a href="/maszbw/infodetail/?infoid=8b456227-9124-4ae1-83df-c3eacae3c759&categoryNum=005001001" target="_blank" title="滁马高速石杨互通立交工程监理项目(皖EO－18－2015－0169)">滁马高速石杨互通立交工程监理项目(皖EO－18－2015－0169)</a>
+</TD><TD width="100" align="right">
+2015-07-02
+</TD><TD width=1 height=18 >
+</TD>
+</TR>
+<TR height=2><td colspan="4"></td></tr>
+<TR height=22>
+<td width="20" align="center"><img src='/maszbw/images/dots/dot1.gif' border=0 /></td><TD   align="left" width="602"><a href="/maszbw/infodetail/?infoid=94c37433-d468-4e08-8b35-61cef20a0f53&categoryNum=005001001" target="_blank" title="马鞍山市郑蒲港新区镇淮路东延建设工程及北侧水系工程(和州大道~郑兴路)（第二次）(皖EO－12－2015－0166)">马鞍山市郑蒲港新区镇淮路东延建设工程及北侧水系工程(和州大道~郑兴路)（第二次）(皖EO－12－2015－0166)</a>
+</TD><TD width="100" align="right">
+2015-06-30
+</TD><TD width=1 height=18 >
+</TD>
+</TR>
+<TR height=2><td colspan="4"></td></tr>
+<TR height=22>
+<td width="20" align="center"><img src='/maszbw/images/dots/dot1.gif' border=0 /></td><TD   align="left" width="602"><a href="/maszbw/infodetail/?infoid=1a345900-11ee-41d1-bcd9-2f0f02f8a128&categoryNum=005001001" target="_blank" title="三台路（六汾河段）、江东大道（采石河路—釜山路）、慈湖河路改造段（林里路—九华路）路灯设计(皖EO－18－2015－0165)">三台路（六汾河段）、江东大道（采石河路—釜山路）、慈湖河路改造段（林里路—九华路）路灯设计(皖EO－18－2015－0165)</a>
+</TD><TD width="100" align="right">
+2015-06-30
+</TD><TD width=1 height=18 >
+</TD>
+</TR>
+<TR height=2><td colspan="4"></td></tr>
+<TR height=22>
+<td width="20" align="center"><img src='/maszbw/images/dots/dot1.gif' border=0 /></td><TD   align="left" width="602"><a href="/maszbw/ztbinfo/zbgg_detail.aspx?infoid=1e37ee97-1e1c-4eef-bf18-55d2a87b2f1a&categoryNum=005001001" target="_blank" title="向山生活垃圾卫生填埋场渗滤液处理改造（EPC总承包及运营）项目（第二次）(皖EO－18－2015－0163)">向山生活垃圾卫生填埋场渗滤液处理改造（EPC总承包及运营）项目（第二次）(皖EO－18－2015－0163)</a><font color=ff0000>澄清答疑变更数:1</font>
+</TD><TD width="100" align="right">
+2015-06-26
+</TD><TD width=1 height=18 >
+</TD>
+</TR>
+<TR height=2><td colspan="4"></td></tr>
+<TR height=22>
+<td width="20" align="center"><img src='/maszbw/images/dots/dot1.gif' border=0 /></td><TD   align="left" width="602"><a href="/maszbw/infodetail/?infoid=c6bf91b9-95c4-454f-8fd4-a94edfe7027a&categoryNum=005001001" target="_blank" title="安徽工业大学教学实验实训楼工程、研究生公寓片区配电房变压器设备采购(第二次)(皖EO－16－2015－0164)">安徽工业大学教学实验实训楼工程、研究生公寓片区配电房变压器设备采购(第二次)(皖EO－16－2015－0164)</a>
+</TD><TD width="100" align="right">
+2015-06-26
+</TD><TD width=1 height=18 >
+</TD>
+</TR>
+<TR height=2><td colspan="4"></td></tr>
+<TR height=22>
+<td width="20" align="center"><img src='/maszbw/images/dots/dot1.gif' border=0 /></td><TD   align="left" width="602"><a href="/maszbw/infodetail/?infoid=6bec03fc-52af-4029-ad4d-89bdc0b3029d&categoryNum=005001001" target="_blank" title="马鞍山市博望区新市镇新河村小红星一组等3个坑塘复垦项目(皖EO－21－2015－0162)">马鞍山市博望区新市镇新河村小红星一组等3个坑塘复垦项目(皖EO－21－2015－0162)</a>
+</TD><TD width="100" align="right">
+2015-06-26
+</TD><TD width=1 height=18 >
+</TD>
+</TR>
+<TR height=2><td colspan="4"></td></tr>
+<TR height=22>
+<td width="20" align="center"><img src='/maszbw/images/dots/dot1.gif' border=0 /></td><TD   align="left" width="602"><a href="/maszbw/infodetail/?infoid=bbada60b-8924-482d-a429-2c9b9e7a580e&categoryNum=005001001" target="_blank" title="马鞍山市梅山泵站检测项目(皖EO－18－2015－0160)">马鞍山市梅山泵站检测项目(皖EO－18－2015－0160)</a>
+</TD><TD width="100" align="right">
+2015-06-25
+</TD><TD width=1 height=18 >
+</TD>
+</TR>
+<TR height=2><td colspan="4"></td></tr>
+<TR height=22>
+<td width="20" align="center"><img src='/maszbw/images/dots/dot1.gif' border=0 /></td><TD   align="left" width="602"><a href="/maszbw/ztbinfo/zbgg_detail.aspx?infoid=9550b33e-bd88-4510-a716-58d8d09607a0&categoryNum=005001001" target="_blank" title="新建研究生公寓（含餐厅）及教学实验实训楼（冶金、材料、化工教学实验实训楼）弱电工程(皖EO－15－2015－0159)">新建研究生公寓（含餐厅）及教学实验实训楼（冶金、材料、化工教学实验实训楼）弱电工程(皖EO－15－2015－0159)</a><font color=ff0000>澄清答疑变更数:1</font>
+</TD><TD width="100" align="right">
+2015-06-25
+</TD><TD width=1 height=18 >
+</TD>
+</TR>
+<TR height=2><td colspan="4"></td></tr>
+<TR height=22>
+<td width="20" align="center"><img src='/maszbw/images/dots/dot1.gif' border=0 /></td><TD   align="left" width="602"><a href="/maszbw/infodetail/?infoid=946ba987-e1c1-4523-bf8b-48bb52b84413&categoryNum=005001001" target="_blank" title="马鞍山市郑蒲港新区大许中心村室外附属工程(皖EO－15－2015－0161)">马鞍山市郑蒲港新区大许中心村室外附属工程(皖EO－15－2015－0161)</a>
+</TD><TD width="100" align="right">
+2015-06-25
+</TD><TD width=1 height=18 >
+</TD>
+</TR>
+<TR height=2><td colspan="4"></td></tr>
+<TR height=22>
+<td width="20" align="center"><img src='/maszbw/images/dots/dot1.gif' border=0 /></td><TD   align="left" width="602"><a href="/maszbw/infodetail/?infoid=9d62a6a0-6919-4c54-9f60-f0eb25c4cf6e&categoryNum=005001001" target="_blank" title="安徽工业大学新建冶金、材料、化工教学实验实训楼室外高低压工程(皖EO－15－2015－0157)">安徽工业大学新建冶金、材料、化工教学实验实训楼室外高低压工程(皖EO－15－2015－0157)</a>
+</TD><TD width="100" align="right">
+2015-06-24
+</TD><TD width=1 height=18 >
+</TD>
+</TR>
+<TR height=2><td colspan="4"></td></tr>
+<TR height=22>
+<td width="20" align="center"><img src='/maszbw/images/dots/dot1.gif' border=0 /></td><TD   align="left" width="602"><a href="/maszbw/infodetail/?infoid=eeb1629f-7fad-4fc8-b01a-f37b55ac39ec&categoryNum=005001001" target="_blank" title="安徽工业大学新建研究生公寓（含餐厅）工程室外电缆工程(皖EO－15－2015－0158)">安徽工业大学新建研究生公寓（含餐厅）工程室外电缆工程(皖EO－15－2015－0158)</a>
+</TD><TD width="100" align="right">
+2015-06-23
+</TD><TD width=1 height=18 >
+</TD>
+</TR>
+<TR height=2><td colspan="4"></td></tr>
+<TR height=22>
+<td width="20" align="center"><img src='/maszbw/images/dots/dot1.gif' border=0 /></td><TD   align="left" width="602"><a href="/maszbw/infodetail/?infoid=7f72588c-6011-4612-86a8-bd7adf02ff84&categoryNum=005001001" target="_blank" title="安徽工业大学新建冶金、材料、化工教学实验实训楼室外配套工程(皖EO－15－2015－0155)">安徽工业大学新建冶金、材料、化工教学实验实训楼室外配套工程(皖EO－15－2015－0155)</a>
+</TD><TD width="100" align="right">
+2015-06-23
+</TD><TD width=1 height=18 >
+</TD>
+</TR>
+<TR height=2><td colspan="4"></td></tr>
+<TR height=22>
+<td width="20" align="center"><img src='/maszbw/images/dots/dot1.gif' border=0 /></td><TD   align="left" width="602"><a href="/maszbw/infodetail/?infoid=81c3fb62-6af0-46c8-ac77-88386db1daf6&categoryNum=005001001" target="_blank" title="安徽工业大学新建研究生公寓（含餐厅）工程室外配套工程(皖EO－15－2015－0154)">安徽工业大学新建研究生公寓（含餐厅）工程室外配套工程(皖EO－15－2015－0154)</a>
+</TD><TD width="100" align="right">
+2015-06-23
+</TD><TD width=1 height=18 >
+</TD>
+</TR>
+<TR height=10><td colspan="4"></td></tr>
+<TR><td colspan="4" id="Paging" style="width:723px;height:30px;"><table width='100%' border='0' cellpadding='0' cellspacing='0'><tr><td valign='middle' align='left' nowrap='true' style='width:36%;'>记录总数：<font color='blue'><b>2262</b></font> 总页数：<font color='blue'><b>114</b></font> 当前页：<font color='red'><b>1</b></font></td><td valign='bottom' align='notset' nowrap='true'><img src='/maszbw/images/page/firstg.gif' border='0' align='Baseline' /><span style='width:5px;'></span><img src='/maszbw/images/page/prevg.gif' border='0' align='Baseline'/><span style='width:5px;'></span><img src='/maszbw/images/page/1r.gif' align='Baseline' border='0' /><span style='width:5px;'></span><a href='./?Paging=2' title='Go2'><img src='/maszbw/images/page/2n.gif' align='Baseline' border='0' /></a><span style='width:5px;'></span><a href='./?Paging=3' title='Go3'><img src='/maszbw/images/page/3n.gif' align='Baseline' border='0' /></a><span style='width:5px;'></span><a href='./?Paging=4' title='Go4'><img src='/maszbw/images/page/4n.gif' align='Baseline' border='0' /></a><span style='width:5px;'></span><a href='./?Paging=5' title='Go5'><img src='/maszbw/images/page/5n.gif' align='Baseline' border='0' /></a><span style='width:5px;'></span><a href='./?Paging=2' title='Go2'><img src='/maszbw/images/page/nextn.gif' border='0' align='Baseline' /></a><span style='width:5px;'></span><a href='./?Paging=114' title='Go114'><img src='/maszbw/images/page/lastn.gif' border='0' align='Baseline' /></a><span style='width:5px;'></span></td><td valign='middle'></td></tr></table><script>function optionchange(aim){document.location=aim;}</script>
+</td></tr>
+</table></td>
+  </tr>
+</table>
+
+    </td>
+  </tr>
+</table>
+
+
+    </td>
+    <td width="10"></td>
+  </tr>
+</table>
+<table width="998" border="0" cellspacing="0" cellpadding="0" style=" margin:0 auto;">
+                    <tr>
+                        <td>
+                            <iframe src="/maszbw/Template/Default/foot.htm" width="998" height="153" frameborder="0" scrolling="no"></iframe>
+                        </td>
+                    </tr>
+                </table>
+<SCRIPT language=Javascript type=text/javascript>
+function showtabs(m,n,count){
+for(var i=1;i<=count;i++){
+if (i==n){
+getObject('menutab_'+m+'_'+i).style.display='';
+getObject('menu_'+m+'_'+i).className='menub1_1';}
+else {
+getObject('menutab_'+m+'_'+i).style.display='none';
+getObject('menu_'+m+'_'+i).className='menub1_2';}
+}
+}
+
+function showtabs2(m,n,count){
+for(var i=1;i<=count;i++){
+if (i==n){
+getObject('menutab_'+m+'_'+i).style.display='';
+getObject('menu_'+m+'_'+i).className='menub2_1';}
+else {
+getObject('menutab_'+m+'_'+i).style.display='none';
+getObject('menu_'+m+'_'+i).className='menub2_2';}
+}
+}
+
+function showtabs3(m,n,count){
+for(var i=1;i<=count;i++){
+if (i==n){
+getObject('menutab_'+m+'_'+i).style.display='';
+getObject('menu_'+m+'_'+i).className='menub2_1';}
+else {
+getObject('menutab_'+m+'_'+i).style.display='none';
+getObject('menu_'+m+'_'+i).className='menub2_2';}
+}
+}
+
+function showtabs4(m,n,count){
+for(var i=1;i<=count;i++){
+if (i==n){
+getObject('menutab_'+m+'_'+i).style.display='';
+getObject('menu_'+m+'_'+i).className='menub2_1';}
+else {
+getObject('menutab_'+m+'_'+i).style.display='none';
+getObject('menu_'+m+'_'+i).className='menub2_2';}
+}
+}
+function showtabs5(m,n,count){
+for(var i=1;i<=count;i++){
+if (i==n){
+getObject('menutab_'+m+'_'+i).style.display='';
+getObject('menu_'+m+'_'+i).className='menub2_1';}
+else {
+getObject('menutab_'+m+'_'+i).style.display='none';
+getObject('menu_'+m+'_'+i).className='menub2_2';}
+}
+}
+function showtabs6(m,n,count){
+for(var i=1;i<=count;i++){
+if (i==n){
+getObject('menutab_'+m+'_'+i).style.display='';
+getObject('menu_'+m+'_'+i).className='menub2_1';}
+else {
+getObject('menutab_'+m+'_'+i).style.display='none';
+getObject('menu_'+m+'_'+i).className='menub2_2';}
+}
+}
+function showtabs7(m,n,count){
+for(var i=1;i<=count;i++){
+if (i==n){
+getObject('menutab_'+m+'_'+i).style.display='';
+getObject('menu_'+m+'_'+i).className='menub2_1';}
+else {
+getObject('menutab_'+m+'_'+i).style.display='none';
+getObject('menu_'+m+'_'+i).className='menub2_2';}
+}
+}
+function showtabs8(m,n,count){
+for(var i=1;i<=count;i++){
+if (i==n){
+getObject('menutab_'+m+'_'+i).style.display='';
+getObject('menu_'+m+'_'+i).className='menub3_1';}
+else {
+getObject('menutab_'+m+'_'+i).style.display='none';
+getObject('menu_'+m+'_'+i).className='menub3_2';}
+}
+}
+function showtabs9(m,n,count){
+for(var i=1;i<=count;i++){
+if (i==n){
+getObject('menutab_'+m+'_'+i).style.display='';
+getObject('menu_'+m+'_'+i).className='menub4_1';}
+else {
+getObject('menutab_'+m+'_'+i).style.display='none';
+getObject('menu_'+m+'_'+i).className='menub4_2';}
+}
+}
+function getObject(objectId) {
+if(document.getElementById && document.getElementById(objectId)){
+return document.getElementById(objectId);
+} else if (document.all && document.all(objectId)) {
+return document.all(objectId);
+} else if (document.layers && document.layers[objectId]) {
+return document.layers[objectId];
+} else {return false;}
+}
+</SCRIPT>
+</body>
+</html>

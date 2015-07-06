@@ -476,7 +476,7 @@ def log_it(handle, s):
     print s
 
 
-def commit(flow, data, prefix, log):
+def commit(flow, data, prefix, log_handle):
     # data: [flow.name, t, addr, title, collected-time-point]
     (name, t, addr, title, _) = data
     if t and len(t) == 10:
@@ -491,11 +491,10 @@ def commit(flow, data, prefix, log):
     digest = hashlib.md5(addr).hexdigest()
     f = path + '/' + digest
     if not os.access(f, os.W_OK):
-        with codecs.open(log, 'a', 'utf-8') as lh:
-            log_it(lh, '#Info: created new data entry in file "%s"' % f)
-            log_it(lh, '         %s' % '  '.join(data))
-            with codecs.open(f, 'w', 'utf-8') as h:
-                h.write('  '.join(data) + '\n')
+        log_it(log_handle, '#Info: created new data entry in file "%s"' % f)
+        log_it(log_handle, '         %s' % '  '.join(data))
+        with codecs.open(f, 'w', 'utf-8') as h:
+            h.write('  '.join(data) + '\n')
 
 
 def main():
@@ -505,23 +504,21 @@ def main():
     prefix = sys.argv[1]
     ensure_path_exists(prefix)
     log = '%s/ztb-crawler-%s.log' % (prefix, datetime.datetime.now().strftime("%Y%m%d%H%M%S"))
-    text = '#Info: log will be written to "%s"' % os.path.abspath(log)
-    with codecs.open(log, 'w', 'utf-8') as h:
-        log_it(h, text)
-    for url, flow in get_crawl_workflows().iteritems():
-        try:
-            source = flow.url  # TODO: implement this as an option
-            text = CrawlerDataSource.fetch_text(source)
-            soup = bs4.BeautifulSoup(text, 'html.parser')
-            for a in SoupAncestorSearch.search_soup_for_tags(soup, flow.tag, flow.searches):
-                data = flow.generator(flow, a)
-                commit(flow, data, prefix, log)
-            print '#Info: job for url "%s" succeeded' % url
-        except:
-            print '#Error: job for url "%s" failed' % (url)
-    text = '#Info: log has been written to "%s"' % os.path.abspath(log)
     with codecs.open(log, 'a', 'utf-8') as h:
-        log_it(h, text)
+        log_it(h, '#Info: log will be written to "%s"' % os.path.abspath(log))
+        for url, flow in get_crawl_workflows().iteritems():
+            log_it(h, '#Info: job for url "%s" started ...' % url)
+            try:
+                source = flow.url  # TODO: implement this as an option
+                text = CrawlerDataSource.fetch_text(source)
+                soup = bs4.BeautifulSoup(text, 'html.parser')
+                for a in SoupAncestorSearch.search_soup_for_tags(soup, flow.tag, flow.searches):
+                    data = flow.generator(flow, a)
+                    commit(flow, data, prefix, h)
+                log_it(h, '#Info: job for url "%s" succeeded' % url)
+            except:
+                log_it(h, '#Error: job for url "%s" failed' % url)
+        log_it(h, '#Info: log has been written to "%s"' % os.path.abspath(log))
     with codecs.open(log + '.is-new', 'w', 'utf-8') as h:
         h.write(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S") + '\n')
 

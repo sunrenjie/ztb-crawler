@@ -453,7 +453,8 @@ def get_crawl_workflows():
                 SoupAncestorSearch(['td'], HTMLTagAttributesVerifier('td', {'width': '602'})),
             ], ZTBParser.generator_yxztb),
         ZTBCrawlFlow(
-            'http://www.whzbb.com.cn/whweb/jyzx/013004/013004001/013004001001/013004001001001/',
+            'http://www.whzbb.com.cn/whweb/jyzx/013004/013004001/013004001001/013004001001001/'
+            'MoreInfo.aspx?CategoryNum=013004001001001',
             './sample-data/wu-hu', u'芜湖市', 'a',
             [
                 SoupAncestorSearch(['td', 'tr', 'table', 'td', 'tr', 'table', 'form'],

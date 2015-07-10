@@ -460,6 +460,20 @@ def get_crawl_workflows():
                 SoupAncestorSearch(['td', 'tr', 'table', 'td', 'tr', 'table', 'form'],
                                    HTMLTagAttributesVerifier('form', {'id': 'ctl00'})),
             ], ZTBParser.generator_yxztb),
+        ZTBCrawlFlow(
+            'http://www.dycg.gov.cn/dyzgw/jyxx/001001/001001001/MoreInfo.aspx?CategoryNum=001001001',
+            './sample-data/dan-yang', u'丹阳市', 'a',
+            [
+                SoupAncestorSearch(['td', 'tr', 'table', 'td', 'tr', 'table', 'form'],
+                                   HTMLTagAttributesVerifier('form', {'id': 'ctl00'})),
+            ], ZTBParser.generator_yxztb),
+        ZTBCrawlFlow(
+            'http://www.yzzb.gov.cn/yzztb/zypd/010001/010001001/MoreInfo.aspx?CategoryNum=010001001',
+            './sample-data/yang-zhong', u'扬中市', 'a',
+            [
+                SoupAncestorSearch(['td', 'tr', 'table', 'td', 'tr', 'table', 'form'],
+                                   HTMLTagAttributesVerifier('form', {'id': 'ctl00'})),
+            ], ZTBParser.generator_yxztb),
     ]:
         crawl_flows[f.url] = f
     return crawl_flows

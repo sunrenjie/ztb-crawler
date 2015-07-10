@@ -1,0 +1,361 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<link href="/yzztb/Template/Default/../../css/styles.css" type="text/css" rel="stylesheet">
+<meta name="GENERATOR" content="Microsoft Visual Studio .NET 7.1">
+    <meta name="ProgId" content="VisualStudio.HTML">
+    <meta name="Originator" content="Microsoft Visual Studio .NET 7.1">
+<title>扬中招标投标网</title>
+<style type="text/css">
+<!--
+body {
+	background-image: url(file:///C|/Documents and Settings/Administrator/桌面/临时文件images/首页2_01.gif);
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(../../..images/pic2_01.gif);
+}
+-->
+</style></head>
+
+<body>
+<table width="1002" border="0" cellspacing="0" cellpadding="0" align="center">
+  <!--DWLayoutTable-->
+  <tr>
+    
+    <td width="1002" align="center"><table width="992" border="0" cellspacing="0" cellpadding="0">
+        <!--DWLayoutTable-->
+        <tr>
+          <td><iframe src='/yzztb/template/default/Head.htm'
+                        width="992" height="235" frameborder="0" scrolling="no"><span class="STYLE2"></span></iframe></td>
+        </tr>
+      </table></td>
+    
+  </tr>
+  
+  <tr>
+   
+    <td valign="top"><table width="992" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td height="6"></td>
+        </tr>
+      <tr>
+        <td width="226" valign="top"><table width="226" border="0" align="right" cellpadding="0" cellspacing="0">
+          <tr>
+            <td align="left">
+              <table cellSpacing="0" cellPadding="0" border="0"><TR><TD align="center"><img width='226'  Src=/yzztb/Template/default/images/picc_010.jpg></TD></TR></table>              </td>
+              </tr>
+          <tr>
+            <td height="137" valign="top"><table width="226" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td align="center">
+                  <TABLE  cellSpacing="0" cellPadding="0" width="220" border="0">
+<TR><td height=39  onclick="OpenDiv('TD010001');" style="cursor:hand;padding-left:15px; padding-top:2px;"  background="/yzztb/Template/Default/images/picc_18.jpg" ><font color=red>建设工程</font></a></td></TR>
+<TR><td style="padding-left:25px;" id="TD010001"><table border=0 width="100%">
+<TR><td height=39 ><a href="/yzztb/zypd/010001/010001001" target="_self"><font color=red>招标公告</font></a></td></TR>
+<TR><td  height=39 ><a href="/yzztb/zypd/010001/010001002" target="_self">预审公示</font></a></td></TR>
+<TR><td  height=39 ><a href="/yzztb/zypd/010001/010001003" target="_self">最高限价</font></a></td></TR>
+<TR><td  height=39 ><a href="/yzztb/zypd/010001/010001004" target="_self">中标人公告</font></a></td></TR>
+<TR><td  height=39 ><a href="/yzztb/zypd/010001/010001005" target="_self">答疑纪要</font></a></td></TR>
+<TR><td  height=39 ><a href="/yzztb/zypd/010001/010001006" target="_self">中标候选人公示</font></a></td></TR>
+<TR><td  height=39 ><a href="/yzztb/zypd/010001/010001007" target="_self">二次不足三家</font></a></td></TR>
+</table></TD></tr>
+<TR><td height=39  onclick="OpenDiv('TD010002');" style="cursor:hand;padding-left:15px; padding-top:2px;"  background="/yzztb/Template/Default/images/picc_18.jpg" ><font color=#000000>政府采购</font></a></td></TR>
+<TR><td style="padding-left:25px;display:none" id="TD010002"><table border=0 width="100%">
+<TR><td  height=39 ><a href="/yzztb/zypd/010002/010002001" target="_self">招标公告</font></a></td></TR>
+<TR><td  height=39 ><a href="/yzztb/zypd/010002/010002002" target="_self">中标公示</font></a></td></TR>
+<TR><td  height=39 ><a href="/yzztb/zypd/010002/010002003" target="_self">结果公示</font></a></td></TR>
+</table></TD></tr>
+<TR><td height=39  onclick="OpenDiv('TD010003');" style="cursor:hand;padding-left:15px; padding-top:2px;"  background="/yzztb/Template/Default/images/picc_18.jpg" ><font color=#000000>产权交易</font></a></td></TR>
+<TR><td style="padding-left:25px;display:none" id="TD010003"><table border=0 width="100%">
+<TR><td  height=39 ><a href="/yzztb/zypd/010003/010003001" target="_self">招标公告</font></a></td></TR>
+<TR><td  height=39 ><a href="/yzztb/zypd/010003/010003002" target="_self">中标公示</font></a></td></TR>
+<TR><td  height=39 ><a href="/yzztb/zypd/010003/010003003" target="_self">结果公示</font></a></td></TR>
+</table></TD></tr>
+<TR><td height=39  onclick="OpenDiv('TD010004');" style="cursor:hand;padding-left:15px; padding-top:2px;"  background="/yzztb/Template/Default/images/picc_18.jpg" ><font color=#000000>土地出让</font></a></td></TR>
+<TR><td style="padding-left:25px;display:none" id="TD010004"><table border=0 width="100%">
+<TR><td  height=39 ><a href="/yzztb/zypd/010004/010004001" target="_self">招标公告</font></a></td></TR>
+<TR><td  height=39 ><a href="/yzztb/zypd/010004/010004002" target="_self">中标公示</font></a></td></TR>
+<TR><td  height=39 ><a href="/yzztb/zypd/010004/010004003" target="_self">结果公示</font></a></td></TR>
+</table></TD></tr>
+<TR><td height=39 style="padding-left:15px; padding-top:2px;"  background="/yzztb/Template/Default/images/picc_18.jpg" ><a href="/yzztb/zypd/010005" target="_self"><font color=#000000>其他项目</font></a></td></TR>
+<TR><td height=39  onclick="OpenDiv('TD010006');" style="cursor:hand;padding-left:15px; padding-top:2px;"  background="/yzztb/Template/Default/images/picc_18.jpg" ><font color=#000000>医药采购</font></a></td></TR>
+<TR><td style="padding-left:25px;display:none" id="TD010006"><table border=0 width="100%">
+<TR><td  height=39 ><a href="/yzztb/zypd/010006/010006001" target="_self">招标公告</font></a></td></TR>
+<TR><td  height=39 ><a href="/yzztb/zypd/010006/010006002" target="_self">中标公示</font></a></td></TR>
+<TR><td  height=39 ><a href="/yzztb/zypd/010006/010006003" target="_self">结果公示</font></a></td></TR>
+</table></TD></tr>
+<TR><td height=39  onclick="OpenDiv('TD010007');" style="cursor:hand;padding-left:15px; padding-top:2px;"  background="/yzztb/Template/Default/images/picc_18.jpg" ><font color=#000000>交通工程</font></a></td></TR>
+<TR><td style="padding-left:25px;display:none" id="TD010007"><table border=0 width="100%">
+<TR><td  height=39 ><a href="/yzztb/zypd/010007/010007001" target="_self">招标公告</font></a></td></TR>
+<TR><td  height=39 ><a href="/yzztb/zypd/010007/010007002" target="_self">中标公示</font></a></td></TR>
+<TR><td  height=39 ><a href="/yzztb/zypd/010007/010007003" target="_self">结果公示</font></a></td></TR>
+<TR><td  height=39 ><a href="/yzztb/zypd/010007/010007004" target="_self">预审公示</font></a></td></TR>
+<TR><td  height=39 ><a href="/yzztb/zypd/010007/010007005" target="_self">最高限价</font></a></td></TR>
+<TR><td  height=39 ><a href="/yzztb/zypd/010007/010007006" target="_self">答疑纪要</font></a></td></TR>
+<TR><td  height=39 ><a href="/yzztb/zypd/010007/010007007" target="_self">二次不足三家</font></a></td></TR>
+</table></TD></tr>
+<TR><td height=39  onclick="OpenDiv('TD010008');" style="cursor:hand;padding-left:15px; padding-top:2px;"  background="/yzztb/Template/Default/images/picc_18.jpg" ><font color=#000000>水利工程</font></a></td></TR>
+<TR><td style="padding-left:25px;display:none" id="TD010008"><table border=0 width="100%">
+<TR><td  height=39 ><a href="/yzztb/zypd/010008/010008001" target="_self">招标公告</font></a></td></TR>
+<TR><td  height=39 ><a href="/yzztb/zypd/010008/010008002" target="_self">中标公示</font></a></td></TR>
+<TR><td  height=39 ><a href="/yzztb/zypd/010008/010008003" target="_self">结果公示</font></a></td></TR>
+<TR><td  height=39 ><a href="/yzztb/zypd/010008/010008004" target="_self">预审公示</font></a></td></TR>
+<TR><td  height=39 ><a href="/yzztb/zypd/010008/010008005" target="_self">最高限价</font></a></td></TR>
+<TR><td  height=39 ><a href="/yzztb/zypd/010008/010008006" target="_self">答疑纪要</font></a></td></TR>
+<TR><td  height=39 ><a href="/yzztb/zypd/010008/010008007" target="_self">二次不足三家</font></a></td></TR>
+</table></TD></tr>
+</TABLE>
+<script>function OpenDiv(cate){if(document.getElementById(cate).style.display=='') { document.getElementById(cate).style.display='none'} else {document.getElementById(cate).style.display=''}}</script>                  </td>
+                    </tr>
+              <tr>
+                <td><img src="/yzztb/Template/Default/images/picc_21.jpg" width="226" height="22" /></td>
+                    </tr>
+              
+              <tr>
+                <td height="367" background="/yzztb/Template/Default/images/picc_22.jpg">&nbsp;</td>
+                    </tr>
+              </table></td>
+              </tr>
+          </table></td>
+          <td width="8" valign="top" background="/yzztb/Template/Default/images/bg.jpg">&nbsp;</td>
+          <td width="757" valign="top"><table width="757" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="67" background="/yzztb/Template/Default/images/picc_06.jpg" align="right"><img src="/yzztb/Template/Default/images/picc_09.jpg" width="12" height="12" /></td>
+                <td align="left" width="690" height="36" background="/yzztb/Template/Default/images/picc_06.jpg"><table cellSpacing="0" cellPadding="0" border="0"><TR><TD align="center" width="15"></TD><TD align="left"><FONT color="#000000" class=currentpostionfont><b>您现在的位置：</b></FONT><A href='/yzztb/'><FONT color="#000000" class=currentpostionfont>首页</FONT></A><FONT color="#FF7E00"> >> <a href='/yzztb/zypd'><FONT color="#FF7E00" class=currentpostionfont>专业频道</font></a> >> <a href='/yzztb/zypd/010001'><FONT color="#FF7E00" class=currentpostionfont>建设工程</font></a> >> <a href='/yzztb/zypd/010001/010001001'><FONT color="#FF7E00" class=currentpostionfont>招标公告</font></a></FONT></TD></TR></table>                </td>
+              </tr>
+              <tr>
+                <td valign="top" height="49" colspan="2" background="/yzztb/Template/Default/images/picc_14.jpg" align="left" style="padding-left:55px; padding-top:5px;color:#006633; font-size:16px; font-weight:bold;">招标公告</td>
+              </tr>
+              </table>
+            <table width="757" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                 <td height="370" valign="top" style="padding: 10px; padding-left: 20px; text-align:left;"> <form name="ctl00" method="post" action="MoreInfo.aspx?CategoryNum=010001001" id="ctl00">
+<input type="hidden" name="__CSRFTOKEN" id="__CSRFTOKEN" value="/wEFJGJjMzc0YTMwLTY0NjYtNGExZi1iNGU3LTAwZjE4M2Q5MjhjNA==" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTU4MzUzNjg5NA9kFgICAQ9kFgJmDw8WBh4LYmdDbGFzc05hbWUFCE1pZGRsZUJnHgtjYXRlZ29yeU51bQUJMDEwMDAxMDAxHgZzaXRlaWQCAWQWAmYPZBYEAgIPZBYCZg9kFgJmDzwrAAsCAA8WCh4LXyFJdGVtQ291bnQCFB4IRGF0YUtleXMWAB4JUGFnZUNvdW50AgEeFV8hRGF0YVNvdXJjZUl0ZW1Db3VudAIUHghQYWdlU2l6ZQIUZAEUKwADZGQ8KwAEAQAWAh4HVmlzaWJsZWcWAmYPZBYoAgIPZBYGZg9kFgJmDxUBJzxpbWcgc3JjPSIveXp6dGIvaW1hZ2VzL2RvdHMvZG90MS5naWYiPmQCAQ9kFgJmDxUBhgI8YSBocmVmPSIveXp6dGIvSW5mb0RldGFpbC9EZWZhdWx0LmFzcHg/SW5mb0lEPTkxM2ViODY1LWY3NmItNGRmMS05YzliLWMzN2U1ZmJlZTkyNyZDYXRlZ29yeU51bT0wMTAwMDEwMDEiIHRhcmdldD0iX2JsYW5rIiB0aXRsZT0i5oms5Lit5biC5pWZ6IKy5bGA5pWZ5biI6L+b5L+u5a2m5qCh6Zeo5Y2r5Y+K5Zu05aKZ5pS55bu65bel56iLIj7miazkuK3luILmlZnogrLlsYDmlZnluIjov5vkv67lrabmoKHpl6jljavlj4rlm7TlopnmlLnlu7rlt6XnqIs8L2E+ZAICD2QWAmYPFQEKMjAxNS0wNy0wN2QCAw9kFgZmD2QWAmYPFQEnPGltZyBzcmM9Ii95enp0Yi9pbWFnZXMvZG90cy9kb3QxLmdpZiI+ZAIBD2QWAmYPFQHiATxhIGhyZWY9Ii95enp0Yi9JbmZvRGV0YWlsL0RlZmF1bHQuYXNweD9JbmZvSUQ9M2I0NDVjYTctZjc4OC00YmVlLWE5ODUtMzY4NDJkYzA5NjM1JkNhdGVnb3J5TnVtPTAxMDAwMTAwMSIgdGFyZ2V0PSJfYmxhbmsiIHRpdGxlPSLmiazkuK3luILlpJblm73or63lsI/lrabnlLDlvoTlnLrlu7rorr7lt6XnqIsiPuaJrOS4reW4guWkluWbveivreWwj+WtpueUsOW+hOWcuuW7uuiuvuW3peeoizwvYT5kAgIPZBYCZg8VAQoyMDE1LTA3LTAzZAIED2QWBmYPZBYCZg8VASc8aW1nIHNyYz0iL3l6enRiL2ltYWdlcy9kb3RzL2RvdDEuZ2lmIj5kAgEPZBYCZg8VAfQBPGEgaHJlZj0iL3l6enRiL0luZm9EZXRhaWwvRGVmYXVsdC5hc3B4P0luZm9JRD1jNzcwMzBhZi0wMWRmLTRjOWEtYTdiZS1iOGE4YTY3YzYyMDEmQ2F0ZWdvcnlOdW09MDEwMDAxMDAxIiB0YXJnZXQ9Il9ibGFuayIgdGl0bGU9IuaJrOS4reW4gumdkuWwkeW5tOagoeWklua0u+WKqOS4reW/g+aQrOi/geaUuemAoOW3peeoiyI+5oms5Lit5biC6Z2S5bCR5bm05qCh5aSW5rS75Yqo5Lit5b+D5pCs6L+B5pS56YCg5bel56iLPC9hPmQCAg9kFgJmDxUBCjIwMTUtMDctMDJkAgUPZBYGZg9kFgJmDxUBJzxpbWcgc3JjPSIveXp6dGIvaW1hZ2VzL2RvdHMvZG90MS5naWYiPmQCAQ9kFgJmDxUB+gE8YSBocmVmPSIveXp6dGIvSW5mb0RldGFpbC9EZWZhdWx0LmFzcHg/SW5mb0lEPTNmMzZkNjIxLTgxYTUtNGZiZS1hNmI5LWE2YTFkOGFkNGI5ZCZDYXRlZ29yeU51bT0wMTAwMDEwMDEiIHRhcmdldD0iX2JsYW5rIiB0aXRsZT0i5oms5Lit5biC5pWZ6IKy5bGA5pWZ5biI6L+b5L+u5a2m5qCh5aSW56uL6Z2i5pS56YCg5bel56iLIj7miazkuK3luILmlZnogrLlsYDmlZnluIjov5vkv67lrabmoKHlpJbnq4vpnaLmlLnpgKDlt6XnqIs8L2E+ZAICD2QWAmYPFQEKMjAxNS0wNy0wMmQCBg9kFgZmD2QWAmYPFQEnPGltZyBzcmM9Ii95enp0Yi9pbWFnZXMvZG90cy9kb3QxLmdpZiI+ZAIBD2QWAmYPFQH6ATxhIGhyZWY9Ii95enp0Yi9JbmZvRGV0YWlsL0RlZmF1bHQuYXNweD9JbmZvSUQ9NmQ4MmI0ODMtMmQ0OS00NjdhLWJiMzEtMTNmZWZkZDMwNGJkJkNhdGVnb3J5TnVtPTAxMDAwMTAwMSIgdGFyZ2V0PSJfYmxhbmsiIHRpdGxlPSLmiazkuK3luILmsrnlnYrkuK3lv4PlsI/lrabnmoTmlZnlrabnu7zlkIjmpbzoo4XppbDlt6XnqIsiPuaJrOS4reW4guayueWdiuS4reW/g+Wwj+WtpueahOaVmeWtpue7vOWQiOalvOijhemlsOW3peeoizwvYT5kAgIPZBYCZg8VAQoyMDE1LTA3LTAxZAIHD2QWBmYPZBYCZg8VASc8aW1nIHNyYz0iL3l6enRiL2ltYWdlcy9kb3RzL2RvdDEuZ2lmIj5kAgEPZBYCZg8VAdABPGEgaHJlZj0iL3l6enRiL0luZm9EZXRhaWwvRGVmYXVsdC5hc3B4P0luZm9JRD0xZjU3YzJlNC0wMzcxLTQ5MDMtYTVmZS1kNWVjZjUxNDJlYzkmQ2F0ZWdvcnlOdW09MDEwMDAxMDAxIiB0YXJnZXQ9Il9ibGFuayIgdGl0bGU9IuWfjuWMl+WFrOWbree0p+aApemBv+mavuWcuuaJgOW3peeoiyI+5Z+O5YyX5YWs5Zut57Sn5oCl6YG/6Zq+5Zy65omA5bel56iLPC9hPmQCAg9kFgJmDxUBCjIwMTUtMDYtMjNkAggPZBYGZg9kFgJmDxUBJzxpbWcgc3JjPSIveXp6dGIvaW1hZ2VzL2RvdHMvZG90MS5naWYiPmQCAQ9kFgJmDxUBqgI8YSBocmVmPSIveXp6dGIvSW5mb0RldGFpbC9EZWZhdWx0LmFzcHg/SW5mb0lEPWFmZWVlNjY0LWRhYTEtNDMxMS05MjM1LWMyZDdmYzFlMTMzYSZDYXRlZ29yeU51bT0wMTAwMDEwMDEiIHRhcmdldD0iX2JsYW5rIiB0aXRsZT0i5oms5Lit5biC6L+O5a6+5aSn6YGT77yI546w5oms5Lit5aSn6YGT77yJMjAxNS0yMDE45bm05aSW56uL6Z2i5Lqu5YyW57u05oqk5bel56iLIj7miazkuK3luILov47lrr7lpKfpgZPvvIjnjrDmiazkuK3lpKfpgZPvvIkyMDE1LTIwMTjlubTlpJbnq4vpnaLkuq7ljJbnu7TmiqTlt6XnqIs8L2E+ZAICD2QWAmYPFQEKMjAxNS0wNi0xOGQCCQ9kFgZmD2QWAmYPFQEnPGltZyBzcmM9Ii95enp0Yi9pbWFnZXMvZG90cy9kb3QxLmdpZiI+ZAIBD2QWAmYPFQHqATxhIGhyZWY9Ii95enp0Yi9JbmZvRGV0YWlsL0RlZmF1bHQuYXNweD9JbmZvSUQ9MGU0MGIxYzMtM2Q0Mi00MzBhLWJlZWItYjBjZjM4MzAzZjFiJkNhdGVnb3J5TnVtPTAxMDAwMTAwMSIgdGFyZ2V0PSJfYmxhbmsiIHRpdGxlPSLmiazkuK3luILmsLjog5zkuK3lv4PlsI/lrabmlZnlrabmpbzlt6XnqIst5Zyf5bu6Ij7miazkuK3luILmsLjog5zkuK3lv4PlsI/lrabmlZnlrabmpbzlt6XnqIst5Zyf5bu6PC9hPmQCAg9kFgJmDxUBCjIwMTUtMDYtMTVkAgoPZBYGZg9kFgJmDxUBJzxpbWcgc3JjPSIveXp6dGIvaW1hZ2VzL2RvdHMvZG90MS5naWYiPmQCAQ9kFgJmDxUB+gE8YSBocmVmPSIveXp6dGIvSW5mb0RldGFpbC9EZWZhdWx0LmFzcHg/SW5mb0lEPWZiMjczMDI0LTAyMTAtNDRlZC05Yjc2LWY3ZjViOWMyMDViYyZDYXRlZ29yeU51bT0wMTAwMDEwMDEiIHRhcmdldD0iX2JsYW5rIiB0aXRsZT0i5oms5Lit5biC56ys5LqM5a6e6aqM5bCP5a2m55qE6YC46aaZ5qW85Yqg5Zu65pS56YCg5bel56iLIj7miazkuK3luILnrKzkuozlrp7pqozlsI/lrabnmoTpgLjpppnmpbzliqDlm7rmlLnpgKDlt6XnqIs8L2E+ZAICD2QWAmYPFQEKMjAxNS0wNi0wOWQCCw9kFgZmD2QWAmYPFQEnPGltZyBzcmM9Ii95enp0Yi9pbWFnZXMvZG90cy9kb3QxLmdpZiI+ZAIBD2QWAmYPFQHqATxhIGhyZWY9Ii95enp0Yi9JbmZvRGV0YWlsL0RlZmF1bHQuYXNweD9JbmZvSUQ9ZTc0Nzg0NzctZDE5MC00Mjg5LWE1YjctOTRlNTQwOWZkZjMxJkNhdGVnb3J5TnVtPTAxMDAwMTAwMSIgdGFyZ2V0PSJfYmxhbmsiIHRpdGxlPSLmiazkuK3luILmsLjog5zkuK3lv4PlsI/lrabmlZnlrabmpbzlt6XnqIst5qGp5Z+6Ij7miazkuK3luILmsLjog5zkuK3lv4PlsI/lrabmlZnlrabmpbzlt6XnqIst5qGp5Z+6PC9hPmQCAg9kFgJmDxUBCjIwMTUtMDYtMDlkAgwPZBYGZg9kFgJmDxUBJzxpbWcgc3JjPSIveXp6dGIvaW1hZ2VzL2RvdHMvZG90MS5naWYiPmQCAQ9kFgJmDxUBxgE8YSBocmVmPSIveXp6dGIvSW5mb0RldGFpbC9EZWZhdWx0LmFzcHg/SW5mb0lEPTMwNzk0NmJhLWM3YTUtNDY3Yi05NjE0LTM0MzM4NWM3MTQ4NiZDYXRlZ29yeU51bT0wMTAwMDEwMDEiIHRhcmdldD0iX2JsYW5rIiB0aXRsZT0iMjAxNeW5tOaakeacn+WKoOWbuuaUuemAoOW3peeoiyI+MjAxNeW5tOaakeacn+WKoOWbuuaUuemAoOW3peeoizwvYT5kAgIPZBYCZg8VAQoyMDE1LTA2LTA5ZAIND2QWBmYPZBYCZg8VASc8aW1nIHNyYz0iL3l6enRiL2ltYWdlcy9kb3RzL2RvdDEuZ2lmIj5kAgEPZBYCZg8VAegBPGEgaHJlZj0iL3l6enRiL0luZm9EZXRhaWwvRGVmYXVsdC5hc3B4P0luZm9JRD0yMDc2NTdlZi00OGU4LTRlM2MtYjMzMy02YmZiNDY1ZTQyYmQmQ2F0ZWdvcnlOdW09MDEwMDAxMDAxIiB0YXJnZXQ9Il9ibGFuayIgdGl0bGU9IuW4guS4reW/g+WfjuWMuuaKl+mch+mYsueBvuinhOWIku+8iDIwMTUtMjAzMO+8iSI+5biC5Lit5b+D5Z+O5Yy65oqX6ZyH6Ziy54G+6KeE5YiS77yIMjAxNS0yMDMw77yJPC9hPmQCAg9kFgJmDxUBCjIwMTUtMDYtMDRkAg4PZBYGZg9kFgJmDxUBJzxpbWcgc3JjPSIveXp6dGIvaW1hZ2VzL2RvdHMvZG90MS5naWYiPmQCAQ9kFgJmDxUB4gE8YSBocmVmPSIveXp6dGIvSW5mb0RldGFpbC9EZWZhdWx0LmFzcHg/SW5mb0lEPWJkYzE2N2I5LTQ1YjItNDdhZi05Y2Y5LTY4NjViY2M4ZWY2MyZDYXRlZ29yeU51bT0wMTAwMDEwMDEiIHRhcmdldD0iX2JsYW5rIiB0aXRsZT0i5oms5Lit5biC5rK55Z2K5Lit5b+D5bCP5a2m5pmv6KeC57u/5YyW5bel56iLIj7miazkuK3luILmsrnlnYrkuK3lv4PlsI/lrabmma/op4Lnu7/ljJblt6XnqIs8L2E+ZAICD2QWAmYPFQEKMjAxNS0wNi0wMmQCDw9kFgZmD2QWAmYPFQEnPGltZyBzcmM9Ii95enp0Yi9pbWFnZXMvZG90cy9kb3QxLmdpZiI+ZAIBD2QWAmYPFQHEATxhIGhyZWY9Ii95enp0Yi9JbmZvRGV0YWlsL0RlZmF1bHQuYXNweD9JbmZvSUQ9ZDBmYTA4NzItZWU0MS00MWRlLTkxMjItZGYyY2Y5OTU4N2FhJkNhdGVnb3J5TnVtPTAxMDAwMTAwMSIgdGFyZ2V0PSJfYmxhbmsiIHRpdGxlPSLlrqHliKTms5Xluq3lrqTlhoXoo4XppbDlt6XnqIsiPuWuoeWIpOazleW6reWupOWGheijhemlsOW3peeoizwvYT5kAgIPZBYCZg8VAQoyMDE1LTA2LTAyZAIQD2QWBmYPZBYCZg8VASc8aW1nIHNyYz0iL3l6enRiL2ltYWdlcy9kb3RzL2RvdDEuZ2lmIj5kAgEPZBYCZg8VAYwCPGEgaHJlZj0iL3l6enRiL0luZm9EZXRhaWwvRGVmYXVsdC5hc3B4P0luZm9JRD1jNjI4NzZkNi1kMjdkLTRkOGQtYTMyZi04OWMzNDA4NDMxNGMmQ2F0ZWdvcnlOdW09MDEwMDAxMDAxIiB0YXJnZXQ9Il9ibGFuayIgdGl0bGU9IuaJrOS4reW4guS6uuawkeWMu+mZouWMu+aKgOeXheaIv+e7vOWQiOalvOW7uuiuvumhueebruW7uuiuvuebkeeQhiI+5oms5Lit5biC5Lq65rCR5Yy76Zmi5Yy75oqA55eF5oi/57u85ZCI5qW85bu66K6+6aG555uu5bu66K6+55uR55CGPC9hPmQCAg9kFgJmDxUBCjIwMTUtMDUtMjlkAhEPZBYGZg9kFgJmDxUBJzxpbWcgc3JjPSIveXp6dGIvaW1hZ2VzL2RvdHMvZG90MS5naWYiPmQCAQ9kFgJmDxUB6AE8YSBocmVmPSIveXp6dGIvSW5mb0RldGFpbC9EZWZhdWx0LmFzcHg/SW5mb0lEPTkwZGY2MzcxLWQwZTAtNDUzMS1hZWZjLTk0NTZjZDRhODVmNyZDYXRlZ29yeU51bT0wMTAwMDEwMDEiIHRhcmdldD0iX2JsYW5rIiB0aXRsZT0i5biC5Lit5b+D5Z+O5Yy65oqX6ZyH6Ziy54G+6KeE5YiS77yIMjAxNS0yMDMw77yJIj7luILkuK3lv4Pln47ljLrmipfpnIfpmLLngb7op4TliJLvvIgyMDE1LTIwMzDvvIk8L2E+ZAICD2QWAmYPFQEKMjAxNS0wNS0yOGQCEg9kFgZmD2QWAmYPFQEnPGltZyBzcmM9Ii95enp0Yi9pbWFnZXMvZG90cy9kb3QxLmdpZiI+ZAIBD2QWAmYPFQHoATxhIGhyZWY9Ii95enp0Yi9JbmZvRGV0YWlsL0RlZmF1bHQuYXNweD9JbmZvSUQ9NTE2YjVmOTktYjAxMy00YjJmLTk1MDMtZmVjMTRjMjlkZDQ0JkNhdGVnb3J5TnVtPTAxMDAwMTAwMSIgdGFyZ2V0PSJfYmxhbmsiIHRpdGxlPSLln47luILmraXooYzlkozoh6rooYzovabmhaLooYzkuqTpgJrns7vnu5/op4TliJIiPuWfjuW4guatpeihjOWSjOiHquihjOi9puaFouihjOS6pOmAmuezu+e7n+inhOWIkjwvYT5kAgIPZBYCZg8VAQoyMDE1LTA1LTI4ZAITD2QWBmYPZBYCZg8VASc8aW1nIHNyYz0iL3l6enRiL2ltYWdlcy9kb3RzL2RvdDEuZ2lmIj5kAgEPZBYCZg8VAYACPGEgaHJlZj0iL3l6enRiL0luZm9EZXRhaWwvRGVmYXVsdC5hc3B4P0luZm9JRD1iYjA3MjdhZS0wOTI5LTQzMTQtYmRmZi1iYWFhNDMzZDQyZmMmQ2F0ZWdvcnlOdW09MDEwMDAxMDAxIiB0YXJnZXQ9Il9ibGFuayIgdGl0bGU9IuaJrOS4reW4guS6uuawkeWMu+mZouWMu+aKgOalvOWbm+Wxgu+8iOmjn+Wggu+8ieWKoOW7uumhueebriI+5oms5Lit5biC5Lq65rCR5Yy76Zmi5Yy75oqA5qW85Zub5bGC77yI6aOf5aCC77yJ5Yqg5bu66aG555uuPC9hPmQCAg9kFgJmDxUBCjIwMTUtMDUtMjFkAhQPZBYGZg9kFgJmDxUBJzxpbWcgc3JjPSIveXp6dGIvaW1hZ2VzL2RvdHMvZG90MS5naWYiPmQCAQ9kFgJmDxUB1gE8YSBocmVmPSIveXp6dGIvSW5mb0RldGFpbC9EZWZhdWx0LmFzcHg/SW5mb0lEPWIyNzgwMmZkLWQ4NjYtNGEzYy1iNGJhLTI2NTVkYjUxZTBhYiZDYXRlZ29yeU51bT0wMTAwMDEwMDEiIHRhcmdldD0iX2JsYW5rIiB0aXRsZT0i5oms5Lit5biC56ys5LqM6auY57qn5Lit5a2m6L+B5bu65bel56iLIj7miazkuK3luILnrKzkuozpq5jnuqfkuK3lrabov4Hlu7rlt6XnqIs8L2E+ZAICD2QWAmYPFQEKMjAxNS0wNS0yMWQCFQ9kFgZmD2QWAmYPFQEnPGltZyBzcmM9Ii95enp0Yi9pbWFnZXMvZG90cy9kb3QxLmdpZiI+ZAIBD2QWAmYPFQHWATxhIGhyZWY9Ii95enp0Yi9JbmZvRGV0YWlsL0RlZmF1bHQuYXNweD9JbmZvSUQ9YjRhMmE2OTAtODZiNC00NmRiLTk2ZjQtMjUxYjFmNzc5Y2QwJkNhdGVnb3J5TnVtPTAxMDAwMTAwMSIgdGFyZ2V0PSJfYmxhbmsiIHRpdGxlPSLmiazkuK3luILnrKzkuIDkuK3lrabohb7ku5Plh7rmlrDlt6XnqIsiPuaJrOS4reW4guesrOS4gOS4reWtpuiFvuS7k+WHuuaWsOW3peeoizwvYT5kAgIPZBYCZg8VAQoyMDE1LTA1LTIwZAIFD2QWAmYPZBYCZg8PFgYeC1JlY29yZGNvdW50AqMFHg5DdXN0b21JbmZvVGV4dAWRAeiusOW9leaAu+aVsO+8mjxmb250IGNvbG9yPSJibHVlIj48Yj42NzU8L2I+PC9mb250PiDmgLvpobXmlbDvvJo8Zm9udCBjb2xvcj0iYmx1ZSI+PGI+MzQ8L2I+PC9mb250PiDlvZPliY3pobXvvJo8Zm9udCBjb2xvcj0icmVkIj48Yj4xPC9iPjwvZm9udD4eCUltYWdlUGF0aAUTL3l6enRiL2ltYWdlcy9wYWdlL2RkZJ2uHr1rRSaSvebQcw1/73ZBBil1" />
+<table id="MoreInfoList1_moreinfo" height="100%" cellspacing="0" cellpadding="0" width="100%" align="center" border="0">
+	<tr style="display:none;">
+		<td id="MoreInfoList1_tdTitle" valign="top" height="22"><img src="../images/map.gif" 
+      ><span id="MoreInfoList1_lblcategory"></span></td>
+	</tr>
+	<tr style="display:none;">
+		<td height="8"></td>
+	</tr>
+	<tr>
+		<td id="MoreInfoList1_tdcontent" valign="top" height="100%"><table cellspacing="0" align="Center" rules="all" border="0" id="MoreInfoList1_DataGrid1" width="98%">
+			<tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/yzztb/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/yzztb/InfoDetail/Default.aspx?InfoID=913eb865-f76b-4df1-9c9b-c37e5fbee927&CategoryNum=010001001" target="_blank" title="扬中市教育局教师进修学校门卫及围墙改建工程">扬中市教育局教师进修学校门卫及围墙改建工程</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-07-07
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/yzztb/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/yzztb/InfoDetail/Default.aspx?InfoID=3b445ca7-f788-4bee-a985-36842dc09635&CategoryNum=010001001" target="_blank" title="扬中市外国语小学田径场建设工程">扬中市外国语小学田径场建设工程</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-07-03
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/yzztb/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/yzztb/InfoDetail/Default.aspx?InfoID=c77030af-01df-4c9a-a7be-b8a8a67c6201&CategoryNum=010001001" target="_blank" title="扬中市青少年校外活动中心搬迁改造工程">扬中市青少年校外活动中心搬迁改造工程</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-07-02
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/yzztb/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/yzztb/InfoDetail/Default.aspx?InfoID=3f36d621-81a5-4fbe-a6b9-a6a1d8ad4b9d&CategoryNum=010001001" target="_blank" title="扬中市教育局教师进修学校外立面改造工程">扬中市教育局教师进修学校外立面改造工程</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-07-02
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/yzztb/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/yzztb/InfoDetail/Default.aspx?InfoID=6d82b483-2d49-467a-bb31-13fefdd304bd&CategoryNum=010001001" target="_blank" title="扬中市油坊中心小学的教学综合楼装饰工程">扬中市油坊中心小学的教学综合楼装饰工程</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-07-01
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/yzztb/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/yzztb/InfoDetail/Default.aspx?InfoID=1f57c2e4-0371-4903-a5fe-d5ecf5142ec9&CategoryNum=010001001" target="_blank" title="城北公园紧急避难场所工程">城北公园紧急避难场所工程</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-06-23
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/yzztb/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/yzztb/InfoDetail/Default.aspx?InfoID=afeee664-daa1-4311-9235-c2d7fc1e133a&CategoryNum=010001001" target="_blank" title="扬中市迎宾大道（现扬中大道）2015-2018年外立面亮化维护工程">扬中市迎宾大道（现扬中大道）2015-2018年外立面亮化维护工程</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-06-18
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/yzztb/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/yzztb/InfoDetail/Default.aspx?InfoID=0e40b1c3-3d42-430a-beeb-b0cf38303f1b&CategoryNum=010001001" target="_blank" title="扬中市永胜中心小学教学楼工程-土建">扬中市永胜中心小学教学楼工程-土建</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-06-15
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/yzztb/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/yzztb/InfoDetail/Default.aspx?InfoID=fb273024-0210-44ed-9b76-f7f5b9c205bc&CategoryNum=010001001" target="_blank" title="扬中市第二实验小学的逸香楼加固改造工程">扬中市第二实验小学的逸香楼加固改造工程</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-06-09
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/yzztb/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/yzztb/InfoDetail/Default.aspx?InfoID=e7478477-d190-4289-a5b7-94e5409fdf31&CategoryNum=010001001" target="_blank" title="扬中市永胜中心小学教学楼工程-桩基">扬中市永胜中心小学教学楼工程-桩基</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-06-09
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/yzztb/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/yzztb/InfoDetail/Default.aspx?InfoID=307946ba-c7a5-467b-9614-343385c71486&CategoryNum=010001001" target="_blank" title="2015年暑期加固改造工程">2015年暑期加固改造工程</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-06-09
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/yzztb/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/yzztb/InfoDetail/Default.aspx?InfoID=207657ef-48e8-4e3c-b333-6bfb465e42bd&CategoryNum=010001001" target="_blank" title="市中心城区抗震防灾规划（2015-2030）">市中心城区抗震防灾规划（2015-2030）</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-06-04
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/yzztb/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/yzztb/InfoDetail/Default.aspx?InfoID=bdc167b9-45b2-47af-9cf9-6865bcc8ef63&CategoryNum=010001001" target="_blank" title="扬中市油坊中心小学景观绿化工程">扬中市油坊中心小学景观绿化工程</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-06-02
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/yzztb/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/yzztb/InfoDetail/Default.aspx?InfoID=d0fa0872-ee41-41de-9122-df2cf99587aa&CategoryNum=010001001" target="_blank" title="审判法庭室内装饰工程">审判法庭室内装饰工程</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-06-02
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/yzztb/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/yzztb/InfoDetail/Default.aspx?InfoID=c62876d6-d27d-4d8d-a32f-89c34084314c&CategoryNum=010001001" target="_blank" title="扬中市人民医院医技病房综合楼建设项目建设监理">扬中市人民医院医技病房综合楼建设项目建设监理</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-05-29
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/yzztb/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/yzztb/InfoDetail/Default.aspx?InfoID=90df6371-d0e0-4531-aefc-9456cd4a85f7&CategoryNum=010001001" target="_blank" title="市中心城区抗震防灾规划（2015-2030）">市中心城区抗震防灾规划（2015-2030）</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-05-28
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/yzztb/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/yzztb/InfoDetail/Default.aspx?InfoID=516b5f99-b013-4b2f-9503-fec14c29dd44&CategoryNum=010001001" target="_blank" title="城市步行和自行车慢行交通系统规划">城市步行和自行车慢行交通系统规划</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-05-28
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/yzztb/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/yzztb/InfoDetail/Default.aspx?InfoID=bb0727ae-0929-4314-bdff-baaa433d42fc&CategoryNum=010001001" target="_blank" title="扬中市人民医院医技楼四层（食堂）加建项目">扬中市人民医院医技楼四层（食堂）加建项目</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-05-21
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/yzztb/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/yzztb/InfoDetail/Default.aspx?InfoID=b27802fd-d866-4a3c-b4ba-2655db51e0ab&CategoryNum=010001001" target="_blank" title="扬中市第二高级中学迁建工程">扬中市第二高级中学迁建工程</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-05-21
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/yzztb/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/yzztb/InfoDetail/Default.aspx?InfoID=b4a2a690-86b4-46db-96f4-251b1f779cd0&CategoryNum=010001001" target="_blank" title="扬中市第一中学腾仓出新工程">扬中市第一中学腾仓出新工程</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-05-20
+						</td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td height="8"></td>
+	</tr>
+	<tr>
+		<td class="Xline2" height="3"></td>
+	</tr>
+	<tr>
+		<td align="right" height="25">
+		<!------------------------------ AspNetPager V4.3.3 Start ------------------------------>
+		<!-------------------- Copyright:2003-2005 Webdiyer(www.webdiyer.com) --------------------->
+		<div id="MoreInfoList1_Pager">
+			<table width="100%" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="bottom" align="left" nowrap="true" width="40%">记录总数：<font color="blue"><b>675</b></font> 总页数：<font color="blue"><b>34</b></font> 当前页：<font color="red"><b>1</b></font></td><td valign="bottom" align="notset" nowrap="true" class="" width="60%"><img src="/yzztb/images/page/firstg.gif" border="0" align="Baseline" /><span></span><img src="/yzztb/images/page/prevg.gif" border="0" align="Baseline" /><span></span><img src="/yzztb/images/page/1r.gif" align="Baseline" border="0" /><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','2')" title="转到第2页"><img src="/yzztb/images/page/2n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','3')" title="转到第3页"><img src="/yzztb/images/page/3n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','4')" title="转到第4页"><img src="/yzztb/images/page/4n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','5')" title="转到第5页"><img src="/yzztb/images/page/5n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','6')" title="转到第6页"><img src="/yzztb/images/page/6n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','7')" title="转到第7页"><img src="/yzztb/images/page/7n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','8')" title="转到第8页"><img src="/yzztb/images/page/8n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','9')" title="转到第9页"><img src="/yzztb/images/page/9n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','10')" title="转到第10页"><img src="/yzztb/images/page/1n.gif" align="Baseline" border="0" /><img src="/yzztb/images/page/0n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','11')" title="转到第11页"><img src="/yzztb/images/page/moren.gif" border="0" align="Baseline" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','2')" title="转到第2页"><img src="/yzztb/images/page/nextn.gif" border="0" align="Baseline" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','34')" title="转到第34页"><img src="/yzztb/images/page/lastn.gif" border="0" align="Baseline" /></a><span></span></td>
+				</tr>
+			</table>
+		</div>
+		<!------------------------------- AspNetPager V4.3.3 End -------------------------------->
+
+		</td>
+	</tr>
+	<tr>
+		<td class="Xline2" height="3"></td>
+	</tr>
+</table>
+
+<script>
+var Tdname='MoreInfoList1'+"_tdcontent";
+document.getElementById(Tdname).className='MiddleBg'
+</script></form> </td>
+              </tr>
+              <tr>
+                <td height="97" background="/yzztb/Template/Default/images/bg2.gif">&nbsp;</td>
+              </tr>
+            </table></td>
+        </tr>		
+    </table></td>
+</tr>
+<tr>
+
+<td width="1002" align="center">
+<iframe src="/yzztb/template/default/Foot.htm"
+                    width="992" height="94" frameborder="0" scrolling="no"></iframe>
+</td>
+
+</tr>
+</table>
+
+
+</body>
+</html>

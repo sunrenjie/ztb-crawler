@@ -1,0 +1,299 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>丹阳市公共资源交易网</title>
+<link rel="stylesheet" type="text/css" href="/dyzgw/Template/Default/css/common.css"/>
+<link rel="stylesheet" type="text/css" href="/dyzgw/Template/Default/css/style.css"/>
+</head>
+<body class="bg">
+
+<table  height="20" border="0" cellspacing="0" cellpadding="0" class="tab1 whitebg" style="border:1px #E7E7E7 solid;border-bottom:1px white solid;width:1200px;padding-top:8px;background:white;margin:0 auto;">
+        <tr>
+            <td align="center">
+                <iframe width="1180" height="300" src="/dyzgw/Template/Default/pagehead.htm" frameborder="0" scrolling="no"
+                    allowtransparency="true"></iframe>
+            </td>
+        </tr>
+    </table>
+
+  <table width="1200" cellpadding="0" cellspacing="0" style="margin:auto;">
+    <tr><td>
+<div id="main">
+  <div class="container">
+    <div class="now"><table cellSpacing="0" cellPadding="0" border="0"><TR><TD align="center" width="15"></TD><TD align="left"><FONT color="#000000" class=currentpostionfont><b>您现在的位置：</b></FONT><A href='/dyzgw/'><FONT color="#000000" class=currentpostionfont>首页</FONT></A><FONT color="#FF7E00"> >> <a href='/dyzgw/jyxx'><FONT color="#FF7E00" class=currentpostionfont>交易信息</font></a> >> <a href='/dyzgw/jyxx/001001'><FONT color="#FF7E00" class=currentpostionfont>工程建设</font></a> >> <a href='/dyzgw/jyxx/001001/001001001'><FONT color="#FF7E00" class=currentpostionfont>信息公告</font></a></FONT></TD></TR></table></div>
+    <div class="wrap clearFix">
+      <div class="subleft">
+        <div class="col-style1">
+          <div class="head">
+            <h2>交易信息</h2>
+          </div>
+          <div class="ht606">
+            <TABLE  cellSpacing="0" cellPadding="0" width="100%" border="0">
+<TR><td class="LeftMenu"  style="cursor:hand" background="/dyzgw/Webimages/menu_0.jpg" ><a href='javascript:void(0)' ><font color=#FFAA47>工程建设</font></a></td></TR>
+<TR><td class="LeftMenuSubbg"   id="TD001001"><table border=0 width="100%">
+<TR><td class="LeftMenuSub" ><a href="/dyzgw/jyxx/001001/001001001" target="_self"><font color=#FFAA47>【信息公告】</font></a></td></TR>
+<TR><td  class="LeftMenuSub" ><a href="/dyzgw/jyxx/001001/001001002" target="_self"><font color=#4e4e4e>【更正补充】</font></a></td></TR>
+<TR><td  class="LeftMenuSub" ><a href="/dyzgw/jyxx/001001/001001004" target="_self"><font color=#4e4e4e>【最高限价】</font></a></td></TR>
+<TR><td  class="LeftMenuSub" ><a href="/dyzgw/jyxx/001001/001001007" target="_self"><font color=#4e4e4e>【中标候选人】</font></a></td></TR>
+<TR><td  class="LeftMenuSub" ><a href="/dyzgw/jyxx/001001/001001005" target="_self"><font color=#4e4e4e>【中标公示】</font></a></td></TR>
+<TR><td  class="LeftMenuSub" ><a href="/dyzgw/jyxx/001001/001001006" target="_self"><font color=#4e4e4e>【未入围公示】</font></a></td></TR>
+</table></TD></tr>
+<TR><td class="LeftMenu"  style="cursor:hand" background="/dyzgw/Webimages/menu_0.jpg" ><a href='javascript:void(0)' ><font color=#4e4e4e>政府采购</font></a></td></TR>
+<TR><td class="LeftMenuSubbg"   id="TD001004"><table border=0 width="100%">
+<TR><td  class="LeftMenuSub" ><a href="/dyzgw/jyxx/001004/001004001" target="_self"><font color=#4e4e4e>【信息公告】</font></a></td></TR>
+<TR><td  class="LeftMenuSub" ><a href="/dyzgw/jyxx/001004/001004007" target="_self"><font color=#4e4e4e>【征求意见】</font></a></td></TR>
+<TR><td  class="LeftMenuSub" ><a href="/dyzgw/jyxx/001004/001004008" target="_self"><font color=#4e4e4e>【网上竞价】</font></a></td></TR>
+<TR><td  class="LeftMenuSub" ><a href="/dyzgw/jyxx/001004/001004002" target="_self"><font color=#4e4e4e>【更正补充】</font></a></td></TR>
+<TR><td  class="LeftMenuSub" ><a href="/dyzgw/jyxx/001004/001004005" target="_self"><font color=#4e4e4e>【中标公示】</font></a></td></TR>
+</table></TD></tr>
+<TR><td class="LeftMenu"  style="cursor:hand" background="/dyzgw/Webimages/menu_0.jpg" ><a href='javascript:void(0)' ><font color=#4e4e4e>产权交易</font></a></td></TR>
+<TR><td class="LeftMenuSubbg"   id="TD001007"><table border=0 width="100%">
+<TR><td  class="LeftMenuSub" ><a href="/dyzgw/jyxx/001007/001007001" target="_self"><font color=#4e4e4e>【公告】</font></a></td></TR>
+<TR><td  class="LeftMenuSub" ><a href="/dyzgw/jyxx/001007/001007002" target="_self"><font color=#4e4e4e>【更正补充】</font></a></td></TR>
+<TR><td  class="LeftMenuSub" ><a href="/dyzgw/jyxx/001007/001007003" target="_self"><font color=#4e4e4e>【成交公示】</font></a></td></TR>
+</table></TD></tr>
+<TR><td class="LeftMenu"  style="cursor:hand" background="/dyzgw/Webimages/menu_0.jpg" ><a href='javascript:void(0)' ><font color=#4e4e4e>土地交易</font></a></td></TR>
+<TR><td class="LeftMenuSubbg"   id="TD001008"><table border=0 width="100%">
+<TR><td  class="LeftMenuSub" ><a href="/dyzgw/jyxx/001008/001008001" target="_self"><font color=#4e4e4e>【公告】</font></a></td></TR>
+<TR><td  class="LeftMenuSub" ><a href="/dyzgw/jyxx/001008/001008002" target="_self"><font color=#4e4e4e>【更正补充】</font></a></td></TR>
+<TR><td  class="LeftMenuSub" ><a href="/dyzgw/jyxx/001008/001008003" target="_self"><font color=#4e4e4e>【成交公示】</font></a></td></TR>
+</table></TD></tr>
+<TR><td class="LeftMenu"  style="cursor:hand" background="/dyzgw/Webimages/menu_0.jpg" ><a href='javascript:void(0)' ><font color=#4e4e4e>镇区招标</font></a></td></TR>
+<TR><td class="LeftMenuSubbg"   id="TD001010"><table border=0 width="100%">
+<TR><td  class="LeftMenuSub" ><a href="/dyzgw/jyxx/001010/001010001" target="_self"><font color=#4e4e4e>【信息公告】</font></a></td></TR>
+<TR><td  class="LeftMenuSub" ><a href="/dyzgw/jyxx/001010/001010002" target="_self"><font color=#4e4e4e>【更正补充】</font></a></td></TR>
+<TR><td  class="LeftMenuSub" ><a href="/dyzgw/jyxx/001010/001010003" target="_self"><font color=#4e4e4e>【中标公示】</font></a></td></TR>
+<TR><td  class="LeftMenuSub" ><a href="/dyzgw/jyxx/001010/001010004" target="_self"><font color=#4e4e4e>【征求意见】</font></a></td></TR>
+<TR><td  class="LeftMenuSub" ><a href="/dyzgw/jyxx/001010/001010005" target="_self"><font color=#4e4e4e>【网上竞价】</font></a></td></TR>
+</table></TD></tr>
+</TABLE>
+<script>function OpenDiv(cate){if(document.getElementById(cate).style.display=='') { document.getElementById(cate).style.display='none'} else {document.getElementById(cate).style.display=''}}</script>
+          </div>
+        </div>
+      </div>
+      <div class="subright">
+        <div class="col-style3">
+          <div class="head border2">信息公告</div>
+          <div class="content cbg2">
+          <form name="ctl00" method="post" action="MoreInfo.aspx?CategoryNum=001001001" id="ctl00">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+<table id="MoreInfoList1_moreinfo" height="100%" cellspacing="0" cellpadding="0" width="100%" align="center" border="0">
+	<tr style="display:none;">
+		<td id="MoreInfoList1_tdTitle" valign="top" height="22"><img src="../images/map.gif" 
+      ><span id="MoreInfoList1_lblcategory"></span></td>
+	</tr>
+	<tr style="display:none;">
+		<td height="8"></td>
+	</tr>
+	<tr>
+		<td id="MoreInfoList1_tdcontent" valign="top" height="100%"><table cellspacing="0" align="Center" rules="all" border="0" id="MoreInfoList1_DataGrid1" width="98%">
+			<tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/dyzgw/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/dyzgw/InfoDetail/?infoid=7954e912-24a2-4738-a2e6-ebf3241cc370&categoryNum=001001001" target="_blank" title="丹阳市开发区高新技术产业发展有限公司的中国（丹阳）眼镜城北广场改造工程">丹阳市开发区高新技术产业发展有限公司的中国（丹阳）眼镜城北广场改造工程</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-07-10
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/dyzgw/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/dyzgw/InfoDetail/?infoid=09167d67-337f-44d4-930a-c9754c09c501&categoryNum=001001001" target="_blank" title="丹阳市新桥中心小学重建教学楼工程">丹阳市新桥中心小学重建教学楼工程</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-07-09
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/dyzgw/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/dyzgw/InfoDetail/?infoid=60b23f6a-a252-48b1-bc4a-0688d90f7638&categoryNum=001001001" target="_blank" title="丹阳市丹凤实验小学的新建综合楼（凤翔楼）项目—室内装饰工程招标公告">丹阳市丹凤实验小学的新建综合楼（凤翔楼）项目—室内装饰工程招标公告</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-07-09
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/dyzgw/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/dyzgw/InfoDetail/?infoid=20fec5b6-d773-40e0-b0bc-2dfd4d82b891&categoryNum=001001001" target="_blank" title="丹阳投资集团有限公司的丹阳市珥陵高级中学校安工程监理">丹阳投资集团有限公司的丹阳市珥陵高级中学校安工程监理</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-07-09
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/dyzgw/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/dyzgw/InfoDetail/?infoid=2f497b36-09f6-43de-87ba-0bfddcfb15e7&categoryNum=001001001" target="_blank" title="丹阳市界牌镇人民政府的界牌镇灯城大街延伸段翻建工程">丹阳市界牌镇人民政府的界牌镇灯城大街延伸段翻建工程</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-07-07
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/dyzgw/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/dyzgw/InfoDetail/?infoid=d25e8e1f-45c9-422c-ad40-81cb70980413&categoryNum=001001001" target="_blank" title="丹阳市第五中学的敏行楼加固改造工程">丹阳市第五中学的敏行楼加固改造工程</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-07-06
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/dyzgw/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/dyzgw/InfoDetail/?infoid=7a1e2679-f2bb-41e7-92e6-e6c161a9d80f&categoryNum=001001001" target="_blank" title="丹阳市第五中学的增益楼加固改造工程">丹阳市第五中学的增益楼加固改造工程</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-07-06
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/dyzgw/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/dyzgw/InfoDetail/?infoid=a346333b-e4b2-40bf-9b19-37069fdda606&categoryNum=001001001" target="_blank" title="丹阳市城建交通重点工程指挥部的天元路电缆下地工程">丹阳市城建交通重点工程指挥部的天元路电缆下地工程</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-07-06
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/dyzgw/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/dyzgw/InfoDetail/?infoid=fed99c89-c837-4810-b210-7835b8e2c5ac&categoryNum=001001001" target="_blank" title="丹阳投资集团有限公司的丹阳市珥陵初级中学、云林学校校安工程监理">丹阳投资集团有限公司的丹阳市珥陵初级中学、云林学校校安工程监理</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-07-03
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/dyzgw/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/dyzgw/InfoDetail/?infoid=c86e7ad5-ce08-45d3-911e-3093c8437dfe&categoryNum=001001001" target="_blank" title="丹阳市埤城初级中学的教师宿舍楼加固改造工程（二次公告）">丹阳市埤城初级中学的教师宿舍楼加固改造工程（二次公告）</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-07-03
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/dyzgw/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/dyzgw/InfoDetail/?infoid=b960e2df-d3cf-4522-b39b-abb179f3d6b6&categoryNum=001001001" target="_blank" title="丹阳市珥陵高级中学的实验楼、食堂、体育看台加固改造工程">丹阳市珥陵高级中学的实验楼、食堂、体育看台加固改造工程</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-07-02
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/dyzgw/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/dyzgw/InfoDetail/?infoid=b9e5d9ab-4c12-4bef-8c00-bac696b82941&categoryNum=001001001" target="_blank" title="丹阳市总前委旧址纪念馆的纪念馆安防工程">丹阳市总前委旧址纪念馆的纪念馆安防工程</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-07-01
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/dyzgw/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/dyzgw/InfoDetail/?infoid=0b8c1bf6-60d4-4231-82ae-2c8dff04503e&categoryNum=001001001" target="_blank" title="丹阳市第六中学的校安工程恢复装修工程">丹阳市第六中学的校安工程恢复装修工程</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-07-01
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/dyzgw/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/dyzgw/InfoDetail/?infoid=a2da5273-7740-43bd-84aa-fcb815f1de69&categoryNum=001001001" target="_blank" title="丹阳水务集团有限公司的大运河污水收集管网工程（一标段）">丹阳水务集团有限公司的大运河污水收集管网工程（一标段）</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-07-01
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/dyzgw/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/dyzgw/InfoDetail/?infoid=ce95af93-c048-4ffd-9836-5a233bc7eb3e&categoryNum=001001001" target="_blank" title="丹阳水务集团有限公司的大运河污水收集管网工程（二标段）">丹阳水务集团有限公司的大运河污水收集管网工程（二标段）</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-07-01
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/dyzgw/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/dyzgw/InfoDetail/?infoid=5cc4fb14-640e-4c90-b067-e524cdb67b69&categoryNum=001001001" target="_blank" title="丹阳市云林学校的学生宿舍、师生餐厅加固改造工程">丹阳市云林学校的学生宿舍、师生餐厅加固改造工程</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-06-30
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/dyzgw/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/dyzgw/InfoDetail/?infoid=9c527314-dd32-4010-b1f1-bfd72c3ea634&categoryNum=001001001" target="_blank" title="丹阳市第二人民医院新建病房楼、急诊医技楼工程—建筑智能化工程">丹阳市第二人民医院新建病房楼、急诊医技楼工程—建筑智能化工程</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-06-30
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/dyzgw/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/dyzgw/InfoDetail/?infoid=89511300-a3f4-42cb-8804-46dec4a3910e&categoryNum=001001001" target="_blank" title="丹阳市云阳学校的希望楼、小学食堂、雏鹰楼加固改造工程">丹阳市云阳学校的希望楼、小学食堂、雏鹰楼加固改造工程</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-06-30
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/dyzgw/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/dyzgw/InfoDetail/?infoid=6905b125-8f00-4024-9064-6b40c355e66f&categoryNum=001001001" target="_blank" title="丹阳市荆林中心幼儿园的装饰工程监理招标公告">丹阳市荆林中心幼儿园的装饰工程监理招标公告</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-06-29
+						</td>
+			</tr><tr valign="top">
+				<td align="center" valign="middle" width="15">
+							<img src="/dyzgw/images/dots/dot1.gif">
+						</td><td align="left" valign="middle">
+							<a href="/dyzgw/InfoDetail/?infoid=66af49a7-54ad-4102-83b1-9ad42e14d708&categoryNum=001001001" target="_blank" title="丹阳市运河初级中学的新食堂、综合大楼加固改造工程">丹阳市运河初级中学的新食堂、综合大楼加固改造工程</a>
+						</td><td align="center" valign="middle" width="80">
+							2015-06-29
+						</td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td height="8"></td>
+	</tr>
+	<tr>
+		<td class="Xline2" height="3"></td>
+	</tr>
+	<tr>
+		<td align="right" height="25">
+		<!------------------------------ AspNetPager V4.3.3 Start ------------------------------>
+		<!-------------------- Copyright:2003-2005 Webdiyer(www.webdiyer.com) --------------------->
+		<div id="MoreInfoList1_Pager">
+			<table width="100%" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="bottom" align="left" nowrap="true" width="40%">记录总数：<font color="blue"><b>1481</b></font> 总页数：<font color="blue"><b>75</b></font> 当前页：<font color="red"><b>1</b></font></td><td valign="bottom" align="notset" nowrap="true" class="" width="60%"><img src="/dyzgw/images/page/firstg.gif" border="0" align="Baseline" /><span></span><img src="/dyzgw/images/page/prevg.gif" border="0" align="Baseline" /><span></span><img src="/dyzgw/images/page/1r.gif" align="Baseline" border="0" /><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','2')" title="转到第2页"><img src="/dyzgw/images/page/2n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','3')" title="转到第3页"><img src="/dyzgw/images/page/3n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','4')" title="转到第4页"><img src="/dyzgw/images/page/4n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','5')" title="转到第5页"><img src="/dyzgw/images/page/5n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','6')" title="转到第6页"><img src="/dyzgw/images/page/6n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','7')" title="转到第7页"><img src="/dyzgw/images/page/7n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','8')" title="转到第8页"><img src="/dyzgw/images/page/8n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','9')" title="转到第9页"><img src="/dyzgw/images/page/9n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','10')" title="转到第10页"><img src="/dyzgw/images/page/1n.gif" align="Baseline" border="0" /><img src="/dyzgw/images/page/0n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','11')" title="转到第11页"><img src="/dyzgw/images/page/moren.gif" border="0" align="Baseline" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','2')" title="转到第2页"><img src="/dyzgw/images/page/nextn.gif" border="0" align="Baseline" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','75')" title="转到第75页"><img src="/dyzgw/images/page/lastn.gif" border="0" align="Baseline" /></a><span></span></td>
+				</tr>
+			</table>
+		</div>
+		<!------------------------------- AspNetPager V4.3.3 End -------------------------------->
+
+		</td>
+	</tr>
+	<tr>
+		<td class="Xline2" height="3"></td>
+	</tr>
+</table>
+
+<script>
+var Tdname='MoreInfoList1'+"_tdcontent";
+document.getElementById(Tdname).className='MiddleBg'
+</script></form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin:0 auto;">
+            <tr>
+                <td>
+                    <iframe src="/dyzgw/Template/Default/pagefoot.htm" width="100%" height="161" frameborder="0" scrolling="no"></iframe>
+                </td>
+            </tr>
+  </table>
+</div>
+</td></tr></table>
+</body>
+</html>

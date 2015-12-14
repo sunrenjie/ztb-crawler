@@ -339,6 +339,24 @@ class ZTBParser(object):
             flow.name, None, addr, title, datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         ]
 
+    @classmethod
+    def generator_yangzhou(cls, flow, soup_tag):
+        # soup_tag goes like this:
+        # <a onclick='window.open("ViewReportDetail.aspx?...", ...)' ...> ...
+        # Here uses an ugly way to compute the full URL
+        addr_relative = soup_tag.get('onclick').split('"')[1]
+        addr_sections = flow.url.split('/')[:-1]
+        addr_sections.append(addr_relative)
+        addr = '/'.join(addr_sections)
+        title_text = soup_tag.get('title')
+        tr_list = [c for c in soup_tag.parent.parent.children]
+        title_prefix = tr_list[3].text.strip()
+        title_time = tr_list[4].text.strip()
+        return [
+            flow.name, title_time, addr, "[%s]%s" % (title_prefix, title_text),
+            datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        ]
+
 
 class ZTBCrawlFlow(object):
     def __init__(self, url, location, name, tag, searches, generator):
@@ -364,7 +382,7 @@ class ZTBCrawlFlow(object):
 
 def get_crawl_workflows():
     crawl_flows={}
-    for f in [
+    specs = [
         ZTBCrawlFlow('http://www.yxztb.net/yxweb/zypd/012001/012001001/', './sample-data/yi-xin', u'宜兴市', 'a',
                      [
                          SoupAncestorSearch(['td'], HTMLTagAttributesVerifier(
@@ -474,7 +492,19 @@ def get_crawl_workflows():
                 SoupAncestorSearch(['td', 'tr', 'table', 'td', 'tr', 'table', 'form'],
                                    HTMLTagAttributesVerifier('form', {'id': 'ctl00'})),
             ], ZTBParser.generator_yxztb),
-    ]:
+        ZTBCrawlFlow(
+            'http://www.yzcetc.com/yzcetc/YW_Info/ZaoBiaoReport/MoreReportList_YZ_New.aspx?CategoryNum=003',
+            './sample-data/yang-zhou', u'扬州市', 'a',
+            [
+                SoupAncestorSearch(['td', 'tr', 'table'], HTMLTagAttributesVerifier(
+                    'table', {'id': 'MoreInfoList1_DataGrid1'})),
+                SoupAncestorSearch(['td', 'tr', 'table', 'td'], HTMLTagAttributesVerifier(
+                    'td', {'id': 'MoreInfoList1_tdcontent'})),
+                SoupAncestorSearch(['td', 'tr', 'table', 'td', 'tr', 'table'],
+                                   HTMLTagAttributesVerifier('table', {'id': 'MoreInfoList1_moreinfo'})),
+            ], ZTBParser.generator_yangzhou),
+    ]
+    for f in specs:
         crawl_flows[f.url] = f
     return crawl_flows
 
@@ -491,7 +521,8 @@ def log_it(handle, s):
 
 
 def commit(flow, data, prefix, log_handle):
-    # data: [flow.name, t, addr, title, collected-time-point]
+    # data (as returned from generators):
+    # [flow.name, time_as_in_article, addr, title, collected-time-point]
     (name, t, addr, title, _) = data
     if t and len(t) == 10:
         t1 = t[0:7]  # 'YYYY-mm'

@@ -1,0 +1,553 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
+<HTML>
+	<HEAD>
+		<title>
+			扬州工程建设信息网
+		</title>
+		<meta content="Microsoft Visual Studio .NET 7.1" name="GENERATOR">
+		<meta content="C#" name="CODE_LANGUAGE">
+		<meta content="JavaScript" name="vs_defaultClientScript">
+		<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
+		<LINK href="../../css/Styles.css" type="text/css" rel="stylesheet">
+	</HEAD>
+	<body background="../../webimages/bg_pic.jpg" MS_POSITIONING="GridLayout">
+		<form name="Form1" method="post" action="MoreReportList_YZ_New.aspx?CategoryNum=003" id="Form1">
+<input type="hidden" name="__MAGICAJAX_SCRIPT_FINGERPRINTS" value="" />
+<input type="hidden" name="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" value="dDwtMTIwOTgzNjYwMTt0PDtsPGk8MD47PjtsPHQ8O2w8aTwzPjtpPDc+O2k8OT47aTwxMT47aTwxMj47PjtsPHQ8O2w8aTwwPjs+O2w8dDxwPGw8aW5uZXJodG1sOz47bDxcPGltZyB3aWR0aD0nMTk0JyAgU3JjPWh0dHA6Ly93d3cueXpjZXRjLmNvbS95emNldGMvd2ViaW1hZ2VzL3p5bGVmdDFfMDAzLmpwZ1w+Oz4+Ozs+Oz4+O3Q8O2w8aTwwPjs+O2w8dDxwPGw8aW5uZXJodG1sOz47bDxcPGltZyB3aWR0aD0nMTk0JyAgU3JjPWh0dHA6Ly93d3cueXpjZXRjLmNvbS95emNldGMvd2ViaW1hZ2VzL3p5bGVmdDJfMDAzLmpwZ1w+Oz4+Ozs+Oz4+O3Q8O2w8aTwwPjs+O2w8dDxwPHA8bDxWaXNpYmxlOz47bDxvPGY+Oz4+Oz47Oz47Pj47dDxwPHA8bDxiZ0NsYXNzTmFtZTtjYXRlZ29yeU51bTtzaXRlaWQ7PjtsPE1pZGRsZUJnOzAwMztpPDE+Oz4+Oz47bDxpPDA+O2k8MT47PjtsPHQ8O2w8aTwwPjtpPDE+O2k8Mz47aTw2Pjs+O2w8dDw7bDxpPDA+Oz47bDx0PDtsPGk8Nz47PjtsPHQ8O2w8aTwxPjtpPDM+Oz47bDx0PHQ8cDxwPGw8RGF0YVRleHRGaWVsZDtEYXRhVmFsdWVGaWVsZDs+O2w8Q2l0eU5hbWU7Q2F0ZWdvcnlOdW07Pj47Pjt0PGk8MTY+O0A85omA5pyJO+axn+iLj+ecgTvljZfkuqzluII76IuP5bee5biCO+aXoOmUoeW4gjvluLjlt57luII76ZWH5rGf5biCO+aJrOW3nuW4gjvljZfpgJrluII75rOw5bee5biCO+W+kOW3nuW4gjvmt67lronluII755uQ5Z+O5biCO+i/nuS6kea4r+W4gjvlrr/ov4HluII755yB5aSWOz47QDwtMTswMTswMjswMzswNDswNTswNjswNzswODswOTsxMDsxMTsxMjsxMzsxNDsyMzs+Pjs+Ozs+O3Q8dDxwPHA8bDxEYXRhVGV4dEZpZWxkO0RhdGFWYWx1ZUZpZWxkOz47bDxDaXR5TmFtZTtYaWFRdUNvZGU7Pj47Pjt0PGk8Nz47QDzmiYDmnIk75oms5beeO+axn+mDvTvpq5jpgq475a6d5bqUO+S7quW+gTvpgpfmsZ87PjtAPC0xOzA3MDA7MDcwMTswNzAyOzA3MDM7MDcwNDswNzA1Oz4+Oz47Oz47Pj47Pj47Pj47dDw7bDxpPDA+Oz47bDx0PHA8bDxWaXNpYmxlOz47bDxvPGY+Oz4+Ozs+Oz4+O3Q8O2w8aTwwPjs+O2w8dDw7bDxpPDA+Oz47bDx0PEAwPHA8cDxsPFBhZ2VDb3VudDtfIUl0ZW1Db3VudDtfIURhdGFTb3VyY2VJdGVtQ291bnQ7RGF0YUtleXM7UGFnZVNpemU7PjtsPGk8MT47aTwyMD47aTwyMD47bDw+O2k8MjA+Oz4+Oz47QDA8OztAMDxwPGw8VmlzaWJsZTs+O2w8bzx0Pjs+Pjs7Ozs+Ozs+Ozs7Ozs7Ozs7PjtsPGk8MD47PjtsPHQ8O2w8aTwyPjtpPDM+O2k8ND47aTw1PjtpPDY+O2k8Nz47aTw4PjtpPDk+O2k8MTA+O2k8MTE+O2k8MTI+O2k8MTM+O2k8MTQ+O2k8MTU+O2k8MTY+O2k8MTc+O2k8MTg+O2k8MTk+O2k8MjA+O2k8MjE+Oz47bDx0PHA8O3A8bDxvbm1vdXNlb3Zlcjtvbm1vdXNlb3V0Oz47bDxjdXJyZW50Y29sb3I9dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3JcO3RoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjRUJFQkVCJ1w7O3RoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPWN1cnJlbnRjb2xvcjs+Pj47bDxpPDA+O2k8MT47aTwyPjtpPDM+Oz47bDx0PDtsPGk8MD47PjtsPHQ8QDxcPGltZyBzcmM9Imh0dHA6Ly93d3cueXpjZXRjLmNvbS95emNldGMvaW1hZ2VzL2RvdHMvZG90MjcuZ2lmIlw+Oz47Oz47Pj47dDw7bDxpPDA+Oz47bDx0PEA8XDxhIG9uY2xpY2s9J3dpbmRvdy5vcGVuKCJWaWV3UmVwb3J0RGV0YWlsLmFzcHg/R29uZ0dhb0d1aWQ9MzZkODkzY2QtZWMyNC00YjFmLTk0MzAtMmYzNzRiNjA5MDY1JmNhdGVnb3J5TnVtPTAwMyZzaXRlaWQ9MSIsIiIsIldpZHRoPTgwMCxIZWlnaHQ9ODAwLHNjcm9sbGJhcnM9eWVzLHJlc2l6YWJsZT15ZXMiKSdocmVmPSJqYXZhc2NyaXB0OnZvaWQoMClcOyIgdGl0bGU9IlvkuJPkuJrlhazlkYpd5r285rKz6Ieq5p2l5rC05Y6C5LqM5pyf5bel56iL6Ieq5o6n57O757uf6K6+5aSH6YeH6LStIlw+W+S4k+S4muWFrOWRil3mvbzmsrPoh6rmnaXmsLTljoLkuozmnJ/lt6XnqIvoh6rmjqfns7vnu5/orr7lpIfph4fotK1cPC9hXD4gXDxmb250IGNvbG9yPWJsdWVcPijmraPlnKjlhaznpLopXDwvZm9udFw+Oz47Oz47Pj47dDw7bDxpPDA+Oz47bDx0PEA85rC05Yip5bel56iL5p2Q5paZ6K6+5aSHOz47Oz47Pj47dDw7bDxpPDA+Oz47bDx0PEA8MjAxNS0xMi0xMTs+Ozs+Oz4+Oz4+O3Q8cDw7cDxsPG9ubW91c2VvdmVyO29ubW91c2VvdXQ7PjtsPGN1cnJlbnRjb2xvcj10aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvclw7dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9JyNFQkVCRUInXDs7dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9Y3VycmVudGNvbG9yOz4+PjtsPGk8MD47aTwxPjtpPDI+O2k8Mz47PjtsPHQ8O2w8aTwwPjs+O2w8dDxAPFw8aW1nIHNyYz0iaHR0cDovL3d3dy55emNldGMuY29tL3l6Y2V0Yy9pbWFnZXMvZG90cy9kb3QyNy5naWYiXD47Pjs7Pjs+Pjt0PDtsPGk8MD47PjtsPHQ8QDxcPGEgb25jbGljaz0nd2luZG93Lm9wZW4oIlZpZXdSZXBvcnREZXRhaWwuYXNweD9Hb25nR2FvR3VpZD02MDBkMzJmYi0yNjQ5LTRlMjctYjkxYy1iMjY0NTE0MDU5MDEmY2F0ZWdvcnlOdW09MDAzJnNpdGVpZD0xIiwiIiwiV2lkdGg9ODAwLEhlaWdodD04MDAsc2Nyb2xsYmFycz15ZXMscmVzaXphYmxlPXllcyIpJ2hyZWY9ImphdmFzY3JpcHQ6dm9pZCgwKVw7IiB0aXRsZT0iW+S4k+S4muWFrOWRil3mvbzmsrPoh6rmnaXmsLTljoLkuozmnJ/lt6XnqIvmsLTms7UiXD5b5LiT5Lia5YWs5ZGKXea9vOays+iHquadpeawtOWOguS6jOacn+W3peeoi+awtOaztVw8L2FcPiBcPGZvbnQgY29sb3I9Ymx1ZVw+KOato+WcqOWFrOekuilcPC9mb250XD47Pjs7Pjs+Pjt0PDtsPGk8MD47PjtsPHQ8QDzmsLTliKnlt6XnqIvmnZDmlpnorr7lpIc7Pjs7Pjs+Pjt0PDtsPGk8MD47PjtsPHQ8QDwyMDE1LTEyLTExOz47Oz47Pj47Pj47dDxwPDtwPGw8b25tb3VzZW92ZXI7b25tb3VzZW91dDs+O2w8Y3VycmVudGNvbG9yPXRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yXDt0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI0VCRUJFQidcOzt0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj1jdXJyZW50Y29sb3I7Pj4+O2w8aTwwPjtpPDE+O2k8Mj47aTwzPjs+O2w8dDw7bDxpPDA+Oz47bDx0PEA8XDxpbWcgc3JjPSJodHRwOi8vd3d3Lnl6Y2V0Yy5jb20veXpjZXRjL2ltYWdlcy9kb3RzL2RvdDI3LmdpZiJcPjs+Ozs+Oz4+O3Q8O2w8aTwwPjs+O2w8dDxAPFw8YSBvbmNsaWNrPSd3aW5kb3cub3BlbigiVmlld1JlcG9ydERldGFpbC5hc3B4P0dvbmdHYW9HdWlkPTc0NjcxYWY4LWQ0NjctNGUxYS1hZTdiLTAyOWI2N2JlOWYxOSZjYXRlZ29yeU51bT0wMDMmc2l0ZWlkPTEiLCIiLCJXaWR0aD04MDAsSGVpZ2h0PTgwMCxzY3JvbGxiYXJzPXllcyxyZXNpemFibGU9eWVzIiknaHJlZj0iamF2YXNjcmlwdDp2b2lkKDApXDsiIHRpdGxlPSJb5LiT5Lia5YWs5ZGKXea9vOays+iHquadpeawtOWOguS6jOacn+W3peeoi+mdnuagh+iuvuWkhyJcPlvkuJPkuJrlhazlkYpd5r285rKz6Ieq5p2l5rC05Y6C5LqM5pyf5bel56iL6Z2e5qCH6K6+5aSHXDwvYVw+IFw8Zm9udCBjb2xvcj1ibHVlXD4o5q2j5Zyo5YWs56S6KVw8L2ZvbnRcPjs+Ozs+Oz4+O3Q8O2w8aTwwPjs+O2w8dDxAPOawtOWIqeW3peeoi+adkOaWmeiuvuWkhzs+Ozs+Oz4+O3Q8O2w8aTwwPjs+O2w8dDxAPDIwMTUtMTItMTE7Pjs7Pjs+Pjs+Pjt0PHA8O3A8bDxvbm1vdXNlb3Zlcjtvbm1vdXNlb3V0Oz47bDxjdXJyZW50Y29sb3I9dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3JcO3RoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjRUJFQkVCJ1w7O3RoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPWN1cnJlbnRjb2xvcjs+Pj47bDxpPDA+O2k8MT47aTwyPjtpPDM+Oz47bDx0PDtsPGk8MD47PjtsPHQ8QDxcPGltZyBzcmM9Imh0dHA6Ly93d3cueXpjZXRjLmNvbS95emNldGMvaW1hZ2VzL2RvdHMvZG90MjcuZ2lmIlw+Oz47Oz47Pj47dDw7bDxpPDA+Oz47bDx0PEA8XDxhIG9uY2xpY2s9J3dpbmRvdy5vcGVuKCJWaWV3UmVwb3J0RGV0YWlsX05ld19Ob3cuYXNweD9Hb25nR2FvR3VpZD1mNDViY2RlZS1lYTA0LTQ3MjYtODgwOS02M2Q2YzY3YWRkMTkmY2F0ZWdvcnlOdW09MDAzJnNpdGVpZD0xIiwiIiwiV2lkdGg9ODAwLEhlaWdodD04MDAsc2Nyb2xsYmFycz15ZXMscmVzaXphYmxlPXllcyIpJ2hyZWY9ImphdmFzY3JpcHQ6dm9pZCgwKVw7IiB0aXRsZT0iW+aJrOW3nuW4gl3miazlt57lm73pmYXkvJrlsZXkuK3lv4PvvIjkuInmnJ/vvInlt6XnqIsiXD5b5oms5bee5biCXeaJrOW3nuWbvemZheS8muWxleS4reW/g++8iOS4ieacn++8ieW3peeoi1w8L2FcPiBcPGZvbnQgY29sb3I9Ymx1ZVw+KOato+WcqOWFrOekuilcPC9mb250XD47Pjs7Pjs+Pjt0PDtsPGk8MD47PjtsPHQ8QDzmiL/lsYvlu7rnrZHlt6XnqIvmlr3lt6U7Pjs7Pjs+Pjt0PDtsPGk8MD47PjtsPHQ8QDwyMDE1LTEyLTExOz47Oz47Pj47Pj47dDxwPDtwPGw8b25tb3VzZW92ZXI7b25tb3VzZW91dDs+O2w8Y3VycmVudGNvbG9yPXRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yXDt0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI0VCRUJFQidcOzt0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj1jdXJyZW50Y29sb3I7Pj4+O2w8aTwwPjtpPDE+O2k8Mj47aTwzPjs+O2w8dDw7bDxpPDA+Oz47bDx0PEA8XDxpbWcgc3JjPSJodHRwOi8vd3d3Lnl6Y2V0Yy5jb20veXpjZXRjL2ltYWdlcy9kb3RzL2RvdDI3LmdpZiJcPjs+Ozs+Oz4+O3Q8O2w8aTwwPjs+O2w8dDxAPFw8YSBvbmNsaWNrPSd3aW5kb3cub3BlbigiVmlld1JlcG9ydERldGFpbF9OZXdfTm93LmFzcHg/R29uZ0dhb0d1aWQ9MDkyZmUyMTYtNGQ1MS00ZWU2LTlhNTAtMDM1ODY4MWNjMDVlJmNhdGVnb3J5TnVtPTAwMyZzaXRlaWQ9MSIsIiIsIldpZHRoPTgwMCxIZWlnaHQ9ODAwLHNjcm9sbGJhcnM9eWVzLHJlc2l6YWJsZT15ZXMiKSdocmVmPSJqYXZhc2NyaXB0OnZvaWQoMClcOyIgdGl0bGU9Ilvlrp3lupTljr9d5a6d5bqU5Y6/5p+z5aCh6YKu5pS/5pSv5bGA5Lia5Yqh55So5oi/Ilw+W+WuneW6lOWOv13lrp3lupTljr/mn7PloKHpgq7mlL/mlK/lsYDkuJrliqHnlKjmiL9cPC9hXD4gXDxmb250IGNvbG9yPWJsdWVcPijmraPlnKjlhaznpLopXDwvZm9udFw+Oz47Oz47Pj47dDw7bDxpPDA+Oz47bDx0PEA85oi/5bGL5bu6562R5bel56iL5pa95belOz47Oz47Pj47dDw7bDxpPDA+Oz47bDx0PEA8MjAxNS0xMi0xMTs+Ozs+Oz4+Oz4+O3Q8cDw7cDxsPG9ubW91c2VvdmVyO29ubW91c2VvdXQ7PjtsPGN1cnJlbnRjb2xvcj10aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvclw7dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9JyNFQkVCRUInXDs7dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9Y3VycmVudGNvbG9yOz4+PjtsPGk8MD47aTwxPjtpPDI+O2k8Mz47PjtsPHQ8O2w8aTwwPjs+O2w8dDxAPFw8aW1nIHNyYz0iaHR0cDovL3d3dy55emNldGMuY29tL3l6Y2V0Yy9pbWFnZXMvZG90cy9kb3QyNy5naWYiXD47Pjs7Pjs+Pjt0PDtsPGk8MD47PjtsPHQ8QDxcPGEgb25jbGljaz0nd2luZG93Lm9wZW4oIlZpZXdSZXBvcnREZXRhaWxfTmV3X05vdy5hc3B4P0dvbmdHYW9HdWlkPTE0ODZiOGE4LWNkNmMtNDNmMC1iY2YxLTg4NmUxMDk4YTE1ZiZjYXRlZ29yeU51bT0wMDMmc2l0ZWlkPTEiLCIiLCJXaWR0aD04MDAsSGVpZ2h0PTgwMCxzY3JvbGxiYXJzPXllcyxyZXNpemFibGU9eWVzIiknaHJlZj0iamF2YXNjcmlwdDp2b2lkKDApXDsiIHRpdGxlPSJb5oms5bee5biCXeW4guWGnOacuuWxgOWKnuWFrOeUqOaIv+e7tOS/ruaUuemAoOW3peeoiyJcPlvmiazlt57luIJd5biC5Yac5py65bGA5Yqe5YWs55So5oi/57u05L+u5pS56YCg5bel56iLXDwvYVw+IFw8Zm9udCBjb2xvcj1ibHVlXD4o5q2j5Zyo5YWs56S6KVw8L2ZvbnRcPjs+Ozs+Oz4+O3Q8O2w8aTwwPjs+O2w8dDxAPOaIv+Wxi+W7uuetkeW3peeoi+aWveW3pTs+Ozs+Oz4+O3Q8O2w8aTwwPjs+O2w8dDxAPDIwMTUtMTItMTE7Pjs7Pjs+Pjs+Pjt0PHA8O3A8bDxvbm1vdXNlb3Zlcjtvbm1vdXNlb3V0Oz47bDxjdXJyZW50Y29sb3I9dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3JcO3RoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjRUJFQkVCJ1w7O3RoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPWN1cnJlbnRjb2xvcjs+Pj47bDxpPDA+O2k8MT47aTwyPjtpPDM+Oz47bDx0PDtsPGk8MD47PjtsPHQ8QDxcPGltZyBzcmM9Imh0dHA6Ly93d3cueXpjZXRjLmNvbS95emNldGMvaW1hZ2VzL2RvdHMvZG90MjcuZ2lmIlw+Oz47Oz47Pj47dDw7bDxpPDA+Oz47bDx0PEA8XDxhIG9uY2xpY2s9J3dpbmRvdy5vcGVuKCJWaWV3UmVwb3J0RGV0YWlsX05ld19Ob3cuYXNweD9Hb25nR2FvR3VpZD03ZDRmOWQwNy1mNzI5LTRjMTEtYmUwYi1lZjM2NTBjZGNiYWYmY2F0ZWdvcnlOdW09MDAzJnNpdGVpZD0xIiwiIiwiV2lkdGg9ODAwLEhlaWdodD04MDAsc2Nyb2xsYmFycz15ZXMscmVzaXphYmxlPXllcyIpJ2hyZWY9ImphdmFzY3JpcHQ6dm9pZCgwKVw7IiB0aXRsZT0iW+mCl+axn+WMul3lhazpgZPkuK3lrabmlZnlrabmpbzmianlu7rlt6XnqIsiXD5b6YKX5rGf5Yy6XeWFrOmBk+S4reWtpuaVmeWtpualvOaJqeW7uuW3peeoi1w8L2FcPiBcPGZvbnQgY29sb3I9Ymx1ZVw+KOato+WcqOWFrOekuilcPC9mb250XD47Pjs7Pjs+Pjt0PDtsPGk8MD47PjtsPHQ8QDzmiL/lsYvlu7rnrZHlt6XnqIvmlr3lt6U7Pjs7Pjs+Pjt0PDtsPGk8MD47PjtsPHQ8QDwyMDE1LTEyLTExOz47Oz47Pj47Pj47dDxwPDtwPGw8b25tb3VzZW92ZXI7b25tb3VzZW91dDs+O2w8Y3VycmVudGNvbG9yPXRoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yXDt0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj0nI0VCRUJFQidcOzt0aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvcj1jdXJyZW50Y29sb3I7Pj4+O2w8aTwwPjtpPDE+O2k8Mj47aTwzPjs+O2w8dDw7bDxpPDA+Oz47bDx0PEA8XDxpbWcgc3JjPSJodHRwOi8vd3d3Lnl6Y2V0Yy5jb20veXpjZXRjL2ltYWdlcy9kb3RzL2RvdDI3LmdpZiJcPjs+Ozs+Oz4+O3Q8O2w8aTwwPjs+O2w8dDxAPFw8YSBvbmNsaWNrPSd3aW5kb3cub3BlbigiVmlld1JlcG9ydERldGFpbC5hc3B4P0dvbmdHYW9HdWlkPTU4MzA1MTllLWM0NDYtNDc2ZS05NGViLTZlNzk2YTNmYmIxMSZjYXRlZ29yeU51bT0wMDMmc2l0ZWlkPTEiLCIiLCJXaWR0aD04MDAsSGVpZ2h0PTgwMCxzY3JvbGxiYXJzPXllcyxyZXNpemFibGU9eWVzIiknaHJlZj0iamF2YXNjcmlwdDp2b2lkKDApXDsiIHRpdGxlPSJb5LiT5Lia5YWs5ZGKXemrmOmCruW4gueUn+a0u+Weg+WcvueEmueDp+WcuuWPkeeUtemhueebruiuvuiuoSJcPlvkuJPkuJrlhazlkYpd6auY6YKu5biC55Sf5rS75Z6D5Zy+54Sa54On5Zy65Y+R55S16aG555uu6K6+6K6hXDwvYVw+IFw8Zm9udCBjb2xvcj1ibHVlXD4o5q2j5Zyo5YWs56S6KVw8L2ZvbnRcPjs+Ozs+Oz4+O3Q8O2w8aTwwPjs+O2w8dDxAPOeUteWKm+W3peeoi+iuvuiuoTs+Ozs+Oz4+O3Q8O2w8aTwwPjs+O2w8dDxAPDIwMTUtMTItMTE7Pjs7Pjs+Pjs+Pjt0PHA8O3A8bDxvbm1vdXNlb3Zlcjtvbm1vdXNlb3V0Oz47bDxjdXJyZW50Y29sb3I9dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3JcO3RoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjRUJFQkVCJ1w7O3RoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPWN1cnJlbnRjb2xvcjs+Pj47bDxpPDA+O2k8MT47aTwyPjtpPDM+Oz47bDx0PDtsPGk8MD47PjtsPHQ8QDxcPGltZyBzcmM9Imh0dHA6Ly93d3cueXpjZXRjLmNvbS95emNldGMvaW1hZ2VzL2RvdHMvZG90MjcuZ2lmIlw+Oz47Oz47Pj47dDw7bDxpPDA+Oz47bDx0PEA8XDxhIG9uY2xpY2s9J3dpbmRvdy5vcGVuKCJWaWV3UmVwb3J0RGV0YWlsLmFzcHg/R29uZ0dhb0d1aWQ9Y2JiMDlmMmYtZGU0OC00NWI3LTg2YmQtYTA2NTg2NTUzZDBlJmNhdGVnb3J5TnVtPTAwMyZzaXRlaWQ9MSIsIiIsIldpZHRoPTgwMCxIZWlnaHQ9ODAwLHNjcm9sbGJhcnM9eWVzLHJlc2l6YWJsZT15ZXMiKSdocmVmPSJqYXZhc2NyaXB0OnZvaWQoMClcOyIgdGl0bGU9IlvkuJPkuJrlhazlkYpd5r285rKz6Ieq5p2l5rC05Y6C5LqM5pyf5bel56iL6ZiA6Zeo5oub5qCHIlw+W+S4k+S4muWFrOWRil3mvbzmsrPoh6rmnaXmsLTljoLkuozmnJ/lt6XnqIvpmIDpl6jmi5vmoIdcPC9hXD4gXDxmb250IGNvbG9yPWJsdWVcPijmraPlnKjlhaznpLopXDwvZm9udFw+Oz47Oz47Pj47dDw7bDxpPDA+Oz47bDx0PEA85rC05Yip5bel56iL5p2Q5paZ6K6+5aSHOz47Oz47Pj47dDw7bDxpPDA+Oz47bDx0PEA8MjAxNS0xMi0xMTs+Ozs+Oz4+Oz4+O3Q8cDw7cDxsPG9ubW91c2VvdmVyO29ubW91c2VvdXQ7PjtsPGN1cnJlbnRjb2xvcj10aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvclw7dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9JyNFQkVCRUInXDs7dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9Y3VycmVudGNvbG9yOz4+PjtsPGk8MD47aTwxPjtpPDI+O2k8Mz47PjtsPHQ8O2w8aTwwPjs+O2w8dDxAPFw8aW1nIHNyYz0iaHR0cDovL3d3dy55emNldGMuY29tL3l6Y2V0Yy9pbWFnZXMvZG90cy9kb3QyNy5naWYiXD47Pjs7Pjs+Pjt0PDtsPGk8MD47PjtsPHQ8QDxcPGEgb25jbGljaz0nd2luZG93Lm9wZW4oIlZpZXdSZXBvcnREZXRhaWxfTmV3X05vdy5hc3B4P0dvbmdHYW9HdWlkPWQ4NGFhN2Q5LWQ5MTAtNDZhZi1iYTVlLWZmY2ViYmM0MDZlNCZjYXRlZ29yeU51bT0wMDMmc2l0ZWlkPTEiLCIiLCJXaWR0aD04MDAsSGVpZ2h0PTgwMCxzY3JvbGxiYXJzPXllcyxyZXNpemFibGU9eWVzIiknaHJlZj0iamF2YXNjcmlwdDp2b2lkKDApXDsiIHRpdGxlPSJb5rGf6YO95biCXTIwMTblubTluqbmsZ/pg73ljLrmqIrlt53plYflhpzmoaXlu7rorr7pobnnm64iXD5b5rGf6YO95biCXTIwMTblubTluqbmsZ/pg73ljLrmqIrlt53plYflhpzmoaXlu7rorr7pobnnm65cPC9hXD4gXDxmb250IGNvbG9yPWJsdWVcPijmraPlnKjlhaznpLopXDwvZm9udFw+Oz47Oz47Pj47dDw7bDxpPDA+Oz47bDx0PEA85rC05Yip5bel56iL5pa95belOz47Oz47Pj47dDw7bDxpPDA+Oz47bDx0PEA8MjAxNS0xMi0xMDs+Ozs+Oz4+Oz4+O3Q8cDw7cDxsPG9ubW91c2VvdmVyO29ubW91c2VvdXQ7PjtsPGN1cnJlbnRjb2xvcj10aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvclw7dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9JyNFQkVCRUInXDs7dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9Y3VycmVudGNvbG9yOz4+PjtsPGk8MD47aTwxPjtpPDI+O2k8Mz47PjtsPHQ8O2w8aTwwPjs+O2w8dDxAPFw8aW1nIHNyYz0iaHR0cDovL3d3dy55emNldGMuY29tL3l6Y2V0Yy9pbWFnZXMvZG90cy9kb3QyNy5naWYiXD47Pjs7Pjs+Pjt0PDtsPGk8MD47PjtsPHQ8QDxcPGEgb25jbGljaz0nd2luZG93Lm9wZW4oIlZpZXdSZXBvcnREZXRhaWxfTmV3X05vdy5hc3B4P0dvbmdHYW9HdWlkPTBhZDVhMzMxLTU5MTgtNGQxZC05YTE4LWRkNTUzNDE0ODQyNiZjYXRlZ29yeU51bT0wMDMmc2l0ZWlkPTEiLCIiLCJXaWR0aD04MDAsSGVpZ2h0PTgwMCxzY3JvbGxiYXJzPXllcyxyZXNpemFibGU9eWVzIiknaHJlZj0iamF2YXNjcmlwdDp2b2lkKDApXDsiIHRpdGxlPSJb5rGf6YO95biCXTIwMTblubTluqbmsZ/pg73ljLrmqIrlt53plYflhpzmoaXlu7rorr7pobnnm64iXD5b5rGf6YO95biCXTIwMTblubTluqbmsZ/pg73ljLrmqIrlt53plYflhpzmoaXlu7rorr7pobnnm65cPC9hXD4gXDxmb250IGNvbG9yPWJsdWVcPijmraPlnKjlhaznpLopXDwvZm9udFw+Oz47Oz47Pj47dDw7bDxpPDA+Oz47bDx0PEA85rC05Yip5bel56iL5pa95belOz47Oz47Pj47dDw7bDxpPDA+Oz47bDx0PEA8MjAxNS0xMi0xMDs+Ozs+Oz4+Oz4+O3Q8cDw7cDxsPG9ubW91c2VvdmVyO29ubW91c2VvdXQ7PjtsPGN1cnJlbnRjb2xvcj10aGlzLnN0eWxlLmJhY2tncm91bmRDb2xvclw7dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9JyNFQkVCRUInXDs7dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3I9Y3VycmVudGNvbG9yOz4+PjtsPGk8MD47aTwxPjtpPDI+O2k8Mz47PjtsPHQ8O2w8aTwwPjs+O2w8dDxAPFw8aW1nIHNyYz0iaHR0cDovL3d3dy55emNldGMuY29tL3l6Y2V0Yy9pbWFnZXMvZG90cy9kb3QyNy5naWYiXD47Pjs7Pjs+Pjt0PDtsPGk8MD47PjtsPHQ8QDxcPGEgb25jbGljaz0nd2luZG93Lm9wZW4oIlZpZXdSZXBvcnREZXRhaWxfTmV3X05vdy5hc3B4P0dvbmdHYW9HdWlkPTk2NTRiNzAwLTEzZDQtNDc5My05MzNjLWU1MjY3ZGE0YjRkNiZjYXRlZ29yeU51bT0wMDMmc2l0ZWlkPTEiLCIiLCJXaWR0aD04MDAsSGVpZ2h0PTgwMCxzY3JvbGxiYXJzPXllcyxyZXNpemFibGU9eWVzIiknaHJlZj0iamF2YXNjcmlwdDp2b2lkKDApXDsiIHRpdGxlPSJb5rGf6YO95biCXeaJrOW3nuW4guaxn+mDveWMuuWwj+e6qumVh+mrmOW+kOWwj+Wtpue7vOWQiOalvOOAgemjn+WgguWKoOWbuuW3peeoiyJcPlvmsZ/pg73luIJd5oms5bee5biC5rGf6YO95Yy65bCP57qq6ZWH6auY5b6Q5bCP5a2m57u85ZCI5qW844CB6aOf5aCC5Yqg5Zu65bel56iLXDwvYVw+IFw8Zm9udCBjb2xvcj1ibHVlXD4o5q2j5Zyo5YWs56S6KVw8L2ZvbnRcPjs+Ozs+Oz4+O3Q8O2w8aTwwPjs+O2w8dDxAPOaIv+Wxi+W7uuetkeW3peeoi+aWveW3pTs+Ozs+Oz4+O3Q8O2w8aTwwPjs+O2w8dDxAPDIwMTUtMTItMTA7Pjs7Pjs+Pjs+Pjt0PHA8O3A8bDxvbm1vdXNlb3Zlcjtvbm1vdXNlb3V0Oz47bDxjdXJyZW50Y29sb3I9dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3JcO3RoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjRUJFQkVCJ1w7O3RoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPWN1cnJlbnRjb2xvcjs+Pj47bDxpPDA+O2k8MT47aTwyPjtpPDM+Oz47bDx0PDtsPGk8MD47PjtsPHQ8QDxcPGltZyBzcmM9Imh0dHA6Ly93d3cueXpjZXRjLmNvbS95emNldGMvaW1hZ2VzL2RvdHMvZG90MjcuZ2lmIlw+Oz47Oz47Pj47dDw7bDxpPDA+Oz47bDx0PEA8XDxhIG9uY2xpY2s9J3dpbmRvdy5vcGVuKCJWaWV3UmVwb3J0RGV0YWlsX05ld19Ob3cuYXNweD9Hb25nR2FvR3VpZD0xMzc1ZmI1MC03YWRkLTRkZjEtYjQ5Ny01NmM4OTE0MDQ2NzUmY2F0ZWdvcnlOdW09MDAzJnNpdGVpZD0xIiwiIiwiV2lkdGg9ODAwLEhlaWdodD04MDAsc2Nyb2xsYmFycz15ZXMscmVzaXphYmxlPXllcyIpJ2hyZWY9ImphdmFzY3JpcHQ6dm9pZCgwKVw7IiB0aXRsZT0iW+axn+mDveW4gl0yMDE25bm05bqm5rGf6YO95Yy66YOt5p2R6ZWH5Yac5qGl5bu66K6+6aG555uuIlw+W+axn+mDveW4gl0yMDE25bm05bqm5rGf6YO95Yy66YOt5p2R6ZWH5Yac5qGl5bu66K6+6aG555uuXDwvYVw+IFw8Zm9udCBjb2xvcj1ibHVlXD4o5q2j5Zyo5YWs56S6KVw8L2ZvbnRcPjs+Ozs+Oz4+O3Q8O2w8aTwwPjs+O2w8dDxAPOawtOWIqeW3peeoi+aWveW3pTs+Ozs+Oz4+O3Q8O2w8aTwwPjs+O2w8dDxAPDIwMTUtMTItMTA7Pjs7Pjs+Pjs+Pjt0PHA8O3A8bDxvbm1vdXNlb3Zlcjtvbm1vdXNlb3V0Oz47bDxjdXJyZW50Y29sb3I9dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3JcO3RoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjRUJFQkVCJ1w7O3RoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPWN1cnJlbnRjb2xvcjs+Pj47bDxpPDA+O2k8MT47aTwyPjtpPDM+Oz47bDx0PDtsPGk8MD47PjtsPHQ8QDxcPGltZyBzcmM9Imh0dHA6Ly93d3cueXpjZXRjLmNvbS95emNldGMvaW1hZ2VzL2RvdHMvZG90MjcuZ2lmIlw+Oz47Oz47Pj47dDw7bDxpPDA+Oz47bDx0PEA8XDxhIG9uY2xpY2s9J3dpbmRvdy5vcGVuKCJWaWV3UmVwb3J0RGV0YWlsX05ld19Ob3cuYXNweD9Hb25nR2FvR3VpZD1iMzkxYWViOC0wYTc3LTQ4ZTgtYTYyZC02YjExM2MwZGMxMTImY2F0ZWdvcnlOdW09MDAzJnNpdGVpZD0xIiwiIiwiV2lkdGg9ODAwLEhlaWdodD04MDAsc2Nyb2xsYmFycz15ZXMscmVzaXphYmxlPXllcyIpJ2hyZWY9ImphdmFzY3JpcHQ6dm9pZCgwKVw7IiB0aXRsZT0iW+axn+mDveW4gl0yMDE25bm05bqm5rGf6YO95Yy65bCP57qq6ZWH5Yac5qGl5bu66K6+6aG555uuIlw+W+axn+mDveW4gl0yMDE25bm05bqm5rGf6YO95Yy65bCP57qq6ZWH5Yac5qGl5bu66K6+6aG555uuXDwvYVw+IFw8Zm9udCBjb2xvcj1ibHVlXD4o5q2j5Zyo5YWs56S6KVw8L2ZvbnRcPjs+Ozs+Oz4+O3Q8O2w8aTwwPjs+O2w8dDxAPOawtOWIqeW3peeoi+aWveW3pTs+Ozs+Oz4+O3Q8O2w8aTwwPjs+O2w8dDxAPDIwMTUtMTItMTA7Pjs7Pjs+Pjs+Pjt0PHA8O3A8bDxvbm1vdXNlb3Zlcjtvbm1vdXNlb3V0Oz47bDxjdXJyZW50Y29sb3I9dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3JcO3RoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjRUJFQkVCJ1w7O3RoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPWN1cnJlbnRjb2xvcjs+Pj47bDxpPDA+O2k8MT47aTwyPjtpPDM+Oz47bDx0PDtsPGk8MD47PjtsPHQ8QDxcPGltZyBzcmM9Imh0dHA6Ly93d3cueXpjZXRjLmNvbS95emNldGMvaW1hZ2VzL2RvdHMvZG90MjcuZ2lmIlw+Oz47Oz47Pj47dDw7bDxpPDA+Oz47bDx0PEA8XDxhIG9uY2xpY2s9J3dpbmRvdy5vcGVuKCJWaWV3UmVwb3J0RGV0YWlsX05ld19Ob3cuYXNweD9Hb25nR2FvR3VpZD1hM2M1NTg1OS1lMGE2LTQ1YWYtYjZhMy0yZDE5NDAxNTEyOGMmY2F0ZWdvcnlOdW09MDAzJnNpdGVpZD0xIiwiIiwiV2lkdGg9ODAwLEhlaWdodD04MDAsc2Nyb2xsYmFycz15ZXMscmVzaXphYmxlPXllcyIpJ2hyZWY9ImphdmFzY3JpcHQ6dm9pZCgwKVw7IiB0aXRsZT0iW+axn+mDveW4gl0yMDE25bm05bqm5rGf6YO95Yy66YK15Lyv6ZWH5Yac5qGl5bu66K6+6aG555uuIlw+W+axn+mDveW4gl0yMDE25bm05bqm5rGf6YO95Yy66YK15Lyv6ZWH5Yac5qGl5bu66K6+6aG555uuXDwvYVw+IFw8Zm9udCBjb2xvcj1ibHVlXD4o5q2j5Zyo5YWs56S6KVw8L2ZvbnRcPjs+Ozs+Oz4+O3Q8O2w8aTwwPjs+O2w8dDxAPOawtOWIqeW3peeoi+aWveW3pTs+Ozs+Oz4+O3Q8O2w8aTwwPjs+O2w8dDxAPDIwMTUtMTItMTA7Pjs7Pjs+Pjs+Pjt0PHA8O3A8bDxvbm1vdXNlb3Zlcjtvbm1vdXNlb3V0Oz47bDxjdXJyZW50Y29sb3I9dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3JcO3RoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjRUJFQkVCJ1w7O3RoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPWN1cnJlbnRjb2xvcjs+Pj47bDxpPDA+O2k8MT47aTwyPjtpPDM+Oz47bDx0PDtsPGk8MD47PjtsPHQ8QDxcPGltZyBzcmM9Imh0dHA6Ly93d3cueXpjZXRjLmNvbS95emNldGMvaW1hZ2VzL2RvdHMvZG90MjcuZ2lmIlw+Oz47Oz47Pj47dDw7bDxpPDA+Oz47bDx0PEA8XDxhIG9uY2xpY2s9J3dpbmRvdy5vcGVuKCJWaWV3UmVwb3J0RGV0YWlsX05ld19Ob3cuYXNweD9Hb25nR2FvR3VpZD1mMDg1OWZkZC1mNzEwLTQxMDgtYjUwNS04YWFjMWRkMDQ1ZmEmY2F0ZWdvcnlOdW09MDAzJnNpdGVpZD0xIiwiIiwiV2lkdGg9ODAwLEhlaWdodD04MDAsc2Nyb2xsYmFycz15ZXMscmVzaXphYmxlPXllcyIpJ2hyZWY9ImphdmFzY3JpcHQ6dm9pZCgwKVw7IiB0aXRsZT0iW+axn+mDveW4gl0yMDE25bm05bqm5rGf6YO95Yy65LiB5rKf6ZWH5Yac5qGl5bu66K6+6aG555uuIlw+W+axn+mDveW4gl0yMDE25bm05bqm5rGf6YO95Yy65LiB5rKf6ZWH5Yac5qGl5bu66K6+6aG555uuXDwvYVw+IFw8Zm9udCBjb2xvcj1ibHVlXD4o5q2j5Zyo5YWs56S6KVw8L2ZvbnRcPjs+Ozs+Oz4+O3Q8O2w8aTwwPjs+O2w8dDxAPOawtOWIqeW3peeoi+aWveW3pTs+Ozs+Oz4+O3Q8O2w8aTwwPjs+O2w8dDxAPDIwMTUtMTItMTA7Pjs7Pjs+Pjs+Pjt0PHA8O3A8bDxvbm1vdXNlb3Zlcjtvbm1vdXNlb3V0Oz47bDxjdXJyZW50Y29sb3I9dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3JcO3RoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjRUJFQkVCJ1w7O3RoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPWN1cnJlbnRjb2xvcjs+Pj47bDxpPDA+O2k8MT47aTwyPjtpPDM+Oz47bDx0PDtsPGk8MD47PjtsPHQ8QDxcPGltZyBzcmM9Imh0dHA6Ly93d3cueXpjZXRjLmNvbS95emNldGMvaW1hZ2VzL2RvdHMvZG90MjcuZ2lmIlw+Oz47Oz47Pj47dDw7bDxpPDA+Oz47bDx0PEA8XDxhIG9uY2xpY2s9J3dpbmRvdy5vcGVuKCJWaWV3UmVwb3J0RGV0YWlsX05ld19Ob3cuYXNweD9Hb25nR2FvR3VpZD00MWJhZmNmNS1hMWQ1LTQ5MWEtOTNjNS1iYzU4M2IyNjc3MDgmY2F0ZWdvcnlOdW09MDAzJnNpdGVpZD0xIiwiIiwiV2lkdGg9ODAwLEhlaWdodD04MDAsc2Nyb2xsYmFycz15ZXMscmVzaXphYmxlPXllcyIpJ2hyZWY9ImphdmFzY3JpcHQ6dm9pZCgwKVw7IiB0aXRsZT0iW+axn+mDveW4gl0yMDE25bm05bqm5rGf6YO95Yy65LuZ5aWz6ZWH5Yac5qGl5bu66K6+6aG555uuIlw+W+axn+mDveW4gl0yMDE25bm05bqm5rGf6YO95Yy65LuZ5aWz6ZWH5Yac5qGl5bu66K6+6aG555uuXDwvYVw+IFw8Zm9udCBjb2xvcj1ibHVlXD4o5q2j5Zyo5YWs56S6KVw8L2ZvbnRcPjs+Ozs+Oz4+O3Q8O2w8aTwwPjs+O2w8dDxAPOawtOWIqeW3peeoi+aWveW3pTs+Ozs+Oz4+O3Q8O2w8aTwwPjs+O2w8dDxAPDIwMTUtMTItMTA7Pjs7Pjs+Pjs+Pjt0PHA8O3A8bDxvbm1vdXNlb3Zlcjtvbm1vdXNlb3V0Oz47bDxjdXJyZW50Y29sb3I9dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3JcO3RoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjRUJFQkVCJ1w7O3RoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPWN1cnJlbnRjb2xvcjs+Pj47bDxpPDA+O2k8MT47aTwyPjtpPDM+Oz47bDx0PDtsPGk8MD47PjtsPHQ8QDxcPGltZyBzcmM9Imh0dHA6Ly93d3cueXpjZXRjLmNvbS95emNldGMvaW1hZ2VzL2RvdHMvZG90MjcuZ2lmIlw+Oz47Oz47Pj47dDw7bDxpPDA+Oz47bDx0PEA8XDxhIG9uY2xpY2s9J3dpbmRvdy5vcGVuKCJWaWV3UmVwb3J0RGV0YWlsX05ld19Ob3cuYXNweD9Hb25nR2FvR3VpZD03YWMyZTQ0NC00MDJhLTQ5MjUtYWNhNC00YjZmOGFiZTdkZDMmY2F0ZWdvcnlOdW09MDAzJnNpdGVpZD0xIiwiIiwiV2lkdGg9ODAwLEhlaWdodD04MDAsc2Nyb2xsYmFycz15ZXMscmVzaXphYmxlPXllcyIpJ2hyZWY9ImphdmFzY3JpcHQ6dm9pZCgwKVw7IiB0aXRsZT0iW+axn+mDveW4gl0yMDE25bm05bqm5rGf6YO95Yy65LiB5LyZ6ZWH5Yac5qGl5bu66K6+6aG555uuIlw+W+axn+mDveW4gl0yMDE25bm05bqm5rGf6YO95Yy65LiB5LyZ6ZWH5Yac5qGl5bu66K6+6aG555uuXDwvYVw+IFw8Zm9udCBjb2xvcj1ibHVlXD4o5q2j5Zyo5YWs56S6KVw8L2ZvbnRcPjs+Ozs+Oz4+O3Q8O2w8aTwwPjs+O2w8dDxAPOawtOWIqeW3peeoi+aWveW3pTs+Ozs+Oz4+O3Q8O2w8aTwwPjs+O2w8dDxAPDIwMTUtMTItMTA7Pjs7Pjs+Pjs+Pjt0PHA8O3A8bDxvbm1vdXNlb3Zlcjtvbm1vdXNlb3V0Oz47bDxjdXJyZW50Y29sb3I9dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3JcO3RoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjRUJFQkVCJ1w7O3RoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPWN1cnJlbnRjb2xvcjs+Pj47bDxpPDA+O2k8MT47aTwyPjtpPDM+Oz47bDx0PDtsPGk8MD47PjtsPHQ8QDxcPGltZyBzcmM9Imh0dHA6Ly93d3cueXpjZXRjLmNvbS95emNldGMvaW1hZ2VzL2RvdHMvZG90MjcuZ2lmIlw+Oz47Oz47Pj47dDw7bDxpPDA+Oz47bDx0PEA8XDxhIG9uY2xpY2s9J3dpbmRvdy5vcGVuKCJWaWV3UmVwb3J0RGV0YWlsX05ld19Ob3cuYXNweD9Hb25nR2FvR3VpZD0zNjJiMmI5ZC00MzI2LTRkYzEtYjVjZi03NGViY2VmNWFiZTUmY2F0ZWdvcnlOdW09MDAzJnNpdGVpZD0xIiwiIiwiV2lkdGg9ODAwLEhlaWdodD04MDAsc2Nyb2xsYmFycz15ZXMscmVzaXphYmxlPXllcyIpJ2hyZWY9ImphdmFzY3JpcHQ6dm9pZCgwKVw7IiB0aXRsZT0iW+axn+mDveW4gl0yMDE25bm05bqm5rGf6YO95Yy65q2m5Z2a6ZWH5Yac5qGl5bu66K6+6aG555uuIlw+W+axn+mDveW4gl0yMDE25bm05bqm5rGf6YO95Yy65q2m5Z2a6ZWH5Yac5qGl5bu66K6+6aG555uuXDwvYVw+IFw8Zm9udCBjb2xvcj1ibHVlXD4o5q2j5Zyo5YWs56S6KVw8L2ZvbnRcPjs+Ozs+Oz4+O3Q8O2w8aTwwPjs+O2w8dDxAPOawtOWIqeW3peeoi+aWveW3pTs+Ozs+Oz4+O3Q8O2w8aTwwPjs+O2w8dDxAPDIwMTUtMTItMTA7Pjs7Pjs+Pjs+Pjt0PHA8O3A8bDxvbm1vdXNlb3Zlcjtvbm1vdXNlb3V0Oz47bDxjdXJyZW50Y29sb3I9dGhpcy5zdHlsZS5iYWNrZ3JvdW5kQ29sb3JcO3RoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPScjRUJFQkVCJ1w7O3RoaXMuc3R5bGUuYmFja2dyb3VuZENvbG9yPWN1cnJlbnRjb2xvcjs+Pj47bDxpPDA+O2k8MT47aTwyPjtpPDM+Oz47bDx0PDtsPGk8MD47PjtsPHQ8QDxcPGltZyBzcmM9Imh0dHA6Ly93d3cueXpjZXRjLmNvbS95emNldGMvaW1hZ2VzL2RvdHMvZG90MjcuZ2lmIlw+Oz47Oz47Pj47dDw7bDxpPDA+Oz47bDx0PEA8XDxhIG9uY2xpY2s9J3dpbmRvdy5vcGVuKCJWaWV3UmVwb3J0RGV0YWlsX05ld19Ob3cuYXNweD9Hb25nR2FvR3VpZD1jNjBmODAyYy00MTlhLTQ1Y2QtYTZjMi0xZTYyNTJlNWExNDEmY2F0ZWdvcnlOdW09MDAzJnNpdGVpZD0xIiwiIiwiV2lkdGg9ODAwLEhlaWdodD04MDAsc2Nyb2xsYmFycz15ZXMscmVzaXphYmxlPXllcyIpJ2hyZWY9ImphdmFzY3JpcHQ6dm9pZCgwKVw7IiB0aXRsZT0iW+axn+mDveW4gl0yMDE25bm05bqm5rGf6YO95Yy65bCP57qq6ZWH5Yac5qGl5bu66K6+6aG555uuIlw+W+axn+mDveW4gl0yMDE25bm05bqm5rGf6YO95Yy65bCP57qq6ZWH5Yac5qGl5bu66K6+6aG555uuXDwvYVw+IFw8Zm9udCBjb2xvcj1ibHVlXD4o5q2j5Zyo5YWs56S6KVw8L2ZvbnRcPjs+Ozs+Oz4+O3Q8O2w8aTwwPjs+O2w8dDxAPOawtOWIqeW3peeoi+aWveW3pTs+Ozs+Oz4+O3Q8O2w8aTwwPjs+O2w8dDxAPDIwMTUtMTItMTA7Pjs7Pjs+Pjs+Pjs+Pjs+Pjs+Pjs+Pjt0PDtsPGk8MD47PjtsPHQ8O2w8aTwwPjs+O2w8dDxwPHA8bDxDdXN0b21JbmZvVGV4dDtSZWNvcmRjb3VudDs+O2w85YWx77yaXDxmb250IGNvbG9yPSJyZWQiXD5cPGJcPjc3Mlw8L2JcPlw8L2ZvbnRcPuadoSDnrKzvvJpcPGZvbnQgY29sb3I9InJlZCJcPlw8Ylw+MS8zOVw8L2JcPlw8L2ZvbnRcPumhtTtpPDc3Mj47Pj47Pjs7Pjs+Pjs+Pjs+Pjt0PHA8cDxsPFZpc2libGU7PjtsPG88Zj47Pj47Pjs7Pjs+Pjt0PHA8cDxsPGJnQ2xhc3NOYW1lO1Zpc2libGU7PjtsPFxlO288Zj47Pj47PjtsPGk8MD47aTwxPjs+O2w8dDxwPGw8VmlzaWJsZTs+O2w8bzxmPjs+PjtsPGk8MT47PjtsPHQ8O2w8aTwwPjs+O2w8dDw7bDxpPDE+Oz47bDx0PEAwPDs7Ozs7Ozs7Pjs7Pjs+Pjs+Pjs+Pjt0PHA8cDxsPFZpc2libGU7PjtsPG88Zj47Pj47Pjs7Pjs+Pjs+Pjs+Pjs+0LD+vTaRJKSsrTbO89EGBypCwpo=" />
+
+<script language="javascript" type="text/javascript">
+<!--
+	function __doPostBack(eventTarget, eventArgument) {
+		var theform;
+		if (window.navigator.appName.toLowerCase().indexOf("microsoft") > -1) {
+			theform = document.Form1;
+		}
+		else {
+			theform = document.forms["Form1"];
+		}
+		theform.__EVENTTARGET.value = eventTarget.split("$").join(":");
+		theform.__EVENTARGUMENT.value = eventArgument;
+		theform.submit();
+	}
+// -->
+</script>
+
+			<TABLE id="Table1" cellSpacing="0" cellPadding="0" width="777" align="center" bgColor="#ffffff"
+				border="0">
+				<TR>
+					<TD align="center" width="1"></TD>
+					<td align="center">
+						<TABLE id="Table1221" cellSpacing="0" cellPadding="0" width="775" align="center" border="0">
+							<TR>
+								<TD align="center" colSpan="2">
+<TABLE id="Table1" cellSpacing="0" cellPadding="0" width="100%" border="0">
+	<TR>
+		<TD align="center" bgcolor="#ff9900" height="10"></TD>
+	</TR>
+	<TR>
+		<TD align="center" height=1><OBJECT codeBase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" height="98" width="776" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" VIEWASTEXT>
+							<PARAM NAME="_cx" VALUE="6350">
+							<PARAM NAME="_cy" VALUE="3440">
+							<PARAM NAME="FlashVars" VALUE="">
+							<PARAM NAME="Movie" VALUE='/yzcetc/webimages/top.swf'>
+							<PARAM NAME="Src" VALUE='/yzcetc/webimages/top.swf'>
+							<PARAM NAME="WMode" VALUE="Opaque">
+							<PARAM NAME="Play" VALUE="-1">
+							<PARAM NAME="Loop" VALUE="-1">
+							<PARAM NAME="Quality" VALUE="High">
+							<PARAM NAME="SAlign" VALUE="">
+							<PARAM NAME="Menu" VALUE="-1">
+							<PARAM NAME="Base" VALUE="">
+							<PARAM NAME="AllowScriptAccess" VALUE="always">
+							<PARAM NAME="Scale" VALUE="ShowAll">
+							<PARAM NAME="DeviceFont" VALUE="0">
+							<PARAM NAME="EmbedMovie" VALUE="0">
+							<PARAM NAME="BGColor" VALUE="">
+							<PARAM NAME="SWRemote" VALUE="">
+							<PARAM NAME="MovieData" VALUE="">
+							<PARAM NAME="SeamlessTabbing" VALUE="1">
+							<embed src='/yzcetc/webimages/top.swf' quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="776" height="98">
+							</embed>
+						</OBJECT></TD>
+	</TR>
+	<TR>
+		<TD align="center" height=7 background='http://www.yzcetc.com/yzcetc/WebImages/bar_bg.gif'></TD>
+	</TR>
+	<TR>
+		<TD align="center" valign=top height=33 background='http://www.yzcetc.com/yzcetc/WebImages/menu_bg.gif'>
+			<TABLE id="Table2" cellSpacing="0" cellPadding="0" width="100%" border="0">
+				<TR>
+					<TD align="center"><a href='http://www.yzcetc.com/yzcetc/'><IMG 
+            src="http://www.yzcetc.com/yzcetc/WebImages/menu_01.gif" border=0></a></TD>
+					<TD align="center"><a href='http://www.yzcetc.com/yzcetc/showinfo/moreinfo.aspx?CategoryNum=001&siteid=1'><IMG 
+            src="http://www.yzcetc.com/yzcetc/WebImages/menu_02.gif" border=0></a></TD>
+					<TD align="center"><a href='http://www.yzcetc.com/yzcetc/showinfo/moreinfo.aspx?CategoryNum=002&siteid=1'><IMG 
+            src="http://www.yzcetc.com/yzcetc/WebImages/menu_03.gif" border=0></a></TD>
+					<TD align="center"><a href='http://www.yzcetc.com/yzcetc/showinfo/moreinfo.aspx?CategoryNum=003007&siteid=1'><IMG 
+            src="http://www.yzcetc.com/yzcetc/WebImages/menu_04.gif" border=0></a></TD>
+					<TD align="center"><a href='http://www.yzcetc.com/yzcetc/showinfo/moreinfo.aspx?CategoryNum=004001&siteid=1'><IMG 
+            src="http://www.yzcetc.com/yzcetc/WebImages/menu_05.gif" border=0></a></TD>
+					<TD align="center"><a href='http://www.yzcetc.com/yzcetc/showinfo/moreinfo.aspx?CategoryNum=005001&siteid=1'><IMG 
+            src="http://www.yzcetc.com/yzcetc/WebImages/menu_06.gif" border=0></a></TD>
+					<TD align="center"><a href='http://www.yzcetc.com/yzcetc/showinfo/moreinfo.aspx?CategoryNum=006&siteid=1'><IMG 
+            src="http://www.yzcetc.com/yzcetc/WebImages/menu_07.gif" border=0></a></TD>
+					<TD align="center"><a href='http://www.yzcetc.com/yzcetc/showinfo/moreinfo.aspx?CategoryNum=007&siteid=1'><IMG 
+            src="http://www.yzcetc.com/yzcetc/WebImages/menu_08.gif" border=0></a></TD>
+				<TD align="center"><a href='http://www.yzcetc.com/yzcetc/showinfo/moreinfo.aspx?CategoryNum=014&siteid=1'><IMG 
+            src="http://www.yzcetc.com/yzcetc/WebImages/menu_10.gif" border=0></a></TD>
+					<TD align="center"><a href='http://www.yzcetc.com/yzcetc/showinfo/moreinfo.aspx?CategoryNum=017&siteid=1'><IMG 
+            src="http://www.yzcetc.com/yzcetc/WebImages/menu_09.gif" border=0></a></TD>
+				
+				</TR>
+			</TABLE>
+		</TD>
+	</TR>
+	<tr><td height=3></td></tr>
+</TABLE>
+</TD>
+							</TR>
+							<TR>
+								<TD vAlign="top" align="center" width="194" height="100%">
+									<table id="Table11" height="100%" cellSpacing="0" cellPadding="0" width="100%" border="0">
+										<tr>
+											<td height="1"><span id="Catimg2_span_img"><img width='194'  Src=http://www.yzcetc.com/yzcetc/webimages/zyleft1_003.jpg></span></td>
+										</tr>
+										<tr>
+											<td height="1" background="../../webimages/zyleft_bg.jpg"><span id="LeftMenu1_Span_Category"><TABLE  cellSpacing="0" cellPadding="0" width="100%" border="0">
+<TR><td class='leftmenu' background="/yzcetc/Webimages/menu_0.gif" ><a href="/yzcetc/showinfo/Moreinfo.aspx?CategoryNum=003007"><font color=#000000>招标公告</font></a></td></TR>
+<TR><td class='leftmenu' background="/yzcetc/Webimages/menu_0.gif" ><a href="/yzcetc/showinfo/Moreinfo.aspx?CategoryNum=003010"><font color=#000000>资格预审</font></a></td></TR>
+<TR><td class='leftmenu' background="/yzcetc/Webimages/menu_0.gif" ><a href="/yzcetc/showinfo/Moreinfo.aspx?CategoryNum=003009"><font color=#000000>招标控制价</font></a></td></TR>
+<TR><td class='leftmenu' background="/yzcetc/Webimages/menu_0.gif" ><a href="/yzcetc/showinfo/Moreinfo.aspx?CategoryNum=003011"><font color=#000000>澄清及答疑</font></a></td></TR>
+<TR><td class='leftmenu' background="/yzcetc/Webimages/menu_0.gif" ><a href="/yzcetc/showinfo/Moreinfo.aspx?CategoryNum=003014"><font color=#000000>中标候选人公示</font></a></td></TR>
+<TR><td class='leftmenu' background="/yzcetc/Webimages/menu_0.gif" ><a href="/yzcetc/showinfo/Moreinfo.aspx?CategoryNum=003008"><font color=#000000>中标人公告</font></a></td></TR>
+<TR><td class='leftmenu' background="/yzcetc/Webimages/menu_0.gif" ><a href="/yzcetc/showinfo/Moreinfo.aspx?CategoryNum=003015"><font color=#000000>直接发包</font></a></td></TR>
+<TR><td class='leftmenu' background="/yzcetc/Webimages/menu_0.gif" ><a href="/yzcetc/showinfo/Moreinfo.aspx?CategoryNum=003013"><font color=#000000>专业中标公示</font></a></td></TR>
+<TR><td class='leftmenu' background="/yzcetc/Webimages/menu_0.gif" ><a href="/yzcetc/showinfo/Moreinfo.aspx?CategoryNum=003012"><font color=#000000>项目经理变更</font></a></td></TR>
+</TABLE>
+</span>
+</td>
+										</tr>
+										<tr>
+											<td background="../../webimages/zyleft_bg.jpg"></td>
+										</tr>
+										<tr>
+											<td height="1"><span id="CatImg1_span_img"><img width='194'  Src=http://www.yzcetc.com/yzcetc/webimages/zyleft2_003.jpg></span></td>
+										</tr>
+									</table>
+								</TD>
+								<TD vAlign="top" align="center" width="581" height="100%">
+									<TABLE id="Table2" height="100%" cellSpacing="0" cellPadding="0" width="570" border="0">
+										<TR>
+											<TD vAlign="middle" align="left" colSpan="3" height="25">
+<table cellSpacing="0" cellPadding="0" border="0">
+	<tr>
+		<td height="2" colspan="2"></td>
+	</tr>
+	<TR>
+		<TD align="center" width="5"></TD>
+		<TD align="left">
+			您现在的位置： <A href='http://www.yzcetc.com/yzcetc/'><FONT color="#000000">
+					首页</FONT></A> &gt;&gt; <FONT color="#FF7200">
+				项目公示
+			</FONT>
+		</TD>
+	</TR>
+	<tr>
+		<td colspan="2">
+			</td>
+	</tr>
+</table>
+</TD>
+										</TR>
+										<TR>
+											<TD align="center" width="1"><IMG src="../../webimages/k_01.jpg"></TD>
+											<TD align="right" background="../../webimages/k_02bg.jpg"></TD>
+											<TD align="center" width="1"><IMG src="../../webimages/k_03.jpg"></TD>
+										</TR>
+										<TR>
+											<TD align="center" background="../../webimages/k_04bg.jpg"></TD>
+											<TD vAlign="top" align="center">
+												<table width="94%">
+													<tr>
+														<td width="190" align="left" style="PADDING-LEFT:20px;PADDING-TOP:4px" background="../../webimages/zyleft3_bg.jpg"
+															height="31"><FONT face="宋体" style="LETTER-SPACING: 3px"><b>招标公告</b></FONT></td>
+														<td background="../../webimages/zy_01bg.jpg"></td>
+													</tr>
+												</table>
+											</TD>
+											<TD align="center" background="../../webimages/k_05bg.jpg"></TD>
+										</TR>
+										<TR>
+											<TD align="center" background="../../webimages/k_04bg.jpg"></TD>
+											<TD style="PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-TOP: 10px" vAlign="top"
+												align="center" height="400">
+<script>
+	 function OpenWin_rep(url)
+	 {
+		window.open(url,'','width=800px,height=800px,width=800px,height=800px,help:no,status:no,scrollbars=yes,resizable=yes,center=yes');
+	 }
+</script>
+<table id="MoreInfoList1_moreinfo" height="100%" cellspacing="0" cellpadding="0" width="100%" align="center" border="0">
+	<tr>
+		<td align="center"><table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#def2fe">
+				<tr>
+					<td align="right" width="150" height="25">工程名称:</td>
+					<td width="100"><input name="MoreInfoList1:txtProjName" type="text" id="MoreInfoList1_txtProjName" class="input" /></td>
+					<td align="right" width="150">建设单位:</td>
+					<td width="250"><input name="MoreInfoList1:txtJSDW" type="text" id="MoreInfoList1_txtJSDW" class="input" /></td>
+					<td width="100">&nbsp;</td>
+				</tr>
+				<tr>
+					<td align="right" height="25">工程类型:</td>
+					<td><select name="MoreInfoList1:drpType" id="MoreInfoList1_drpType" class="input">
+			<option selected="selected" value="所有项目">所有项目</option>
+			<option value="A">房屋建筑施工</option>
+			<option value="B">市政工程施工</option>
+			<option value="M">单独装饰装修施工</option>
+			<option value="C">省属工程</option>
+			<option value="E">交通工程</option>
+			<option value="F">水利工程</option>
+			<option value="G">电力工程</option>
+			<option value="H">地铁工程</option>
+			<option value="J">电信工程</option>
+			<option value="K">其它</option>
+
+		</select></td>
+					<td align="right">地&nbsp;&nbsp;&nbsp;&nbsp;区:</td>
+					<td><span id='MoreInfoList1_AjaxPanel1$RBS_Holder'><span id="MoreInfoList1_AjaxPanel1" AjaxCall="async">
+							<span id="MoreInfoList1_jpdDi$ajaxdest" name="__ajaxmark"><select name="MoreInfoList1:jpdDi" onchange="__doPostBack('MoreInfoList1$jpdDi','')" language="javascript" id="MoreInfoList1_jpdDi" class="inputtxt1" style="width:80px;DISPLAY: none">
+	<option value="-1">所有</option>
+	<option value="01">江苏省</option>
+	<option value="02">南京市</option>
+	<option value="03">苏州市</option>
+	<option value="04">无锡市</option>
+	<option value="05">常州市</option>
+	<option value="06">镇江市</option>
+	<option selected="selected" value="07">扬州市</option>
+	<option value="08">南通市</option>
+	<option value="09">泰州市</option>
+	<option value="10">徐州市</option>
+	<option value="11">淮安市</option>
+	<option value="12">盐城市</option>
+	<option value="13">连云港市</option>
+	<option value="14">宿迁市</option>
+	<option value="23">省外</option>
+
+</select></span>
+							<span id="MoreInfoList1_jpdXian$ajaxdest" name="__ajaxmark"><select name="MoreInfoList1:jpdXian" id="MoreInfoList1_jpdXian" class="inputtxt1" style="width:80px;">
+	<option selected="selected" value="-1">所有</option>
+	<option value="0700">扬州</option>
+	<option value="0701">江都</option>
+	<option value="0702">高邮</option>
+	<option value="0703">宝应</option>
+	<option value="0704">仪征</option>
+	<option value="0705">邗江</option>
+
+</select></span>
+						</span></span></td>
+					<td align="left"><input type="submit" name="MoreInfoList1:btnOK" value="查询" id="MoreInfoList1_btnOK" class="btn" /></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+	</tr>
+	<tr>
+		<td height="8"></td>
+	</tr>
+	<tr>
+		<td id="MoreInfoList1_tdcontent" valign="top" height="100%"><table cellspacing="0" align="Center" rules="all" border="0" id="MoreInfoList1_DataGrid1" width="98%">
+			<tr valign="Middle" onmouseover="currentcolor=this.style.backgroundColor;this.style.backgroundColor='#EBEBEB';" onmouseout="this.style.backgroundColor=currentcolor">
+				<td valign="Middle" width="15">
+							<img src="http://www.yzcetc.com/yzcetc/images/dots/dot27.gif">
+						</td><td align="Left" valign="Middle">
+							<a onclick='window.open("ViewReportDetail.aspx?GongGaoGuid=36d893cd-ec24-4b1f-9430-2f374b609065&categoryNum=003&siteid=1","","Width=800,Height=800,scrollbars=yes,resizable=yes")'href="javascript:void(0);" title="[专业公告]潼河自来水厂二期工程自控系统设备采购">[专业公告]潼河自来水厂二期工程自控系统设备采购</a> <font color=blue>(正在公示)</font>
+						</td><td align="Center" valign="Middle" width="100">
+							水利工程材料设备
+						</td><td align="Right" width="60">
+							2015-12-11
+						</td>
+			</tr><tr valign="Middle" onmouseover="currentcolor=this.style.backgroundColor;this.style.backgroundColor='#EBEBEB';" onmouseout="this.style.backgroundColor=currentcolor" bgcolor="#F6F6F6">
+				<td valign="Middle" width="15">
+							<img src="http://www.yzcetc.com/yzcetc/images/dots/dot27.gif">
+						</td><td align="Left" valign="Middle">
+							<a onclick='window.open("ViewReportDetail.aspx?GongGaoGuid=600d32fb-2649-4e27-b91c-b26451405901&categoryNum=003&siteid=1","","Width=800,Height=800,scrollbars=yes,resizable=yes")'href="javascript:void(0);" title="[专业公告]潼河自来水厂二期工程水泵">[专业公告]潼河自来水厂二期工程水泵</a> <font color=blue>(正在公示)</font>
+						</td><td align="Center" valign="Middle" width="100">
+							水利工程材料设备
+						</td><td align="Right" width="60">
+							2015-12-11
+						</td>
+			</tr><tr valign="Middle" onmouseover="currentcolor=this.style.backgroundColor;this.style.backgroundColor='#EBEBEB';" onmouseout="this.style.backgroundColor=currentcolor">
+				<td valign="Middle" width="15">
+							<img src="http://www.yzcetc.com/yzcetc/images/dots/dot27.gif">
+						</td><td align="Left" valign="Middle">
+							<a onclick='window.open("ViewReportDetail.aspx?GongGaoGuid=74671af8-d467-4e1a-ae7b-029b67be9f19&categoryNum=003&siteid=1","","Width=800,Height=800,scrollbars=yes,resizable=yes")'href="javascript:void(0);" title="[专业公告]潼河自来水厂二期工程非标设备">[专业公告]潼河自来水厂二期工程非标设备</a> <font color=blue>(正在公示)</font>
+						</td><td align="Center" valign="Middle" width="100">
+							水利工程材料设备
+						</td><td align="Right" width="60">
+							2015-12-11
+						</td>
+			</tr><tr valign="Middle" onmouseover="currentcolor=this.style.backgroundColor;this.style.backgroundColor='#EBEBEB';" onmouseout="this.style.backgroundColor=currentcolor" bgcolor="#F6F6F6">
+				<td valign="Middle" width="15">
+							<img src="http://www.yzcetc.com/yzcetc/images/dots/dot27.gif">
+						</td><td align="Left" valign="Middle">
+							<a onclick='window.open("ViewReportDetail_New_Now.aspx?GongGaoGuid=f45bcdee-ea04-4726-8809-63d6c67add19&categoryNum=003&siteid=1","","Width=800,Height=800,scrollbars=yes,resizable=yes")'href="javascript:void(0);" title="[扬州市]扬州国际会展中心（三期）工程">[扬州市]扬州国际会展中心（三期）工程</a> <font color=blue>(正在公示)</font>
+						</td><td align="Center" valign="Middle" width="100">
+							房屋建筑工程施工
+						</td><td align="Right" width="60">
+							2015-12-11
+						</td>
+			</tr><tr valign="Middle" onmouseover="currentcolor=this.style.backgroundColor;this.style.backgroundColor='#EBEBEB';" onmouseout="this.style.backgroundColor=currentcolor">
+				<td valign="Middle" width="15">
+							<img src="http://www.yzcetc.com/yzcetc/images/dots/dot27.gif">
+						</td><td align="Left" valign="Middle">
+							<a onclick='window.open("ViewReportDetail_New_Now.aspx?GongGaoGuid=092fe216-4d51-4ee6-9a50-0358681cc05e&categoryNum=003&siteid=1","","Width=800,Height=800,scrollbars=yes,resizable=yes")'href="javascript:void(0);" title="[宝应县]宝应县柳堡邮政支局业务用房">[宝应县]宝应县柳堡邮政支局业务用房</a> <font color=blue>(正在公示)</font>
+						</td><td align="Center" valign="Middle" width="100">
+							房屋建筑工程施工
+						</td><td align="Right" width="60">
+							2015-12-11
+						</td>
+			</tr><tr valign="Middle" onmouseover="currentcolor=this.style.backgroundColor;this.style.backgroundColor='#EBEBEB';" onmouseout="this.style.backgroundColor=currentcolor" bgcolor="#F6F6F6">
+				<td valign="Middle" width="15">
+							<img src="http://www.yzcetc.com/yzcetc/images/dots/dot27.gif">
+						</td><td align="Left" valign="Middle">
+							<a onclick='window.open("ViewReportDetail_New_Now.aspx?GongGaoGuid=1486b8a8-cd6c-43f0-bcf1-886e1098a15f&categoryNum=003&siteid=1","","Width=800,Height=800,scrollbars=yes,resizable=yes")'href="javascript:void(0);" title="[扬州市]市农机局办公用房维修改造工程">[扬州市]市农机局办公用房维修改造工程</a> <font color=blue>(正在公示)</font>
+						</td><td align="Center" valign="Middle" width="100">
+							房屋建筑工程施工
+						</td><td align="Right" width="60">
+							2015-12-11
+						</td>
+			</tr><tr valign="Middle" onmouseover="currentcolor=this.style.backgroundColor;this.style.backgroundColor='#EBEBEB';" onmouseout="this.style.backgroundColor=currentcolor">
+				<td valign="Middle" width="15">
+							<img src="http://www.yzcetc.com/yzcetc/images/dots/dot27.gif">
+						</td><td align="Left" valign="Middle">
+							<a onclick='window.open("ViewReportDetail_New_Now.aspx?GongGaoGuid=7d4f9d07-f729-4c11-be0b-ef3650cdcbaf&categoryNum=003&siteid=1","","Width=800,Height=800,scrollbars=yes,resizable=yes")'href="javascript:void(0);" title="[邗江区]公道中学教学楼扩建工程">[邗江区]公道中学教学楼扩建工程</a> <font color=blue>(正在公示)</font>
+						</td><td align="Center" valign="Middle" width="100">
+							房屋建筑工程施工
+						</td><td align="Right" width="60">
+							2015-12-11
+						</td>
+			</tr><tr valign="Middle" onmouseover="currentcolor=this.style.backgroundColor;this.style.backgroundColor='#EBEBEB';" onmouseout="this.style.backgroundColor=currentcolor" bgcolor="#F6F6F6">
+				<td valign="Middle" width="15">
+							<img src="http://www.yzcetc.com/yzcetc/images/dots/dot27.gif">
+						</td><td align="Left" valign="Middle">
+							<a onclick='window.open("ViewReportDetail.aspx?GongGaoGuid=5830519e-c446-476e-94eb-6e796a3fbb11&categoryNum=003&siteid=1","","Width=800,Height=800,scrollbars=yes,resizable=yes")'href="javascript:void(0);" title="[专业公告]高邮市生活垃圾焚烧场发电项目设计">[专业公告]高邮市生活垃圾焚烧场发电项目设计</a> <font color=blue>(正在公示)</font>
+						</td><td align="Center" valign="Middle" width="100">
+							电力工程设计
+						</td><td align="Right" width="60">
+							2015-12-11
+						</td>
+			</tr><tr valign="Middle" onmouseover="currentcolor=this.style.backgroundColor;this.style.backgroundColor='#EBEBEB';" onmouseout="this.style.backgroundColor=currentcolor">
+				<td valign="Middle" width="15">
+							<img src="http://www.yzcetc.com/yzcetc/images/dots/dot27.gif">
+						</td><td align="Left" valign="Middle">
+							<a onclick='window.open("ViewReportDetail.aspx?GongGaoGuid=cbb09f2f-de48-45b7-86bd-a06586553d0e&categoryNum=003&siteid=1","","Width=800,Height=800,scrollbars=yes,resizable=yes")'href="javascript:void(0);" title="[专业公告]潼河自来水厂二期工程阀门招标">[专业公告]潼河自来水厂二期工程阀门招标</a> <font color=blue>(正在公示)</font>
+						</td><td align="Center" valign="Middle" width="100">
+							水利工程材料设备
+						</td><td align="Right" width="60">
+							2015-12-11
+						</td>
+			</tr><tr valign="Middle" onmouseover="currentcolor=this.style.backgroundColor;this.style.backgroundColor='#EBEBEB';" onmouseout="this.style.backgroundColor=currentcolor" bgcolor="#F6F6F6">
+				<td valign="Middle" width="15">
+							<img src="http://www.yzcetc.com/yzcetc/images/dots/dot27.gif">
+						</td><td align="Left" valign="Middle">
+							<a onclick='window.open("ViewReportDetail_New_Now.aspx?GongGaoGuid=d84aa7d9-d910-46af-ba5e-ffcebbc406e4&categoryNum=003&siteid=1","","Width=800,Height=800,scrollbars=yes,resizable=yes")'href="javascript:void(0);" title="[江都市]2016年度江都区樊川镇农桥建设项目">[江都市]2016年度江都区樊川镇农桥建设项目</a> <font color=blue>(正在公示)</font>
+						</td><td align="Center" valign="Middle" width="100">
+							水利工程施工
+						</td><td align="Right" width="60">
+							2015-12-10
+						</td>
+			</tr><tr valign="Middle" onmouseover="currentcolor=this.style.backgroundColor;this.style.backgroundColor='#EBEBEB';" onmouseout="this.style.backgroundColor=currentcolor">
+				<td valign="Middle" width="15">
+							<img src="http://www.yzcetc.com/yzcetc/images/dots/dot27.gif">
+						</td><td align="Left" valign="Middle">
+							<a onclick='window.open("ViewReportDetail_New_Now.aspx?GongGaoGuid=0ad5a331-5918-4d1d-9a18-dd5534148426&categoryNum=003&siteid=1","","Width=800,Height=800,scrollbars=yes,resizable=yes")'href="javascript:void(0);" title="[江都市]2016年度江都区樊川镇农桥建设项目">[江都市]2016年度江都区樊川镇农桥建设项目</a> <font color=blue>(正在公示)</font>
+						</td><td align="Center" valign="Middle" width="100">
+							水利工程施工
+						</td><td align="Right" width="60">
+							2015-12-10
+						</td>
+			</tr><tr valign="Middle" onmouseover="currentcolor=this.style.backgroundColor;this.style.backgroundColor='#EBEBEB';" onmouseout="this.style.backgroundColor=currentcolor" bgcolor="#F6F6F6">
+				<td valign="Middle" width="15">
+							<img src="http://www.yzcetc.com/yzcetc/images/dots/dot27.gif">
+						</td><td align="Left" valign="Middle">
+							<a onclick='window.open("ViewReportDetail_New_Now.aspx?GongGaoGuid=9654b700-13d4-4793-933c-e5267da4b4d6&categoryNum=003&siteid=1","","Width=800,Height=800,scrollbars=yes,resizable=yes")'href="javascript:void(0);" title="[江都市]扬州市江都区小纪镇高徐小学综合楼、食堂加固工程">[江都市]扬州市江都区小纪镇高徐小学综合楼、食堂加固工程</a> <font color=blue>(正在公示)</font>
+						</td><td align="Center" valign="Middle" width="100">
+							房屋建筑工程施工
+						</td><td align="Right" width="60">
+							2015-12-10
+						</td>
+			</tr><tr valign="Middle" onmouseover="currentcolor=this.style.backgroundColor;this.style.backgroundColor='#EBEBEB';" onmouseout="this.style.backgroundColor=currentcolor">
+				<td valign="Middle" width="15">
+							<img src="http://www.yzcetc.com/yzcetc/images/dots/dot27.gif">
+						</td><td align="Left" valign="Middle">
+							<a onclick='window.open("ViewReportDetail_New_Now.aspx?GongGaoGuid=1375fb50-7add-4df1-b497-56c891404675&categoryNum=003&siteid=1","","Width=800,Height=800,scrollbars=yes,resizable=yes")'href="javascript:void(0);" title="[江都市]2016年度江都区郭村镇农桥建设项目">[江都市]2016年度江都区郭村镇农桥建设项目</a> <font color=blue>(正在公示)</font>
+						</td><td align="Center" valign="Middle" width="100">
+							水利工程施工
+						</td><td align="Right" width="60">
+							2015-12-10
+						</td>
+			</tr><tr valign="Middle" onmouseover="currentcolor=this.style.backgroundColor;this.style.backgroundColor='#EBEBEB';" onmouseout="this.style.backgroundColor=currentcolor" bgcolor="#F6F6F6">
+				<td valign="Middle" width="15">
+							<img src="http://www.yzcetc.com/yzcetc/images/dots/dot27.gif">
+						</td><td align="Left" valign="Middle">
+							<a onclick='window.open("ViewReportDetail_New_Now.aspx?GongGaoGuid=b391aeb8-0a77-48e8-a62d-6b113c0dc112&categoryNum=003&siteid=1","","Width=800,Height=800,scrollbars=yes,resizable=yes")'href="javascript:void(0);" title="[江都市]2016年度江都区小纪镇农桥建设项目">[江都市]2016年度江都区小纪镇农桥建设项目</a> <font color=blue>(正在公示)</font>
+						</td><td align="Center" valign="Middle" width="100">
+							水利工程施工
+						</td><td align="Right" width="60">
+							2015-12-10
+						</td>
+			</tr><tr valign="Middle" onmouseover="currentcolor=this.style.backgroundColor;this.style.backgroundColor='#EBEBEB';" onmouseout="this.style.backgroundColor=currentcolor">
+				<td valign="Middle" width="15">
+							<img src="http://www.yzcetc.com/yzcetc/images/dots/dot27.gif">
+						</td><td align="Left" valign="Middle">
+							<a onclick='window.open("ViewReportDetail_New_Now.aspx?GongGaoGuid=a3c55859-e0a6-45af-b6a3-2d194015128c&categoryNum=003&siteid=1","","Width=800,Height=800,scrollbars=yes,resizable=yes")'href="javascript:void(0);" title="[江都市]2016年度江都区邵伯镇农桥建设项目">[江都市]2016年度江都区邵伯镇农桥建设项目</a> <font color=blue>(正在公示)</font>
+						</td><td align="Center" valign="Middle" width="100">
+							水利工程施工
+						</td><td align="Right" width="60">
+							2015-12-10
+						</td>
+			</tr><tr valign="Middle" onmouseover="currentcolor=this.style.backgroundColor;this.style.backgroundColor='#EBEBEB';" onmouseout="this.style.backgroundColor=currentcolor" bgcolor="#F6F6F6">
+				<td valign="Middle" width="15">
+							<img src="http://www.yzcetc.com/yzcetc/images/dots/dot27.gif">
+						</td><td align="Left" valign="Middle">
+							<a onclick='window.open("ViewReportDetail_New_Now.aspx?GongGaoGuid=f0859fdd-f710-4108-b505-8aac1dd045fa&categoryNum=003&siteid=1","","Width=800,Height=800,scrollbars=yes,resizable=yes")'href="javascript:void(0);" title="[江都市]2016年度江都区丁沟镇农桥建设项目">[江都市]2016年度江都区丁沟镇农桥建设项目</a> <font color=blue>(正在公示)</font>
+						</td><td align="Center" valign="Middle" width="100">
+							水利工程施工
+						</td><td align="Right" width="60">
+							2015-12-10
+						</td>
+			</tr><tr valign="Middle" onmouseover="currentcolor=this.style.backgroundColor;this.style.backgroundColor='#EBEBEB';" onmouseout="this.style.backgroundColor=currentcolor">
+				<td valign="Middle" width="15">
+							<img src="http://www.yzcetc.com/yzcetc/images/dots/dot27.gif">
+						</td><td align="Left" valign="Middle">
+							<a onclick='window.open("ViewReportDetail_New_Now.aspx?GongGaoGuid=41bafcf5-a1d5-491a-93c5-bc583b267708&categoryNum=003&siteid=1","","Width=800,Height=800,scrollbars=yes,resizable=yes")'href="javascript:void(0);" title="[江都市]2016年度江都区仙女镇农桥建设项目">[江都市]2016年度江都区仙女镇农桥建设项目</a> <font color=blue>(正在公示)</font>
+						</td><td align="Center" valign="Middle" width="100">
+							水利工程施工
+						</td><td align="Right" width="60">
+							2015-12-10
+						</td>
+			</tr><tr valign="Middle" onmouseover="currentcolor=this.style.backgroundColor;this.style.backgroundColor='#EBEBEB';" onmouseout="this.style.backgroundColor=currentcolor" bgcolor="#F6F6F6">
+				<td valign="Middle" width="15">
+							<img src="http://www.yzcetc.com/yzcetc/images/dots/dot27.gif">
+						</td><td align="Left" valign="Middle">
+							<a onclick='window.open("ViewReportDetail_New_Now.aspx?GongGaoGuid=7ac2e444-402a-4925-aca4-4b6f8abe7dd3&categoryNum=003&siteid=1","","Width=800,Height=800,scrollbars=yes,resizable=yes")'href="javascript:void(0);" title="[江都市]2016年度江都区丁伙镇农桥建设项目">[江都市]2016年度江都区丁伙镇农桥建设项目</a> <font color=blue>(正在公示)</font>
+						</td><td align="Center" valign="Middle" width="100">
+							水利工程施工
+						</td><td align="Right" width="60">
+							2015-12-10
+						</td>
+			</tr><tr valign="Middle" onmouseover="currentcolor=this.style.backgroundColor;this.style.backgroundColor='#EBEBEB';" onmouseout="this.style.backgroundColor=currentcolor">
+				<td valign="Middle" width="15">
+							<img src="http://www.yzcetc.com/yzcetc/images/dots/dot27.gif">
+						</td><td align="Left" valign="Middle">
+							<a onclick='window.open("ViewReportDetail_New_Now.aspx?GongGaoGuid=362b2b9d-4326-4dc1-b5cf-74ebcef5abe5&categoryNum=003&siteid=1","","Width=800,Height=800,scrollbars=yes,resizable=yes")'href="javascript:void(0);" title="[江都市]2016年度江都区武坚镇农桥建设项目">[江都市]2016年度江都区武坚镇农桥建设项目</a> <font color=blue>(正在公示)</font>
+						</td><td align="Center" valign="Middle" width="100">
+							水利工程施工
+						</td><td align="Right" width="60">
+							2015-12-10
+						</td>
+			</tr><tr valign="Middle" onmouseover="currentcolor=this.style.backgroundColor;this.style.backgroundColor='#EBEBEB';" onmouseout="this.style.backgroundColor=currentcolor" bgcolor="#F6F6F6">
+				<td valign="Middle" width="15">
+							<img src="http://www.yzcetc.com/yzcetc/images/dots/dot27.gif">
+						</td><td align="Left" valign="Middle">
+							<a onclick='window.open("ViewReportDetail_New_Now.aspx?GongGaoGuid=c60f802c-419a-45cd-a6c2-1e6252e5a141&categoryNum=003&siteid=1","","Width=800,Height=800,scrollbars=yes,resizable=yes")'href="javascript:void(0);" title="[江都市]2016年度江都区小纪镇农桥建设项目">[江都市]2016年度江都区小纪镇农桥建设项目</a> <font color=blue>(正在公示)</font>
+						</td><td align="Center" valign="Middle" width="100">
+							水利工程施工
+						</td><td align="Right" width="60">
+							2015-12-10
+						</td>
+			</tr>
+		</table></td>
+	</tr>
+	<tr>
+		<td height="8"></td>
+	</tr>
+	<tr>
+		<td class="Xline2" height="3"></td>
+	</tr>
+	<tr>
+		<td align="right" height="25">
+		<!------------------------------ AspNetPager V4.3.3 Start ------------------------------>
+		<!-------------------- Copyright:2003-2005 Webdiyer(www.webdiyer.com) --------------------->
+		<table id="MoreInfoList1_Pager" cellpadding="0" cellspacing="0" border="0" width="100%"><tr><td>
+			<table width="100%" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="bottom" align="left" nowrap="true" width="40%">共：<font color="red"><b>772</b></font>条 第：<font color="red"><b>1/39</b></font>页</td><td valign="bottom" align="notset" nowrap="true" class="" width="60%"><a disabled="true">首页</a><span></span><a disabled="true">上一页</a><span></span><font>1</font><span></span><a title="转到第2页" href="javascript:__doPostBack('MoreInfoList1$Pager','2')">2</a><span></span><a title="转到第3页" href="javascript:__doPostBack('MoreInfoList1$Pager','3')">3</a><span></span><a title="转到第4页" href="javascript:__doPostBack('MoreInfoList1$Pager','4')">4</a><span></span><a title="转到第5页" href="javascript:__doPostBack('MoreInfoList1$Pager','5')">5</a><span></span><a title="转到第6页" href="javascript:__doPostBack('MoreInfoList1$Pager','6')">6</a><span></span><a title="转到第7页" href="javascript:__doPostBack('MoreInfoList1$Pager','7')">7</a><span></span><a title="转到第8页" href="javascript:__doPostBack('MoreInfoList1$Pager','8')">8</a><span></span><a title="转到第9页" href="javascript:__doPostBack('MoreInfoList1$Pager','9')">9</a><span></span><a title="转到第10页" href="javascript:__doPostBack('MoreInfoList1$Pager','10')">10</a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','11')" title="转到第11页">...</a><span></span><a title="转到第2页" href="javascript:__doPostBack('MoreInfoList1$Pager','2')">下一页</a><span></span><a title="转到第39页" href="javascript:__doPostBack('MoreInfoList1$Pager','39')">尾页</a><span></span></td>
+				</tr>
+			</table>
+		</td></tr></table>
+		<!------------------------------- AspNetPager V4.3.3 End -------------------------------->
+
+		</td>
+	</tr>
+	<tr>
+		<td class="Xline2" height="3"></td>
+	</tr>
+</table>
+
+<script>
+var Tdname='MoreInfoList1'+"_tdcontent";
+document.getElementById(Tdname).className='MiddleBg'
+</script>
+
+</TD>
+											<TD align="center" background="../../webimages/k_05bg.jpg"></TD>
+										</TR>
+										<TR>
+											<TD align="center" width="1"><IMG src="../../webimages/k_06.jpg"></TD>
+											<TD align="right" background="../../webimages/k_07bg.jpg"></TD>
+											<TD align="center" width="1"><IMG src="../../webimages/k_08.jpg"></TD>
+										</TR>
+									</TABLE>
+								</TD>
+							</TR>
+							<TR>
+								<TD align="center" colSpan="2">
+<TABLE id="Table1" cellSpacing="0" cellPadding="0" width="100%" border="0">
+	<TR>
+		<TD height="3" colspan="3" align="center" ></TD>
+	</TR>
+	<TR>
+		<TD height=7 colspan="3" align="center" background='http://www.yzcetc.com/yzcetc/WebImages/bar_bg.gif'></TD>
+	</TR>
+	<TR>
+		<TD height="1" colspan="3" align="center" ></TD>
+	</TR>
+	<TR>
+		<TD height="24" colspan="3" align="center" bgcolor="#EEECED"><a href="http://www.yzcetc.com/yzcetc/showinfo/moreinfo.aspx?CategoryNum=016&siteid=1" ><font color="#912491"><b>关于我们</b></font></a>&nbsp;&nbsp;<font color="#912491"><b>|</b></font>&nbsp;&nbsp;<a href="mailto:zbb@yzjsj.gov.cn"><font color="#912491"><b>联系我们</b></font></a>&nbsp;&nbsp;<font color="#912491"><b>|</b></font>&nbsp;&nbsp;<a href="javascript:window.external.AddFavorite(location.href,document.title)" title="将本站加入到您的收藏夹"><font color="#912491"><b>加入收藏</b></font></a>&nbsp;&nbsp;<font color="#912491"><b>|</b></font>&nbsp;&nbsp;<a href='http://www.yzcetc.com/yzcetc/showinfo/moreinfo.aspx?categoryNum=017001&amp;siteid=1'  target="_blank"><font color="#912491"><b>广告服务</b></font></a></TD>
+	</TR>
+	<TR>
+		<TD height="2" colspan="3" align="center" ></TD>
+	</TR>
+	<TR>
+<td colspan="3" >
+<table width="100%" >
+<tr>
+<td width="25%"  align="right"  bgcolor=#F1E5F1><script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript   src='http://dcs.conac.cn/js/11/185/0000/60487722/CA111850000604877220001.js' type='text/javascript'%3E%3C/script%3E"));</script></td>
+      <TD width="10%" align="center" bgcolor=#F1E5F1>&nbsp;</TD>
+		<TD width="31%" height=74 align="center" bgcolor=#F1E5F1><span style='line-height:19px;'><font color=#912491>版权所有：扬州建设工程交易中心&nbsp;&nbsp; <br>工信部ICP备案号：苏ICP备10216685号
+			</font><br>
+			<font color=#912491>制作维护：</font><a href='http://www.epoint.com.cn' target=_blank><font color=#912491>江苏国泰新点软件有限公司</font></a><br>
+			</span></TD>
+	  
+      <TD width="17%" align="left" bgcolor=#F1E5F1><div align="center"><script src='http://ba.yzdjbh.com/Script/zagt.js' language='JavaScript'></script></div></TD>
+<td width="17%" align="left" bgcolor=#F1E5F1><div><img border='0' style='cursor:hand;' src='http://wa.yzga.gov.cn/files/103245/1111/y_6022811762.gif' onclick="window.open('http://js.pat.gov.cn/');" /></div><div>32100202000046</div></td>
+</tr>
+</table>
+</td>
+	</TR>
+</TABLE>
+</TD>
+							</TR>
+						</TABLE>
+					</td>
+					<TD align="center" width="1"></TD>
+				</TR>
+			</TABLE>
+		</form>
+	</body>
+</HTML>

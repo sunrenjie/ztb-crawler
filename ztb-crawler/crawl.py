@@ -503,6 +503,17 @@ def get_crawl_workflows():
                 SoupAncestorSearch(['td', 'tr', 'table', 'td', 'tr', 'table'],
                                    HTMLTagAttributesVerifier('table', {'id': 'MoreInfoList1_moreinfo'})),
             ], ZTBParser.generator_yangzhou),
+        ZTBCrawlFlow(
+            'http://www.tzcetc.com/tzweb/yw_info/zaobiaoreport/moreinfo.aspx',
+            './sample-data/tai-zhou', u'泰州市', 'a',
+            [
+                SoupAncestorSearch(['td', 'tr', 'table'], HTMLTagAttributesVerifier(
+                    'table', {'id': 'MoreInfoListZBGG1_DataGrid1'})),
+                SoupAncestorSearch(['td', 'tr', 'table', 'td'], HTMLTagAttributesVerifier(
+                    'td', {'id': 'MoreInfoListZBGG1_tdcontent'})),
+                SoupAncestorSearch(['td', 'tr', 'table', 'td', 'tr', 'table'],
+                                   HTMLTagAttributesVerifier('table', {'id': 'MoreInfoListZBGG1_moreinfo'})),
+            ], ZTBParser.generator_yxztb),
     ]
     for f in specs:
         crawl_flows[f.url] = f

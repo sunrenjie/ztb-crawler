@@ -1,0 +1,434 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="ctl00_Head1"><title>
+	南通市政招投标系统
+</title>
+    <style type="text/css">
+<!--
+body {
+    background-image:url(images/bg.jpg);
+    background-repeat:repeat-x;
+	background-color: #FFFFFF;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+-->
+.red{ color:Red;}
+.green{ color:Green;}
+.p_bar ul li{ float:left; padding:0 10px;}
+.p_btns ul li a,A.num,A.num:link{  line-height:25px;}
+.input1{ width:60px;}
+.time{ color:#ffffff; font-weight:bold; font-size:14px;}
+</style> 
+<link href="css.css" rel="stylesheet" type="text/css" />
+<script src="../JS/jquery/jquery-1.4.2.min.js" type="text/javascript"></script>
+<script language="javascript">
+    function doClick(o) {
+        o.className = "nav_current";
+        var j;
+        var id;
+        var e;
+        for (var i = 1; i <= 3; i++) { //i<10 多少个栏目就填多大值
+            id = "nav" + i;
+            j = document.getElementById(id);
+            e = document.getElementById("sub" + i);
+            if (id != o.id) {
+                j.className = "nav_link";
+                e.style.display = "none";
+            } else {
+                e.style.display = "block";
+            }
+        }
+    }
+    function doClick1(o) {
+        o.className = "nav_current";
+        var j;
+        var id;
+        var e;
+        for (var i = 1; i <= 2; i++) { //i<10 多少个栏目就填多大值
+            id = "nav1" + i;
+            j = document.getElementById(id);
+            e = document.getElementById("sub1" + i);
+            if (id != o.id) {
+                j.className = "nav_link";
+                e.style.display = "none";
+            } else {
+                e.style.display = "block";
+            }
+        }
+    }
+</script>
+<link href="tabcss.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form name="aspnetForm" method="post" action="ProjectList.aspx?id=000100010002" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWBQKV4NShDAKSlIqjCQKB7cu1BQLf4eeBCQLnrI+ZD4o+SgNVBov4QlKJdvyTrY9+PGGq" />
+    <table width="1002"  border="0" align="center" cellpadding="0" cellspacing="0" background="images/top_bg.jpg">
+  <tr>
+    <td width="45%" height="212" >&nbsp;</td>
+    <td width="55%"  valign="top" align="right" class="time" >当前时间：2015-12-23 11:30:27&nbsp;</td>
+  </tr>
+</table>
+<table width="1002" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="44" background="images/daohang_bg01.jpg"><table width="980" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr align="center" valign="middle">
+          <td width="115" height="39"><a href="Default.aspx" class="daohang">首 页</a></td>
+          <td width="4"><img src="images/daohang_01.jpg" width="4" height="44"></td>
+          <td width="115"><a href="ProjectList.aspx?id=000100010002" class="daohang">招标公告</a></td>
+          <td width="4"><img src="images/daohang_01.jpg" width="4" height="44"></td>
+          <td width="115"><a href="List.aspx?id=000100010003" class="daohang">中标公示</a></td>
+          <td width="4"><img src="images/daohang_01.jpg" width="4" height="44"></td>
+          <td width="115"><a href="List.aspx?id=000100010004" class="daohang">信息通知</a></td>
+          <td width="4"><img src="images/daohang_01.jpg" width="4" height="44"></td>
+          <td><a href="DownLoad.aspx?cid=000100010005" class="daohang">招标文件下载</a></td>
+          <td width="4"><img src="images/daohang_01.jpg" width="4" height="44"></td>
+          <td width="115"><a href="FeedBack.aspx?id=0" class="daohang">建议咨询</a></td>
+          <td width="4"><img src="images/daohang_01.jpg" width="4" height="44"></td>
+          <td width="115"><a href="List.aspx?id=000100010007" class="daohang">政策文件</a></td>
+          <td width="4"><img src="images/daohang_01.jpg" width="4" height="44"></td>
+          <td width="115"><a href="List.aspx?id=000100010008" class="daohang">其他下载</a></td>
+        </tr>
+    </table></td>
+  </tr>
+</table>
+<table width="1002" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="417" height="48" align="center" valign="middle" background="images/daohang2_bg.jpg"><table width="253" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="220" align="right"><input name="textfield" id="query" type="text" size="40"></td>
+        <td width="33"><a href="#"><img id="img_query" src="images/search.png" width="23" height="24"></a></td>
+      </tr>
+    </table></td>
+    <td width="585" align="right" valign="middle" background="images/daohang2_bg.jpg" id="LoginInfo">
+    <span id="ctl00_lblMsg"><font color="Red"></font></span>
+    
+    <table id="ctl00_tableLogin" width="590" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+		<td align="center" valign="middle">用 户：</td>
+		<td align="center" valign="middle">
+            <input name="ctl00$txtMember" type="text" id="ctl00_txtMember" class="member input1" />
+        </td>
+		<td align="center" valign="middle">密 码：</td>
+		<td align="center" valign="middle"><input name="ctl00$txtPassword" type="password" id="ctl00_txtPassword" class="password input1" /></td>
+		<td align="center" valign="middle">验证码：</td>
+		<td align="center" valign="middle"><input name="ctl00$txtCode" type="text" id="ctl00_txtCode" class="code input1" />
+           <img onclick="this.src='../manage_123/getValiImg.aspx?t='+(new Date().getTime());" src="../manage_123/getValiImg.aspx" align="absmiddle" style="cursor: pointer" alt="看不清楚？换一张" />
+        </td>
+		<td align="center" valign="middle"><table width="66" height="23" border="0" cellpadding="0" cellspacing="0" background="images/denglu_bg.jpg">
+          <tr>
+            <td align="center" valign="middle"><a onclick="loginClick;" id="ctl00_btnLogin" class="login" href="javascript:__doPostBack('ctl00$btnLogin','')">登 录</a></td>
+          </tr>
+        </table></td>
+		<td align="left" valign="middle"><table width="66" height="23" border="0" cellpadding="0" cellspacing="0" background="images/denglu_bg.jpg">
+          <tr>
+            <td align="center" valign="middle"><a href="zhece1.aspx">注 册</a></td>
+          </tr>
+        </table></td>
+	</tr>
+</table>
+
+    </td>
+  </tr>
+</table>
+
+        
+<table width="1002"  border="0" cellpadding="0" cellspacing="1" bgcolor="#d9d9d9" align="center">
+        <tr>
+          <td width="68%" height="251" align="center" valign="top" bgcolor="#FFFFFF"><table width="100%" height="31"  border="0" cellpadding="0" cellspacing="0" background="images/dh_bg01.jpg">
+              <tr>
+                <td width="14" height="32" align="left" valign="top">&nbsp;</td>
+                <td width="104" align="center" valign="middle" class="biaoti">招标公告</td>
+                <td width="65" align="left">&nbsp;</td>
+                <td width="722">&nbsp;</td>
+                <td width="81" align="center" valign="middle"></td>
+              </tr>
+            </table>
+              
+<style>
+.xiaobiaoti a{ font-size:14px;}
+</style>
+<table width="100%" height="40"  border="0" cellpadding="0" cellspacing="0" background="images/dh_bg02.jpg">
+                <tr align="center" valign="middle">
+                  <td width="80" class="xiaobiaoti"><a href="?pp=">工程属性</a></td>
+                  <td width="80" class="xiaobiaoti"><a href="?ct=">审查方式</a></td>
+                  <td class="xiaobiaoti">工程名称</td>
+                  <td width="80" class="xiaobiaoti"><a href="?cn=">招标类别</a></td>
+                  <td width="80" class="xiaobiaoti"><a href="?st=">发包方式</a></td>
+                  <td width="80" class="xiaobiaoti">截至日期</td>
+                  <td width="100" class="xiaobiaoti">网上报名</td>
+                </tr>
+              </table>
+              <table width="95%"  border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td height="10" align="center" valign="middle"></td>
+                </tr>
+              </table>
+              
+             <table width="100%"  border="0" cellpadding="0" cellspacing="0" class="xian1">
+                <tr align="center" valign="middle">
+                  <td width="80" height="35"><a href="?pp=%e5%85%b6%e4%bb%96%e9%a1%b9%e7%9b%ae">其他项目</a></td>
+                  <td width="80"><a href="?ct=%e8%b5%84%e6%a0%bc%e9%a2%84%e5%ae%a1">资格预审</a></td>
+                  <td align="left"><a href="ProjectDetail.aspx?pid=1654">海港引河绿廊西侧地块等项目智能化设计工程比选公告（资格预审）</a></td>
+                  <td width="80"><a href="?cn=%e8%ae%be%e8%ae%a1%e6%af%94%e9%80%89">设计比选</a></td>
+                  <td width="80"><a href="?st=%e5%85%ac%e5%bc%80%e6%8b%9b%e6%a0%87">公开招标</a></td>
+                  <td width="80">2016-01-05</td>
+                  <td width="100">                    
+                  <a href='addtb.aspx?pid=1654&pname=%e6%b5%b7%e6%b8%af%e5%bc%95%e6%b2%b3%e7%bb%bf%e5%bb%8a%e8%a5%bf%e4%be%a7%e5%9c%b0%e5%9d%97%e7%ad%89%e9%a1%b9%e7%9b%ae%e6%99%ba%e8%83%bd%e5%8c%96%e8%ae%be%e8%ae%a1%e5%b7%a5%e7%a8%8b%e6%af%94%e9%80%89%e5%85%ac%e5%91%8a%ef%bc%88%e8%b5%84%e6%a0%bc%e9%a2%84%e5%ae%a1%ef%bc%89'><img src='images/baoming.jpg' width='88' height='26'/></a>
+                  </td>
+                </tr>
+              </table>
+             <table width="100%"  border="0" cellpadding="0" cellspacing="0" class="xian1">
+                <tr align="center" valign="middle">
+                  <td width="80" height="35"><a href="?pp=%e6%88%bf%e5%b1%8b%e5%bb%ba%e7%ad%91">房屋建筑</a></td>
+                  <td width="80"><a href="?ct=%e8%b5%84%e6%a0%bc%e5%90%8e%e5%ae%a1">资格后审</a></td>
+                  <td align="left"><a href="ProjectDetail.aspx?pid=1653">濠河博物馆外立面整修工程竞争性谈判公告（二次）</a></td>
+                  <td width="80"><a href="?cn=%e6%96%bd%e5%b7%a5%e6%8b%9b%e6%a0%87">施工招标</a></td>
+                  <td width="80"><a href="?st=%e5%85%ac%e5%bc%80%e6%8b%9b%e6%a0%87">公开招标</a></td>
+                  <td width="80">2015-12-22</td>
+                  <td width="100">                    
+                  <a href='#?pid=1653&pname=%e6%bf%a0%e6%b2%b3%e5%8d%9a%e7%89%a9%e9%a6%86%e5%a4%96%e7%ab%8b%e9%9d%a2%e6%95%b4%e4%bf%ae%e5%b7%a5%e7%a8%8b%e7%ab%9e%e4%ba%89%e6%80%a7%e8%b0%88%e5%88%a4%e5%85%ac%e5%91%8a%ef%bc%88%e4%ba%8c%e6%ac%a1%ef%bc%89'><img src='images/baoming2.jpg' width='88' height='26'/></a>
+                  </td>
+                </tr>
+              </table>
+             <table width="100%"  border="0" cellpadding="0" cellspacing="0" class="xian1">
+                <tr align="center" valign="middle">
+                  <td width="80" height="35"><a href="?pp=%e5%85%b6%e4%bb%96%e9%a1%b9%e7%9b%ae">其他项目</a></td>
+                  <td width="80"><a href="?ct=%e8%b5%84%e6%a0%bc%e5%90%8e%e5%ae%a1">资格后审</a></td>
+                  <td align="left"><a href="ProjectDetail.aspx?pid=1652">通吕运河绿廊1（通宁大桥-崇川大桥）景观绿化工程（A、B、C、D区）内的标识系统制作、安装比选公告</a></td>
+                  <td width="80"><a href="?cn=%e5%85%b6%e4%bb%96%e6%af%94%e9%80%89">其他比选</a></td>
+                  <td width="80"><a href="?st=%e6%af%94%e9%80%89%e6%8b%9b%e6%a0%87">比选招标</a></td>
+                  <td width="80">2015-12-21</td>
+                  <td width="100">                    
+                  <a href='#?pid=1652&pname=%e9%80%9a%e5%90%95%e8%bf%90%e6%b2%b3%e7%bb%bf%e5%bb%8a1%ef%bc%88%e9%80%9a%e5%ae%81%e5%a4%a7%e6%a1%a5-%e5%b4%87%e5%b7%9d%e5%a4%a7%e6%a1%a5%ef%bc%89%e6%99%af%e8%a7%82%e7%bb%bf%e5%8c%96%e5%b7%a5%e7%a8%8b%ef%bc%88A%e3%80%81B%e3%80%81C%e3%80%81D%e5%8c%ba%ef%bc%89%e5%86%85%e7%9a%84%e6%a0%87%e8%af%86%e7%b3%bb%e7%bb%9f%e5%88%b6%e4%bd%9c%e3%80%81%e5%ae%89%e8%a3%85%e6%af%94%e9%80%89%e5%85%ac%e5%91%8a'><img src='images/baoming2.jpg' width='88' height='26'/></a>
+                  </td>
+                </tr>
+              </table>
+             <table width="100%"  border="0" cellpadding="0" cellspacing="0" class="xian1">
+                <tr align="center" valign="middle">
+                  <td width="80" height="35"><a href="?pp=%e5%b8%82%e6%94%bf%e5%9f%ba%e7%a1%80">市政基础</a></td>
+                  <td width="80"><a href="?ct=%e8%b5%84%e6%a0%bc%e5%90%8e%e5%ae%a1">资格后审</a></td>
+                  <td align="left"><a href="ProjectDetail.aspx?pid=1651">纬十三路（通京大道-通州界）、经十八路与洪江东路交叉口工程、新华路（长平路-幸余路）、龙潭小学西侧停</a></td>
+                  <td width="80"><a href="?cn=%e6%96%bd%e5%b7%a5%e6%8b%9b%e6%a0%87">施工招标</a></td>
+                  <td width="80"><a href="?st=%e5%85%ac%e5%bc%80%e6%8b%9b%e6%a0%87">公开招标</a></td>
+                  <td width="80">2015-12-28</td>
+                  <td width="100">                    
+                  <img src='images/wxbm.jpg' width='88' height='26'/>
+                  </td>
+                </tr>
+              </table>
+             <table width="100%"  border="0" cellpadding="0" cellspacing="0" class="xian1">
+                <tr align="center" valign="middle">
+                  <td width="80" height="35"><a href="?pp=%e5%b7%a5%e7%a8%8b%e8%ae%be%e8%ae%a1">工程设计</a></td>
+                  <td width="80"><a href="?ct=%e8%b5%84%e6%a0%bc%e9%a2%84%e5%ae%a1">资格预审</a></td>
+                  <td align="left"><a href="ProjectDetail.aspx?pid=1650">2016年南通市第一批快速路网工程勘察设计招标公告（资格预审）</a></td>
+                  <td width="80"><a href="?cn=%e8%ae%be%e8%ae%a1%e6%af%94%e9%80%89">设计比选</a></td>
+                  <td width="80"><a href="?st=%e5%85%ac%e5%bc%80%e6%8b%9b%e6%a0%87">公开招标</a></td>
+                  <td width="80">2015-11-20</td>
+                  <td width="100">                    
+                  <a href='#?pid=1650&pname=2016%e5%b9%b4%e5%8d%97%e9%80%9a%e5%b8%82%e7%ac%ac%e4%b8%80%e6%89%b9%e5%bf%ab%e9%80%9f%e8%b7%af%e7%bd%91%e5%b7%a5%e7%a8%8b%e5%8b%98%e5%af%9f%e8%ae%be%e8%ae%a1%e6%8b%9b%e6%a0%87%e5%85%ac%e5%91%8a%ef%bc%88%e8%b5%84%e6%a0%bc%e9%a2%84%e5%ae%a1%ef%bc%89'><img src='images/baoming2.jpg' width='88' height='26'/></a>
+                  </td>
+                </tr>
+              </table>
+             <table width="100%"  border="0" cellpadding="0" cellspacing="0" class="xian1">
+                <tr align="center" valign="middle">
+                  <td width="80" height="35"><a href="?pp=%e5%85%b6%e4%bb%96%e9%a1%b9%e7%9b%ae">其他项目</a></td>
+                  <td width="80"><a href="?ct=%e8%b5%84%e6%a0%bc%e5%90%8e%e5%ae%a1">资格后审</a></td>
+                  <td align="left"><a href="ProjectDetail.aspx?pid=1647">2015年度濠河建设项目濠河水下地形测绘比选公告</a></td>
+                  <td width="80"><a href="?cn=%e6%96%bd%e5%b7%a5%e6%8b%9b%e6%a0%87">施工招标</a></td>
+                  <td width="80"><a href="?st=%e5%85%ac%e5%bc%80%e6%8b%9b%e6%a0%87">公开招标</a></td>
+                  <td width="80">2015-11-20</td>
+                  <td width="100">                    
+                  <a href='#?pid=1647&pname=2015%e5%b9%b4%e5%ba%a6%e6%bf%a0%e6%b2%b3%e5%bb%ba%e8%ae%be%e9%a1%b9%e7%9b%ae%e6%bf%a0%e6%b2%b3%e6%b0%b4%e4%b8%8b%e5%9c%b0%e5%bd%a2%e6%b5%8b%e7%bb%98%e6%af%94%e9%80%89%e5%85%ac%e5%91%8a'><img src='images/baoming2.jpg' width='88' height='26'/></a>
+                  </td>
+                </tr>
+              </table>
+             <table width="100%"  border="0" cellpadding="0" cellspacing="0" class="xian1">
+                <tr align="center" valign="middle">
+                  <td width="80" height="35"><a href="?pp=%e5%85%b6%e4%bb%96%e9%a1%b9%e7%9b%ae">其他项目</a></td>
+                  <td width="80"><a href="?ct=%e8%b5%84%e6%a0%bc%e5%90%8e%e5%ae%a1">资格后审</a></td>
+                  <td align="left"><a href="ProjectDetail.aspx?pid=1644">濠河博物馆外立面整修工程比选公告（二次)</a></td>
+                  <td width="80"><a href="?cn=%e5%85%b6%e4%bb%96%e6%af%94%e9%80%89">其他比选</a></td>
+                  <td width="80"><a href="?st=%e6%af%94%e9%80%89%e6%8b%9b%e6%a0%87">比选招标</a></td>
+                  <td width="80">2015-10-28</td>
+                  <td width="100">                    
+                  <a href='#?pid=1644&pname=%e6%bf%a0%e6%b2%b3%e5%8d%9a%e7%89%a9%e9%a6%86%e5%a4%96%e7%ab%8b%e9%9d%a2%e6%95%b4%e4%bf%ae%e5%b7%a5%e7%a8%8b%e6%af%94%e9%80%89%e5%85%ac%e5%91%8a%ef%bc%88%e4%ba%8c%e6%ac%a1)'><img src='images/baoming2.jpg' width='88' height='26'/></a>
+                  </td>
+                </tr>
+              </table>
+             <table width="100%"  border="0" cellpadding="0" cellspacing="0" class="xian1">
+                <tr align="center" valign="middle">
+                  <td width="80" height="35"><a href="?pp=%e5%85%b6%e4%bb%96%e9%a1%b9%e7%9b%ae">其他项目</a></td>
+                  <td width="80"><a href="?ct=%e8%b5%84%e6%a0%bc%e5%90%8e%e5%ae%a1">资格后审</a></td>
+                  <td align="left"><a href="ProjectDetail.aspx?pid=1643">通吕运河绿廊二期工程-A、C、D区厕所洁具采购及安装工程招标公告</a></td>
+                  <td width="80"><a href="?cn=%e5%85%b6%e4%bb%96%e6%af%94%e9%80%89">其他比选</a></td>
+                  <td width="80"><a href="?st=%e6%af%94%e9%80%89%e6%8b%9b%e6%a0%87">比选招标</a></td>
+                  <td width="80">2015-11-09</td>
+                  <td width="100">                    
+                  <a href='#?pid=1643&pname=%e9%80%9a%e5%90%95%e8%bf%90%e6%b2%b3%e7%bb%bf%e5%bb%8a%e4%ba%8c%e6%9c%9f%e5%b7%a5%e7%a8%8b-A%e3%80%81C%e3%80%81D%e5%8c%ba%e5%8e%95%e6%89%80%e6%b4%81%e5%85%b7%e9%87%87%e8%b4%ad%e5%8f%8a%e5%ae%89%e8%a3%85%e5%b7%a5%e7%a8%8b%e6%8b%9b%e6%a0%87%e5%85%ac%e5%91%8a'><img src='images/baoming2.jpg' width='88' height='26'/></a>
+                  </td>
+                </tr>
+              </table>
+             <table width="100%"  border="0" cellpadding="0" cellspacing="0" class="xian1">
+                <tr align="center" valign="middle">
+                  <td width="80" height="35"><a href="?pp=%e5%85%b6%e4%bb%96%e9%a1%b9%e7%9b%ae">其他项目</a></td>
+                  <td width="80"><a href="?ct=%e8%b5%84%e6%a0%bc%e5%90%8e%e5%ae%a1">资格后审</a></td>
+                  <td align="left"><a href="ProjectDetail.aspx?pid=1641">濠河博物馆外立面整修工程</a></td>
+                  <td width="80"><a href="?cn=%e6%96%bd%e5%b7%a5%e6%af%94%e9%80%89">施工比选</a></td>
+                  <td width="80"><a href="?st=%e6%af%94%e9%80%89%e6%8b%9b%e6%a0%87">比选招标</a></td>
+                  <td width="80">2015-10-15</td>
+                  <td width="100">                    
+                  <a href='#?pid=1641&pname=%e6%bf%a0%e6%b2%b3%e5%8d%9a%e7%89%a9%e9%a6%86%e5%a4%96%e7%ab%8b%e9%9d%a2%e6%95%b4%e4%bf%ae%e5%b7%a5%e7%a8%8b'><img src='images/baoming2.jpg' width='88' height='26'/></a>
+                  </td>
+                </tr>
+              </table>
+             <table width="100%"  border="0" cellpadding="0" cellspacing="0" class="xian1">
+                <tr align="center" valign="middle">
+                  <td width="80" height="35"><a href="?pp=%e5%85%b6%e4%bb%96%e9%a1%b9%e7%9b%ae">其他项目</a></td>
+                  <td width="80"><a href="?ct=%e8%b5%84%e6%a0%bc%e5%90%8e%e5%ae%a1">资格后审</a></td>
+                  <td align="left"><a href="ProjectDetail.aspx?pid=1634">通吕运河二期景观A标护树盖板比选公告</a></td>
+                  <td width="80"><a href="?cn=%e5%85%b6%e4%bb%96%e6%af%94%e9%80%89">其他比选</a></td>
+                  <td width="80"><a href="?st=%e6%af%94%e9%80%89%e6%8b%9b%e6%a0%87">比选招标</a></td>
+                  <td width="80">2015-10-09</td>
+                  <td width="100">                    
+                  <a href='#?pid=1634&pname=%e9%80%9a%e5%90%95%e8%bf%90%e6%b2%b3%e4%ba%8c%e6%9c%9f%e6%99%af%e8%a7%82A%e6%a0%87%e6%8a%a4%e6%a0%91%e7%9b%96%e6%9d%bf%e6%af%94%e9%80%89%e5%85%ac%e5%91%8a'><img src='images/baoming2.jpg' width='88' height='26'/></a>
+                  </td>
+                </tr>
+              </table>
+             <table width="100%"  border="0" cellpadding="0" cellspacing="0" class="xian1">
+                <tr align="center" valign="middle">
+                  <td width="80" height="35"><a href="?pp=%e5%85%b6%e4%bb%96%e9%a1%b9%e7%9b%ae">其他项目</a></td>
+                  <td width="80"><a href="?ct=%e8%b5%84%e6%a0%bc%e5%90%8e%e5%ae%a1">资格后审</a></td>
+                  <td align="left"><a href="ProjectDetail.aspx?pid=1633">通吕运河二期景观A标下沉式不锈钢井盖比选公告</a></td>
+                  <td width="80"><a href="?cn=%e6%96%bd%e5%b7%a5%e6%8b%9b%e6%a0%87">施工招标</a></td>
+                  <td width="80"><a href="?st=%e5%85%ac%e5%bc%80%e6%8b%9b%e6%a0%87">公开招标</a></td>
+                  <td width="80">2015-10-09</td>
+                  <td width="100">                    
+                  <a href='#?pid=1633&pname=%e9%80%9a%e5%90%95%e8%bf%90%e6%b2%b3%e4%ba%8c%e6%9c%9f%e6%99%af%e8%a7%82A%e6%a0%87%e4%b8%8b%e6%b2%89%e5%bc%8f%e4%b8%8d%e9%94%88%e9%92%a2%e4%ba%95%e7%9b%96%e6%af%94%e9%80%89%e5%85%ac%e5%91%8a'><img src='images/baoming2.jpg' width='88' height='26'/></a>
+                  </td>
+                </tr>
+              </table>
+             <table width="100%"  border="0" cellpadding="0" cellspacing="0" class="xian1">
+                <tr align="center" valign="middle">
+                  <td width="80" height="35"><a href="?pp=%e4%ba%a4%e9%80%9a%e8%ae%be%e6%96%bd">交通设施</a></td>
+                  <td width="80"><a href="?ct=%e8%b5%84%e6%a0%bc%e5%90%8e%e5%ae%a1">资格后审</a></td>
+                  <td align="left"><a href="ProjectDetail.aspx?pid=1632">港闸路等4项工程的交通设施工程</a></td>
+                  <td width="80"><a href="?cn=%e6%96%bd%e5%b7%a5%e6%8b%9b%e6%a0%87">施工招标</a></td>
+                  <td width="80"><a href="?st=%e5%85%ac%e5%bc%80%e6%8b%9b%e6%a0%87">公开招标</a></td>
+                  <td width="80">2015-10-15</td>
+                  <td width="100">                    
+                  <a href='#?pid=1632&pname=%e6%b8%af%e9%97%b8%e8%b7%af%e7%ad%894%e9%a1%b9%e5%b7%a5%e7%a8%8b%e7%9a%84%e4%ba%a4%e9%80%9a%e8%ae%be%e6%96%bd%e5%b7%a5%e7%a8%8b'><img src='images/baoming2.jpg' width='88' height='26'/></a>
+                  </td>
+                </tr>
+              </table>
+             <table width="100%"  border="0" cellpadding="0" cellspacing="0" class="xian1">
+                <tr align="center" valign="middle">
+                  <td width="80" height="35"><a href="?pp=%e5%b8%82%e6%94%bf%e5%9f%ba%e7%a1%80">市政基础</a></td>
+                  <td width="80"><a href="?ct=%e8%b5%84%e6%a0%bc%e5%90%8e%e5%ae%a1">资格后审</a></td>
+                  <td align="left"><a href="ProjectDetail.aspx?pid=1631">观音山污水排江系统改造（市政）、通刘路拓宽改造-城北大道污水泵站工程施工</a></td>
+                  <td width="80"><a href="?cn=%e6%96%bd%e5%b7%a5%e6%8b%9b%e6%a0%87">施工招标</a></td>
+                  <td width="80"><a href="?st=%e5%85%ac%e5%bc%80%e6%8b%9b%e6%a0%87">公开招标</a></td>
+                  <td width="80">2015-10-19</td>
+                  <td width="100">                    
+                  <a href='#?pid=1631&pname=%e8%a7%82%e9%9f%b3%e5%b1%b1%e6%b1%a1%e6%b0%b4%e6%8e%92%e6%b1%9f%e7%b3%bb%e7%bb%9f%e6%94%b9%e9%80%a0%ef%bc%88%e5%b8%82%e6%94%bf%ef%bc%89%e3%80%81%e9%80%9a%e5%88%98%e8%b7%af%e6%8b%93%e5%ae%bd%e6%94%b9%e9%80%a0-%e5%9f%8e%e5%8c%97%e5%a4%a7%e9%81%93%e6%b1%a1%e6%b0%b4%e6%b3%b5%e7%ab%99%e5%b7%a5%e7%a8%8b%e6%96%bd%e5%b7%a5'><img src='images/baoming2.jpg' width='88' height='26'/></a>
+                  </td>
+                </tr>
+              </table>
+             <table width="100%"  border="0" cellpadding="0" cellspacing="0" class="xian1">
+                <tr align="center" valign="middle">
+                  <td width="80" height="35"><a href="?pp=%e4%ba%a4%e9%80%9a%e8%ae%be%e6%96%bd">交通设施</a></td>
+                  <td width="80"><a href="?ct=%e8%b5%84%e6%a0%bc%e5%90%8e%e5%ae%a1">资格后审</a></td>
+                  <td align="left"><a href="ProjectDetail.aspx?pid=1630">工农路、人民路中心隔离护栏更新工程</a></td>
+                  <td width="80"><a href="?cn=%e6%96%bd%e5%b7%a5%e6%af%94%e9%80%89">施工比选</a></td>
+                  <td width="80"><a href="?st=%e6%af%94%e9%80%89%e6%8b%9b%e6%a0%87">比选招标</a></td>
+                  <td width="80">2015-09-30</td>
+                  <td width="100">                    
+                  <a href='#?pid=1630&pname=%e5%b7%a5%e5%86%9c%e8%b7%af%e3%80%81%e4%ba%ba%e6%b0%91%e8%b7%af%e4%b8%ad%e5%bf%83%e9%9a%94%e7%a6%bb%e6%8a%a4%e6%a0%8f%e6%9b%b4%e6%96%b0%e5%b7%a5%e7%a8%8b'><img src='images/baoming2.jpg' width='88' height='26'/></a>
+                  </td>
+                </tr>
+              </table>
+             <table width="100%"  border="0" cellpadding="0" cellspacing="0" class="xian1">
+                <tr align="center" valign="middle">
+                  <td width="80" height="35"><a href="?pp=%e5%85%b6%e4%bb%96%e9%a1%b9%e7%9b%ae">其他项目</a></td>
+                  <td width="80"><a href="?ct=%e8%b5%84%e6%a0%bc%e5%90%8e%e5%ae%a1">资格后审</a></td>
+                  <td align="left"><a href="ProjectDetail.aspx?pid=1629">星岛水岸一期（通宁大桥~城闸大桥）北岸护岸整修加固等工程第三方质量检测比选公告</a></td>
+                  <td width="80"><a href="?cn=%e5%85%b6%e4%bb%96%e6%af%94%e9%80%89">其他比选</a></td>
+                  <td width="80"><a href="?st=%e5%85%ac%e5%bc%80%e6%8b%9b%e6%a0%87">公开招标</a></td>
+                  <td width="80">2015-09-30</td>
+                  <td width="100">                    
+                  <a href='#?pid=1629&pname=%e6%98%9f%e5%b2%9b%e6%b0%b4%e5%b2%b8%e4%b8%80%e6%9c%9f%ef%bc%88%e9%80%9a%e5%ae%81%e5%a4%a7%e6%a1%a5%7e%e5%9f%8e%e9%97%b8%e5%a4%a7%e6%a1%a5%ef%bc%89%e5%8c%97%e5%b2%b8%e6%8a%a4%e5%b2%b8%e6%95%b4%e4%bf%ae%e5%8a%a0%e5%9b%ba%e7%ad%89%e5%b7%a5%e7%a8%8b%e7%ac%ac%e4%b8%89%e6%96%b9%e8%b4%a8%e9%87%8f%e6%a3%80%e6%b5%8b%e6%af%94%e9%80%89%e5%85%ac%e5%91%8a'><img src='images/baoming2.jpg' width='88' height='26'/></a>
+                  </td>
+                </tr>
+              </table>
+        
+
+
+           <table width="100%" height="44"  border="0" cellpadding="0" cellspacing="0" background="images/dh_bg03.jpg" >
+                <tr>
+                  <td align="center" valign="middle"><table width="800" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td align="center" valign="middle">
+                                <div class='p_btns'><table width='100%' border='0' cellspacing='0' cellpadding='0' class='p_bar'><tr><td style='white-space:nowrap;'>&nbsp;共有889条记录，当前第1/60页&nbsp;&nbsp;&nbsp;</td><td width='100%'><table width='100%' border='0' cellpadding='0' cellspacing='0'><tr><td width='100%' align='center'><ul><li><a class='num' style='font-weight:bold;'>1</a></li><li><a class='num' href='?p=2&id=000100010002'>2</a></li><li><a class='num' href='?p=3&id=000100010002'>3</a></li><li><a class='num' href='?p=60&id=000100010002'>...60</a></li><li><a class='next' href='?p=2&id=000100010002'>下一页</a></li> 转到第 <input type='text'id='txtpage' name='custompage' size='2' onkeyup="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')" onkeydown="if(event.keyCode==13) {window.location='?p=<#page#>&id=000100010002'.replace('<#page#>',this.value); return false;}" /> 页 <input type='button' value='GO' onclick="if(13==13) {window.location='?p=<#page#>&id=000100010002'.replace('<#page#>',document.getElementById('txtpage').value); return false;}"/></ul></td></tr></table></td></tr></table></div>
+        
+                        </td>
+                      </tr>
+                  </table></td>
+                </tr>
+            </table>
+              </td>
+        </tr>
+      </table>
+      <table width="1002"     class="xian" align="center" cellpadding="0" cellspacing="0" >
+      <tr>
+      <td height="10"></td>
+      </tr>
+      </table>
+
+    <table width="1002" border="0" align="center" cellspacing="0">
+  <tr>
+    <td align="center" valign="top"><div align="center">
+      <p><br>
+        版权所有&copy;　2012-2015 江苏省南通市城市建设工程管理中心<br>
+        联系电话：0513-81550390 　邮编：226007 　地址：南通市工农路235号</p>
+      <p>访问统计：132919  <a href="../manage_123/login.aspx">管理登录</a></p>
+      <p>&nbsp;    </p>
+    </div></td>
+  </tr>
+</table>
+    </form>
+    <script>
+    function loginClick(){
+        if($(".member").val().length>0&&$(".password").val().length>0)
+        {
+            return true;
+        }
+        else
+        {
+            alert("请输入用户名和密码");
+            return false;
+        }
+    }
+    
+    $(function(){
+        $("#img_query").click(function(){
+            var q=document.getElementById('query').value;
+            if(q&&q!="")
+            {
+                location.href='list.aspx?q='+ encodeURIComponent(q);
+            }
+            else{
+                alert("请输入要查询的内容")
+            }
+        })
+    
+    })
+    </script>
+</body>
+</html>

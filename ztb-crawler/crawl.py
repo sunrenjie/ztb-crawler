@@ -357,6 +357,23 @@ class ZTBParser(object):
             datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         ]
 
+    @classmethod
+    def generator_nantong(cls, flow, soup_tag):
+        addr_relative = soup_tag.get('href')
+        addr_sections = flow.url.split('/')[:-1]
+        addr_sections.append(addr_relative)
+        addr = '/'.join(addr_sections)
+        title_text = soup_tag.text
+        tr_list = [c for c in soup_tag.parent.parent.children]
+        prefices = [[c for c in tr_list[i].children][0].text for i in (1,3,7,9)]
+        title_time = tr_list[11].text
+        prefices.append(u'截至日期:%s' % title_time)
+        title = ''.join(['[%s]' % s for s in prefices] + [title_text])
+        return [
+            flow.name, title_time, addr, title,
+            datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        ]
+
 
 class ZTBCrawlFlow(object):
     def __init__(self, url, location, name, tag, searches, generator):
@@ -514,6 +531,24 @@ def get_crawl_workflows():
                 SoupAncestorSearch(['td', 'tr', 'table', 'td', 'tr', 'table'],
                                    HTMLTagAttributesVerifier('table', {'id': 'MoreInfoListZBGG1_moreinfo'})),
             ], ZTBParser.generator_yxztb),
+        ZTBCrawlFlow(
+            'http://www.jszb.com.cn/jszb/YW_info/ZhaoBiaoGG/MoreInfo_ZBGG.aspx?categoryNum=012',
+            './sample-data/jiang-su', u'江苏省建设工程招标投标办公室', 'a',
+            [
+                SoupAncestorSearch(['td', 'tr', 'table'], HTMLTagAttributesVerifier(
+                    'table', {'id': 'MoreInfoList1_DataGrid1'})),
+                SoupAncestorSearch(['td', 'tr', 'table', 'td'], HTMLTagAttributesVerifier(
+                    'td', {'id': 'MoreInfoList1_tdcontent'})),
+            ], ZTBParser.generator_yangzhou),
+        ZTBCrawlFlow(
+            'http://www.ntszjs.com/ntszzb/ProjectList.aspx?id=000100010002',
+            './sample-data/nan-tong', u'南通市', 'a',
+            [
+                SoupAncestorSearch(['td'], HTMLTagAttributesVerifier(
+                    'td', {'align': 'left'})),
+                SoupAncestorSearch(['td', 'tr', 'table'], HTMLTagAttributesVerifier(
+                    'table', {'class': 'xian1'})),
+            ], ZTBParser.generator_nantong),
     ]
     for f in specs:
         crawl_flows[f.url] = f

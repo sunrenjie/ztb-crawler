@@ -1,0 +1,436 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>江苏省建设工程招标网</title>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<link href="../../css/styles.css" type="text/css" rel="stylesheet">
+<link href="../../Template/default/css/style.css" type="text/css" rel="stylesheet">
+<link href="../../css/moinfostyles.css" type="text/css" rel="stylesheet">
+</head>
+<body topmargin="0" bottommargin="0" leftmargin="0" rightmargin="0">
+<table border="0" cellspacing="0" cellpadding="0" class="tab" bgcolor="#FFFFFF">
+  <tr>
+    <td><iframe src="../../Template/Default/PageHead.htm" scrolling="no" frameborder="0" width="100%" height="253"></iframe></td>
+  </tr>
+</table>
+<table height="10" border="0" cellspacing="0" cellpadding="0" class="tab" bgcolor="#FFFFFF">
+  <tr>
+    <td></td>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" class="tab" bgcolor="#FFFFFF">
+  <tr>
+    <td width="10"></td>
+    <td width="213" valign="top" height="644" class="border2" background="../../Template/Default/images/sub_bg.jpg" style="background-position:center bottom;background-repeat:no-repeat;">
+    	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="32" background="../../Template/Default/images/yj.jpg" class="white cen">招标公告</td>
+  </tr>
+  <tr>
+    <td valign="top" height="100" style="padding-top:10px;"><table width="201" border="0" cellspacing="0" cellpadding="0" align="center"><tr><td><TABLE  cellSpacing="0" cellPadding="0" width="100%" border="0">
+<TR><td class="LeftMenu_yw" ><a href="../ZhaoBiaoGG/MoreInfo_ZBGG.aspx?Type=房屋建筑施工" target="_self"><font color=#000000>房屋建筑施工</font></a></td></TR>
+<TR><td class="LeftMenu_yw" ><a href="../ZhaoBiaoGG/MoreInfo_ZBGG.aspx?Type=市政工程施工" target="_self"><font color=#000000>市政工程施工</font></a></td></TR>
+<TR><td class="LeftMenu_yw" ><a href="../ZhaoBiaoGG/MoreInfo_ZBGG.aspx?Type=单独装饰装修施工" target="_self"><font color=#000000>单独装饰装修施工</font></a></td></TR>
+<TR><td class="LeftMenu_yw" ><a href="../ZhaoBiaoGG/MoreInfo_ZBGG.aspx?Type=园林绿化" target="_self"><font color=#000000>园林绿化</font></a></td></TR>
+<TR><td class="LeftMenu_yw" ><a href="../ZhaoBiaoGG/MoreInfo_ZBGG.aspx?Type=工程监理" target="_self"><font color=#000000>工程监理</font></a></td></TR>
+<TR><td class="LeftMenu_yw" ><a href="../ZhaoBiaoGG/MoreInfo_ZBGG.aspx?Type=设计" target="_self"><font color=#000000>设计</font></a></td></TR>
+<TR><td class="LeftMenu_yw" ><a href="../ZhaoBiaoGG/MoreInfo_ZBGG.aspx?Type=材料设备采购" target="_self"><font color=#000000>材料设备采购</font></a></td></TR>
+<TR><td class="LeftMenu_yw" ><a href="../ZhaoBiaoGG/MoreInfo_ZBGG.aspx?Type=电力" target="_self"><font color=#000000>电力</font></a></td></TR>
+<TR><td class="LeftMenu_yw" ><a href="../ZhaoBiaoGG/MoreInfo_ZBGG.aspx?Type=水利" target="_self"><font color=#000000>水利</font></a></td></TR>
+<TR><td class="LeftMenu_yw" ><a href="../ZhaoBiaoGG/MoreInfo_ZBGG.aspx?Type=机电设备" target="_self"><font color=#000000>机电设备</font></a></td></TR>
+<TR><td class="LeftMenu_yw" ><a href="../ZhaoBiaoGG/MoreInfo_ZBGG.aspx?Type=其它" target="_self"><font color=#000000>其它</font></a></td></TR>
+</TABLE></td></tr></table>
+    </td>
+  </tr>
+</table>
+
+    </td>
+    <td width="10"></td>
+    <td width="747" valign="top">
+    	<table width="100%" border="0" cellspacing="0" cellpadding="0" >
+  <tr>
+    <td height="26" background="../../Template/Default/images/left2.jpg">
+    	<table height="26" width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="2" background="../../Template/Default/images/left1.jpg"></td>
+    <td width="14"></td>
+    <td width="104" background="../../Template/Default/images/left3.jpg" class="white1">招标公告</td>
+    <td>&nbsp;</td>
+    <td width="2" background="../../Template/Default/images/left4.jpg"></td>
+  </tr>
+</table>
+
+    </td>
+  </tr>
+  <tr>
+    <td height="598" valign="top" class="border2" style="padding:10px;"><form name="ctl00" method="post" action="MoreInfo_ZBGG.aspx?categoryNum=012" id="ctl00">
+<input type="hidden" name="__CSRFTOKEN" id="__CSRFTOKEN" value="/wEFJDllMDcwODAwLTk0N2UtNDI1Zi05MzcxLTI3MGEwMDkwZWEzMg==" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="76D0A3AC" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWGQKvgrmtCwKDl5rLCAKMvN/5AwLPnMDrDgLy86HKBwLNvZPeAwKhjoejCwLm8bemAgL18bemAgL18bOmAgL18Y+mAgL18YumAgL18YemAgL18YOmAgL18Z+mAgL18dulAgL18delAgLq8bumAgLq8bemAgLq8bOmAgLq8Y+mAgLq8YumAgLr8Y+mAgKWzorODgL5qrHWCLbyzs+1Xn1+FUyDlfUMut7EcrZs" />
+                    
+<script>
+    function seldate(txt) {
+        strFeatures = "dialogWidth=180px;dialogHeight=210px;help=no;status=no";
+        //        var url = '/JSZB/javascript/calender.htm'
+        var url = '../../javascript/calender.htm'
+        var temp;
+
+        temp = window.showModalDialog(url, txt.value, strFeatures);
+        if (temp != '') {
+            txt.value = temp;
+        }
+    }
+</script>
+<table id="MoreInfoList1_moreinfo" height="100%" cellspacing="0" cellpadding="0" width="100%" align="center" border="0">
+	<tr style="display: none;">
+		<td id="MoreInfoList1_tdTitle" valign="top" height="22">
+            <img src="../images/map.gif"><span id="MoreInfoList1_lblcategory"></span>
+        </td>
+	</tr>
+	<tr style="display: none;">
+		<td height="8"></td>
+	</tr>
+	<tr>
+		<td width="100%">
+            <table height="100%" width="100%" border="0" cellpadding="0" cellspacing="0" class="Table">
+                <tr>
+                    <td align="right" height="25" class="TableSpecial1" width="13%">项目名称：
+                    </td>
+                    <td class="TableSpecial" width="35%">
+                        <input name="MoreInfoList1$txtProjectName" type="text" id="MoreInfoList1_txtProjectName" class="inputtxt" />
+                    </td>
+                    <td align="right" height="25" class="TableSpecial1" width="13%">标段名称：
+                    </td>
+                    <td class="TableSpecial" width="35%">
+                        <input name="MoreInfoList1$txtBiaoDuanName" type="text" id="MoreInfoList1_txtBiaoDuanName" class="inputtxt" />
+                    </td>
+                    <td width="4%">&nbsp;
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right" height="25" class="TableSpecial1" width="13%">标段编号：
+                    </td>
+                    <td class="TableSpecial" width="35%">
+                        <input name="MoreInfoList1$txtBiaoDuanNo" type="text" id="MoreInfoList1_txtBiaoDuanNo" class="inputtxt" />
+                    </td>
+                    <td align="right" class="TableSpecial1" width="13%">建设单位：
+                    </td>
+                    <td class="TableSpecial" width="35%">
+                        <input name="MoreInfoList1$txtJSDW" type="text" id="MoreInfoList1_txtJSDW" class="inputtxt" />
+                    </td>
+                    <td width="4%">&nbsp;
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td class="TableSpecial1" align="right" height="25">时间：
+                    </td>
+                    <td class="TableSpecial">
+                        <input name="MoreInfoList1$StartDate" type="text" id="MoreInfoList1_StartDate" class="inputtxt" ContentEditable="false" /><input
+                            class="BtnTime" onclick="seldate(MoreInfoList1_StartDate);" type="button"
+                            value="...">至
+                        <input name="MoreInfoList1$EndDate" type="text" id="MoreInfoList1_EndDate" class="inputtxt" ContentEditable="false" /><input
+                            class="BtnTime" onclick="seldate(MoreInfoList1_EndDate);" type="button"
+                            value="...">
+                    </td>
+                    <td align="right" class="TableSpecial1">地&nbsp;&nbsp;&nbsp;&nbsp;区：
+                    </td>
+                    <td class="TableSpecial">
+                        <select name="MoreInfoList1$jpdDi" id="MoreInfoList1_jpdDi">
+			<option selected="selected" value="-1">所有</option>
+			<option value="01">江苏省</option>
+			<option value="02">南京市</option>
+			<option value="03">苏州市</option>
+			<option value="04">无锡市</option>
+			<option value="05">常州市</option>
+			<option value="06">镇江市</option>
+			<option value="07">扬州市</option>
+			<option value="08">南通市</option>
+			<option value="09">泰州市</option>
+			<option value="10">徐州市</option>
+			<option value="11">淮安市</option>
+			<option value="12">盐城市</option>
+			<option value="13">连云港市</option>
+			<option value="14">宿迁市</option>
+			<option value="23">省外</option>
+
+		</select>
+                        <select name="MoreInfoList1$jpdXian" id="MoreInfoList1_jpdXian">
+			<option selected="selected" value="-1">所有</option>
+
+		</select>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td align="right" class="TableSpecial1" colspan="3">
+                        <input type="submit" name="MoreInfoList1$btnOK" value="查询" id="MoreInfoList1_btnOK" class="btn" />
+                    </td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </td>
+	</tr>
+	<tr>
+		<td id="MoreInfoList1_tdcontent" valign="top" height="100%">
+            <table cellspacing="0" align="Center" rules="all" border="0" id="MoreInfoList1_DataGrid1" width="98%">
+			<tr class="moreinfoline" valign="top">
+				<td align="center" valign="middle" width="15">
+                            <img src="/JSZB/images/dots/dot1.gif">
+                        </td><td align="left" valign="middle">
+                            <a onclick='window.open("../ZhaoBiaoGG/ViewReportDetail.aspx?RowID=434263&categoryNum=012&siteid=1","","Width=800,Height=800,scrollbars=yes,resizable=yes")'href="javascript:void(0);" title="[溧水]溧水新城区市政建设工程溧水区文昌东路、钟灵北路沥青路面建设工...">[溧水]溧水新城区市政建设工程溧水区文昌东路、钟灵北路沥青路面建设工...</a>
+                        </td><td align="center" valign="middle" width="100">
+                            施工
+                        </td><td align="center" valign="middle" width="80">
+                            2015-12-23
+                        </td>
+			</tr><tr class="moreinfoline" valign="top">
+				<td align="center" valign="middle" width="15">
+                            <img src="/JSZB/images/dots/dot1.gif">
+                        </td><td align="left" valign="middle">
+                            <a onclick='window.open("../ZhaoBiaoGG/ViewReportDetail.aspx?RowID=434256&categoryNum=012&siteid=1","","Width=800,Height=800,scrollbars=yes,resizable=yes")'href="javascript:void(0);" title="[南京]南京市口腔医院扩建医疗综合楼项目室内装饰装修工程">[南京]南京市口腔医院扩建医疗综合楼项目室内装饰装修工程</a>
+                        </td><td align="center" valign="middle" width="100">
+                            施工
+                        </td><td align="center" valign="middle" width="80">
+                            2015-12-23
+                        </td>
+			</tr><tr class="moreinfoline" valign="top">
+				<td align="center" valign="middle" width="15">
+                            <img src="/JSZB/images/dots/dot1.gif">
+                        </td><td align="left" valign="middle">
+                            <a onclick='window.open("../ZhaoBiaoGG/ViewReportDetail.aspx?RowID=434057&categoryNum=012&siteid=1","","Width=800,Height=800,scrollbars=yes,resizable=yes")'href="javascript:void(0);" title="[无锡]南湖北路（塘绛路—南湖中路）新建工程南湖北路工程监理;">[无锡]南湖北路（塘绛路—南湖中路）新建工程南湖北路工程监理;</a>
+                        </td><td align="center" valign="middle" width="100">
+                            工程监理
+                        </td><td align="center" valign="middle" width="80">
+                            2015-12-23
+                        </td>
+			</tr><tr class="moreinfoline" valign="top">
+				<td align="center" valign="middle" width="15">
+                            <img src="/JSZB/images/dots/dot1.gif">
+                        </td><td align="left" valign="middle">
+                            <a onclick='window.open("../ZhaoBiaoGG/ViewReportDetail.aspx?RowID=434054&categoryNum=012&siteid=1","","Width=800,Height=800,scrollbars=yes,resizable=yes")'href="javascript:void(0);" title="[新区]无锡机场生活污水处理改造工程机场生活污水处理站扩容改造工程;">[新区]无锡机场生活污水处理改造工程机场生活污水处理站扩容改造工程;</a>
+                        </td><td align="center" valign="middle" width="100">
+                            市政工程施工
+                        </td><td align="center" valign="middle" width="80">
+                            2015-12-23
+                        </td>
+			</tr><tr class="moreinfoline" valign="top">
+				<td align="center" valign="middle" width="15">
+                            <img src="/JSZB/images/dots/dot1.gif">
+                        </td><td align="left" valign="middle">
+                            <a onclick='window.open("../ZhaoBiaoGG/ViewReportDetail.aspx?RowID=434269&categoryNum=012&siteid=1","","Width=800,Height=800,scrollbars=yes,resizable=yes")'href="javascript:void(0);" title="[泰州]周山河路（海陵南路-鼓楼南路）绿化工程;">[泰州]周山河路（海陵南路-鼓楼南路）绿化工程;</a>
+                        </td><td align="center" valign="middle" width="100">
+                            园林绿化
+                        </td><td align="center" valign="middle" width="80">
+                            2015-12-23
+                        </td>
+			</tr><tr class="moreinfoline" valign="top">
+				<td align="center" valign="middle" width="15">
+                            <img src="/JSZB/images/dots/dot1.gif">
+                        </td><td align="left" valign="middle">
+                            <a onclick='window.open("../ZhaoBiaoGG/ViewReportDetail.aspx?RowID=434264&categoryNum=012&siteid=1","","Width=800,Height=800,scrollbars=yes,resizable=yes")'href="javascript:void(0);" title="[海门]海门市长江大新港东侧29号丁坝修复应急处理工程;">[海门]海门市长江大新港东侧29号丁坝修复应急处理工程;</a>
+                        </td><td align="center" valign="middle" width="100">
+                            水利
+                        </td><td align="center" valign="middle" width="80">
+                            2015-12-23
+                        </td>
+			</tr><tr class="moreinfoline" valign="top">
+				<td align="center" valign="middle" width="15">
+                            <img src="/JSZB/images/dots/dot1.gif">
+                        </td><td align="left" valign="middle">
+                            <a onclick='window.open("../ZhaoBiaoGG/ViewReportDetail.aspx?RowID=434262&categoryNum=012&siteid=1","","Width=800,Height=800,scrollbars=yes,resizable=yes")'href="javascript:void(0);" title="[东海]东海县人民医院迁建项目净化工程">[东海]东海县人民医院迁建项目净化工程</a>
+                        </td><td align="center" valign="middle" width="100">
+                            其他
+                        </td><td align="center" valign="middle" width="80">
+                            2015-12-23
+                        </td>
+			</tr><tr class="moreinfoline" valign="top">
+				<td align="center" valign="middle" width="15">
+                            <img src="/JSZB/images/dots/dot1.gif">
+                        </td><td align="left" valign="middle">
+                            <a onclick='window.open("../ZhaoBiaoGG/ViewReportDetail.aspx?RowID=434261&categoryNum=012&siteid=1","","Width=800,Height=800,scrollbars=yes,resizable=yes")'href="javascript:void(0);" title="[如东]如东县陈高路（悍业路—西环路）、悍业路（珠江路-江海路）建设...">[如东]如东县陈高路（悍业路—西环路）、悍业路（珠江路-江海路）建设...</a>
+                        </td><td align="center" valign="middle" width="100">
+                            市政工程施工
+                        </td><td align="center" valign="middle" width="80">
+                            2015-12-23
+                        </td>
+			</tr><tr class="moreinfoline" valign="top">
+				<td align="center" valign="middle" width="15">
+                            <img src="/JSZB/images/dots/dot1.gif">
+                        </td><td align="left" valign="middle">
+                            <a onclick='window.open("../ZhaoBiaoGG/ViewReportDetail.aspx?RowID=434260&categoryNum=012&siteid=1","","Width=800,Height=800,scrollbars=yes,resizable=yes")'href="javascript:void(0);" title="[南京市水利局招标办公室]南京市栖霞区下段泵站更新改造工程建筑安装工程">[南京市水利局招标办公室]南京市栖霞区下段泵站更新改造工程建筑安装工程</a>
+                        </td><td align="center" valign="middle" width="100">
+                            其他
+                        </td><td align="center" valign="middle" width="80">
+                            2015-12-23
+                        </td>
+			</tr><tr class="moreinfoline" valign="top">
+				<td align="center" valign="middle" width="15">
+                            <img src="/JSZB/images/dots/dot1.gif">
+                        </td><td align="left" valign="middle">
+                            <a onclick='window.open("../ZhaoBiaoGG/ViewReportDetail.aspx?RowID=434259&categoryNum=012&siteid=1","","Width=800,Height=800,scrollbars=yes,resizable=yes")'href="javascript:void(0);" title="[建湖]冈西镇冈高线及镇区道路工程;">[建湖]冈西镇冈高线及镇区道路工程;</a>
+                        </td><td align="center" valign="middle" width="100">
+                            其它
+                        </td><td align="center" valign="middle" width="80">
+                            2015-12-23
+                        </td>
+			</tr><tr class="moreinfoline" valign="top">
+				<td align="center" valign="middle" width="15">
+                            <img src="/JSZB/images/dots/dot1.gif">
+                        </td><td align="left" valign="middle">
+                            <a onclick='window.open("../ZhaoBiaoGG/ViewReportDetail.aspx?RowID=434258&categoryNum=012&siteid=1","","Width=800,Height=800,scrollbars=yes,resizable=yes")'href="javascript:void(0);" title="[]南京市口腔医院扩建医疗综合楼项目室内装饰装修工程">[]南京市口腔医院扩建医疗综合楼项目室内装饰装修工程</a>
+                        </td><td align="center" valign="middle" width="100">
+                            A
+                        </td><td align="center" valign="middle" width="80">
+                            2015-12-23
+                        </td>
+			</tr><tr class="moreinfoline" valign="top">
+				<td align="center" valign="middle" width="15">
+                            <img src="/JSZB/images/dots/dot1.gif">
+                        </td><td align="left" valign="middle">
+                            <a onclick='window.open("../ZhaoBiaoGG/ViewReportDetail.aspx?RowID=434046&categoryNum=012&siteid=1","","Width=800,Height=800,scrollbars=yes,resizable=yes")'href="javascript:void(0);" title="[金坛]新建金坛开发区南环一路、金山路工程金坛开发区南环一路、金山路...">[金坛]新建金坛开发区南环一路、金山路工程金坛开发区南环一路、金山路...</a>
+                        </td><td align="center" valign="middle" width="100">
+                            市政工程施工
+                        </td><td align="center" valign="middle" width="80">
+                            2015-12-23
+                        </td>
+			</tr><tr class="moreinfoline" valign="top">
+				<td align="center" valign="middle" width="15">
+                            <img src="/JSZB/images/dots/dot1.gif">
+                        </td><td align="left" valign="middle">
+                            <a onclick='window.open("../ZhaoBiaoGG/ViewReportDetail.aspx?RowID=434045&categoryNum=012&siteid=1","","Width=800,Height=800,scrollbars=yes,resizable=yes")'href="javascript:void(0);" title="[金坛]新建金坛市茅山风景旅游区（东进村—致和村、东进村—上阳村）道...">[金坛]新建金坛市茅山风景旅游区（东进村—致和村、东进村—上阳村）道...</a>
+                        </td><td align="center" valign="middle" width="100">
+                            市政工程施工
+                        </td><td align="center" valign="middle" width="80">
+                            2015-12-23
+                        </td>
+			</tr><tr class="moreinfoline" valign="top">
+				<td align="center" valign="middle" width="15">
+                            <img src="/JSZB/images/dots/dot1.gif">
+                        </td><td align="left" valign="middle">
+                            <a onclick='window.open("../ZhaoBiaoGG/ViewReportDetail.aspx?RowID=434043&categoryNum=012&siteid=1","","Width=800,Height=800,scrollbars=yes,resizable=yes")'href="javascript:void(0);" title="[泗阳]泗阳县城北小学地质勘探项目;">[泗阳]泗阳县城北小学地质勘探项目;</a>
+                        </td><td align="center" valign="middle" width="100">
+                            其它
+                        </td><td align="center" valign="middle" width="80">
+                            2015-12-23
+                        </td>
+			</tr><tr class="moreinfoline" valign="top">
+				<td align="center" valign="middle" width="15">
+                            <img src="/JSZB/images/dots/dot1.gif">
+                        </td><td align="left" valign="middle">
+                            <a onclick='window.open("../ZhaoBiaoGG/ViewReportDetail.aspx?RowID=434042&categoryNum=012&siteid=1","","Width=800,Height=800,scrollbars=yes,resizable=yes")'href="javascript:void(0);" title="[金坛]长荡湖水厂及配套管网项目长荡湖水厂取水泵房基坑支护工程;">[金坛]长荡湖水厂及配套管网项目长荡湖水厂取水泵房基坑支护工程;</a>
+                        </td><td align="center" valign="middle" width="100">
+                            市政工程施工
+                        </td><td align="center" valign="middle" width="80">
+                            2015-12-23
+                        </td>
+			</tr><tr class="moreinfoline" valign="top">
+				<td align="center" valign="middle" width="15">
+                            <img src="/JSZB/images/dots/dot1.gif">
+                        </td><td align="left" valign="middle">
+                            <a onclick='window.open("../ZhaoBiaoGG/ViewReportDetail.aspx?RowID=434036&categoryNum=012&siteid=1","","Width=800,Height=800,scrollbars=yes,resizable=yes")'href="javascript:void(0);" title="[常州]常州市轨道交通2号线一期工程设计总体总包;">[常州]常州市轨道交通2号线一期工程设计总体总包;</a>
+                        </td><td align="center" valign="middle" width="100">
+                            设计
+                        </td><td align="center" valign="middle" width="80">
+                            2015-12-23
+                        </td>
+			</tr><tr class="moreinfoline" valign="top">
+				<td align="center" valign="middle" width="15">
+                            <img src="/JSZB/images/dots/dot1.gif">
+                        </td><td align="left" valign="middle">
+                            <a onclick='window.open("../ZhaoBiaoGG/ViewReportDetail.aspx?RowID=434028&categoryNum=012&siteid=1","","Width=800,Height=800,scrollbars=yes,resizable=yes")'href="javascript:void(0);" title="[盐城市区]光波路南延、纬五路东延工程纬五路东延（光电大道—光谷大道）工...">[盐城市区]光波路南延、纬五路东延工程纬五路东延（光电大道—光谷大道）工...</a>
+                        </td><td align="center" valign="middle" width="100">
+                            市政工程施工
+                        </td><td align="center" valign="middle" width="80">
+                            2015-12-23
+                        </td>
+			</tr><tr class="moreinfoline" valign="top">
+				<td align="center" valign="middle" width="15">
+                            <img src="/JSZB/images/dots/dot1.gif">
+                        </td><td align="left" valign="middle">
+                            <a onclick='window.open("../ZhaoBiaoGG/ViewReportDetail.aspx?RowID=434019&categoryNum=012&siteid=1","","Width=800,Height=800,scrollbars=yes,resizable=yes")'href="javascript:void(0);" title="[仪征]月塘中学异地新建仪征市项目桩基工程;">[仪征]月塘中学异地新建仪征市项目桩基工程;</a>
+                        </td><td align="center" valign="middle" width="100">
+                            房屋建筑施工
+                        </td><td align="center" valign="middle" width="80">
+                            2015-12-23
+                        </td>
+			</tr><tr class="moreinfoline" valign="top">
+				<td align="center" valign="middle" width="15">
+                            <img src="/JSZB/images/dots/dot1.gif">
+                        </td><td align="left" valign="middle">
+                            <a onclick='window.open("../ZhaoBiaoGG/ViewReportDetail.aspx?RowID=434017&categoryNum=012&siteid=1","","Width=800,Height=800,scrollbars=yes,resizable=yes")'href="javascript:void(0);" title="[赣榆]赣榆区赣马镇玉兰庙小学翻建教学楼项目监理工程;">[赣榆]赣榆区赣马镇玉兰庙小学翻建教学楼项目监理工程;</a>
+                        </td><td align="center" valign="middle" width="100">
+                            工程监理
+                        </td><td align="center" valign="middle" width="80">
+                            2015-12-23
+                        </td>
+			</tr><tr class="moreinfoline" valign="top">
+				<td align="center" valign="middle" width="15">
+                            <img src="/JSZB/images/dots/dot1.gif">
+                        </td><td align="left" valign="middle">
+                            <a onclick='window.open("../ZhaoBiaoGG/ViewReportDetail.aspx?RowID=433999&categoryNum=012&siteid=1","","Width=800,Height=800,scrollbars=yes,resizable=yes")'href="javascript:void(0);" title="[苏州工业园区]苏州工业园区服务外包职业学院三期预留用地绿化工程;">[苏州工业园区]苏州工业园区服务外包职业学院三期预留用地绿化工程;</a>
+                        </td><td align="center" valign="middle" width="100">
+                            房屋建筑施工
+                        </td><td align="center" valign="middle" width="80">
+                            2015-12-23
+                        </td>
+			</tr>
+		</table>
+        </td>
+	</tr>
+	<tr>
+		<td height="8"></td>
+	</tr>
+	<tr>
+		<td class="Xline2" height="3"></td>
+	</tr>
+	<tr>
+		<td align="right" height="25">
+            
+		<!------------------------------ AspNetPager V4.3.3 Start ------------------------------>
+		<!-------------------- Copyright:2003-2005 Webdiyer(www.webdiyer.com) --------------------->
+		<div id="MoreInfoList1_Pager">
+			<table width="100%" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="bottom" align="left" nowrap="true" width="40%">共：<font color="red"><b>2255</b></font>条 第：<font color="red"><b>1/113</b></font>页</td><td valign="bottom" align="notset" nowrap="true" class="" width="60%"><img src="/JSZB/images/page/firstg.gif" border="0" align="Baseline" /><span></span><img src="/JSZB/images/page/prevg.gif" border="0" align="Baseline" /><span></span><img src="/JSZB/images/page/1r.gif" align="Baseline" border="0" /><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','2')" title="转到第2页"><img src="/JSZB/images/page/2n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','3')" title="转到第3页"><img src="/JSZB/images/page/3n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','4')" title="转到第4页"><img src="/JSZB/images/page/4n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','5')" title="转到第5页"><img src="/JSZB/images/page/5n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','6')" title="转到第6页"><img src="/JSZB/images/page/6n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','7')" title="转到第7页"><img src="/JSZB/images/page/7n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','8')" title="转到第8页"><img src="/JSZB/images/page/8n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','9')" title="转到第9页"><img src="/JSZB/images/page/9n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','10')" title="转到第10页"><img src="/JSZB/images/page/1n.gif" align="Baseline" border="0" /><img src="/JSZB/images/page/0n.gif" align="Baseline" border="0" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','11')" title="转到第11页"><img src="/JSZB/images/page/moren.gif" border="0" align="Baseline" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','2')" title="转到第2页"><img src="/JSZB/images/page/nextn.gif" border="0" align="Baseline" /></a><span></span><a href="javascript:__doPostBack('MoreInfoList1$Pager','113')" title="转到第113页"><img src="/JSZB/images/page/lastn.gif" border="0" align="Baseline" /></a><span></span></td>
+				</tr>
+			</table>
+		</div>
+		<!------------------------------- AspNetPager V4.3.3 End -------------------------------->
+
+		
+        </td>
+	</tr>
+	<tr>
+		<td class="Xline2" height="3"></td>
+	</tr>
+</table>
+
+
+<script>
+    var Tdname = 'MoreInfoList1' + "_tdcontent";
+    document.getElementById(Tdname).className = 'MiddleBg'
+</script>
+
+
+                  </form></td>
+  </tr>
+</table>
+
+    </td>
+    <td width="10"></td>
+  </tr>
+</table>
+<table border="0" cellspacing="0" cellpadding="0" class="tab" bgcolor="#FFFFFF">
+  <tr>
+    <td><iframe src="../../template/Default/PageFoot.htm" scrolling="no" frameborder="0" width="100%" height="141"></iframe></td>
+  </tr>
+</table>
+</body>
+</html>

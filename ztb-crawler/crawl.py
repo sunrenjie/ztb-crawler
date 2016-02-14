@@ -569,7 +569,11 @@ def log_it(handle, s):
 def commit(flow, data, prefix, log_handle):
     # data (as returned from generators):
     # [flow.name, time_as_in_article, addr, title, collected-time-point]
-    (name, t, addr, title, _) = data
+    (name, t, addr, title, tx) = data
+    # The URLs constructed by the generators may contain things like
+    # '/foo/../foo/'. They are valid, yet QQ does not recognize them. Here
+    # removes them.
+    addr = re.sub(r'[^\/]*\/\.\.\/', '', addr)
     if t and len(t) == 10:
         t1 = t[0:7]  # 'YYYY-mm'
         t2 = t[8:]   # 'dd
@@ -583,7 +587,7 @@ def commit(flow, data, prefix, log_handle):
     f = path + '/' + digest
     if not os.access(f, os.W_OK):
         log_it(log_handle, '#Info: created new data entry in file "%s"' % f)
-        log_it(log_handle, '         %s' % '  '.join(data))
+        log_it(log_handle, '         %s' % '  '.join([name, t, addr, title, tx]))
         with codecs.open(f, 'w', 'utf-8') as h:
             h.write('  '.join(data) + '\n')
 
